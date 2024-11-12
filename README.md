@@ -36,7 +36,9 @@ Preliminary estimated time 4 hours
       - Filezilla 
       - Winscp 
       - Cyberduck 
-- Archiving/Compressing data 
+- Archiving/Compressing data
+    - Good to do before transferring
+    - (g)zip and tar
 - Special sessions 
     - Dardel needs to be sorted 
     - 2 factor authentication 
