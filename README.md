@@ -29,13 +29,7 @@ Preliminary estimated time 4 hours
 - Filesystems (or prereqs?)
     - cd, pwd, ls, mv, rm, cp
 - Filetransfer tools 
-  - scp 
-  - sftp 
-  - rsync 
-  - Gui based tools 
-      - Filezilla 
-      - Winscp 
-      - Cyberduck 
+  - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/2)
 - Archiving/Compressing data
     - Good to do before transferring
     - (g)zip and tar
