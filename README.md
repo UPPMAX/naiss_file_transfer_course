@@ -1,5 +1,10 @@
 # NAISS file transfer course
 
+```text
+This repository is part of UPPMAX until NAISS has its own GitHub account.
+UPPMAX is chosen for practical reasons unrelated to its importance.
+```
+
 NAISS course on file transfer.
 
 Preliminary estimated time 4 hours
