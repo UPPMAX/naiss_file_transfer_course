@@ -27,8 +27,6 @@ Preliminary estimated time 4 hours
         - mobaxterm 
     - Thinlink 
     - VS-code (maybe to advanced) 
-- Filesystems (or prereqs?)
-    - cd, pwd, ls, mv, rm, cp
 - Filetransfer tools 
   - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/2)
 - Archiving/Compressing data
