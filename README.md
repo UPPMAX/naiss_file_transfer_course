@@ -28,6 +28,6 @@ Preliminary estimated time 4 hours
     - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/4)
 - Special sessions 
     - [?Dardel needs to be sorted](https://github.com/UPPMAX/naiss_file_transfer_course/issues/8)
-    - 2 factor authentication 
+    - [?2 factor authentication](https://github.com/UPPMAX/naiss_file_transfer_course/issues/9)
     - VPN 
     - Break-out for individual services?
