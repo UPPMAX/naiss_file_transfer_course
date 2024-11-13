@@ -27,7 +27,7 @@ Preliminary estimated time 4 hours
 - Archiving/Compressing data
     - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/4)
 - Special sessions 
-    - Dardel needs to be sorted 
+    - [?Dardel needs to be sorted](https://github.com/UPPMAX/naiss_file_transfer_course/issues/8)
     - 2 factor authentication 
     - VPN 
     - Break-out for individual services?
