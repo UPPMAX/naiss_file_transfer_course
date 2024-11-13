@@ -6,8 +6,7 @@ Preliminary estimated time 4 hours
 
 ## Prerequisites
 
-- Nothing
-- or basic linux: cd, pwd, ls, mv, rm, cp
+[To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/5)
 
 ## Learning outcomes:
 
