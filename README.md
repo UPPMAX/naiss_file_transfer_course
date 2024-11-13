@@ -21,12 +21,7 @@ Preliminary estimated time 4 hours
 ## Curriculum overview
 
 - Connecting through:
-    - linux/mac terminals with ssh 
-    - Windows tools with ssh
-        - putty 
-        - mobaxterm 
-    - Thinlink 
-    - VS-code (maybe to advanced) 
+    - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/7)
 - Filetransfer tools 
   - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/2)
 - Archiving/Compressing data
