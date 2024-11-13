@@ -19,6 +19,7 @@ Preliminary estimated time 4 hours
     - install a terminal if needed, e.g. MobaXterm
 
 ## Curriculum overview
+
 - Connecting through:
     - linux/mac terminals with ssh 
     - Windows tools with ssh
@@ -31,8 +32,7 @@ Preliminary estimated time 4 hours
 - Filetransfer tools 
   - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/2)
 - Archiving/Compressing data
-    - Good to do before transferring
-    - (g)zip and tar
+    - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/4)
 - Special sessions 
     - Dardel needs to be sorted 
     - 2 factor authentication 
