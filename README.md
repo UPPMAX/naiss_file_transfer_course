@@ -22,7 +22,7 @@ Me and Richel disagree about:
 - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/5)
 
     - **NONE**
-    - but depends
+    - but depends (101)
 
 ## Learning outcomes:
 
