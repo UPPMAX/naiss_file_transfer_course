@@ -8,9 +8,7 @@ UPPMAX is chosen for practical reasons unrelated to its importance.
 
 Course on connection and file transfer.
 
-Preliminary estimated time 4 hours
-
-- Can be 2-3 hours if we just focus on some tools
+Preliminary estimated time 3 h
 
 ### Overall comment
 
