@@ -1,4 +1,4 @@
-# File transfer course
+# (Connecting to HPC systems &) File transfer course
 
 ```text
 This repository is part of UPPMAX
