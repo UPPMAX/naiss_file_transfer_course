@@ -10,6 +10,13 @@ Course on file transfer.
 
 Preliminary estimated time 4 hours
 
+### Overall comment
+
+Me and Richel disagree about:
+
+- Cover many possibilities or
+- Cover just the most important tools
+
 ## Prerequisites
 
 - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/5)
