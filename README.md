@@ -8,23 +8,18 @@ UPPMAX is chosen for practical reasons unrelated to its importance.
 
 Course on connection and file transfer.
 
-Preliminary estimated time 3 h
-
-### Overall comment
-
-Me and Richel disagree about:
-
-- Cover many possibilities or
-- Cover just the most important tools
+Preliminary estimated time 3h (maximum)
 
 ## Prerequisites
 
 - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/5)
 
     - **NONE**
-    - but depends (101)
+    - ~~but depends (101)~~
 
 ## Learning outcomes:
+
+(NAISS wants it broader)
 
 - log in to their center
     - Remote desktop environment using website (for example, as shown in [this UPPMAX page](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/))
@@ -35,6 +30,8 @@ Me and Richel disagree about:
     - install a terminal if needed, e.g. MobaXterm
 
 ## Curriculum overview
+
+(NAISS wants it broader)
 
 - Connecting through:
     - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/7)
