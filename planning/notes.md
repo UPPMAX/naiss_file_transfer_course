@@ -1,4 +1,4 @@
-# notes from common NAISS teraining meeting 21 Nov
+# notes from common NAISS training meeting 21 Nov
 
 Add use cases
 - include scp linux-to-linux 
