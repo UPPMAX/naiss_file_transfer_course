@@ -12,14 +12,15 @@ Preliminary estimated time 3h (maximum)
 
 ## Course date
 
-Friday March 7th [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15)
+Friday March 7th (decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15))
 
 ## Prerequisites
 
-- [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/5)
+[Still preliminary: to be decided/improved by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
 
-    - **NONE**
-    - ~~but depends (101)~~
+- Be able to login using a local ThinLinc client
+- Be able to login using an SSH client
+- Be able to navigate the filesystem under Linux
 
 ## Learning outcomes:
 
