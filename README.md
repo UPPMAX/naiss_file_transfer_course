@@ -10,9 +10,14 @@ Course on connection and file transfer.
 
 Preliminary estimated time 3h (maximum)
 
-## Course date
+## Course dates
 
-Friday March 7th (decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15))
+Decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15):
+
+- Friday March 7th (week 10)
+- Friday May 16th (week 20)
+- Friday Sep 5th (week 36)
+- ?Friday 14 Nov (week 46)
 
 ## Prerequisites
 
