@@ -4,22 +4,25 @@
 
 Welcome to a 3-hour workshop where you learn to connect and transfer files in Swedish academic HPC clusters. 
 
-Learn how to 
+Learn how to:
 
-- connect through remote desktop environment (ThinLinc)
-- connect through terminals
-- choose right tools
-- transfer files through graphical tools
-- transfer files with terminal
-- choose right tools
+- connect to a remote desktop environment
+- connect through a terminal
+- transfer files using a graphical tool
+- transfer files using a terminal
+- other ways to transfer files
 
-Prereqs: 
-- User account on a Swedish academic HPC cluster
-    - (you will get one if you lack one)
-- Be able to log in in one way (instructions when you get an account)
-- Be able to navigate the filesystem under Linux 
+You need to:
+
+- have a user account at a Swedish academic HPC cluster
+- be able to log in (in at least one way), as instructed by you HPC center
+- be able to navigate the filesystem under Linux
+
+If you have questions about these,
+see `link to our prereqs page`
 
 When: 7 March, 2025, 9.00-12.00
 Where: Online via Zoom
 
-More information and registration on the course website: 
+More information and registration on the course website:
+`link to MkDocs website`
