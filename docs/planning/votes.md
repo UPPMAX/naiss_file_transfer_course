@@ -4,7 +4,7 @@
 - Vote teach basic Linux yes/no?
     - no
     - a list of good-to-know commands can at least be there
-    
+
 - Connecting through
 
     - Vote for how to connect

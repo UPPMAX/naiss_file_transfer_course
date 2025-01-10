@@ -10,4 +10,4 @@
     - everyone should not use thinlinc for all interaction with our systems
     - limited numbers of licenses, fast checks to do in terminal
 - Joachim wanted maximum 3 h, rather 2h
-  - @bclaremar and many other in the meeting  thinks that is too short or we make sure to fit in 3 hrs not 2hrs.
+    - @bclaremar and many other in the meeting  thinks that is too short or we make sure to fit in 3 hrs not 2hrs.
