@@ -11,7 +11,7 @@ nav:
     - Planning notes: planning/notes.md
     - Planning votes: planning/votes.md
     - Invitations: invitation_short.md
-    - Learning_outcomes: learning_outcomes.md
+    - Learning outcomes: learning_outcomes.md
 
 theme:
   name: material
