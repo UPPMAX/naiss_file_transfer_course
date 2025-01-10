@@ -60,6 +60,23 @@ thinkcs
 se
 uu
 MobaXterm
-
-
+bclaremar
+Björn
+Dardel
+filesystem
+Filetransfer
+Filezilla
+github
+HPC
+Joachim
+linux
+naiss
+Richèls
+rsync
+scp
+sftp
+th
+ThinLinc
+thinlinc
+VPN
 
