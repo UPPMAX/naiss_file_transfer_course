@@ -1,4 +1,4 @@
-# Session 1
+# Introduction
 
 !!! info "Stub"
 

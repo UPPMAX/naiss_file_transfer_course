@@ -1,4 +1,4 @@
-# Session 2
+# File transfer using `scp`
 
 !!! info "Stub"
 

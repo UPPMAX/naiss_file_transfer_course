@@ -7,8 +7,12 @@ nav:
   - Course dates: course_dates.md
   - Schedule: schedule.md
   - Sessions:
-    - Session 1: sessions/1.md
-    - Session 2: sessions/2.md
+    - Intro: sessions/intro.md
+    - File transfer using FileZilla: sessions/filezilla.md
+    - Login with terminal: login_terminal.md
+    - File transfer using rsync: sessions/rsync.md
+    - File transfer using scp: sessions/scp.md
+    - File transfer using sftp: sessions/sftp.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
