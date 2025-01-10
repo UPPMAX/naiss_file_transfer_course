@@ -9,7 +9,7 @@
 
 <!-- markdownlint-enable MD013 -->
 
-[Go to the nicely rendered version of this website](https://uppmax.github.io/uppmax_intro_day_1/).
+[Go to the nicely rendered version of this website](https://uppmax.github.io/naiss_file_transfer_course/).
 
 ## Deploy website locally
 
