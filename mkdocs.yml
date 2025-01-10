@@ -6,7 +6,12 @@ nav:
   - Prerequisites: prereqs.md
   - Course dates: course_dates.md
   - Schedule: schedule.md
+  - Sessions:
+    - Session 1: sessions/1.md
+    - Session 2: sessions/2.md
   - Misc:
+    - Code of conduct: CODE_OF_CONDUCT.md
+    - Contributing: CONTRIBUTING.md
     - Curriculum: curriculum.md
     - Planning notes: planning/notes.md
     - Planning votes: planning/votes.md
