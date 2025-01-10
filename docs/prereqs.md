@@ -1,7 +1,7 @@
 ---
 tags:
   - prerequisites
-  - requirments
+  - requirements
   - preparation
 ---
 
