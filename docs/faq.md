@@ -15,7 +15,7 @@ Because NAISS does not have a GitHub owner page yet.
 
 Because of constraints.
 
-While planning the course, 
+While planning the course,
 we started out with two hour to
 teach about login and filesystem navigation,
 and four hours to do actual fle transfer.
