@@ -16,8 +16,9 @@ theme:
   font:
     text: Lato
     code: JetBrains Mono
-
-  logo: assets/logo.svg
+  logo: assets/naiss_logo_white.png
+  palette:
+    primary: blue
 
   features:
     - toc.integrate
