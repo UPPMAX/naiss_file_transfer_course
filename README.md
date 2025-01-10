@@ -1,78 +1,34 @@
 # Connecting to HPC systems & File transfer course
 
-```text
-This repository is part of UPPMAX
-until [some organisation] has its own GitHub account.
-UPPMAX is chosen for practical reasons unrelated to its importance.
+[![Check links](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_links.yaml)
+[![Check markdown](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_markdown.yaml)
+[![Check spelling](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_spelling.yaml)
+[![Create website](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/create_website.yaml)
+
+## Getting started
+
+To work on the website locally first create a virtual environment and install
+the required dependencies
+
+``` bash
+python -m venv uppmax_venv
+source uppmax_venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Course on connection and file transfer.
+Then serve the website and edit
 
-Preliminary estimated time 3h (maximum)
+``` bash
+mkdocs serve
+```
 
-## Course dates
+## Files used by continuous integration scripts
 
-Decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15):
+Filename                              |Descriptions
+--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[mlc_config.json](mlc_config.json)    |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[.spellcheck.yml](.spellcheck.yml)    |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.wordlist.txt](.wordlist.txt)        |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.markdownlint.jsonc](.markdownlint.jsonc)|Configuration of the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
+[.markdownlintignore](.markdownlintignore)|Files ignored by the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
 
-- Friday March 7th (week 10)
-- Friday May 16th 9:00-12:00 (week 20) (due to UU IT department celebration in the afternoon)
-- Friday Sep 5th (week 36)
-- Friday 14 Nov (week 46)
-
-## Schedule
-
-Time |Teacher|Topic
------|-------|-------------------------------------------------
-9:00 |?      |Intro
-9:05 |?      |FileZilla
-9:50 |.      |Break
-10:05|?      |Login with terminal and file transfer using rsync
-11:00|.      |Break
-11:15|?      |File transfer using scp and sftp
-
-## Prerequisites
-
-[Still preliminary: to be decided/improved by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
-
-- Be able to login to your cluster's remote desktop environment,
-  using either a website or a local ThinLinc client
-- Be able to login using an SSH client
-- Be able to navigate the filesystem under Linux
-
-## Learning outcomes:
-
-(NAISS wants it broader)
-
-- log in to their center
-    - Remote desktop environment using website (for example, as shown in [this UPPMAX page](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/))
-    - Remote desktop environment using local ThinLinc (for example, as shown in [this UPPMAX page](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/))
-- have practiced using their center's documentation
-- transfer files to/from center using FileZilla (for example, as shown in [this UPPMAX page](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/))
-- transfer files to/from center using `rsync` (for example, as shown in [this UPPMAX page](https://docs.uppmax.uu.se/software/rsync_on_rackham/))  
-    - install a terminal if needed, e.g. MobaXterm
-
-## Curriculum overview
-
-(NAISS wants it broader)
-
-- Connecting through:
-    - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/7)
-    - remote desktop (ThinLinc)
-    - **different opinions** about ssh
-
-- Filetransfer tools 
-    - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/2)
-    - Filezilla
-    - rsync
-- Archiving/Compressing data
-    - [To be decided by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/4)
-    - **Different opinions**
-- Special sessions 
-    - [?Dardel needs to be sorted](https://github.com/UPPMAX/naiss_file_transfer_course/issues/8)
-        - could be needed?
-    - [?2 factor authentication](https://github.com/UPPMAX/naiss_file_transfer_course/issues/9)
-        - Part of connecting 
-    - [?VPN](https://github.com/UPPMAX/naiss_file_transfer_course/issues/10)
-        - Part of connecting    
-    - [?Break-out for individual services?](https://github.com/UPPMAX/naiss_file_transfer_course/issues/11)
-        - **NO** 
