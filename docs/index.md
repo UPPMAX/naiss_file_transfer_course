@@ -1,6 +1,6 @@
 # Welcome to the file transfer course
 
-![NAISS logo](logo/naiss_logo_white.png)
+![NAISS logo](logo/naiss_logo_inverted.png)
 
 This course we teach how to transfer files between NAISS HPC clusters.
 
