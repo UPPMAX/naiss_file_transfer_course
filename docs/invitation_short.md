@@ -2,6 +2,8 @@
 
 These are texts posted on newsletters.
 
+<!-- markdownlint-disable MD013 --><!-- Prefer copy-paste-ability over 80 characters -->
+
 ## Connecting and file transfer 7 March, 2025
 
 !!! info "About"
@@ -16,3 +18,5 @@ When: Tuesday, March 7 2025, 09:00-12:00
 Where: online via Zoom
 
 For more information and registration, please visit: <https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/>.
+
+<!-- markdownlint-enable MD013 -->
