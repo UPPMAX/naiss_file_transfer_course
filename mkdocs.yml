@@ -3,8 +3,8 @@ repo_url: https://github.com/UPPMAX/naiss_file_transfer_course
 
 nav:
   - Start: index.md
-  - Schedule:
-    - Schedule: overviews/schedule.md
+  - Course dates: course_dates.md
+  - Schedule: schedule.md
   - Misc:
     - Planning notes: planning/notes.md
     - Planning votes: planning/votes.md
