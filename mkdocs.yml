@@ -5,7 +5,7 @@ nav:
   - Start: index.md
   - Schedule:
     - Schedule: overviews/schedule.md
-  - Misc
+  - Misc:
     - Planning notes: planning/notes.md
     - Planning votes: planning/votes.md
     - Invitations: invitation_short.md
