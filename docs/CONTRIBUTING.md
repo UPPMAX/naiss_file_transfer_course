@@ -1,3 +1,10 @@
+---
+tags:
+  - contribute
+  - suggestions
+  - changes
+---
+
 # Contributing
 
 Thanks for considering to contribute and reading this!

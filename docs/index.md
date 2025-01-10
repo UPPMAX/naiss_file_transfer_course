@@ -1,3 +1,11 @@
+---
+tags:
+  - index
+  - main page
+  - landing page
+  - starting page
+---
+
 # Welcome to the file transfer course
 
 ![NAISS logo](logo/naiss_logo_inverted.png)

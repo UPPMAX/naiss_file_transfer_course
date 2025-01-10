@@ -1,3 +1,10 @@
+---
+tags:
+  - curriculum
+  - topics
+  - overview
+---
+
 # Curriculum
 
 (NAISS wants it broader)

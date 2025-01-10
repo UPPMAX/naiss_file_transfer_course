@@ -1,3 +1,9 @@
+---
+tags:
+  - schedule
+  - timetable
+---
+
 # Schedule
 
 Time |Teacher|Topic

@@ -1,3 +1,9 @@
+---
+tags:
+  - newsletter
+  - publicity
+---
+
 # Newsletter invitation
 
 These are texts posted on newsletters.

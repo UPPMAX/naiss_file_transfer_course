@@ -1,3 +1,10 @@
+---
+tags:
+  - prerequisites
+  - requirments
+  - preparation
+---
+
 # Prerequisites
 
 ???- question "For teachers: how did we decide upon these?"

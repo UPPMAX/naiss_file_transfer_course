@@ -1,3 +1,10 @@
+---
+tags:
+  - dates
+  - days
+  - calendar
+---
+
 # Course dates
 
 ???- question "For teachers: how are these decided?"

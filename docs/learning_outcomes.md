@@ -1,3 +1,10 @@
+---
+tags:
+  - learning outcomes
+  - teaching objectives
+  - teaching goals
+---
+
 # Learning outcomes
 
 (NAISS wants it broader)
