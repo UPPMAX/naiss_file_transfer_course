@@ -18,6 +18,6 @@ tags:
 
 This course we teach how to transfer files between NAISS HPC clusters.
 
-[Prerequisites](prereqs.md){ .md-button .md-button--primary }
+[Prerequisites](prereqs/README.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
