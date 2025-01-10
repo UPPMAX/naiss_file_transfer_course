@@ -1,4 +1,12 @@
-# File transfer using `scp`
+---
+tags:
+  - session
+  - lesson
+  - SCP
+  - scp
+---
+
+# File transfer using SCP
 
 !!! info "Stub"
 

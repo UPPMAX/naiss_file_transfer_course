@@ -1,3 +1,11 @@
+---
+tags:
+  - session
+  - lesson
+  - FileZilla
+  - graphical
+---
+
 # File transfer using FileZilla
 
 !!! info "Stub"
