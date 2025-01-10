@@ -1,28 +1,18 @@
 # Newsletter invitation
 
+These are texts posted on newsletters.
+
 ## Connecting and file transfer 7 March, 2025
 
-Welcome to a 3-hour workshop where you learn to connect and transfer files in Swedish academic HPC clusters. 
+!!! info "About"
 
-Learn how to:
+    This is the text of the NAISS Training Newsletter of 7 March, 2025
 
-- connect to a remote desktop environment
-- connect through a terminal
-- transfer files using a graphical tool
-- transfer files using a terminal
-- other ways to transfer files
+In this 3-hour workshop you learn to transfer files to and from Swedish academic HPC clusters. We will cover graphical as well as terminal tools and you will work highly interactively. At the end of the day, you should be comfortable in transferring files between your local computer and a cluster and cross-clusters, and choosing the right tools for your use cases.
 
-You need to:
+The workshop is intended for beginner users but with some Linux experience, see the course link below. You do not need to be a member of a NAISS project in order to join the workshop. A course project on one of the NAISS clusters will be available to those.
 
-- have a user account at a Swedish academic HPC cluster
-- be able to log in (in at least one way), as instructed by you HPC center
-- be able to navigate the filesystem under Linux
+When: Tuesday, March 7 2025, 09:00-12:00
+Where: online via Zoom
 
-If you have questions about these,
-see `link to our prereqs page`
-
-When: 7 March, 2025, 9.00-12.00
-Where: Online via Zoom
-
-More information and registration on the course website:
-`link to MkDocs website`
+For more information and registration, please visit: https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/.
