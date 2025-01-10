@@ -9,7 +9,7 @@ nav:
   - Sessions:
     - Intro: sessions/intro.md
     - File transfer using FileZilla: sessions/filezilla.md
-    - Login with terminal: login_terminal.md
+    - Login with terminal: sessions/login_terminal.md
     - File transfer using rsync: sessions/rsync.md
     - File transfer using scp: sessions/scp.md
     - File transfer using sftp: sessions/sftp.md
