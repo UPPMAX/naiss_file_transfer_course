@@ -6,6 +6,7 @@
 [![Check markdown](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_markdown.yaml)
 [![Check spelling](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/check_spelling.yaml)
 [![Create website](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/naiss_file_transfer_course/actions/workflows/create_website.yaml)
+[![DOI](https://zenodo.org/badge/885247031.svg)](https://doi.org/10.5281/zenodo.14626409)
 
 <!-- markdownlint-enable MD013 -->
 
