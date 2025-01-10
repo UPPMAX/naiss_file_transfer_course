@@ -19,6 +19,17 @@ Decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15)
 - Friday Sep 5th (week 36)
 - Friday 14 Nov (week 46)
 
+## Schedule
+
+Time |Teacher|Topic
+-----|-------|-------------------------------------------------
+9:00 |?      |Intro
+9:05 |?      |FileZilla
+9:50 |.      |Break
+10:05|?      |Login with terminal and file transfer using rsync
+11:00|.      |Break
+11:15|?      |File transfer using scp and sftp
+
 ## Prerequisites
 
 [Still preliminary: to be decided/improved by vote](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
