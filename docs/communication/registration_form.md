@@ -2,7 +2,7 @@
 
 - Title: Transferring files to/from HPC Clusters  - March 7 2025 (online)
 
-Workshop website: https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/ 
+Workshop website: <https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/>
 
 Email:
 
@@ -35,7 +35,7 @@ Empty line
     - Yes
     - No
 
-- Do you have an account on any academic cluster? 
+- Do you have an account on any academic cluster?
   A user and compute account is required. If you don't have that yet we will help you.
     - Yes
     - No
@@ -58,7 +58,7 @@ Empty line
 Empty line
 ```
 
-- Uppsala University Data protection policy, https://www.uu.se/en/about-uu/data-protection-policy/.
+- Uppsala University Data protection policy, <https://www.uu.se/en/about-uu/data-protection-policy/>.
   I understand and agree that UPPMAX will collect the information on this registration form.
     - mandatory checkbox
 
