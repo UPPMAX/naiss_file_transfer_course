@@ -13,21 +13,15 @@ tags:
 
 These are the **three** prerequisites for following this course:
 
-- Prerequisite 1/3: Be able to login to your cluster's remote desktop environment,
-  using either a website or a local ThinLinc client
+- Prerequisite 1/4: Be able to login to your cluster's remote desktop environment,
+- Prerequisite 2/4: Be able to login using an SSH client
+- Prerequisite 3/4: Be able to navigate the filesystem under Linux
+- Prerequisite 4/4: have a good Zoom setup
 
-???- question "How can I check I can do this?"
+???- question "How can I check this?"
 
-    ...
+    - See the [Frequently Asked Questions section](../faq.md)
 
-- Prerequisite 2/3: Be able to login using an SSH client
+???- question "What if I have another question?"
 
-???- question "How can I check I can do this?"
-
-    ...
-
-- Prerequisite 3/3: Be able to navigate the filesystem under Linux
-
-???- question "How can I check I can do this?"
-
-    ...
+    - See the [Frequently Asked Questions section](../faq.md)
