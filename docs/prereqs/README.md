@@ -11,7 +11,7 @@ tags:
 
     See [here](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
 
-These are the **three** prerequisites for following this course:
+These are the **four** prerequisites for following this course:
 
 - Prerequisite 1/4: Be able to login to your cluster's remote desktop environment,
 - Prerequisite 2/4: Be able to login using an SSH client
