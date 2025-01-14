@@ -9,7 +9,7 @@ tags:
 
 !!!- info "Learning objectives"
 
-    - Practice using the documentation of their HPC center
+    - Practice using the documentation of your favorite HPC cluster
     - Can install FileZilla
     - Can transfer files using FileZilla
 
@@ -17,7 +17,8 @@ tags:
 
     Teaching goals are:
 
-    - Learners have practiced using the documentation of their HPC center
+    - Learners have practiced using the documentation
+      of their favorite HPC cluster
     - Learners have installed FileZilla
     - Learners have transferred files using FileZilla
 

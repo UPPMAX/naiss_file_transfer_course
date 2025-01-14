@@ -10,14 +10,15 @@ tags:
 
 !!!- info "Learning objectives"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your favorite HPC cluster
     - Can transfer files using `rsync`
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - Learners have practiced using the UPPMAX documentation
+    - Learners have practiced using the documentation
+      of their favorite HPC cluster
     - Learners have transferred files using `rsync`
 
     Lesson plan:
