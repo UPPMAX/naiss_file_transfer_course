@@ -45,7 +45,9 @@ This is the page for evaluating the current iteration of the course.
 
     - I am comfortable using the documentation of my HPC center
     - I can transfer a file using FileZilla
+    - I can transfer a folder using FileZilla
     - I can transfer a file using rscync
+    - I can transfer a folder using rscync
     - I can transfer a file using scp
     - I can transfer a file using sftp
 
