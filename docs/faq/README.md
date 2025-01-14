@@ -42,7 +42,7 @@ learner had to say on this:
 You are welcome to try and leave anytime you want.
 The course material is made for self-study too, with videos
 for all exercises.
-Do fill in [the evaluation](evaluation.md)
+Do fill in [the evaluation](../evaluation.md)
 when you leave early :-)
 
 ## Prerequisites
@@ -72,7 +72,7 @@ we decided to add prerequisites instead
 
 ### What are the prerequisites for following this course?
 
-See [prerequisites](prereqs/README.md).
+See [prerequisites](../prereqs/README.md).
 
 ### How can I check if I have registered?"
 
