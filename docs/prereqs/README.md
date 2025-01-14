@@ -22,8 +22,8 @@ These are the **four** prerequisites for following this course:
 
 ???- question "How can I check this?"
 
-    - See the [Frequently Asked Questions section](../faq.md)
+    - See the [Frequently Asked Questions section](../faq/README.md)
 
 ???- question "What if I have another question?"
 
-    - See the [Frequently Asked Questions section](../faq.md)
+    - See the [Frequently Asked Questions section](../faq/README.md)
