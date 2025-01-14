@@ -11,30 +11,30 @@ tags:
 
 !!!- info "Learning objectives"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC center
     - Understand what a console environment is
     - Understand what a terminal is
     - Understand what a prompt is
     - Understand that after login, one is on a login node
     - If needed: has installed an SSH client
         - Windows: MobaXTerm
-    - Can log in to the console environment using a terminal with X forwarding
-    - Can determine if X forwarding works
+    - Can log in to the console environment using a terminal
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - Learners have practiced using the UPPMAX documentation
+    - Learners have practiced using the documentation of their HPC cluster
     - Learners understand what a console environment is
     - Learners understand what a terminal is
     - Learners understand what a prompt is
     - Learners understand that after login, one is on a login node
     - If needed, learners have installed an SSH client
         - Windows: MobaXTerm
-    - Learners have logged in to the console environment
-      using a terminal with X forwarding
-    - Learners have determined if X forwarding works
+    - Learners have logged in to the console environment using a terminal
+
+    Teaching non-goals are:
+    - Use X forwarding
 
     Lesson plan:
 
@@ -59,12 +59,22 @@ tags:
     - What is SSH?
     - What is an SSH client?
     - Do you know any SSH clients?
+    - What is a login node?
+    - How to behave on a login node?
 
 ## Why?
 
 Using a terminal is powerful, where a remote desktop is clumsy.
 Copy-pasting text to a terminal on the remote desktop
 will quickly make you wonder if it cannot be done in a smarter way.
+
+???- question "But, this is already in the prerequisites???"
+
+    Yes, we indeed require you to have done this
+    [in the prerequisites](../prereqs/README.md).
+
+    The goal of this sessions (see 'Learning objectives' above)
+    is to gain more understanding about what you've already done.
 
 ## A terminal and SSH clients
 
@@ -77,24 +87,26 @@ Some SSH clients can run from a terminal or vice versa.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/FUNPZHEMC2s) is a video that shows
-    the solution of these exercises
+    The solution of these exercises can be found here:
 
-Here, we log in to Rackham's console environment via a terminal.
+    - [UPPMAX's Rackham](https://youtu.be/FUNPZHEMC2s)
+
+Here, we log in to your HPC cluster's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.
 
 ### Exercise 1: a terminal
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the documentation of your HPC center,
 then answer these questions:
 
-- Find the UPPMAX page on terminals
+- Find the page on terminals, if any
 
 ???- question "I cannot find it. Where is it?"
 
-    You can find find it at <https://docs.uppmax.uu.se/software/terminal/>
+    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/terminal/)
+
+    If it is absent, use your favorite search engine instead.
 
 - What is a prompt?
 
@@ -105,15 +117,16 @@ then answer these questions:
 
 ### Exercise 2: install an SSH client if needed
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the documentation of your HPC center,
 then answer these questions:
 
-- Find the UPPMAX page on SSH clients
+- Find the page on SSH clients
 
 ???- question "Answer"
 
-    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
+    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/ssh_client/)
+
+    If it is absent, use your favorite search engine instead.
 
 - Try starting a terminal and type `ssh` and then enter.
   If you do not get an error message, you are lucky to have an SSH client
@@ -139,22 +152,20 @@ then answer these questions:
 
 ### Exercise 3: login via SSH
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the documentation of your HPC center,
 then answer these questions:
 
-- Find the page about how to login to Rackham via SSH and a password
+- Find the page about how to login to your HPC cluster via SSH and a password
 
 ???- question "I cannot find it. Where is it?"
 
-    You can find find it at
-    <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
+    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
-- Log in to Rackham
+- Log in to your HPC cluster
 
 ???- question "How does that look like?"
 
-    Your ouput will look similar to this:
+    For UPPMAX's Rackham, your output will look similar to this:
 
     <!-- Indeed, line lengths beyond 80 characters -->
     <!-- markdownlint-disable MD013 -->
@@ -183,31 +194,3 @@ then answer these questions:
 
 
 Welcome on a login node!
-
-### Exercise 4: find out if X forwarding works
-
-- Find the page about the program called `xeyes`
-
-???- question "I cannot find it. Where is it?"
-
-    You can find find it at <https://docs.uppmax.uu.se/software/xeyes/>
-
-- On a Rackham login node, run `xeyes`.
-
-???- question "How do I run it"
-
-    In your terminal, type:
-
-    ```bash
-    xeyes
-    ```
-
-    and press enter.
-
-- Conclude if X-forwarding works for you. If not, the UPPMAX page on SSH clients
-  hold some hints.
-
-???- question "Where is that page?"
-
-    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
-
