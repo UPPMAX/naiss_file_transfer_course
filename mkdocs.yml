@@ -13,6 +13,7 @@ nav:
     - File transfer using rsync: sessions/rsync/README.md
     - File transfer using scp: sessions/scp.md
     - File transfer using sftp: sessions/sftp.md
+    - Summary: sessions/summary.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Communication: communication/README.md
