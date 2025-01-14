@@ -4,7 +4,7 @@ tags:
   - notes
 ---
 
-# Meeting notes 
+# Meeting notes
 
 Page/date                 |Description
 --------------------------|-----------------------------
