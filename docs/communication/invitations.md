@@ -7,7 +7,7 @@ tags:
 # Invitations
 
 Part of [communication](../communication/README.md)
-is to have invitations in newletters.
+is to have invitations in newsletters.
 This page shows the texts posted in newsletters.
 
 <!-- markdownlint-disable MD013 --><!-- Prefer copy-paste-ability over 80 characters -->
