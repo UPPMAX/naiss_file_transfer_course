@@ -34,6 +34,7 @@ tags:
     - Learners have logged in to the console environment using a terminal
 
     Teaching non-goals are:
+
     - Use X forwarding
 
     Lesson plan:
