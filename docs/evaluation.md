@@ -44,35 +44,10 @@ This is the page for evaluating the current iteration of the course.
     Give you confidence levels of the following statements below:
 
     - I am comfortable using the documentation of my HPC center
-    - I am comfortable using the Python book
-    - I am comfortable learning Python
-    - I can login to my HPC cluster
-    - I can load a Python version on my HPC cluster
-    - I can describe what the Python programming language is
-    - I can describe what the Python interpreter is
-    - I can describe what a program is
-    - I can use a text editor on my HPC cluster
-    - I can create a Python script
-    - I can run a Python script
-    - In Python, I can create a variable
-    - In Python, I can use a variable
-    - I can convert a simple equation to Python code
-    - In Python, I can find and use the operator for exponentiation
-    - In Python, I know what the modulo operator is and when to use it
-    - I can convert a simple text question to Python code
-    - In Python, I can ask a user for input
-    - In Python, I can use user input in a calculation
-    - I can find and use a Python module on Rackham
-    - In Python, I can read a file
-    - In Python, I can create a file
-    - In Python, I can use command-line arguments
-    - In Python, I can import the `matplotlib` library
-    - In Python, I can use a for loop
-    - In Python,
-      I can write a function without an argument and without a return type
-    - In Python, I can write a function that calls a function
-    - In Python, I can write a function that requires an argument
-    - In Python, I can write a function with a return value
+    - I can transfer a file using FileZilla
+    - I can transfer a file using rscync
+    - I can transfer a file using scp
+    - I can transfer a file using sftp
 
     If you think the documentation of your HPC cluster should be improved,
     write down its name here:
