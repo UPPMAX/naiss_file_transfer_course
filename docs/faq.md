@@ -132,12 +132,6 @@ or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rack
 
 ### What if I don't have a good Zoom setup? Is that OK?"
 
-!!! tip
-
-    > Thank you for creating very interactive [class] room
-
-    A learner from this course ([source](evaluations/20240830/README.md))
-
 No.
 
 You will feel left out, as the course in highly interactive.
