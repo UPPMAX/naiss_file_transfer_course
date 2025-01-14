@@ -1,4 +1,4 @@
-# Connecting to HPC systems & File transfer course
+# File transfer course
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
