@@ -1,3 +1,14 @@
+---
+tags:
+  - meeting
+  - notes
+  - 2024-11-21
+  - 20241121
+  - November
+  - 21
+  - 2024
+---
+
 # Notes from common NAISS training meeting 21 Nov
 
 - Since the we had defined already the content with many tools and

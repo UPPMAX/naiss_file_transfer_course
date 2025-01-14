@@ -1,3 +1,11 @@
+---
+tags:
+  - lesson
+  - plans
+  - preparation
+  - teacher
+---
+
 # Lesson plans
 
 Here are the lesson plans of this course:

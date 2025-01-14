@@ -1,8 +1,10 @@
 ---
 tags:
+  - prereqs
   - prerequisites
   - requirements
   - preparation
+  - to do before
 ---
 
 # Prerequisites

@@ -3,6 +3,10 @@ tags:
   - dates
   - days
   - calendar
+  - course
+  - planning
+  - schedule
+  - timetable
 ---
 
 # Course dates

@@ -1,6 +1,7 @@
 ---
 tags:
   - lesson
+  - session
   - file transfer
   - rsync
 ---
