@@ -45,7 +45,8 @@ tags:
 
 ## Why?
 
-Fairly sure you'll want to upload or download files to Rackham.
+Fairly sure you'll want to upload or download files to your
+favorite HPC cluster.
 Here we do so.
 
 We use a free and open-source graphical tool to do this,
