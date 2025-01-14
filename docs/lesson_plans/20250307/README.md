@@ -18,4 +18,3 @@ I just completed sketching the course's website,
 with all pages being present, either as stubs (to be filled in)
 or copy-pastes from UPPMAX-only courses (to be made NAISS-wide).
 
-
