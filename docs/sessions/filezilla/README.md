@@ -9,7 +9,7 @@ tags:
 
 !!!- info "Learning objectives"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of their HPC center
     - Can install FileZilla
     - Can transfer files using FileZilla
 
@@ -17,7 +17,7 @@ tags:
 
     Teaching goals are:
 
-    - Learners have practiced using the UPPMAX documentation
+    - Learners have practiced using the documentation of their HPC center
     - Learners have installed FileZilla
     - Learners have transferred files using FileZilla
 
@@ -43,14 +43,16 @@ tags:
     - Can you name some programs that can do file transfer?
     - Who has heard of FileZilla?
     - Who has already used FileZilla?
+    - What are features of FileZilla?
 
 ![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
 
-> FileZilla being able to do file transfer to/from Rackham
+> FileZilla being able to do file transfer to/from
+> UPPMAX's Rackham HPC cluster.
 
 ## Why?
 
-Fairly sure you'll want to upload or download files to Rackham.
+Fairly sure you'll want to upload or download files to your HPC cluster.
 Here we do so.
 
 We use a free and open-source graphical tool to do this,
@@ -61,8 +63,9 @@ It works under Linux, Mac and Windows.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/CyJbWHZbvJU) is a video that shows
-    the solution of these exercises
+    Here are videos that do this exercises for the differt HPC clusters:
+
+    - [UPPMAX's Rackham](https://youtu.be/CyJbWHZbvJU)
 
 ### Exercise 1: install FileZilla
 
@@ -89,15 +92,14 @@ For non-Ubuntu users, search the web, download and install.
 
 ### Exercise 2: transfer a file
 
-Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
-for help.
+Use the documentation of your HPC cluster for help.
 
 - Search for the procedure on how to transfer a file
-  to/from Rackham using FileZilla
+  to/from your HPC cluster using FileZilla
 
 ???- question "Where is that documentation?"
 
-    The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/>.
+    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
