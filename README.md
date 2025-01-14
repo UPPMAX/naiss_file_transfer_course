@@ -10,24 +10,8 @@
 
 <!-- markdownlint-enable MD013 -->
 
-[Go to the nicely rendered version of this website](https://uppmax.github.io/naiss_file_transfer_course/).
-
-## Deploy website locally
-
-To work on the website locally first create a virtual environment and install
-the required dependencies
-
-``` bash
-python -m venv uppmax_venv
-source uppmax_venv/bin/activate
-pip install -r requirements.txt
-```
-
-Then serve the website and edit
-
-``` bash
-mkdocs serve
-```
+- [Go to the nicely rendered version of this website](https://uppmax.github.io/naiss_file_transfer_course/).
+- [Instructions on how to locally deploy this website](https://uppmax.github.io/naiss_file_transfer_course/deploy_locally/)
 
 ## Files used by continuous integration scripts
 

@@ -17,6 +17,7 @@ nav:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
     - Curriculum: curriculum.md
+    - Deploy website locally: deploy_locally.md
     - Frequently asked questions: faq.md
     - Planning notes: planning/notes.md
     - Invitations: invitation_short.md
