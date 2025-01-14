@@ -71,7 +71,7 @@ will quickly make you wonder if it cannot be done in a smarter way.
 ???- question "But, this is already in the prerequisites???"
 
     Yes, we indeed require you to have done this
-    [in the prerequisites](../prereqs/README.md).
+    [in the prerequisites](../../prereqs/README.md).
 
     The goal of this sessions (see 'Learning objectives' above)
     is to gain more understanding about what you've already done.
