@@ -15,6 +15,7 @@ nav:
     - File transfer using sftp: sessions/sftp.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
+    - Communication: communication/README.md
     - Contributing: CONTRIBUTING.md
     - Curriculum: curriculum.md
     - Deploy website locally: deploy_locally.md
@@ -23,7 +24,6 @@ nav:
     - Frequently asked questions: faq/README.md
     - Lesson plans: lesson_plans.md
     - Meeting notes: meeting_notes.md
-    - Invitations: invitation_short.md
     - Learning outcomes: learning_outcomes.md
 
 theme:
