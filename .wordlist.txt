@@ -90,3 +90,7 @@ Claremar
 md
 fle
 Routledge
+Rackham's
+prereqs
+supr
+UPPMAX's
