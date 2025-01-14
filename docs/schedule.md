@@ -9,7 +9,7 @@ tags:
 Time |Teacher|Topic
 -----|-------|-------------------------------------------------
 9:00 |R      |[Intro](sessions/intro.md)
-9:05 |R      |[File transfer using FileZilla](sessions/filezilla.md)
+9:05 |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
 9:50 |.      |Break
 10:05|R      |[Login with terminal](sessions/login_terminal.md) and [file transfer using rsync](sessions/rsync.md)
 11:00|.      |Break
