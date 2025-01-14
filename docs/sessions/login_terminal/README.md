@@ -1,92 +1,213 @@
 ---
 tags:
+  - lesson
   - login
   - log in
-  - Rackham
-  - console
   - terminal
-  - password
-  - ssh
-  - SSH
+  - console
 ---
 
-# Login to the Rackham console environment with a password
+# Login via a terminal
 
-There are multiple ways to [log in to Rackham](login_rackham.md).
-This page describes how to do so using a terminal and a password.
+!!!- info "Learning objectives"
 
-If you want to get rid of using a password every time,
-see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md).
+    - Practice using the UPPMAX documentation
+    - Understand what a console environment is
+    - Understand what a terminal is
+    - Understand what a prompt is
+    - Understand that after login, one is on a login node
+    - If needed: has installed an SSH client
+        - Windows: MobaXTerm
+    - Can log in to the console environment using a terminal with X forwarding
+    - Can determine if X forwarding works
 
-## Procedure
+???- question "For teachers"
 
-???- question "Prefer a video?"
+    Teaching goals are:
 
-    This procedure is also shown by [this YouTube video](https://youtu.be/TSVGSKyt2bQ).
+    - Learners have practiced using the UPPMAX documentation
+    - Learners understand what a console environment is
+    - Learners understand what a terminal is
+    - Learners understand what a prompt is
+    - Learners understand that after login, one is on a login node
+    - If needed, learners have installed an SSH client
+        - Windows: MobaXTerm
+    - Learners have logged in to the console environment
+      using a terminal with X forwarding
+    - Learners have determined if X forwarding works
 
-### 1. Use `ssh` to log in
+    Lesson plan:
 
-From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
-
-```bash
-ssh -X [username]@rackham.uppmax.uu.se
-```
-
-`[username]` is your UPPMAX username, for example, `sven`,
-resulting in:
-
-```bash
-ssh -X sven@rackham.uppmax.uu.se
-```
-
-`-X` enables so-called [X forwarding](../software/ssh_x_forwarding.md),
-which allows you to run programs that require light graphics,
-such as [eog](../software/eog.md) to display an image.
-
-???- question "Can I log in without `-X`?"
-
-    Yes!
-
-    If you do not need [X forwarding](../software/ssh_x_forwarding.md)
-    to run programs that require light graphics,
-    omitting the `-X` is just fine.
-
-???- question "Why no `-A`?"
-
-    On Rackham, one can use `-A`:
-
-    ```bash
-    ssh -A username@rackham.uppmax.uu.se
+    ```mermaid
+    gantt
+      title Login via terminal
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Prior : prior, 0, 5s
+      Present: present, after prior, 2s
+      %% It took me 7 mins, here I do that time x2
+      Challenge: crit, challenge, after present, 14s
+      %% Here I use the same time it took me to give feedback
+      Feedback: feedback, after challenge, 7s
     ```
 
-    this option is only useful when you want to
-    [log in to Rackham via the console using an SSH key](login_rackham_console_ssh_key.md).
-    As we here use passwords (i.e. no SSH keys)
-    to access Rackham, `-A` is unused
-    and hence we simplify this documentation by omitting it.
+    Prior questions:
 
-## 2. Type your UPPMAX password
+    - What is a console environment?
+    - What is a terminal?
+    - What is SSH?
+    - What is an SSH client?
+    - Do you know any SSH clients?
 
-Type your UPPMAX password and press enter.
-You will see no asterisks to indicate how many
-characters you've typed in.
+## Why?
 
-If you are outside
-[the university networks](../getting_started/get_inside_sunet.md)
-you will be asked for your UPPMAX 2-factor authentication number.
+Using a terminal is powerful, where a remote desktop is clumsy.
+Copy-pasting text to a terminal on the remote desktop
+will quickly make you wonder if it cannot be done in a smarter way.
 
-## 3. You are in
+## A terminal and SSH clients
 
-Enjoy! You are in! Or, to be precise,
-you are in your home folder on a Rackham [login node](../cluster_guides/login_node.md).
+A terminal is a text-only program that can do many things, for example,
+starting a program.
+An SSH client is a program that allows you to connect to another computer.
+Some SSH clients can run from a terminal or vice versa.
 
-!!! note "How to behave on a login node"
+## Exercises
 
-    On a login node, one can and should do simple things only:
-    it is a resource shared with all other users on that node.
+???- question "Need a video?"
 
-    If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+    [Here](https://youtu.be/FUNPZHEMC2s) is a video that shows
+    the solution of these exercises
 
-    If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+Here, we log in to Rackham's console environment via a terminal.
+
+For Mac and Windows users it will be hardest to get it working.
+
+### Exercise 1: a terminal
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the UPPMAX page on terminals
+
+???- question "I cannot find it. Where is it?"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/terminal/>
+
+- What is a prompt?
+
+???- question "Answer"
+
+    The prompt is the text at the start of the line you can type on.
+    It indicates that the terminal is waiting for user input.
+
+### Exercise 2: install an SSH client if needed
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the UPPMAX page on SSH clients
+
+???- question "Answer"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
+
+- Try starting a terminal and type `ssh` and then enter.
+  If you do not get an error message, you are lucky to have an SSH client
+  installed!
+
+???- question "How does it look like when `ssh` works?"
+
+    Your output will look similar to this:
+
+    ```bash
+    richel@richel-N141CU:~$ ssh
+    usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+               [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+               [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+               [-J destination] [-L address] [-l login_name] [-m mac_spec]
+               [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+               [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+               destination [command [argument ...]]
+           ssh [-Q query_option]
+    ```
+
+- If there is an error, install the recommended SSH client
+
+### Exercise 3: login via SSH
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page about how to login to Rackham via SSH and a password
+
+???- question "I cannot find it. Where is it?"
+
+    You can find find it at
+    <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
+
+- Log in to Rackham
+
+???- question "How does that look like?"
+
+    Your ouput will look similar to this:
+
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
+    ```bash
+    sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@rackham.uppmax.uu.se
+    sven@rackham.uppmax.uu.se's password: 
+    Last login: Thu Aug  8 18:35:17 2024 from vpnpool189-229.anst.uu.se
+     _   _ ____  ____  __  __    _    __  __
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham1
+    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+
+    ###############################################################################
+
+            User Guides: https://docs.uppmax.uu.se/
+
+            Write to support@uppmax.uu.se, if you have questions or comments.
+
+
+    [sven@rackham1 ~]$ 
+    ```
+
+    <!-- markdownlint-enable MD013 -->
+
+
+Welcome on a login node!
+
+### Exercise 4: find out if X forwarding works
+
+- Find the page about the program called `xeyes`
+
+???- question "I cannot find it. Where is it?"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/xeyes/>
+
+- On a Rackham login node, run `xeyes`.
+
+???- question "How do I run it"
+
+    In your terminal, type:
+
+    ```bash
+    xeyes
+    ```
+
+    and press enter.
+
+- Conclude if X-forwarding works for you. If not, the UPPMAX page on SSH clients
+  hold some hints.
+
+???- question "Where is that page?"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
+
