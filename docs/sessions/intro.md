@@ -9,6 +9,40 @@ tags:
 
 # Introduction
 
+!!!- info "Learning objectives"
+
+    - Can find an overview of the course
+    - Have seen the file transfer tools at this course
+
+???- question "For teachers"
+
+    Teaching goals are:
+
+    - Learners can find an overview of the course
+    - Learners have seen the file transfer tools at this course
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Introduction
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Prior : prior, 0, 5s
+      Present: present, after prior, 2s
+      %% It took me 7 mins, here I do that time x2
+      Challenge: crit, challenge, after present, 14s
+      Feedback: feedback, after challenge, 7s
+    ```
+
+    Prior questions:
+
+    - What is a file tranfer?
+    - What does one need to do a file transfer?
+    - How does it look like to do a file transfer?
+    - Can you name some programs that can do file transfer?
+
 ## Overview
 
 Here is an overview of the sessions and their relations:
