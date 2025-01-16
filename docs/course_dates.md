@@ -11,9 +11,11 @@ tags:
 
 # Course dates
 
-???- question "For teachers: how are these decided?"
+???- question "For teachers"
 
-    These are decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15):
+    - How are these decided? These are decided at [#15](https://github.com/UPPMAX/naiss_file_transfer_course/issues/15):
+    - [Shared document for teaching dates](https://hackmd.io/@UPPMAX/uppmax-training-events)
+
 
 Week|Date            |Times
 ----|----------------|--------
