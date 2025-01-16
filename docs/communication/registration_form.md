@@ -1,5 +1,8 @@
 # Registration form
 
+<!-- markdownlint-disable MD013 --><!-- Allow long lines, to make those more copy-pastable -->
+
+
 - Title: Transferring files to/from HPC Clusters  - March 7 2025 (online)
 
 Workshop website: <https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/>
@@ -62,3 +65,5 @@ Empty line
   I understand and agree that UPPMAX will collect the information on this registration form.
     - mandatory checkbox
 
+
+<!-- markdownlint-enable MD013 -->
