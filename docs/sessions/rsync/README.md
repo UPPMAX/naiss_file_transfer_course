@@ -8,7 +8,7 @@ tags:
 
 # File transfer using `rsync`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the documentation of your favorite HPC cluster
     - Can transfer files using `rsync`

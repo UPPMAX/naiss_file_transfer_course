@@ -9,7 +9,7 @@ tags:
 
 # Introduction
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Can find an overview of the course
     - Have seen the file transfer tools at this course

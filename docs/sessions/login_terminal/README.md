@@ -9,7 +9,7 @@ tags:
 
 # Login via a terminal
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the documentation of your HPC center
     - Understand what a console environment is
@@ -74,7 +74,7 @@ will quickly make you wonder if it cannot be done in a smarter way.
     Yes, we indeed require you to have done this
     [in the prerequisites](../../prereqs/README.md).
 
-    The goal of this sessions (see 'Learning objectives' above)
+    The goal of this sessions (see 'Learning outcomes' above)
     is to gain more understanding about what you've already done.
 
 ## A terminal and SSH clients

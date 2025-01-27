@@ -7,7 +7,7 @@ tags:
 
 # File transfer using FileZilla
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the documentation of your favorite HPC cluster
     - Can install FileZilla
