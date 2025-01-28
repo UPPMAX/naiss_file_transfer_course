@@ -29,7 +29,3 @@ Role              |Person
 Course coordinator|[Björn Claremar](https://www.uu.se/en/contact-and-organisation/staff?query=N4-6)
 Teachers          |[Björn Claremar](https://www.uu.se/en/contact-and-organisation/staff?query=N4-6) and [Richèl Bilderbeek](https://www.uu.se/en/contact-and-organisation/staff?query=N21-617)
 
-
-
-
-
