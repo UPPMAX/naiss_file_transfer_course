@@ -26,6 +26,7 @@ nav:
     - Lesson plans: lesson_plans/README.md
     - Meeting notes: meeting_notes/README.md
     - Learning outcomes: learning_outcomes.md
+  - Contact us: contact_us.md
 
 theme:
   name: material
