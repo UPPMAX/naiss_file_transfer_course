@@ -6,8 +6,6 @@ tags:
   - scp
 ---
 
-# File transfer using SCP
-
 # File transfer using `scp`
 
 !!!- info "Learning outcomes"
