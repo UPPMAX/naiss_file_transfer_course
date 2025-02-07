@@ -6,7 +6,7 @@ tags:
   - sftp
 ---
 
-# File transfer using SFTP
+# File transfer using `sftp`
 
 !!!- info "Learning outcomes"
 
