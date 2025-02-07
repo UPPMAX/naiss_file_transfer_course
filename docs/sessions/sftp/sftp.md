@@ -23,7 +23,6 @@ tags:
 
     Lesson plan:
 
-
     Prior questions:
 
     - How can one do a file transfer from the terminal?
@@ -36,4 +35,3 @@ tags:
 
 
 ## Exercises
-
