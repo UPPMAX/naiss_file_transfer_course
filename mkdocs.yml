@@ -11,8 +11,8 @@ nav:
     - File transfer using FileZilla: sessions/filezilla/README.md
     - Login with terminal: sessions/login_terminal/README.md
     - File transfer using rsync: sessions/rsync/README.md
-    - File transfer using scp: sessions/scp.md
-    - File transfer using sftp: sessions/sftp.md
+    - File transfer using scp: sessions/scp/README.md
+    - File transfer using sftp: sessions/sftp/README.md
     - Summary: sessions/summary.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
