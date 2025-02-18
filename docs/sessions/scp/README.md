@@ -39,21 +39,21 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 - Both are considered secure.
 
-**SCP stands for Secure Copy Protocol**
+**SCP is an abbreviation for ``Secure Copy Protocol``**
 
 !!! note "Pros"
 
     - Simple
     - Secure
     - Use cases
-        - primarily to copy files between a local host and a remote host or between two remote hosts
+        - primarily to copy files between a local host and a remote host or between two remote hosts.
 
 !!! warning "When not to use"
 
-    - when looking to do more than a basic file transfer, SCP falls short.
-    - SCP is unable to create or list directories or delete files 
-    - if a file with the same name in the same directory is transferred, SCP will override it by default. 
-    - transfers that are interrupted  you have to restart the entire transfer
+    - When looking to do more than a basic file transfer, SCP falls short.
+    - SCP is unable to create or list directories or delete files.
+    - if a file with the same name in the same directory is transferred, SCP will override it by default.
+    - transfers that are interrupted  you have to restart the entire transfer.
 
 ## Procedure
 
@@ -103,7 +103,7 @@ You can get rid of this prompt if you have setup SSH keys
 - zip
 - tar
 
-## Cheat sheet    
+## Cheat sheet
 
 - ``scp``
 
@@ -120,9 +120,3 @@ You can get rid of this prompt if you have setup SSH keys
 ???+ Exercise 3: Directory
 
 ???+ Exercise 4: Compressed directory
-
-
-
-
-    
-
