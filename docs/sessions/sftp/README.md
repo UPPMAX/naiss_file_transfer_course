@@ -32,15 +32,20 @@ tags:
 
 ## Introduction
 
-**SFTP is an abbreviation of 'SSH File Transfer Protocol' and 
+**SFTP is an abbreviation of 'SSH File Transfer Protocol' and
  'SSH' is an abbreviation of 'Secure Shell protocol'.**
 
 !!! note "Pros"
 
-    - Simple
     - Secure
-    - Use cases
-        - primarily to copy files between a local host and a remote host or between two remote hosts
+    - Use cases:
+        - copying large or many files
+        - possible to resume file transfer after a broken connection.
+        - can handle bulk file transfers, modify directories, and encrypt or decrypt specific files
+        
+!!! warning "When not to use"
+
+    - Rsync is meant to ensure that a local device and remote server are “synced” with the latest version of a file
 
 ## Procedure
 
