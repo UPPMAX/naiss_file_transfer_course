@@ -75,6 +75,6 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
 ## Exercises
 
-???+ Exercise 1: Upload
+???+ question "Exercise 1: Upload"
 
-???+ Exercise 2: Download
+???+ question "Exercise 2: Download"
