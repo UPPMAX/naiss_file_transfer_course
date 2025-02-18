@@ -40,13 +40,16 @@ tags:
     - Secure
     - Use cases:
         - copying large or many files
+        - asks if you want to overwrite target files
         - possible to resume file transfer after a broken connection.
-        - can handle bulk file transfers, modify directories, and encrypt or decrypt specific files
+        - handle bulk file transfers
+        - modify directories
+        - and encrypt or decrypt specific files
         
 !!! warning "When not to use"
 
-    - Rsync is meant to ensure that a local device and remote server are “synced” with the latest version of a file
-
+    - Rsync is better for "syncing" 
+    
 ## Procedure
 
 - [`sftp` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
