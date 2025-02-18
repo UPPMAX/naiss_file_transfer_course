@@ -30,6 +30,61 @@ tags:
     - Who has heard of `scp`?
     - Who has already used `scp`?
 
-## Why?
+## Overview other terminal transfer tools
+
+Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
+
+- ``scp`` has the similar arguments as for the linux copy function ``scp``.
+- ``sftp`` is more versatile withg more file management capabilities.
+
+- Both are considered secure.
+
+**SCP stands for Secure Copy Protocol**
+
+!!! note "Pros"
+
+    - Simple
+    - Secure
+    - Use cases
+        - primarily to copy files between a local host and a remote host or between two remote hosts
+    - When not to use    
+
+!!! warning "Cons"
+
+    - when looking to do more than a basic file transfer, SCP falls short.
+    - SCP is unable to create or list directories or delete files 
+    - if a file with the same name in the same directory is transferred, SCP will override it by default. 
+    - transfers that are interrupted  you have to restart the entire transfer
+
+## Procedure
+
+- [Page on UPPMAX documentation on ``scp``](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
+
+### Many files
+
+- zip
+- tar
+
+## Cheat sheet    
+
+- ``scp``
 
 ## Exercises
+
+???- note "Teacher"
+
+     prepare examples with one file and many files
+
+???+ Exercise 1: Upload
+
+???+ Exercise 2: Download
+
+???+ Exercise 3: Directory
+
+???+ Exercise 4: Compressed directory
+
+
+
+
+    
+
