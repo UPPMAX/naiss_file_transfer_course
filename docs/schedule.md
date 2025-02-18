@@ -9,6 +9,20 @@ tags:
 
 # Schedule
 
+!!! info "The course is learner-centered"
+
+    The course is learner-centered. This means that the pace is determined
+    be the learners (i.e. not by the clock).
+    The breaks are always on the time specified.
+
+    ???- question "Why is the course learner-centered?"
+
+        See [the frequently asked questions](faq/README.md)
+
+???- question "What are the course dates?"
+
+    See [the course dates](course_dates.md).
+
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
 9:00  |R      |[Intro](sessions/intro.md)
