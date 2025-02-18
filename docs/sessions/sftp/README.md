@@ -48,7 +48,7 @@ tags:
         
 !!! warning "When not to use"
 
-    - Rsync is better for "syncing" 
+    - Rsync is better for "syncing"
     
 ## Procedure
 
