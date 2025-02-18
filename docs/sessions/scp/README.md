@@ -113,10 +113,10 @@ You can get rid of this prompt if you have setup SSH keys
 
      prepare examples with one file and many files
 
-???+ Exercise 1: Upload
+???+ question "Exercise 1: Upload"
 
-???+ Exercise 2: Download
+???+ question "Exercise 2: Download"
 
-???+ Exercise 3: Directory
+???+ question "Exercise 3: Directory"
 
-???+ Exercise 4: Compressed directory
+???+ question "Exercise 4: Compressed directory"
