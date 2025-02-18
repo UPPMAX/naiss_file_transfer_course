@@ -46,18 +46,18 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - Simple
     - Secure
     - Use cases
-        - primarily to copy files between a local host and a remote host or between two remote hosts.
+        - simple copy of files between local and remote host or between two remote hosts.
 
 !!! warning "When not to use"
 
     - When looking to do more than a basic file transfer, SCP falls short.
     - SCP is unable to create or list directories or delete files.
-    - if a file with the same name in the same directory is transferred, SCP will override it by default.
+    - a file with the same name in the same directory is transferred, wil be overwritten.
     - transfers that are interrupted  you have to restart the entire transfer.
 
 ## Procedure
 
-- [Page on UPPMAX documentation on ``scp``](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
+- [``scp`` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
 
 - In the terminal, copy files using `scp` to connect to Rackham:
 
