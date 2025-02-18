@@ -35,7 +35,7 @@ tags:
 Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 - ``scp`` has the similar arguments as for the linux copy function ``scp``.
-- ``sftp`` is more versatile withg more file management capabilities.
+- ``sftp`` is more versatile with more file management capabilities.
 
 - Both are considered secure.
 
@@ -47,9 +47,8 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - Secure
     - Use cases
         - primarily to copy files between a local host and a remote host or between two remote hosts
-    - When not to use    
 
-!!! warning "Cons"
+!!! warning "When not to use"
 
     - when looking to do more than a basic file transfer, SCP falls short.
     - SCP is unable to create or list directories or delete files 
@@ -59,6 +58,45 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 ## Procedure
 
 - [Page on UPPMAX documentation on ``scp``](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
+
+- In the terminal, copy files using `scp` to connect to Rackham:
+
+```bash
+scp [from] [to]
+```
+
+Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
+This is quite a shorthand notation!
+
+This is how you copy a file from your local computer to Rackham:
+
+```bash
+scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
+```
+
+where `[local_filename]` is the path to a local filename,
+and `[username]` is your UPPMAX username, for example:
+
+```bash
+scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
+```
+
+To copy a file from Rackham to your local computer, do the command above in reverse order:
+
+```bash
+scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+```
+
+where `[remote_filename]` is the path to a remote filename,
+`[username]` is your UPPMAX username,
+and `[local_folder]` is your local folder, for example:
+
+```bash
+scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
+```
+
+If asked, give your center's password.
+You can get rid of this prompt if you have setup SSH keys
 
 ### Many files
 
