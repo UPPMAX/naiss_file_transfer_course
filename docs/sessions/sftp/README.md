@@ -30,9 +30,10 @@ tags:
     - Who has heard of `sftp`?
     - Who has already used `sftp`?
 
-# Introduction
+## Introduction
 
-**SFTP is an abbreviation of 'SSH File Transfer Protocol', where 'SSH' is an abbreviation of 'Secure Shell protocol'**
+**SFTP is an abbreviation of 'SSH File Transfer Protocol' and 
+ 'SSH' is an abbreviation of 'Secure Shell protocol'.**
 
 !!! note "Pros"
 
@@ -40,11 +41,10 @@ tags:
     - Secure
     - Use cases
         - primarily to copy files between a local host and a remote host or between two remote hosts
-    - When not to use
 
 ## Procedure
 
-- [Page on UPPMAX documentation on ``sftp``](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
+- [`sftp` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
 
 ### Example Rackham
 
