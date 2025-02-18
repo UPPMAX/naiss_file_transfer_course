@@ -81,7 +81,8 @@ and `[username]` is your UPPMAX username, for example:
 scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
 ```
 
-To copy a file from Rackham to your local computer, do the command above in reverse order:
+To copy a file from Rackham to your local computer, 
+do the command above in reverse order:
 
 ```bash
 scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
