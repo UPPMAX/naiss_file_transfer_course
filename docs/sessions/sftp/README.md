@@ -32,14 +32,15 @@ tags:
 
 # Introduction
 
-**SFTP is an abbreviation of 'SSH File Transfer Protocol', where 'SSH' is an abbreviation of 'Secure Shell protocol' 
-!!! note "Pros**
+**SFTP is an abbreviation of 'SSH File Transfer Protocol', where 'SSH' is an abbreviation of 'Secure Shell protocol'**
+
+!!! note "Pros"
 
     - Simple
     - Secure
     - Use cases
         - primarily to copy files between a local host and a remote host or between two remote hosts
-    - When not to use    
+    - When not to use
 
 ## Procedure
 
@@ -66,16 +67,13 @@ Upload/download files to/from Rackham
 
 In `sftp`, upload/download files to/from Rackham.
 
-Basic `sftp` command can be found [here](../software/sftp.md).
-
-
+Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
 
 ## Cheat sheet
 
-https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md
+Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
 
 ## Exercises
-
 
 ???+ Exercise 1: Upload
 
