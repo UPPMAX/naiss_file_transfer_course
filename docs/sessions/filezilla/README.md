@@ -117,7 +117,7 @@ Use the documentation of your HPC cluster for help.
     HPC Cluster|Link to documentation
     -----------|------------
     ALVIS      |To do
-    Berzelius  |To do
+    Berzelius  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
     Dardel     |None. Closest is [here](https://support.pdc.kth.se/doc/support/), under 'Data management | File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
@@ -125,7 +125,7 @@ Use the documentation of your HPC cluster for help.
     LUMI       |To do
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
-    Vera       |To do
+    Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
