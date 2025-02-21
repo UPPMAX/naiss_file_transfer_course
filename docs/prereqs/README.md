@@ -20,10 +20,14 @@ These are the **four** prerequisites for following this course:
 - Prerequisite 3/4: Be able to navigate the filesystem under Linux
 - Prerequisite 4/4: have a good Zoom setup
 
+???- question "Any questions about this?"
+
+    See [the 'Prerequisites' section of the Frequently Asked Questions](../faq/README.md#prerequisites)
+
 ???- question "How can I check this?"
 
-    - See the [Frequently Asked Questions section](../faq/README.md)
+    See [the 'Prerequisites' section of the Frequently Asked Questions](../faq/README.md#prerequisites)
 
 ???- question "What if I have another question?"
 
-    - See the [Frequently Asked Questions section](../faq/README.md)
+    See the [Frequently Asked Questions](../faq/README.md)
