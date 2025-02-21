@@ -106,7 +106,11 @@ Use the documentation of your HPC cluster for help.
 
 ???- question "Where is that documentation?"
 
-    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Dardel     |.
+    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
+    Tetralith  |.
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
