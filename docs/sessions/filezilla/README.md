@@ -70,7 +70,7 @@ It works under Linux, Mac and Windows.
 
     HPC Cluster|Link to video
     -----------|------------
-    Dardel     |.
+    Dardel     |[here](https://youtu.be/_3EmkN619Xo)
     Rackham    |[here](https://youtu.be/CyJbWHZbvJU)
     Tetralith  |.
 
@@ -90,10 +90,11 @@ For non-Ubuntu users, search the web, download and install.
 
 ???- question "Where can I find it?"
 
-    The FileZilla website can be found at <https://filezilla-project.org/>.
+    The FileZilla website can be found at [https://filezilla-project.org/](https://filezilla-project.org/).
 
     Clicking on 'Download FileZilla client' takes you to the
-    FileZilla download page at <https://filezilla-project.org/download.php?type=client>.
+    FileZilla download page at
+    [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
 
     Download the file, maybe unzip it and run the installer
 
@@ -108,9 +109,9 @@ Use the documentation of your HPC cluster for help.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Dardel     |.
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/), under 'Data management | File transfer': it is not documented there yet. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
-    Tetralith  |.
+    Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
