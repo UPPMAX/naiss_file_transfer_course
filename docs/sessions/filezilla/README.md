@@ -66,7 +66,13 @@ It works under Linux, Mac and Windows.
 
     Here are videos that do this exercises for the differt HPC clusters:
 
-    - [UPPMAX's Rackham](https://youtu.be/CyJbWHZbvJU)
+    You can find a video with solutions to these exercises:
+
+    HPC Cluster|Link to video
+    -----------|------------
+    Dardel     |.
+    Rackham    |[here](https://youtu.be/CyJbWHZbvJU)
+    Tetralith  |.
 
 ### Exercise 1: install FileZilla
 
