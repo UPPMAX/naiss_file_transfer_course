@@ -70,7 +70,7 @@ It works under Linux, Mac and Windows.
 
     HPC Cluster|Link to video
     -----------|------------
-    ALVIS      |[here](https://youtu.be/A8zfd0o0uzI)
+    Alvis      |[here](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
     Bianca     |[here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
     COSMOS     |[here](https://youtu.be/T4qqN_ljsS8)
@@ -119,7 +119,7 @@ Use the documentation of your HPC cluster for help.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    ALVIS      |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Alvis      |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
     Berzelius  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
