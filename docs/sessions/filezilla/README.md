@@ -73,7 +73,7 @@ It works under Linux, Mac and Windows.
     ALVIS      |To do
     Berzelius  |To do
     Bianca     |[here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
-    COSMOS     |[here]([here](https://youtu.be/T4qqN_ljsS8))
+    COSMOS     |[here](https://youtu.be/T4qqN_ljsS8)
     Dardel     |[here](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |To do
     LUMI       |To do
