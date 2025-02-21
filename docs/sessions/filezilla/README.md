@@ -71,8 +71,10 @@ It works under Linux, Mac and Windows.
     HPC Cluster|Link to video
     -----------|------------
     Dardel     |[here](https://youtu.be/_3EmkN619Xo)
+    Kebnekaise |To do
+    COSMOS     |[here]([here](https://youtu.be/T4qqN_ljsS8))
     Rackham    |[here](https://youtu.be/CyJbWHZbvJU)
-    Tetralith  |.
+    Tetralith  |Does not work :-/
 
 ### Exercise 1: install FileZilla
 
@@ -109,7 +111,9 @@ Use the documentation of your HPC cluster for help.
 
     HPC Cluster|Link to documentation
     -----------|------------
+    COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
     Dardel     |[here](https://support.pdc.kth.se/doc/support/), under 'Data management | File transfer': it is not documented there yet. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
+    Kebnekaise |[here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
 
