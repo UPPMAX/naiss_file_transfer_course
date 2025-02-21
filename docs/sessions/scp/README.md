@@ -46,7 +46,8 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - Simple
     - Secure
     - Use cases
-        - simple copy of files between local and remote host or between two remote hosts.
+        - simple copy of files between local and remote host
+          or between two remote hosts.
 
 !!! warning "When not to use"
 
