@@ -15,8 +15,9 @@ tags:
 
 These are the **four** prerequisites for following this course:
 
-- Prerequisite 1/4: Be able to login to your cluster's remote desktop environment,
-- Prerequisite 2/4: Be able to login using an SSH client
+- Prerequisite 1/4:
+  Be able to login to your cluster's remote desktop environment
+- Prerequisite 2/4:Be able to login using an SSH client
 - Prerequisite 3/4: Be able to navigate the filesystem under Linux
 - Prerequisite 4/4: have a good Zoom setup
 
