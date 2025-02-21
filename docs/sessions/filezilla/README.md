@@ -97,7 +97,8 @@ For non-Ubuntu users, search the web, download and install.
 
 ???- question "Where can I find it?"
 
-    The FileZilla website can be found at [https://filezilla-project.org/](https://filezilla-project.org/).
+    The FileZilla website can be found at
+    [https://filezilla-project.org/](https://filezilla-project.org/).
 
     Clicking on 'Download FileZilla client' takes you to the
     FileZilla download page at
@@ -114,6 +115,8 @@ Use the documentation of your HPC cluster for help.
 
 ???- question "Where is that documentation?"
 
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
     HPC Cluster|Link to documentation
     -----------|------------
     ALVIS      |To do
@@ -126,6 +129,8 @@ Use the documentation of your HPC cluster for help.
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+
+    <!-- markdownlint-enable MD013 -->
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
