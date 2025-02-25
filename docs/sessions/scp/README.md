@@ -75,7 +75,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
 
-
+### Example
 
 - In the terminal, copy files using `scp` to connect to Rackham:
 
