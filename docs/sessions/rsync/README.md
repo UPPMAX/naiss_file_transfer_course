@@ -99,10 +99,10 @@ Use the documentation of your HPC cluster.
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/)
     Dardel     |Closest is [here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
-    LUMI       |.
+    LUMI       |[here](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-rsync)
     Rackham    |[Here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
-    Tetralith  |.
-    Vera       |.
+    Tetralith  |[Here](https://www.nsc.liu.se/support/copying-data/)
+    Vera       |[Here](https://vera-doc.psc.edu/#transferring-files)
 
     <!-- markdownlint-enable MD013 -->
 
