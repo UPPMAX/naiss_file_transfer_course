@@ -69,10 +69,10 @@ It works under Linux, Mac and Windows.
     You can find a video with solutions to these exercises:
 
     HPC Cluster|Link to video
-    -----------|------------
+    -----------|-------------------------------------------------
     Alvis      |[here](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
-    Bianca     |[here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
+    Bianca     |[here](https://youtu.be/V-iPQLjvByc)
     COSMOS     |[here](https://youtu.be/T4qqN_ljsS8)
     Dardel     |[here](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster

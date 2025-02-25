@@ -65,7 +65,7 @@ It works under Linux, Mac and Windows.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |.
+    Alvis      |[here](https://youtu.be/dzqQ-HBjIfo)
     Berzelius  |.
     Bianca     |[here](https://youtu.be/QlGhgPm_h7I)
     COSMOS     |.
@@ -93,7 +93,7 @@ Use the documentation of your HPC cluster.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#parallel-filesystems)
+    Alvis      |Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#parallel-filesystems). For now, use [here](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
     Berzelius  |[Here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[Here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/)
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/)
