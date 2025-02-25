@@ -64,16 +64,16 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
     Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
     COSMOS     |**FIX?** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
     Dardel     |[here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
-    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
+    Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |**To do**
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
 
 ### Example
 
