@@ -61,8 +61,22 @@ It works under Linux, Mac and Windows.
 
 ???- question "Need a video?"
 
-    Here `TODO` is a video that shows
-    the solution of these exercises
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Alvis      |.
+    Berzelius  |.
+    Bianca     |[here](https://youtu.be/QlGhgPm_h7I)
+    COSMOS     |.
+    Dardel     |.
+    Kebnekaise |.
+    LUMI       |.
+    Rackham    |[here](https://youtu.be/p-27aIh2acA)
+    Tetralith  |.
+    Vera       |.
+
+    <!-- markdownlint-enable MD013 -->
 
 ### Exercise 1: transfer a file
 
