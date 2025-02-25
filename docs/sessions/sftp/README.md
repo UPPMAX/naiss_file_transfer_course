@@ -72,6 +72,7 @@ tags:
     Rackham    |**FIX** [here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+    
 In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```bash
