@@ -65,14 +65,14 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     HPC Cluster|Link to documentation
     -----------|------------
     Alvis      |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
-    Berzelius  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
     COSMOS     |**FIX** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
-    Dardel     |**FIX** None. Closest is [here](https://support.pdc.kth.se/doc/support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |**FIX** [here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
-    LUMI       |To do
+    LUMI       |**To do**
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
-    Tetralith  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
 
 
