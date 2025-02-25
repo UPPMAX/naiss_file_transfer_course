@@ -103,3 +103,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 ???+ question "Exercise 1: Upload"
 
 ???+ question "Exercise 2: Download"
+
+
+## But what is ``wget`` and ``curl``
+
