@@ -98,13 +98,13 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
 !!! tip "Cheat sheet in ftp session"
 
-    - ?/help	List of all commands or explain a command, eg ? get
+    - ?/help - List of all commands or explain a command, eg ? get
 
     Remote
     
     - put - Copy a file from the local computer to the remote host
     - cd - Change the active directory path on the remote host
-    - dir/ls - List the contents of the current directory on the remote host 
+    - dir/ls - List the contents of the current directory on the remote host
     - pwd - Show the present working directory path on the remote host
     - mkdir - Create a directory on the remote host
     - rename - Rename a file on the remote host
@@ -126,6 +126,8 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
 ???+ question "Exercise 2: Download"
 
+## Misc
+
 !!!- But what is ``wget`` and ``curl``?
 
     - These tools are used to download files from websites or ftp servers
@@ -144,6 +146,5 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
         - add ``-O`` to download as file.
         - supports a wide range of protocols, such as HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, etc
         - curl  is often preferred for scripting and automation due to its versatility
-        - interacting with APIs, handling complex web requests 
+        - interacting with APIs, handling complex web requests
         - often available by default on Windows and MacOS.
-   
