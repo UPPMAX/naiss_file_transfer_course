@@ -94,9 +94,31 @@ In `sftp`, upload/download files to/from Rackham.
 
 Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
 
-## Cheat sheet
-
 Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
+
+!!! tip "Cheat sheet in ftp session"
+
+    - ?/help	List of all commands or explain a command, eg ? get
+
+    Remote
+    
+    - put	Copy a file from the local computer to the remote host
+    - cd	Change the active directory path on the remote host
+    - dir/ls	List the contents of the current directory on the remote host 
+    - pwd	Show the present working directory path on the remote host
+    - mkdir	Create a directory on the remote host
+    - rename	Rename a file on the remote host
+    - rm	Delete a file on the remote host
+    - rmdir	Remove an empty directory on the remote host
+    - exit/quit	Close the connection and leave SFTP
+
+    Locally
+
+    - get	Copy a file from the remote host to the local computer
+    - lcd	Change the active directory on the local system
+    - lls	List the contents of the current directory on the local computer
+    - lmkdir	Create a directory on the local computer
+    - lpwd	Show the present working directory on the local computer
 
 ## Exercises
 
