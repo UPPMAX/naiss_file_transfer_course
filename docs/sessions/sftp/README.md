@@ -54,8 +54,6 @@ tags:
 
 - [`sftp` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
 
-### Example Rackham
-
 ???- question "Where is that documentation?"
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
@@ -63,15 +61,17 @@ tags:
     HPC Cluster|Link to documentation
     -----------|------------
     Alvis      |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
-    Berzelius  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
-    Bianca     |**FIX** [here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
-    COSMOS     |**FIX** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
-    Dardel     |**FIX** None. Closest is [here](https://support.pdc.kth.se/doc/support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
-    Kebnekaise |**FIX** [here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
-    LUMI       |To do
-    Rackham    |**FIX** [here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
-    Tetralith  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
+    LUMI       |**To do**
+    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
+    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+
+### Example
     
 In the terminal, run `sftp` to connect to Rackham by doing:
 
@@ -103,3 +103,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 ???+ question "Exercise 1: Upload"
 
 ???+ question "Exercise 2: Download"
+
+
+## But what is ``wget`` and ``curl``
+
