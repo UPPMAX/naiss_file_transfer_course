@@ -133,9 +133,7 @@ You can get rid of this prompt if you have setup SSH keys
     -q - Use this option if you want to suppress the progress meter and non-error messages.
     -C - This option forces scp to compress the data as it is sent to the destination machine.
     -r - This option tells scp to copy directories recursively.
-
-
-
+  
 ## Exercises
 
 ???- note "Teacher"
