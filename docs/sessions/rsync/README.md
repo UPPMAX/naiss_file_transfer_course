@@ -45,6 +45,7 @@ tags:
     - Who has already used `rsync`?
 
     Notes:
+    
     - Bianca users will have the most complex procedure by far
 
 ## Why?
@@ -107,7 +108,7 @@ Use the documentation of your HPC cluster.
     <!-- markdownlint-enable MD013 -->
 
 If the center maintaining you HPC cluster has not documented how to use
-`rsycn`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
+`rsync`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
 
 - Copy a file from your local computer to your Rackham home folder. Verify this worked.
 - Copy a file from your Rackham home folder to your local computer. Verify this worked.
