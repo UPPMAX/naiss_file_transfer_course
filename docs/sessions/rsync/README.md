@@ -69,7 +69,7 @@ It works under Linux, Mac and Windows.
     Berzelius  |.
     Bianca     |[here](https://youtu.be/QlGhgPm_h7I)
     COSMOS     |.
-    Dardel     |.
+    Dardel     |[here](https://youtu.be/IustC5zai68)
     Kebnekaise |.
     LUMI       |.
     Rackham    |[here](https://youtu.be/p-27aIh2acA)
