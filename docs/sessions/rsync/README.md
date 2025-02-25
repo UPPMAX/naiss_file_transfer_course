@@ -73,7 +73,7 @@ It works under Linux, Mac and Windows.
     Kebnekaise |.
     LUMI       |.
     Rackham    |[here](https://youtu.be/p-27aIh2acA)
-    Tetralith  |.
+    Tetralith  |[here](https://youtu.be/3-OF8nkCdtM)
     Vera       |.
 
     <!-- markdownlint-enable MD013 -->
