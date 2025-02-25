@@ -80,11 +80,12 @@ It works under Linux, Mac and Windows.
 
 ### Exercise 1: transfer a file
 
-Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
-for help.
+Use the documentation of your HPC cluster.
 
-- Search for the procedure on how to transfer a file
-  to/from Rackham using rsync
+- Search for how to transfer files to/from your HPC cluster
+  using `rsync`. Which URL is it described?
+  Tip: not all HPC centers have documented this,
+  so you *should* give up searching after a while.
 
 ???- question "Where is that documentation?"
 
@@ -104,6 +105,9 @@ for help.
     Vera       |.
 
     <!-- markdownlint-enable MD013 -->
+
+If the center maintaining you HPC cluster has not documented how to use
+`rsycn`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
 
 - Copy a file from your local computer to your Rackham home folder. Verify this worked.
 - Copy a file from your Rackham home folder to your local computer. Verify this worked.
