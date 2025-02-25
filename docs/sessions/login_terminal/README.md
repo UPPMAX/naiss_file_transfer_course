@@ -88,9 +88,8 @@ Some SSH clients can run from a terminal or vice versa.
 
 ???- question "Need a video?"
 
-    The solution of these exercises can be found here:
-
-    - [UPPMAX's Rackham](https://youtu.be/FUNPZHEMC2s)
+    The solution of these exercises can be found in 
+    [the FAQ 'How can I login to an HPC cluster?'](../../faq/README.md#how-can-i-login-to-an-hpc-cluster)
 
 Here, we log in to your HPC cluster's console environment via a terminal.
 
