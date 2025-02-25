@@ -95,3 +95,7 @@ prereqs
 supr
 UPPMAX's
 Uppsala
+Alvis
+Kebnekaise
+LUMI
+Tetralith

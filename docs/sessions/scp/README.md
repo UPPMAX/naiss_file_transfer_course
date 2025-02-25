@@ -58,6 +58,23 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 ## Procedure
 
+???- question "Where is that documentation?"
+
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Alvis      |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Berzelius  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Bianca     |**FIX** [here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
+    COSMOS     |**FIX** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
+    Dardel     |**FIX** None. Closest is [here](https://support.pdc.kth.se/doc/support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
+    Kebnekaise |**FIX** [here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
+    LUMI       |To do
+    Rackham    |**FIX** [here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
+    Tetralith  |**FIX** [here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+
 - [``scp`` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
 
 - In the terminal, copy files using `scp` to connect to Rackham:
