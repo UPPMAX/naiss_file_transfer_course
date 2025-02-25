@@ -44,6 +44,9 @@ tags:
     - Who has heard of `rsync`?
     - Who has already used `rsync`?
 
+    Notes:
+    - Bianca users will have the most complex procedure by far
+
 ## Why?
 
 Fairly sure you'll want to upload or download files to your
@@ -71,8 +74,22 @@ for help.
 
 ???- question "Where is that documentation?"
 
-    The procedure can be found at
-  [the UPPMAX page on using rsync on Rackham](https://docs.uppmax.uu.se/software/rsync_on_rackham/)
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Alvis      |Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#parallel-filesystems)
+    Berzelius  |[Here](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |[Here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/)
+    COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/)
+    Dardel     |Closest is [here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
+    LUMI       |.
+    Rackham    |[Here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
+    Tetralith  |.
+    Vera       |.
+
+    <!-- markdownlint-enable MD013 -->
 
 - Copy a file from your local computer to your Rackham home folder. Verify this worked.
 - Copy a file from your Rackham home folder to your local computer. Verify this worked.
