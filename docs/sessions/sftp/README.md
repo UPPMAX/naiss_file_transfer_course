@@ -60,7 +60,7 @@ tags:
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Alvis      |**FIX?** None.
     Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
@@ -69,7 +69,7 @@ tags:
     LUMI       |**To do**
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+    Vera       |**FIX?** None.
 
 ### Example
     
