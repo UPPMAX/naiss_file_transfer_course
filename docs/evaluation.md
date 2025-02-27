@@ -44,15 +44,30 @@ This is the page for evaluating the current iteration of the course.
     Give you confidence levels of the following statements below:
 
     - I am comfortable using the documentation of my HPC center
-    - I can transfer a file using FileZilla
-    - I can transfer a folder using FileZilla
-    - I can transfer a file using rscync
-    - I can transfer a folder using rscync
-    - I can transfer a file using scp
-    - I can transfer a file using sftp
+    - I can transfer data using FileZilla
+    - I can transfer data using rscync
+    - I can transfer data using scp
+    - I can transfer data using sftp
 
-    If you think the documentation of your HPC cluster should be improved,
-    write down its name here:
+    Say something positive about Björn:
+
+    ```text
+    [Empty paragraph]
+    ```
+
+    Say something about Björn he can improve:
+
+    ```text
+    [Empty paragraph]
+    ```
+
+    Say something positive about Richèl:
+
+    ```text
+    [Empty paragraph]
+    ```
+
+    Say something about Richèl he can improve:
 
     ```text
     [Empty paragraph]
