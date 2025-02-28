@@ -39,6 +39,28 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 - Both are considered secure.
 
+!!!- But what is ``wget`` and ``curl``?
+
+    - These tools are used to download files from websites or ftp servers
+    - ``wget`` saves downloaded contents to local files, like
+        - ``wget ftp://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/pictures/space/*``
+        - ``wget https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg -O grace_hopper.jpg``
+        - typical usecases:
+            - download data from a service
+            - download a program or compressed source code
+        - supports HTTP, HTTPS, and FTP
+        - user-friendly for basic tasks
+        - good for mirroring websites, downloading entire directories recursively for offline viewing or backups.
+        - most popular from Unix-based systems, like Linux
+    
+    - ``curl`` outputs the content to the terminal by default.
+        - add ``-O`` to download as file.
+        - supports a wide range of protocols, such as HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, etc
+        - curl  is often preferred for scripting and automation due to its versatility
+        - interacting with APIs, handling complex web requests
+        - often available by default on Windows and MacOS.
+
+
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
 !!! note "Pros"
@@ -128,17 +150,18 @@ You can get rid of this prompt if you have setup SSH keys
 
 - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
 
-    -P - Specifies the remote host ssh port.
-    -p - Preserves file modification and access times.
-    -q - Use this option if you want to suppress the progress meter and non-error messages.
-    -C - This option forces scp to compress the data as it is sent to the destination machine.
-    -r - This option tells scp to copy directories recursively.
+    ``-P`` - Specifies the remote host ssh port.
+    ``-p`` - Preserves file modification and access times.
+    ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
+    ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
+    ``-r`` - This option tells scp to copy directories recursively.
   
 ## Exercises
 
-???- note "Teacher"
+Use the documentation of your HPC cluster.
 
-     prepare examples with one file and many files
+- Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
+  Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
 ???+ question "Exercise 1: Upload"
 
