@@ -41,6 +41,9 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 !!!- But what is ``wget`` and ``curl``?
 
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+
     - These tools are used to download files from websites or ftp servers
     - ``wget`` saves downloaded contents to local files, like
         - ``wget ftp://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/pictures/space/*``
@@ -50,16 +53,17 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
             - download a program or compressed source code
         - supports HTTP, HTTPS, and FTP
         - user-friendly for basic tasks
-        - good for mirroring websites, downloading entire directories recursively for offline viewing or backups.
+        - good for mirroring websites, 
+            - downloading entire directories recursively for offline viewing or backups.
         - most popular from Unix-based systems, like Linux
     
     - ``curl`` outputs the content to the terminal by default.
         - add ``-O`` to download as file.
-        - supports a wide range of protocols, such as HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, etc
-        - curl  is often preferred for scripting and automation due to its versatility
+        - supports a wide range of protocols: HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP...
+        - often preferred for scripting and automation due to its versatility
         - interacting with APIs, handling complex web requests
         - often available by default on Windows and MacOS.
-
+    <!-- markdownlint-enable MD013 -->
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
