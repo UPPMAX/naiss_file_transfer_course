@@ -53,7 +53,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
             - download a program or compressed source code
         - supports HTTP, HTTPS, and FTP
         - user-friendly for basic tasks
-        - good for mirroring websites, 
+        - good for mirroring websites
             - downloading entire directories recursively for offline viewing or backups.
         - most popular from Unix-based systems, like Linux
     
