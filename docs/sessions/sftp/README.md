@@ -35,6 +35,9 @@ tags:
 **SFTP is an abbreviation of 'SSH File Transfer Protocol' and
  'SSH' is an abbreviation of 'Secure Shell protocol'.**
 
+- The difference from ``rsync`` and ``scp`` is that you login to a SFTP session, just like a log in to a server with SSH.`
+- You use the terminal to transfer the files.
+
 !!! note "Pros"
 
     - Secure
@@ -49,6 +52,11 @@ tags:
 !!! warning "When not to use"
 
     - Rsync is better for "syncing"
+
+???- question "Dardel uses ``psftp``, what is that?"
+
+     - It is just a SFTP component of the client PuTTY.
+     - Same commands as for SFTP.
     
 ## Procedure
 
@@ -70,9 +78,13 @@ tags:
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
-
-### Example
     
+    <!-- markdownlint-enable MD013 -->
+
+### Example for Rackham
+
+#### Connect to SFTP session
+
 In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```bash
@@ -84,15 +96,12 @@ where `[username]` is your UPPMAX username, for example:
 ```bash
 sftp sven@rackham.uppmax.uu.se
 ```
-
 If asked, give your center's password.
 You can get rid of this prompt if you have setup SSH keys
 
-Upload/download files to/from Rackham
+#### Upload/download files to/from Rackham
 
-In `sftp`, upload/download files to/from Rackham.
-
-Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
+In `sftp` session, upload/download files to/from Rackham.
 
 Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
 
@@ -120,6 +129,11 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
     - ``lmkdir`` - Create a directory on the local computer
     - ``lpwd`` - Show the present working directory on the local computer
 
+!!! note "Transferring many files?"
+
+    - As always, it is better to transfer few large files than many small files.
+    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#many-files).
+
 ## Exercises
 
 Use the documentation of your HPC cluster.
@@ -131,3 +145,13 @@ Use the documentation of your HPC cluster.
 
 ???+ question "Exercise 2: Download"
 
+## Some other tools
+
+### Graphical tools
+
+- [WinSCP](https://winscp.net/eng/index.php)
+- [CyberDuck](https://cyberduck.io/)
+  
+### Terminal
+
+- [Rclone](https://rclone.org/)
