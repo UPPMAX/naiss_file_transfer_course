@@ -154,11 +154,17 @@ You can get rid of this prompt if you have setup SSH keys
 
 - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
 
-    ``-P`` - Specifies the remote host ssh port.
-    ``-p`` - Preserves file modification and access times.
-    ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
-    ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
-    ``-r`` - This option tells scp to copy directories recursively.
+    - ``-P`` - Specifies the remote host ssh port.
+    - ``-p`` - Preserves file modification and access times.
+    - ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
+    - ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
+    - ``-r`` - This option tells scp to copy directories recursively.
+ 
+!!! warning
+
+    - There is no warning if a file is about to be overwritten.
+        - Ther is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
+    - 'rsync' may be a better tool if you want to sync existing content.
   
 ## Exercises
 
