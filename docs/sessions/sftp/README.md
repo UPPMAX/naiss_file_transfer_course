@@ -154,4 +154,4 @@ Use the documentation of your HPC cluster.
   
 ### Terminal
 
-- [Rclone](https://rclone.org/)
+- [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage. 
