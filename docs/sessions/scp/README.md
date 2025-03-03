@@ -175,10 +175,14 @@ Use the documentation of your HPC cluster.
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
   Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
-???- question "Exercise 1: Upload"
+???- question "Exercise 1: Upload a file from your computer, using scp"
 
-    - Upload a file from your computer, using scp.
+    **Tips**
 
+    - (If you want to create a file in local terminal: ``$ touch local_file``)
+    - Send it to an existing folder (e.g. ``transfer``) on Tetralith
+    - Check on server that it is there
+    
     ???- tip "Answer (Tetralith example)"
  
         **Locally**
@@ -188,20 +192,23 @@ Use the documentation of your HPC cluster.
 
         **Check on server that it is there**
         - ``$ ls ~/transfer``
-        - (or in the File explorer)
         
         - Video of Tetralith
 
-???- question "Exercise 2: Download"
+???+ question "Exercise 2: Download a file from your the server to you computer, using scp"
 
-    - Download a file from your the server to you computer, using scp.
+    **Tips**
+
+    - (If you want to create a file in local terminal: ``$ touch remote_file``)
+    - Send it to an existing local folder
+    - Check locally that it is there
 
     ???- tip "Answer (Tetralith example)"
 
         **On Server**
 
         - (If you want to create a file first: ``$ touch remote_file``)
-        - Get it to an existing local folder (e.g. ``transfer``) on Tetralith: ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file``
+        - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         **Check locally that it is there**
         - ``$ ls``
@@ -211,13 +218,11 @@ Use the documentation of your HPC cluster.
 
 ???- question "Exercise 3: Transfer a directory"
 
-    
     ???- tip "Answer (Tetralith example)"
 
         Video of Tetralith
         
 ???- question "Exercise 4: Compressed directory"
-
 
     ???- tip "Answer (Tetralith example)"
 
