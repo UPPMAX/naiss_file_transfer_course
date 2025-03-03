@@ -41,7 +41,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-!!!- But what is ``wget`` and ``curl``?
+!!!- info "But what is ``wget`` and ``curl``?"
 
     - These tools are used to download files from websites or ftp servers
     - ``wget`` saves downloaded contents to local files, like
