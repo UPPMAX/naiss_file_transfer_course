@@ -143,18 +143,12 @@ scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 If asked, give your center's password.
 You can get rid of this prompt if you have setup SSH keys
 
-### Many files
 
-- Transferring many files will create so called overhead, because each file has to be addressed individually.
-- Solution is t o gather ather  
-- zip
-- tar
+!!! tip "Cheat sheet for ``scp``"
 
-### Cheat sheet
+    - ``scp`` followed by none or any of the following option flags.
 
-- ``scp``
-
-- scp provides a number of options that control every aspect of its behavior. The most widely used options are:
+    - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
 
     - ``-P`` - Specifies the remote host ssh port.
     - ``-p`` - Preserves file modification and access times.
@@ -165,14 +159,45 @@ You can get rid of this prompt if you have setup SSH keys
 !!! warning
 
     - There is no warning if a file is about to be overwritten.
-        - Ther is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
+        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
     - 'rsync' may be a better tool if you want to sync existing content.
+
+### Large or many files
+
+- Shorten download/upload time by reducing the size of the file!
+    - A common tool in Linux environments is ``gzip``.
+    - Usage: ``gzip <filename>``
+    - You'll get a ``gz``file ending
+ 
+!!!- tip "``gzip`` cheat sheet"
+
+    - https://www.gnu.org/software/gzip/manual/gzip.html#Sample
   
+- Transferring many files will create so called overhead, because each file has to be addressed individually.
+- Solution is to gather the files in an archive, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
+    - A folder then behaves like ONE file.
+    - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
+    - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
+- While TARing you may compress the data as well!
+    - ``tar -czf archive.tar.gz /path/files``
+
+!!!- tip "Extract/inflate"
+
+    - ``gunzip compressed file.gz``
+    - ``tar -xf archive.tar``
+    - ``tar -xzf archive.tar.gz``
+    
+
+!!!- tip "can I use archiving and compressing in all transfer methods"
+
+    - Compressing and archiving is useful whenever you transfer files.
+    - No matter of which transfer tool you are using!
+      
 ## Exercises
 
 Use the documentation of your HPC cluster.
 
-- Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
+- Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
   Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
@@ -193,13 +218,13 @@ Use the documentation of your HPC cluster.
         **Check on server that it is there**
         - ``$ ls ~/transfer``
         
-        - Video of Tetralith
+        - Video for Tetralith
 
 ???+ question "Exercise 2: Download a file from your the server to you computer, using scp"
 
     **Tips**
 
-    - (If you want to create a file in local terminal: ``$ touch remote_file``)
+    - (If you want to create a file in remote terminal: ``$ touch remote_file``)
     - Send it to an existing local folder
     - Check locally that it is there
 
@@ -214,16 +239,36 @@ Use the documentation of your HPC cluster.
         - ``$ ls``
         - (or in the File explorer)
         
-        - Video of Tetralith
+        - Video for Tetralith
 
-???- question "Exercise 3: Transfer a directory"
+???- question "Exercise 3: Download a directory with many files"
 
+    **Tips**
+
+    - Create 100 files REMOTELY in a directory with name ``many_files``
+        - ``$ mkdir many_files``
+        - ``$ cd many_files``
+        - ``$ touch my-file-{1..1000}.txt``
+    - Time the download of the directory, using ``time``, and the recursive option to include the files within the directory
+        - ``time scp ... ``.
+    
     ???- tip "Answer (Tetralith example)"
 
-        Video of Tetralith
+        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files .``
+
+
+        - Video for Tetralith
         
-???- question "Exercise 4: Compressed directory"
+???- question "Exercise 4: Download the Compressed directory"
+
+    **Tips**
+
+    - Archive and zip the many_files directory
+    - Time the download of the compressed directory, using ``time``
+
 
     ???- tip "Answer (Tetralith example)"
 
-        Video of Tetralith
+        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files.tar.gz .``
+       
+        - Video for Tetralith
