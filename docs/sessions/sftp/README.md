@@ -35,7 +35,8 @@ tags:
 **SFTP is an abbreviation of 'SSH File Transfer Protocol' and
  'SSH' is an abbreviation of 'Secure Shell protocol'.**
 
-- The difference from ``rsync`` and ``scp`` is that you login to a SFTP session, just like a log in to a server with SSH.`
+- The difference from ``rsync`` and ``scp`` is that you login to a SFTP session
+    - just like a log in to a server with SSH.
 - You use the terminal to transfer the files.
 
 !!! note "Pros"
@@ -55,16 +56,16 @@ tags:
 
 ???- question "Dardel uses ``psftp``, what is that?"
 
-     - It is just a SFTP component of the client PuTTY.
-     - Same commands as for SFTP.
-    
+    - It is just a SFTP component of the client PuTTY.
+    - Same commands as for SFTP.
+
 ## Procedure
 
 - [`sftp` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
 
-???- question "Where is that documentation?"
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+???- question "Where is that documentation?"
 
     HPC Cluster|Link to documentation
     -----------|------------
@@ -79,7 +80,7 @@ tags:
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
     
-    <!-- markdownlint-enable MD013 -->
+<!-- markdownlint-enable MD013 -->
 
 ### Example for Rackham
 
@@ -96,6 +97,7 @@ where `[username]` is your UPPMAX username, for example:
 ```bash
 sftp sven@rackham.uppmax.uu.se
 ```
+
 If asked, give your center's password.
 You can get rid of this prompt if you have setup SSH keys
 
@@ -135,7 +137,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
     - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#many-files).
 
 ## Exercises
-
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 Use the documentation of your HPC cluster.
 
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
@@ -154,4 +156,5 @@ Use the documentation of your HPC cluster.
   
 ### Terminal
 
-- [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage. 
+- [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
+
