@@ -39,10 +39,9 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 - Both are considered secure.
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 !!!- But what is ``wget`` and ``curl``?
-
-    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-
 
     - These tools are used to download files from websites or ftp servers
     - ``wget`` saves downloaded contents to local files, like
@@ -63,7 +62,8 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
         - often preferred for scripting and automation due to its versatility
         - interacting with APIs, handling complex web requests
         - often available by default on Windows and MacOS.
-    <!-- markdownlint-enable MD013 -->
+
+<!-- markdownlint-enable MD013 -->
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
