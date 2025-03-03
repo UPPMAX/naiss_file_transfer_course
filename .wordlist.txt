@@ -99,3 +99,6 @@ Alvis
 Kebnekaise
 LUMI
 Tetralith
+WinSCP
+CyberDuck
+Rclone
