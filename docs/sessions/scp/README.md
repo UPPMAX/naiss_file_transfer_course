@@ -145,6 +145,8 @@ You can get rid of this prompt if you have setup SSH keys
 
 ### Many files
 
+- Transferring many files will create so called overhead, because each file has to be addressed individually.
+- Solution is t o gather ather  
 - zip
 - tar
 
@@ -175,8 +177,50 @@ Use the documentation of your HPC cluster.
 
 ???+ question "Exercise 1: Upload"
 
+    - Upload a file from your computer, using scp.
+
+    ???- tip "Answer (Tetralith example)"
+ 
+        **Locally**
+        
+        - (If you want to create a file in local terminal: ``$ touch local_file``)
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+
+        **Check on server that it is there**
+        - ``$ ls ~/transfer``
+        - (or in the File explorer)
+        
+        - Video of Tetralith
+
 ???+ question "Exercise 2: Download"
 
-???+ question "Exercise 3: Directory"
+    - Download a file from your the server to you computer, using scp.
 
+    ???- tip "Answer (Tetralith example)"
+
+        **On Server**
+
+        - (If you want to create a file first: ``$ touch remote_file``)
+        - Get it to an existing local folder (e.g. ``transfer``) on Tetralith: ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file``
+
+        **Check locally that it is there**
+        - ``$ ls``
+        - (or in the File explorer)
+        
+        - Video of Tetralith
+
+
+    ???- tip "Answer (Tetralith example)"
+
+    ???- tip "Answer"
+
+        
+
+        Video of Tetralith
+        
 ???+ question "Exercise 4: Compressed directory"
+
+
+    ???- tip "Answer"
+
+        Video of Tetralith
