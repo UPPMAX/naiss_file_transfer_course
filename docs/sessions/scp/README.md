@@ -84,9 +84,9 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 ## Procedure
 
-???- question "Where is that documentation?"
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+???- question "Where is that documentation?"
 
     HPC Cluster|Link to documentation
     -----------|------------
@@ -159,7 +159,7 @@ You can get rid of this prompt if you have setup SSH keys
     - ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
     - ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
     - ``-r`` - This option tells scp to copy directories recursively.
- 
+
 !!! warning
 
     - There is no warning if a file is about to be overwritten.
