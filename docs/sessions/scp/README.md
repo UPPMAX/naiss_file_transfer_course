@@ -175,7 +175,7 @@ Use the documentation of your HPC cluster.
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
   Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
-???+ question "Exercise 1: Upload"
+???- question "Exercise 1: Upload"
 
     - Upload a file from your computer, using scp.
 
@@ -192,7 +192,7 @@ Use the documentation of your HPC cluster.
         
         - Video of Tetralith
 
-???+ question "Exercise 2: Download"
+???- question "Exercise 2: Download"
 
     - Download a file from your the server to you computer, using scp.
 
@@ -209,18 +209,16 @@ Use the documentation of your HPC cluster.
         
         - Video of Tetralith
 
+???- question "Exercise 3: Transfer a directory"
 
+    
     ???- tip "Answer (Tetralith example)"
-
-    ???- tip "Answer"
-
-        
 
         Video of Tetralith
         
-???+ question "Exercise 4: Compressed directory"
+???- question "Exercise 4: Compressed directory"
 
 
-    ???- tip "Answer"
+    ???- tip "Answer (Tetralith example)"
 
         Video of Tetralith
