@@ -168,7 +168,7 @@ You can get rid of this prompt if you have setup SSH keys
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``
     - You'll get a ``gz``file ending
- 
+
 !!!- tip "``gzip`` cheat sheet"
 
     - https://www.gnu.org/software/gzip/manual/gzip.html#Sample
