@@ -136,6 +136,13 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
     - As always, it is better to transfer few large files than many small files.
     - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#many-files).
 
+## Server to server
+
+- You can establish a transfer connection from your ssh session on a cluster to another cluster.
+- ``rsync``, ``scp``, or ``sftp`` will all work!
+- `"Local" will no be the server you connect from, that is, where you run the commands.
+
+
 ## Exercises
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 Use the documentation of your HPC cluster.
@@ -222,17 +229,17 @@ Use the documentation of your HPC cluster.
 ???+ question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
 
     Tips
-    
+
     - Have a SSH session running on your favorite cluster
-    - Use a terminal tool (``rsync``, ``scp``, or ``sftp`` to establish connection between your account on Tetralith and your present server.
+    - Use a terminal tool (``rsync``, ``scp``, or ``sftp``) to establish connection between your account on Tetralith and your present server.
     - Transfer a file between the clusters
     - Check that it is there!
-    
+
     ???- tip "Answer (Example with Tetralith to Rackham , using sftp)"
 
         Same principles as we learned before!
 
-        Connection from Tetralith: 
+        Connection from Tetralith:
 
         ```console
         [sm_bcarl@tetralith3 ~]$ sftp bjornc@rackham.uppmax.uu.se
@@ -244,7 +251,9 @@ Use the documentation of your HPC cluster.
         bjornc@rackham.uppmax.uu.se's password:
         Connected to rackham.uppmax.uu.se.
         ```
-      
+
+        - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
+
 ## Some other tools
 
 !!!- tip "Graphical tools"
