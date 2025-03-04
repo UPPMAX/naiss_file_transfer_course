@@ -207,27 +207,28 @@ Use the documentation of your HPC cluster.
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
 
-    **Tips**
+    Tips
 
     - (If you want to create a file in local terminal: ``$ touch local_file``)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
     - Check on server that it is there
     
     ???- tip "Answer (Tetralith example)"
- 
-        **Locally**
+
+        Locally
         
         - (If you want to create a file in local terminal: ``$ touch local_file``)
         - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
 
-        **Check on server that it is there**
+        Check on server that it is there
+        
         - ``$ ls ~/transfer``
         
         - Video for Tetralith
 
 ???+ question "Exercise 2: Download a file from your the server to you computer, using scp"
 
-    **Tips**
+    Tips
 
     - (If you want to create a file in remote terminal: ``$ touch remote_file``)
     - Send it to an existing local folder
@@ -235,12 +236,13 @@ Use the documentation of your HPC cluster.
 
     ???- tip "Answer (Tetralith example)"
 
-        **On Server**
+        On Server
 
         - (If you want to create a file first: ``$ touch remote_file``)
         - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
-        **Check locally that it is there**
+        Check locally that it is there
+        
         - ``$ ls``
         - (or in the File explorer)
         
@@ -248,25 +250,24 @@ Use the documentation of your HPC cluster.
 
 ???- question "Exercise 3: Download a directory with many files"
 
-    **Tips**
+    Tips
 
     - Create 100 files REMOTELY in a directory with name ``many_files``
         - ``$ mkdir many_files``
         - ``$ cd many_files``
         - ``$ touch my-file-{1..1000}.txt``
     - Time the download of the directory, using ``time``, and the recursive option to include the files within the directory
-        - ``time scp ... ``.
+        - ``time scp ...``.
     
     ???- tip "Answer (Tetralith example)"
 
         - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files .``
 
-
         - Video for Tetralith
         
 ???- question "Exercise 4: Download the Compressed directory"
 
-    **Tips**
+    Tips
 
     - Archive and zip the many_files directory
     - Time the download of the compressed directory, using ``time``
