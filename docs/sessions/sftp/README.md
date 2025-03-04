@@ -143,10 +143,78 @@ Use the documentation of your HPC cluster.
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
   Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
+???+ question "Exercise 1: Establish the sftp connection and find the relevant folders locally and remotely"
+
+    Tips
+
+    - Connect from you local terminal
+    - Orient yourself remotely and locally with ``ls``, ``cd``,``pwd``,``lls`` etc...
+    - Where are you remotely?
+    - Go to the course folder where you have files
+    - Where are you locally?
+    - Go to your local folder used for the course
+    
+    ???- tip "Answer (Tetralith example)"
+
+        Locally
+      
+        - Establish connection
+        
+        ```shell
+        $ sftp sm_bcarl@tetralith.nsc.liu.se
+        (sm_bcarl@tetralith.nsc.liu.se) Password:
+        (sm_bcarl@tetralith.nsc.liu.se) Verification code:
+        Connected to tetralith.nsc.liu.se.
+        ```
+        
+        - Use ``pwd`` to find where you are remotely
+        - Use ``cd`` to reach relevant remote folder
+        - Use ``lpwd`` to find where you are locally
+        - Use ``lcd`` to reach relevant local folder
+
+        - Video for Tetralith
+        
 ???+ question "Exercise 1: Upload"
 
+    Tips
+
+    - (If you want to create a file in local terminal: ``$ touch local_file``)
+    - Send it to an existing folder (e.g. ``transfer``) on Tetralith
+    - Check on server that it is there
+    
+    ???- tip "Answer (Tetralith example)"
+
+        Locally
+        
+        - (If you want to create a file in local terminal: ``$ touch local_file``)
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+
+        Check on server that it is there
+        
+        - ``$ ls ~/transfer``
+        
+        - Video for Tetralith
+        
 ???+ question "Exercise 2: Download"
 
+    Tips
+
+    - (If you want to create a file in local terminal: ``$ touch local_file``)
+    - Send it to an existing folder (e.g. ``transfer``) on Tetralith
+    - Check on server that it is there
+    
+    ???- tip "Answer (Tetralith example)"
+
+        Locally
+        
+        - (If you want to create a file in local terminal: ``$ touch local_file``)
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+
+        Check on server that it is there
+        
+        - ``$ ls ~/transfer``
+        
+        - Video for Tetralith
 ## Some other tools
 
 ### Graphical tools
