@@ -174,55 +174,59 @@ Use the documentation of your HPC cluster.
 
         - Video for Tetralith
         
-???+ question "Exercise 1: Upload"
+???+ question "Exercise 2: Upload"
 
     Tips
 
-    - (If you want to create a file in local terminal: ``$ touch local_file``)
+    - (If you want to create a file in local terminal: ``$ touch local_file_sftp``)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
-    - Check on server that it is there
+    - Check on server (in sftp session) that it is there
     
     ???- tip "Answer (Tetralith example)"
 
         Locally
         
-        - (If you want to create a file in local terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+        - (If you want to create a file in local terminal: ``$ touch local_file_sftp``)
+        - use the put command: ``> put local_file_sftp``
 
-        Check on server that it is there
+        Check on server (in sftp session) that it is there
         
-        - ``$ ls ~/transfer``
+        - ``> ls ~/transfer``
         
         - Video for Tetralith
         
-???+ question "Exercise 2: Download"
+???+ question "Exercise 3: Download"
 
     Tips
-
-    - (If you want to create a file in local terminal: ``$ touch local_file``)
-    - Send it to an existing folder (e.g. ``transfer``) on Tetralith
-    - Check on server that it is there
+    
+    - (If you want to create a file in remote terminal: ``$ touch remote_file_sftp``)
+    - Send it to an existing local folder
+    - Check locally (in sftp session) that it is there
     
     ???- tip "Answer (Tetralith example)"
 
-        Locally
-        
-        - (If you want to create a file in local terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+        On Server
 
-        Check on server that it is there
+        - (If you want to create a file first: ``$ touch remote_file-sftp``)
+        - use the get command: ``> get remote_file_sftp``
+
+        Check locally (in sftp session) that it is there
         
-        - ``$ ls ~/transfer``
+        - ``> lls ~/transfer``
+
+        - (or in the File explorer)
+        
         
         - Video for Tetralith
+        
 ## Some other tools
 
-### Graphical tools
+!!!- tip "Graphical tools"
 
-- [WinSCP](https://winscp.net/eng/index.php)
-- [CyberDuck](https://cyberduck.io/)
+    - [WinSCP](https://winscp.net/eng/index.php)
+    - [CyberDuck](https://cyberduck.io/)
   
-### Terminal
+!!!- tip "Terminal tools"
 
-- [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
+    - [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
 
