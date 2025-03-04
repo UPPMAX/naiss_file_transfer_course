@@ -210,6 +210,7 @@ Use the documentation of your HPC cluster.
     Tips
 
     - (If you want to create a file in local terminal: ``$ touch local_file``)
+    - (You can check the file structure in an ssh session)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
     - Check on server that it is there
     
