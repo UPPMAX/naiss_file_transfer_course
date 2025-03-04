@@ -171,7 +171,7 @@ You can get rid of this prompt if you have setup SSH keys
 
 !!!- tip "``gzip`` cheat sheet"
 
-    - https://www.gnu.org/software/gzip/manual/gzip.html#Sample
+    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
   
 - Transferring many files will create so called overhead, because each file has to be addressed individually.
 - Solution is to gather the files in an archive, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
@@ -180,6 +180,11 @@ You can get rid of this prompt if you have setup SSH keys
     - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
 - While TARing you may compress the data as well!
     - ``tar -czf archive.tar.gz /path/files``
+
+!!!- tip "``tar`` cheat sheet"
+
+    - [``tar`` manual](https://devhints.io/tar)
+
 
 !!!- tip "Extract/inflate"
 
