@@ -102,3 +102,4 @@ Tetralith
 WinSCP
 CyberDuck
 Rclone
+TARing
