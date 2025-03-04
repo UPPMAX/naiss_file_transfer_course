@@ -8,6 +8,9 @@
         "pattern": "^https://bianca.uppmax.uu.se"
     },
     {
+        "pattern": "^https://www.gnu.org/software/gzip/manual/gzip.html"
+    },
+    {
         "pattern": "^https://rackham-gui.uppmax.uu.se"
     }
   ]
