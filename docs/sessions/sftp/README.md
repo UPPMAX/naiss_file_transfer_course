@@ -138,7 +138,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
 ## Server to server
 
-- You can establish a transfer connection from your ssh session on a cluster to another cluster.
+- You can establish a transfer connection from a ssh session on a cluster to another cluster.
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - `"Local" will no be the server you connect from, that is, where you run the commands.
 
