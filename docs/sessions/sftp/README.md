@@ -57,29 +57,18 @@ tags:
 
 ## Procedure
 
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+In the terminal, run `sftp` to connect to Rackham by doing:
 
-???- question "Where is that documentation?"
+```bash
+sftp [username]@<cluster address>
+```
 
-    HPC Cluster|Link to documentation
-    -----------|------------
-    Alvis      |**FIX?** None.
-    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
-    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
-    Dardel     |The similar psftp is described [here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
-    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
-    LUMI       |**To do**
-    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
-    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None.
-    
-<!-- markdownlint-enable MD013 -->
+In `sftp` session, upload/download files to/from the server.
 
-???- question "Dardel uses ``psftp``, what is that?"
+- ``put <filename>`` - Copy a file from the local computer to the remote host
+- ``get <filename>`` - Copy a file from the remote host to the local computer
 
-    - It is just a SFTP component of the client PuTTY.
-    - Same commands as for SFTP.
+
 
 ???- example "Example for Rackham"
 
@@ -99,7 +88,7 @@ tags:
 
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
-   
+
     Upload/download files to/from Rackham
 
     In `sftp` session, upload/download files to/from the server.
@@ -142,14 +131,37 @@ tags:
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - "Local" will now be the server you connect from, that is, where you run the commands.
 
-
 ## Exercises
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Use the documentation of your HPC cluster.
+??? question "Use the documentation of your HPC cluster"
 
-- Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
-  Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+    - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
+        - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+???- question "Where is that documentation?"
+
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Alvis      |**FIX?** None.
+    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
+    Dardel     |The similar psftp is described [here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
+    LUMI       |**To do**
+    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
+    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Vera       |**FIX?** None.
+
+<!-- markdownlint-enable MD013 -->
+  
+???- question "Dardel documentation uses ``psftp``, what is that?"
+
+    - It is just a SFTP component of the client PuTTY.
+    - Same commands as for SFTP.
 
 ???- question "Exercise 1: Establish the sftp connection and find the relevant folders locally and remotely"
 
