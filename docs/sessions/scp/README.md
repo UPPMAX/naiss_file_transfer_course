@@ -164,7 +164,7 @@ scp [username]@<cluster adress>:/home/[username]/[remote_filename] [local_folder
         - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
     - 'rsync' may be a better tool if you want to sync existing content.
 
-### Large or many files
+## Large or many files
 
 - Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
