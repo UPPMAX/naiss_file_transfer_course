@@ -68,8 +68,6 @@ In `sftp` session, upload/download files to/from the server.
 - ``put <filename>`` - Copy a file from the local computer to the remote host
 - ``get <filename>`` - Copy a file from the remote host to the local computer
 
-
-
 ???- example "Example for Rackham"
 
     Connect to SFTP session
@@ -155,8 +153,6 @@ In `sftp` session, upload/download files to/from the server.
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
-
-<!-- markdownlint-enable MD013 -->
   
 ???- question "Dardel documentation uses ``psftp``, what is that?"
 
@@ -279,4 +275,3 @@ In `sftp` session, upload/download files to/from the server.
 !!!- tip "Terminal tools"
 
     - [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
-
