@@ -92,33 +92,26 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
 
-This is how you copy a file from your local computer to Rackham:
+Copy a file from your local computer to the cluster:
 
 ```bash
-scp [local_filename] [username]@<cluster adress>:/home/[username]
+scp [local_filename] [username]@<cluster adress>:<path-to-folder>/
 ```
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-To copy a file from Rackham to your local computer, do the command above in reverse order:
+Copy a file from the cluster to your local computer, do the command above in reverse order:
 
 ```bash
-scp [username]@<cluster adress>:/home/[username]/[remote_filename] [local_folder or "." for present folder]
+scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder or "." for _present_ folder]
 ```
 
 ???- example "Example for Rackham"
 
-    - In the terminal, copy files using `scp` to connect to Rackham:
+    This is how you copy a file from your local computer directly to your HOME folder at Rackham:
 
     ```bash
-    scp [from] [to]
-    ```
-
-    Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
-
-    This is how you copy a file from your local computer to Rackham:
-
-    ```bash
-    scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
+    scp [local_filename] [username]@rackham.uppmax.uu.se:~/
     ```
 
     where `[local_filename]` is the path to a local filename,
@@ -148,7 +141,7 @@ scp [username]@<cluster adress>:/home/[username]/[remote_filename] [local_folder
 
 ???- tip "Cheat sheet for ``scp``"
 
-    - ``scp`` followed by none or any of the following option flags.
+    - ``scp`` followed by none or any of the following option flags and the files and servers involved
 
     - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
 
