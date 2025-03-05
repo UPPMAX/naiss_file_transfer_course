@@ -134,7 +134,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 !!! note "Transferring many files?"
 
     - As always, it is better to transfer few large files than many small files.
-    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#many-files).
+    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#Large-or-many-files).
 
 ## Server to server
 
