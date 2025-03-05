@@ -101,7 +101,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
 
-!!!- example "Example for Rackham"
+???- example "Example for Rackham"
 
     - In the terminal, copy files using `scp` to connect to Rackham:
 
@@ -168,7 +168,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - Usage: ``gzip <filename>``
     - You'll get a ``gz``file ending
 
-!!!- tip "``gzip`` cheat sheet"
+???- tip "``gzip`` cheat sheet"
 
     - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
   
@@ -180,19 +180,19 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 - While TARing you may compress the data as well!
     - ``tar -czf archive.tar.gz /path/files``
 
-!!!- tip "``tar`` cheat sheet"
+???- tip "``tar`` cheat sheet"
 
     - [``tar`` manual](https://devhints.io/tar)
 
 
-!!!- tip "Extract/inflate"
+???- tip "Extract/inflate"
 
     - ``gunzip compressed file.gz``
     - ``tar -xf archive.tar``
     - ``tar -xzf archive.tar.gz``
     
 
-!!!- tip "can I use archiving and compressing in all transfer methods"
+???- question "Can I use archiving and compressing in all transfer methods"
 
     - Compressing and archiving is useful whenever you transfer files.
     - No matter of which transfer tool you are using!
