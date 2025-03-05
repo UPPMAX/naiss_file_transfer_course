@@ -81,7 +81,7 @@ tags:
     - It is just a SFTP component of the client PuTTY.
     - Same commands as for SFTP.
 
-!!!- example "Example for Rackham"
+???- example "Example for Rackham"
 
     Connect to SFTP session
 
@@ -105,11 +105,9 @@ tags:
     In `sftp` session, upload/download files to/from the server.
 
     - ``put <filename>`` - Copy a file from the local computer to the remote host
-    - ``get <filename>`` - copy a file from the remote host to the local computer
+    - ``get <filename>`` - Copy a file from the remote host to the local computer
 
-
-
-!!!- tip "Cheat sheet in the SFTP session"
+???- tip "Cheat sheet in the SFTP session"
 
     - ``?``/``help`` - List of all commands or explain a command, eg ? get
 
@@ -127,7 +125,7 @@ tags:
 
     Locally
 
-    - ``get`` - copy a file from the remote host to the local computer
+    - ``get`` - Copy a file from the remote host to the local computer
     - ``lcd`` - Change the active directory on the local system
     - ``lls`` - List the contents of the current directory on the local computer
     - ``lmkdir`` - Create a directory on the local computer
@@ -142,7 +140,7 @@ tags:
 
 - You can transfer files in an SSH session on one cluster to another cluster.
 - ``rsync``, ``scp``, or ``sftp`` will all work!
-- `"Local" will no be the server you connect from, that is, where you run the commands.
+- "Local" will now be the server you connect from, that is, where you run the commands.
 
 
 ## Exercises
@@ -153,7 +151,7 @@ Use the documentation of your HPC cluster.
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
   Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
-???+ question "Exercise 1: Establish the sftp connection and find the relevant folders locally and remotely"
+???- question "Exercise 1: Establish the sftp connection and find the relevant folders locally and remotely"
 
     Tips
 
@@ -184,7 +182,7 @@ Use the documentation of your HPC cluster.
 
         - Video for Tetralith
         
-???+ question "Exercise 2: Upload"
+???- question "Exercise 2: Upload"
 
     Tips
 
@@ -205,7 +203,7 @@ Use the documentation of your HPC cluster.
         
         - Video for Tetralith
         
-???+ question "Exercise 3: Download"
+???- question "Exercise 3: Download"
 
     Tips
     
@@ -229,7 +227,7 @@ Use the documentation of your HPC cluster.
         
         - Video for Tetralith
 
-???+ question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
+???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
 
     Tips
 
