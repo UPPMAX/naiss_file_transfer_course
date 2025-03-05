@@ -89,6 +89,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 ```bash
     scp [from] [to]
 ```
+
 Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
 
 This is how you copy a file from your local computer to Rackham:
@@ -96,13 +97,13 @@ This is how you copy a file from your local computer to Rackham:
 ```bash
 scp [local_filename] [username]@<cluster adress>:/home/[username]
 ```
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 To copy a file from Rackham to your local computer, do the command above in reverse order:
 
 ```bash
-scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+scp [username]@<cluster adress>:/home/[username]/[remote_filename] [local_folder or "." for present folder]
 ```
-
 
 ???- example "Example for Rackham"
 
@@ -204,8 +205,6 @@ scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_fo
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
-
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 ???- question "Where is that documentation?"
 
