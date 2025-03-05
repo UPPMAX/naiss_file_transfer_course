@@ -54,14 +54,8 @@ tags:
 
     - Rsync is better for "syncing"
 
-???- question "Dardel uses ``psftp``, what is that?"
-
-    - It is just a SFTP component of the client PuTTY.
-    - Same commands as for SFTP.
 
 ## Procedure
-
-- [`sftp` in UPPMAX documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -82,32 +76,40 @@ tags:
     
 <!-- markdownlint-enable MD013 -->
 
-### Example for Rackham
+???- question "Dardel uses ``psftp``, what is that?"
 
-#### Connect to SFTP session
+    - It is just a SFTP component of the client PuTTY.
+    - Same commands as for SFTP.
 
-In the terminal, run `sftp` to connect to Rackham by doing:
+!!!- example "Example for Rackham"
 
-```bash
-sftp [username]@rackham.uppmax.uu.se
-```
+    Connect to SFTP session
 
-where `[username]` is your UPPMAX username, for example:
+    In the terminal, run `sftp` to connect to Rackham by doing:
 
-```bash
-sftp sven@rackham.uppmax.uu.se
-```
+    ```bash
+    sftp [username]@rackham.uppmax.uu.se
+    ```
 
-If asked, give your center's password.
-You can get rid of this prompt if you have setup SSH keys
+    where `[username]` is your UPPMAX username, for example:
 
-#### Upload/download files to/from Rackham
+    ```bash
+    sftp sven@rackham.uppmax.uu.se
+    ```
 
-In `sftp` session, upload/download files to/from Rackham.
+    If asked, give your center's password.
+    You can get rid of this prompt if you have setup SSH keys
+   
+    Upload/download files to/from Rackham
 
-Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/software/sftp.md).
+    In `sftp` session, upload/download files to/from the server.
 
-!!! tip "Cheat sheet in the SFTP session"
+    - ``put <filename>`` - Copy a file from the local computer to the remote host
+    - ``get <filename>`` - copy a file from the remote host to the local computer
+
+
+
+!!!- tip "Cheat sheet in the SFTP session"
 
     - ``?``/``help`` - List of all commands or explain a command, eg ? get
 
@@ -125,7 +127,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
     Locally
 
-    - ``get`` - opy a file from the remote host to the local computer
+    - ``get`` - copy a file from the remote host to the local computer
     - ``lcd`` - Change the active directory on the local system
     - ``lls`` - List the contents of the current directory on the local computer
     - ``lmkdir`` - Create a directory on the local computer
