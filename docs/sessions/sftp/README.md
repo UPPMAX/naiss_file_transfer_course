@@ -134,7 +134,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 !!! note "Transferring many files?"
 
     - As always, it is better to transfer few large files than many small files.
-    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#Large-or-many-files).
+    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#large-or-many-files).
 
 ## Server to server
 
@@ -145,6 +145,7 @@ Basic `sftp` command can be found [here](https://github.com/UPPMAX/UPPMAX-docume
 
 ## Exercises
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Use the documentation of your HPC cluster.
 
 - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
