@@ -84,22 +84,25 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 ## Procedure
 
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+- In the terminal, copy files using `scp` to connect to Rackham:
 
-???- question "Where is that documentation?"
+```bash
+    scp [from] [to]
+```
+Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
 
-    HPC Cluster|Link to documentation
-    -----------|------------
-    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
-    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
-    COSMOS     |**FIX?** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
-    Dardel     |[here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
-    Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
-    LUMI       |**To do**
-    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
-    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
+This is how you copy a file from your local computer to Rackham:
+
+```bash
+scp [local_filename] [username]@<cluster adress>:/home/[username]
+```
+
+To copy a file from Rackham to your local computer, do the command above in reverse order:
+
+```bash
+scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+```
+
 
 ???- example "Example for Rackham"
 
@@ -110,8 +113,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     ```
 
     Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
-    This is quite a shorthand notation!
-   
+
     This is how you copy a file from your local computer to Rackham:
 
     ```bash
@@ -163,7 +165,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 ### Large or many files
 
-- Shorten download/upload time by reducing the size of the file!
+- Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``
     - You'll get a ``gz``file ending
@@ -172,8 +174,8 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
         - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
   
-- Transferring many files will create so called overhead, because each file has to be addressed individually.
-- Solution is to gather the files in an archive, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
+- Transferring **many files will create so called overhead**, because each file has to be addressed individually.
+- Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
     - A folder then behaves like ONE file.
     - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
     - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
@@ -194,14 +196,31 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 ???- question "Can I use archiving and compressing in all transfer methods"
 
     - Compressing and archiving is useful whenever you transfer files.
-    - No matter of which transfer tool you are using!
+    - No matter of which transfer tool you are using, graphical or in terminal!
       
 ## Exercises
 
-Use the documentation of your HPC cluster.
+???- question "Exercise 0: Use the documentation of your HPC cluster"
 
-- Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
-  Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+    - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
+        - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+???- question "Where is that documentation?"
+
+    HPC Cluster|Link to documentation
+    -----------|------------
+    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
+    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
+    COSMOS     |**FIX?** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
+    LUMI       |**To do**
+    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
+    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
 
