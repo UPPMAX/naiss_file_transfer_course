@@ -101,48 +101,47 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
 
-### Example
+!!!- example "Example for Rackham"
 
-- In the terminal, copy files using `scp` to connect to Rackham:
+    - In the terminal, copy files using `scp` to connect to Rackham:
 
-```bash
-scp [from] [to]
-```
+    ```bash
+    scp [from] [to]
+    ```
 
-Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
-This is quite a shorthand notation!
+    Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
+    This is quite a shorthand notation!
+   
+   This is how you copy a file from your local computer to Rackham:
 
-This is how you copy a file from your local computer to Rackham:
+    ```bash
+    scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
+    ```
 
-```bash
-scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
-```
+    where `[local_filename]` is the path to a local filename,
+    and `[username]` is your UPPMAX username, for example:
 
-where `[local_filename]` is the path to a local filename,
-and `[username]` is your UPPMAX username, for example:
+    ```bash
+    scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
+    ```
 
-```bash
-scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
-```
+    To copy a file from Rackham to your local computer,
+    do the command above in reverse order:
 
-To copy a file from Rackham to your local computer,
-do the command above in reverse order:
+    ```bash
+    scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+    ```
 
-```bash
-scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
-```
+    where `[remote_filename]` is the path to a remote filename,
+    `[username]` is your UPPMAX username,
+    and `[local_folder]` is your local folder, for example:
 
-where `[remote_filename]` is the path to a remote filename,
-`[username]` is your UPPMAX username,
-and `[local_folder]` is your local folder, for example:
+    ```bash
+    scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
+    ```
 
-```bash
-scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
-```
-
-If asked, give your center's password.
-You can get rid of this prompt if you have setup SSH keys
-
+    If asked, give your center's password.
+    You can get rid of this prompt if you have setup SSH keys
 
 !!! tip "Cheat sheet for ``scp``"
 
