@@ -112,7 +112,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
     This is quite a shorthand notation!
    
-   This is how you copy a file from your local computer to Rackham:
+    This is how you copy a file from your local computer to Rackham:
 
     ```bash
     scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
@@ -143,7 +143,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
 
-!!! tip "Cheat sheet for ``scp``"
+???- tip "Cheat sheet for ``scp``"
 
     - ``scp`` followed by none or any of the following option flags.
 
@@ -168,9 +168,9 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - Usage: ``gzip <filename>``
     - You'll get a ``gz``file ending
 
-???- tip "``gzip`` cheat sheet"
+    ???- tip "``gzip`` cheat sheet"
 
-    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
   
 - Transferring many files will create so called overhead, because each file has to be addressed individually.
 - Solution is to gather the files in an archive, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
@@ -180,9 +180,9 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 - While TARing you may compress the data as well!
     - ``tar -czf archive.tar.gz /path/files``
 
-???- tip "``tar`` cheat sheet"
+    ???- tip "``tar`` cheat sheet"
 
-    - [``tar`` manual](https://devhints.io/tar)
+        - [``tar`` manual](https://devhints.io/tar)
 
 
 ???- tip "Extract/inflate"
@@ -191,7 +191,6 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - ``tar -xf archive.tar``
     - ``tar -xzf archive.tar.gz``
     
-
 ???- question "Can I use archiving and compressing in all transfer methods"
 
     - Compressing and archiving is useful whenever you transfer files.
@@ -226,7 +225,7 @@ Use the documentation of your HPC cluster.
         
         - Video for Tetralith
 
-???+ question "Exercise 2: Download a file from your the server to you computer, using scp"
+???- question "Exercise 2: Download a file from your the server to you computer, using scp"
 
     Tips
 
