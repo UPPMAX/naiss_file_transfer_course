@@ -139,6 +139,8 @@ In `sftp` session, upload/download files to/from the server.
     ???- tip "``gzip`` cheat sheet"
 
         - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
   
 - Transferring **many files will create so called overhead**, because each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
@@ -311,12 +313,12 @@ In `sftp` session, upload/download files to/from the server.
         - ``$ cd many_files_sftp``
         - ``$ touch file_{1..1000}.txt``
         - Check content: ``$ ls``  for checking
-        - Leave directory to be able to perform next step: ``$ cd ..``   
+        - Leave directory to be able to perform next step: ``$ cd ..``
     - Also archive and zip the ``many_files_sftp`` folder to ``many_files_sftp.tar.qz``
     
     Establish the SFTP session (Exercise 1)
     
-    - Download (to local) the _directory_ and note the time needed (not shown in numbers so count the seconds!)
+    - Download (to local) the *directory* and note the time needed (not shown in numbers so **count the seconds!**)
     - Download (to local) the ``.tar.gz`` file and note the time needed
     - Was there a significant difference?
     
