@@ -175,14 +175,12 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
 - Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``
-    - You'll get a ``gz``file ending
+    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
 - Transferring **many files will create so called overhead**, because each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder then behaves like ONE file.
-    - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
-    - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may compress the data as well!
+    - A folder with content then behaves like ONE file.
+    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
+- While TARing you may *compress* the data as well!
     - ``tar -czf archive.tar.gz /path/files``
 
 ???- tip "Extract/inflate"
@@ -199,10 +197,9 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         - [``tar`` manual](https://devhints.io/tar)
 
-???- question "Can I use archiving and compressing in all transfer methods"
+???- question "Can I use archiving and compressing in all transfer methods?"
 
-    - Compressing and archiving is useful whenever you transfer files.
-    - No matter of which transfer tool you are using, graphical or in terminal!
+    - Yes!
       
 ## Exercises
 
