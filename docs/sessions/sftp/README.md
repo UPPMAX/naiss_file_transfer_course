@@ -144,37 +144,31 @@ In `sftp` session, upload/download files to/from the server.
 
 - Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``
-    - You'll get a ``gz``file ending
-
-    ???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-  
+    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
 - Transferring **many files will create so called overhead**, because each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder then behaves like ONE file.
-    - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
-    - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may compress the data as well!
+    - A folder with content then behaves like ONE file.
+    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
+- While TARing you may *compress* the data as well!
     - ``tar -czf archive.tar.gz /path/files``
-
-    ???- tip "``tar`` cheat sheet"
-
-        - [``tar`` manual](https://devhints.io/tar)
 
 ???- tip "Extract/inflate"
 
-    - ``gunzip compressed file.gz``
+    - ``gunzip compressed_file.gz``
     - ``tar -xf archive.tar``
-    - ``tar -xzf archive.tar.gz``
+    - ``tar -xzf compressed_archive.tar.gz``
     
-???- question "Can I use archiving and compressing in all transfer methods"
+???- tip "``gzip`` cheat sheet"
 
-    - Compressing and archiving is useful whenever you transfer files.
-    - No matter of which transfer tool you are using, graphical or in terminal!
+        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+
+???- tip "``tar`` cheat sheet"
+
+        - [``tar`` manual](https://devhints.io/tar)
+        
+???- question "Can I use archiving and compressing in all transfer methods?"
+
+    - Yes!
 
 ## Exercises
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
