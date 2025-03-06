@@ -85,7 +85,8 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - One-line command
     - Secure
     - Use cases
-        - simple copy a file or specific directory (with sub-directories) between local and remote host or between two remote servers.
+        - copy just a file
+        - copy just a specific directory (with sub-directories).
 
 !!! warning "When not to use"
 
@@ -177,11 +178,6 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``
     - You'll get a ``gz``file ending
-
-    ???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-  
 - Transferring **many files will create so called overhead**, because each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
     - A folder then behaves like ONE file.
@@ -190,16 +186,20 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 - While TARing you may compress the data as well!
     - ``tar -czf archive.tar.gz /path/files``
 
-    ???- tip "``tar`` cheat sheet"
+???- tip "Extract/inflate"
+
+    - ``gunzip compressed_file.gz``
+    - ``tar -xf archive.tar``
+    - ``tar -xzf compressed_archive.tar.gz``
+    
+???- tip "``gzip`` cheat sheet"
+
+        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+
+???- tip "``tar`` cheat sheet"
 
         - [``tar`` manual](https://devhints.io/tar)
 
-???- tip "Extract/inflate"
-
-    - ``gunzip compressed file.gz``
-    - ``tar -xf archive.tar``
-    - ``tar -xzf archive.tar.gz``
-    
 ???- question "Can I use archiving and compressing in all transfer methods"
 
     - Compressing and archiving is useful whenever you transfer files.
