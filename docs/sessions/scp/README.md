@@ -234,7 +234,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         
         - ``$ ls ~/transfer``
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/rvL-s5vi13I)
 
 ???- question "Exercise 2: Download a file from your the server to you computer, using scp"
 
@@ -256,7 +256,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - ``$ ls``
         - (or in the File explorer)
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
 ???- question "Exercise 3: Download a directory with many files"
 
@@ -273,7 +273,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files .``
 
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
         
 ???- question "Exercise 4: Download the Compressed directory"
 
@@ -287,4 +287,4 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files.tar.gz .``
 
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
