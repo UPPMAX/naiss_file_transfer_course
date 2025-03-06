@@ -54,7 +54,7 @@ Fairly sure you'll want to upload or download files to your
 favorite HPC cluster.
 Here we do so.
 
-We use a free and open-source graphical tool to do this,
+We use a free and open-source command-line tool to do this,
 called `rsync`.
 It works under Linux, Mac and Windows.
 
