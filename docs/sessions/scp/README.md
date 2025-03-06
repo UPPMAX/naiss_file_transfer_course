@@ -12,6 +12,7 @@ tags:
 
     - Practice using the documentation of your favorite HPC cluster
     - Can transfer files using `scp`
+    - Can compress and archive files before transferring
 
 ???- question "For teachers"
 
@@ -30,10 +31,8 @@ tags:
       axisFormat %s
       section First hour
       Prior : prior, 0, 2s
-      Present: present, after prior, 4s
-      %% It took me 6 mins, here I do that time x2
-      Challenge: crit, challenge, after present, 12s
-      %% Here I use the same time it took me to give feedback
+      Present: present, after prior, 3s
+      Challenge: crit, challenge, after present, 10s
       Feedback: feedback, after challenge, 2s
     ```
 
