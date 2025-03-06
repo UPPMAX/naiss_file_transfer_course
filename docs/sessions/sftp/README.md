@@ -129,6 +129,40 @@ In `sftp` session, upload/download files to/from the server.
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - "Local" will now be the server you connect from, that is, where you run the commands.
 
+## Large or many files (copy from ``scp`` session)
+
+- Shorten download/upload time by **reducing the size of the file**!
+    - A common tool in Linux environments is ``gzip``.
+    - Usage: ``gzip <filename>``
+    - You'll get a ``gz``file ending
+
+    ???- tip "``gzip`` cheat sheet"
+
+        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+  
+- Transferring **many files will create so called overhead**, because each file has to be addressed individually.
+- Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
+    - A folder then behaves like ONE file.
+    - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
+    - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
+- While TARing you may compress the data as well!
+    - ``tar -czf archive.tar.gz /path/files``
+
+    ???- tip "``tar`` cheat sheet"
+
+        - [``tar`` manual](https://devhints.io/tar)
+
+???- tip "Extract/inflate"
+
+    - ``gunzip compressed file.gz``
+    - ``tar -xf archive.tar``
+    - ``tar -xzf archive.tar.gz``
+    
+???- question "Can I use archiving and compressing in all transfer methods"
+
+    - Compressing and archiving is useful whenever you transfer files.
+    - No matter of which transfer tool you are using, graphical or in terminal!
+
 ## Exercises
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -223,7 +257,6 @@ In `sftp` session, upload/download files to/from the server.
 
         On Server
 
-        - (If you want to create a file first: ``$ touch remote_file-sftp``)
         - use the get command: ``> get remote_file_sftp``
 
         Check locally (in sftp session) that it is there
@@ -264,6 +297,45 @@ In `sftp` session, upload/download files to/from the server.
         ```
 
         - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
+
+        - Video for Tetralith to Rackham
+
+???- question "Optional): Exercise 5: Test the difference between transferring one or several files"
+
+    Tips
+
+    In an SSH session (not SFTP) with REMOTE/server
+    
+    - Create 100 files REMOTELY in a directory with name ``many_files``
+        - ``$ mkdir many_files_sftp``
+        - ``$ cd many_files_sftp``
+        - ``$ touch file_{1..1000}.txt``
+        - Check content: ``$ ls``  for checking
+        - Leave directory to be able to perform next step: ``$ cd ..``   
+    - Also archive and zip the ``many_files_sftp`` folder to ``many_files_sftp.tar.qz``
+    
+    Establish the SFTP session (Exercise 1)
+    
+    - Download (to local) the _directory_ and note the time needed (not shown in numbers so count the seconds!)
+    - Download (to local) the ``.tar.gz`` file and note the time needed
+    - Was there a significant difference?
+    
+    ???- tip "Answer (Example with Tetralith)"
+
+        Archiving and compressions step REMOTELY
+
+        - ``tar -cvzf many_files.tar.gz many_files``
+
+        Establish SFTP connection
+        
+        - ``$ sftp sm_bcarl@tetralith.nsc.liu.se``
+
+        Download
+
+        - ``> get -r many_files`` (we need the recursive command ``-r``)
+        - ``> get many_files.tar.gz``
+        
+        - Video for Tetralith
 
 ## Some other tools
 
