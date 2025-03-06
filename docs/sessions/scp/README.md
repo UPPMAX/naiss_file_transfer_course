@@ -85,21 +85,23 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
     - One-line command
     - Secure
     - Use cases
-        - simple copy of files between local and remote host or between two remote hosts.
+        - simple copy a file or specific directory (with sub-directories) between local and remote host or between two remote servers.
 
 !!! warning "When not to use"
 
+    - When needing several one-line commands
+        - requires credentials every time
     - When looking to do more than a basic file transfer, SCP falls short.
-    - SCP is unable to create or list directories or delete files.
-    - a file with the same name in the same directory is transferred, will be overwritten.
-    - transfers that are interrupted you have to restart the entire transfer.
+    - When you on the fly need to create or list directories or delete files.
+    - A file with the same name in the same directory is transferred, will be overwritten.
+    - Transfers that are interrupted you have to restart the entire transfer.
 
 ## Procedure
 
 - In the terminal, copy files using `scp` to connect to Rackham:
 
 ```bash
-    scp [from] [to]
+scp [from] [to]
 ```
 
 Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
@@ -240,7 +242,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         Locally
         
-        - (If you want to create a file in _local_ terminal: ``$ touch local_file``)
+        - (If you want to create a file in *local* terminal: ``$ touch local_file``)
         - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
@@ -253,7 +255,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     Tips
 
-    - (If you want to create a file in _remote_ ssh terminal: ``$ touch remote_file``)
+    - (If you want to create a file in *remote* ssh terminal: ``$ touch remote_file``)
     - Send it to an existing local folder
     - Check locally that it is there
 
@@ -294,7 +296,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     - Archive and zip the many_files directory
     - Time the download of the compressed directory, using ``time``.
-        - If ``time´´ does not work, count the seconds!
+        - If ``time`` does not work, count the seconds!
 
 
     ???- tip "Answer (Tetralith example)"
