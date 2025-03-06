@@ -277,7 +277,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     Tips
 
-    - Create 100 files REMOTELY in a directory with name ``many_files``
+    - Create 1000 files REMOTELY in a directory with name ``many_files``
         - ``$ mkdir many_files``
         - ``$ cd many_files``
         - ``$ touch my-file-{1..1000}.txt``
