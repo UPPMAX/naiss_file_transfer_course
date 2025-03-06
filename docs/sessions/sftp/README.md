@@ -38,6 +38,7 @@ tags:
 - The difference from ``rsync`` and ``scp`` is that you login to a SFTP session
     - just like a log in to a server with SSH.
 - You use the terminal to transfer the files.
+- You need the credentials only when establishing the connection.
 
 !!! note "Pros"
 
