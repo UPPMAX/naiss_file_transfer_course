@@ -267,11 +267,6 @@ In `sftp` session, upload/download files to/from the server.
 
 ## Some other tools
 
-!!!- tip "Graphical tools"
-
-    - [WinSCP](https://winscp.net/eng/index.php)
-    - [CyberDuck](https://cyberduck.io/)
-  
 !!!- tip "Terminal tools"
 
     - [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
