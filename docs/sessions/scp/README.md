@@ -22,11 +22,22 @@ tags:
     - Learners have transferred files using `scp`
 
     Lesson plan:
+    ```mermaid
+    gantt
+      title File transfer using scp
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Prior : prior, 0, 2s
+      Present: present, after prior, 4s
+      %% It took me 6 mins, here I do that time x2
+      Challenge: crit, challenge, after present, 12s
+      %% Here I use the same time it took me to give feedback
+      Feedback: feedback, after challenge, 2s
+    ```
 
     Prior questions:
 
-    - How can one do a file transfer from the terminal?
-    - Can you name some programs that can do file transfer from the terminal?
     - Who has heard of `scp`?
     - Who has already used `scp`?
 
@@ -70,17 +81,17 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 !!! note "Pros"
 
     - Simple
+    - One-line command
     - Secure
     - Use cases
-        - simple copy of files between local and remote host
-          or between two remote hosts.
+        - simple copy of files between local and remote host or between two remote hosts.
 
 !!! warning "When not to use"
 
     - When looking to do more than a basic file transfer, SCP falls short.
     - SCP is unable to create or list directories or delete files.
-    - a file with the same name in the same directory is transferred, wil be overwritten.
-    - transfers that are interrupted  you have to restart the entire transfer.
+    - a file with the same name in the same directory is transferred, will be overwritten.
+    - transfers that are interrupted you have to restart the entire transfer.
 
 ## Procedure
 
