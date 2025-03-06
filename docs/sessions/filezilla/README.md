@@ -134,3 +134,12 @@ Use the documentation of your HPC cluster for help.
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
+
+
+## Some other tools
+
+!!!- tip "Graphical tools"
+
+    - [WinSCP](https://winscp.net/eng/index.php) - for Windows
+    - [CyberDuck](https://cyberduck.io/) - other popular tool, available for all platforms
+  
