@@ -145,7 +145,8 @@ In `sftp` session, upload/download files to/from the server.
 - Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
-- Transferring **many files will create so called overhead**, because each file has to be addressed individually.
+- Transferring **many files will create so called overhead**
+    - each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
     - A folder with content then behaves like ONE file.
     - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
