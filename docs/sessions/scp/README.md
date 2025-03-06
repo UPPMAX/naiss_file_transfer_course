@@ -273,7 +273,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         
         - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
-???- question "Exercise 3: Download a directory with many files"
+???- question "(Optional) Exercise 3: Download a directory with many files"
 
     Tips
 
@@ -290,7 +290,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
         
-???- question "Exercise 4: Download the Compressed directory"
+???- question "(Optional) Exercise 4: Download the Compressed directory"
 
     Tips
 
