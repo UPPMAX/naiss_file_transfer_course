@@ -22,6 +22,7 @@ tags:
     - Learners have transferred files using `scp`
 
     Lesson plan:
+    
     ```mermaid
     gantt
       title File transfer using scp
@@ -191,7 +192,6 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         - [``tar`` manual](https://devhints.io/tar)
 
-
 ???- tip "Extract/inflate"
 
     - ``gunzip compressed file.gz``
@@ -204,6 +204,8 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     - No matter of which transfer tool you are using, graphical or in terminal!
       
 ## Exercises
+
+!!! warning "You may want to prioritize next session instead!"
 
 ???- question "Exercise 0: Use the documentation of your HPC cluster"
 
@@ -238,7 +240,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         Locally
         
-        - (If you want to create a file in local terminal: ``$ touch local_file``)
+        - (If you want to create a file in _local_ terminal: ``$ touch local_file``)
         - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
@@ -251,7 +253,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     Tips
 
-    - (If you want to create a file in remote terminal: ``$ touch remote_file``)
+    - (If you want to create a file in _remote_ ssh terminal: ``$ touch remote_file``)
     - Send it to an existing local folder
     - Check locally that it is there
 
@@ -259,7 +261,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         On Server
 
-        - (If you want to create a file first: ``$ touch remote_file``)
+        - (If you want to create a remote file first, in an SSH session, do: ``$ touch remote_file``)
         - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
@@ -282,7 +284,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     
     ???- tip "Answer (Tetralith example)"
 
-        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files .``
+        - ``time scp -r sm_bcarl@tetralith.nsc.liu.se:~/test/many_files .``
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
         
@@ -291,11 +293,18 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     Tips
 
     - Archive and zip the many_files directory
-    - Time the download of the compressed directory, using ``time``
+    - Time the download of the compressed directory, using ``time``.
+        - If ``time´´ does not work, count the seconds!
 
 
     ???- tip "Answer (Tetralith example)"
 
-        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files.tar.gz .``
+        Archiving and compressions step on REMOTE
+
+        - ``tar -cvzf many_files.tar.gz many_files``
+
+        LOCALLY
+        
+        - ``time scp sm_bcarl@tetralith.nsc.liu.se:~/test/many_files.tar.gz .``
 
         - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
