@@ -225,7 +225,7 @@ In `sftp` session, upload/download files to/from the server.
         - Use ``lpwd`` to find where you are locally
         - Use ``lcd`` to reach relevant local folder
 
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/fP7xAakCrUU)
         
 ???- question "Exercise 2: Upload"
 
@@ -246,7 +246,7 @@ In `sftp` session, upload/download files to/from the server.
         
         - ``> ls ~/transfer``
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/m9zpf-s_VqY)
         
 ???- question "Exercise 3: Download"
 
@@ -269,7 +269,7 @@ In `sftp` session, upload/download files to/from the server.
         - (or in the File explorer)
         
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/kgV77ZYGouw)
 
 ???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
 
@@ -301,15 +301,15 @@ In `sftp` session, upload/download files to/from the server.
 
         - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
 
-        - Video for Tetralith to Rackham
+        - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
 
-???- question "Optional): Exercise 5: Test the difference between transferring one or several files"
+???- question "(Optional): Exercise 5: Test the difference between transferring one or several files"
 
     Tips
 
     In an SSH session (not SFTP) with REMOTE/server
     
-    - Create 100 files REMOTELY in a directory with name ``many_files``
+    - Create 1000 files REMOTELY in a directory with name ``many_files``
         - ``$ mkdir many_files_sftp``
         - ``$ cd many_files_sftp``
         - ``$ touch file_{1..1000}.txt``
@@ -327,7 +327,7 @@ In `sftp` session, upload/download files to/from the server.
 
         Archiving and compressions step REMOTELY
 
-        - ``tar -cvzf many_files.tar.gz many_files``
+        - ``tar -cvzf many_files_sftp.tar.gz many_files``
 
         Establish SFTP connection
         
@@ -335,10 +335,10 @@ In `sftp` session, upload/download files to/from the server.
 
         Download
 
-        - ``> get -r many_files`` (we need the recursive command ``-r``)
-        - ``> get many_files.tar.gz``
+        - ``> get -r many_files_sftp`` (we need the recursive command ``-r``)
+        - ``> get many_files_sftp.tar.gz``
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
 
 ## Some other tools
 
