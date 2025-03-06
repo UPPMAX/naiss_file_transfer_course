@@ -10,3 +10,4 @@ hence the pace is determined be the learners (i.e. not by the clock).
 - I can transfer data using rsync
 - I can transfer data using scp
 - I can transfer data using sftp
+- I can compress and archive files before transferring
