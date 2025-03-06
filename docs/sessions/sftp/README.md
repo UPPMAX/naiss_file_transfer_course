@@ -23,10 +23,20 @@ tags:
 
     Lesson plan:
 
+    ```mermaid
+    gantt
+      title File transfer using sftp
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Prior : prior, 0, 2s
+      Present: present, after prior, 3s
+      Challenge: crit, challenge, after present, 10s
+      Feedback: feedback, after challenge, 2s
+    ```
+
     Prior questions:
 
-    - How can one do a file transfer from the terminal?
-    - Can you name some programs that can do file transfer from the terminal?
     - Who has heard of `sftp`?
     - Who has already used `sftp`?
 
