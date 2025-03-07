@@ -12,6 +12,7 @@ tags:
 
     - Practice using the documentation of your favorite HPC cluster
     - Can transfer files using `scp`
+    - Can compress and archive files before transferring
 
 ???- question "For teachers"
 
@@ -22,11 +23,21 @@ tags:
     - Learners have transferred files using `scp`
 
     Lesson plan:
+    
+    ```mermaid
+    gantt
+      title File transfer using scp
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Prior : prior, 0, 2s
+      Present: present, after prior, 3s
+      Challenge: crit, challenge, after present, 10s
+      Feedback: feedback, after challenge, 2s
+    ```
 
     Prior questions:
 
-    - How can one do a file transfer from the terminal?
-    - Can you name some programs that can do file transfer from the terminal?
     - Who has heard of `scp`?
     - Who has already used `scp`?
 
@@ -70,24 +81,27 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 !!! note "Pros"
 
     - Simple
+    - One-line command
     - Secure
     - Use cases
-        - simple copy of files between local and remote host
-          or between two remote hosts.
+        - copy just a file
+        - copy just a specific directory (with sub-directories).
 
 !!! warning "When not to use"
 
+    - When needing several one-line commands
+        - requires credentials every time
     - When looking to do more than a basic file transfer, SCP falls short.
-    - SCP is unable to create or list directories or delete files.
-    - a file with the same name in the same directory is transferred, wil be overwritten.
-    - transfers that are interrupted  you have to restart the entire transfer.
+    - When you on the fly need to create or list directories or delete files.
+    - A file with the same name in the same directory is transferred, will be overwritten.
+    - Transfers that are interrupted you have to restart the entire transfer.
 
 ## Procedure
 
 - In the terminal, copy files using `scp` to connect to Rackham:
 
 ```bash
-    scp [from] [to]
+scp [from] [to]
 ```
 
 Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
@@ -161,38 +175,36 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
 - Shorten download/upload time by **reducing the size of the file**!
     - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``
-    - You'll get a ``gz``file ending
-
-    ???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-  
-- Transferring **many files will create so called overhead**, because each file has to be addressed individually.
+    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
+- Transferring **many files will create so called overhead**
+    - each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder then behaves like ONE file.
-    - Usage: ``tar [-options] <name of the tar archive> [files or directories which to add into archive]``'
-    - Example: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may compress the data as well!
+    - A folder with content then behaves like ONE file.
+    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
+- While TARing you may *compress* the data as well!
     - ``tar -czf archive.tar.gz /path/files``
-
-    ???- tip "``tar`` cheat sheet"
-
-        - [``tar`` manual](https://devhints.io/tar)
-
 
 ???- tip "Extract/inflate"
 
-    - ``gunzip compressed file.gz``
+    - ``gunzip compressed_file.gz``
     - ``tar -xf archive.tar``
-    - ``tar -xzf archive.tar.gz``
+    - ``tar -xzf compressed_archive.tar.gz``
     
-???- question "Can I use archiving and compressing in all transfer methods"
+???- tip "``gzip`` cheat sheet"
 
-    - Compressing and archiving is useful whenever you transfer files.
-    - No matter of which transfer tool you are using, graphical or in terminal!
+        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+
+???- tip "``tar`` cheat sheet"
+
+        - [``tar`` manual](https://devhints.io/tar)
+
+???- question "Can I use archiving and compressing in all transfer methods?"
+
+    - Yes!
       
 ## Exercises
+
+!!! warning "You may want to prioritize next session instead!"
 
 ???- question "Exercise 0: Use the documentation of your HPC cluster"
 
@@ -227,20 +239,20 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         Locally
         
-        - (If you want to create a file in local terminal: ``$ touch local_file``)
+        - (If you want to create a file in *local* terminal: ``$ touch local_file``)
         - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
         
         - ``$ ls ~/transfer``
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/rvL-s5vi13I)
 
 ???- question "Exercise 2: Download a file from your the server to you computer, using scp"
 
     Tips
 
-    - (If you want to create a file in remote terminal: ``$ touch remote_file``)
+    - (If you want to create a file in *remote* ssh terminal: ``$ touch remote_file``)
     - Send it to an existing local folder
     - Check locally that it is there
 
@@ -248,7 +260,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
         On Server
 
-        - (If you want to create a file first: ``$ touch remote_file``)
+        - (If you want to create a remote file first, in an SSH session, do: ``$ touch remote_file``)
         - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
@@ -256,13 +268,13 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - ``$ ls``
         - (or in the File explorer)
         
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
-???- question "Exercise 3: Download a directory with many files"
+???- question "(Optional) Exercise 3: Download a directory with many files"
 
     Tips
 
-    - Create 100 files REMOTELY in a directory with name ``many_files``
+    - Create 1000 files REMOTELY in a directory with name ``many_files``
         - ``$ mkdir many_files``
         - ``$ cd many_files``
         - ``$ touch my-file-{1..1000}.txt``
@@ -271,20 +283,27 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     
     ???- tip "Answer (Tetralith example)"
 
-        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files .``
+        - ``time scp -r sm_bcarl@tetralith.nsc.liu.se:~/test/many_files .``
 
-        - Video for Tetralith
+        - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
         
-???- question "Exercise 4: Download the Compressed directory"
+???- question "(Optional) Exercise 4: Download the Compressed directory"
 
     Tips
 
     - Archive and zip the many_files directory
-    - Time the download of the compressed directory, using ``time``
+    - Time the download of the compressed directory, using ``time``.
+        - If ``time`` does not work, count the seconds!
 
 
     ???- tip "Answer (Tetralith example)"
 
-        - ``time scp -r bjornc@rackham.uppmax.uu.se:~/test/many_files.tar.gz .``
+        Archiving and compressions step on REMOTE
 
-        - Video for Tetralith
+        - ``tar -cvzf many_files.tar.gz many_files``
+
+        LOCALLY
+        
+        - ``time scp sm_bcarl@tetralith.nsc.liu.se:~/test/many_files.tar.gz .``
+
+        - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
