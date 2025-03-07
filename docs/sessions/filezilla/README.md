@@ -101,16 +101,6 @@ Rackham         |Room 6
 Tetralith       |Room 7
 .               |Room 8
 .               |Room 9
-Björn's room    |Room 10
-Alvis           |Room 11
-Bianca          |Room 12
-COSMOS          |Room 13
-Dardel          |Room 14
-Kebnekaise      |Room 15
-Rackham         |Room 16
-Tetralith       |Room 17
-.               |Room 18
-.               |Room 19
 
 - When the main breakout room reaches 4 learners, decide upon 2 to
   move to a free breakout room. Repeat until the group size is below 4.
