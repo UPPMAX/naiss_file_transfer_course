@@ -45,8 +45,8 @@ tags:
 
 Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
-- ``scp`` has the similar arguments as for the linux copy function ``scp``.
-- ``sftp`` is more versatile with more file management capabilities.
+- `scp` has the similar arguments as for the linux copy function `scp`.
+- `sftp` is more versatile with more file management capabilities.
 
 - Both are considered secure.
 
