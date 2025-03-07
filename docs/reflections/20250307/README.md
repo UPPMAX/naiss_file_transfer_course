@@ -90,6 +90,24 @@ stronger:
 
 I enjoyed working together with my colleague: it felt we were a team to me.
 
+Me and my colleague talked a lot in how to make the learners move between
+rooms. We considered using 'Gather Town' or other tools for the next time
+
+- [ ] Consider other tool, e.g. [sowork.com](sowork.com) (which is free
+  for an unlimited amount of learners)
+
+I think it would be more fun me and my colleague alternate hours,
+e.g. I lead hours 1 and 3. Maybe then, if learners are done with hour 1,
+they can come to my colleague and get introduced to hour 2. And when
+those are done, they can come back to me. In such a way, the faster
+groups can go through the course faster.
+
+The learners were great: they we helping each other and were
+flexible in welcoming new guests to their rooms.
+
+All in all, I think we did a reasonable job for a first course iteration
+and I think we have enough ideas to smoothen this out.
+
 ## Reflection on evaluation results
 
 - Number of registrations: 37
