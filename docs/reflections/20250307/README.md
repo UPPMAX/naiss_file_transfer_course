@@ -10,6 +10,10 @@ tags:
 This was the first iteration of this course, which made it hard
 to make any predictions.
 
+I was quite tired, due to too much teaching at the same time.
+During the day, however, even though I felt not at the peak
+of my abilities, I did a reasonable job.
+
 Based on the first NAISS-wide 'Intro to
 Python' course (of 2025-03-04), all we could expect is that
 25% of all registrationed participants would show up.
@@ -80,10 +84,11 @@ stronger:
 
 - [ ] Add 'Can do remote to remote yes/no'
 - [ ] Add 'Can do large files yes/no'
+- [ ] Add 'Asks to overwrite yes/no'
+- [ ] Add 'Suitable for sensitive data yes/no'
+- [ ] Add 'Tolerant to interrupted connection yes/no'
 
-HIERO
-
-
+I enjoyed working together with my colleague: it felt we were a team to me.
 
 ## Reflection on evaluation results
 
