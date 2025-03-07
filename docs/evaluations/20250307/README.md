@@ -18,6 +18,20 @@ tags:
 
 ## Analysis
 
+- Script: [analyse.R](analyse.R)
+
+### All confidences
+
+![](all_confidences.png)
+
+### Confidences per question
+
+![](confidences_per_question.png)
+
+### Average confidence per question
+
+![](average_confidences_per_question.png)
+
 The text answers from [responses.csv](responses.csv):
 
 ### Say something positive about Björn
@@ -54,3 +68,5 @@ The text answers from [responses.csv](responses.csv):
 - I couldn't use rsync but I could use sftp and scp. filefilla I didn't have time to try it but I will. Thank you very much!
 - Add rsync to the requirements and steps on how to install it
 - Thanks!
+
+
