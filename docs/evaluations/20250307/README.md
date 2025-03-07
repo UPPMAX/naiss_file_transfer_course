@@ -8,6 +8,12 @@ tags:
 
 # Evaluation 2025-03-07
 
+- Number of registrations: 37
+- Number of active learners: 9 (24% show-up rate)
+- Number of evaluations: 8 (89% response rate)
+- Average confidence: 3.3 (out of 5)
+- Success score (i.e. average confidence rescaled to 100%): 66%
+
 ## Anonymous feedback
 
 - [anonymous_feedback.txt](anonymous_feedback.txt)
