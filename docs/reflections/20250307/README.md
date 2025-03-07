@@ -122,26 +122,54 @@ and I think we have enough ideas to smoothen this out.
 
 ![](../../evaluations/20250307/average_confidences_per_question.png)
 
+So, the weakest session was `rsync`. I think this can be alleviated by doing
+`scp` first. FileZilla is the one-but-worst session. Maybe
+because both sessions require software installations?
+Maybe FileZilla is not as easy, due to that ...?
+
 ### Say something positive about Richèl
 
 - Clear communication, really wanted to help
 - Very enthusiastic and motivating teacher
 - He was very friendly and made the course very enjoyable to attend
-- He was really interested in me being able to use rsync and made sure that I could connect to the cluster to be able to do the exercises despite not having access to the course cluster.
+- He was really interested in me being able to use rsync and made sure
+  that I could connect to the cluster to be able to do the exercises
+  despite not having access to the course cluster.
 - He encourages learners to find ways to find the answer
 - Very motivating, he keeps us awake without the coffee
 
 ### Say something about Richèl he can improve
 
 - Doesn't always listen very well.
+
+I know that this sometimes is true, when I think course-wide, instead
+of 'just' with one learner. And I did feel jumpy, as I could not
+predict how the course went.
+
 - Sometimes it is hard to guess what is the next thing to do.
+
+My bad: I should be clearer here ... :-/
 
 ### Any other feedback?
 
-- It would be nice to start with scp and sftp so it's more likely you'll succeed with at least something, then getting stuck on filezilla and rsync for two hours and almost wanting to give up. 
-- I think as one of the prerequisites, all users should use same terminal type (like Ubuntu) and participants installed Ubuntu if they use windows prior to the course.
-- I couldn't use rsync but I could use sftp and scp. filefilla I didn't have time to try it but I will. Thank you very much!
-- Add rsync to the requirements and steps on how to install it
-- Thanks!
+- It would be nice to start with scp and sftp so it's more likely you'll
+  succeed with at least something, then getting stuck on filezilla
+  and rsync for two hours and almost wanting to give up. 
 
+I would agree with this! Maybe BC wants to do hours 1 and 3 :-) ?
+
+- I think as one of the prerequisites, 
+  all users should use same terminal type (like Ubuntu) and participants
+  installed Ubuntu if they use windows prior to the course.
+- Add rsync to the requirements and steps on how to install it
+
+These two suggestions indeed solve problems!
+
+- [ ] Discuss with BC: add installed software to the prerequisties?
+
+- Thanks!
+- I couldn't use rsync but I could use sftp and scp. filefilla I didn't have
+  time to try it but I will. Thank you very much!
+
+Yay!
 
