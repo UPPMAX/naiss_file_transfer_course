@@ -71,10 +71,10 @@ As per [prerequisites](../prereqs/README.md):
 
 Here is an overview of the file transfer tools in this course:
 
-Tool       |Features
------------|-----------------------------------------------------------
-FileZilla  |Graphical, intuitive, simple
-`rsync`    |Terminal, powerful, flexible, feels like a regular file copy
-`scp`      |Terminal, simple, feels like a regular file copy
-`sftp`     |Terminal, simple, feels like a file transfer portal
+Tool       |User interface|Can transfer between clusters?|Other
+-----------|--------------|------------------------------|-------------------
+FileZilla  |Graphical     |No                            |intuitive, simple
+`rsync`    |Terminal      |Yes                           |powerful, flexible, feels like a regular file copy
+`scp`      |Terminal      |Yes                           |simple, feels like a regular file copy
+`sftp`     |Terminal      |Yes                           |simple, feels like a file transfer portal
 
