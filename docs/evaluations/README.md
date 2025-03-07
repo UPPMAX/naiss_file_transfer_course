@@ -12,7 +12,8 @@ tags:
 
 Here are the evaluation results of this course:
 
-No |Date      |Evaluation
----|----------|--------------------------
-1  |2025-03-07|[here](20250307/README.md)
+No |Date      |Evaluation                |Success score
+---|----------|--------------------------|-------------
+1  |2025-03-07|[here](20250307/README.md)|66%
+
 
