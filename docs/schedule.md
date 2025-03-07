@@ -31,7 +31,7 @@ Time  |Teacher|Topic
 10:05 |R      |[Login with terminal](sessions/login_terminal/README.md) and [file transfer using rsync](sessions/rsync/README.md)
 11:00 |.      |Break
 11:15 |B      |[File transfer using scp](sessions/scp/README.md) and [File transfer using sftp](sessions/sftp/README.md)
-11:50 |?R     |[Evaluation](evaluation.md)
+11:50 |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
 
 - Teachers are: `B`: Björn Claremar, `R`: Richèl Bilderbeek
