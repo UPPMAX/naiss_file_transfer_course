@@ -70,15 +70,15 @@ It works under Linux, Mac and Windows.
 
     HPC Cluster|Link to video
     -----------|-------------------------------------------------
-    Alvis      |[here](https://youtu.be/A8zfd0o0uzI)
+    Alvis      |[Here](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
-    Bianca     |[here](https://youtu.be/V-iPQLjvByc)
-    COSMOS     |[here](https://youtu.be/T4qqN_ljsS8)
-    Dardel     |[here](https://youtu.be/_3EmkN619Xo)
+    Bianca     |[Here](https://youtu.be/V-iPQLjvByc)
+    COSMOS     |[Here](https://youtu.be/T4qqN_ljsS8)
+    Dardel     |[Here](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster
     LUMI       |To do
-    Rackham    |[here](https://youtu.be/CyJbWHZbvJU)
-    Tetralith  |Does not work, created support ticket :-/
+    Rackham    |[Here](https://youtu.be/CyJbWHZbvJU)
+    Tetralith  |[Here](https://youtu.be/qzV3oY5fZbE)
     Vera       |Cannot: is not a NAISS cluster
 
 ### Exercise 1: install FileZilla
