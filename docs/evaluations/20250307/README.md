@@ -71,7 +71,7 @@ The text answers from [responses.csv](responses.csv):
 
 - It would be nice to start with scp and sftp so it's more likely you'll succeed with at least something, then getting stuck on filezilla and rsync for two hours and almost wanting to give up. 
 - I think as one of the prerequisites, all users should use same terminal type (like Ubuntu) and participants installed Ubuntu if they use windows prior to the course.
-- I couldn't use rsync but I could use sftp and scp. filefilla I didn't have time to try it but I will. Thank you very much!
+- I couldn't use rsync but I could use sftp and scp. FileZilla I didn't have time to try it but I will. Thank you very much!
 - Add rsync to the requirements and steps on how to install it
 - Thanks!
 

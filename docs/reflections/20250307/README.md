@@ -165,10 +165,10 @@ I would agree with this! Maybe BC wants to do hours 1 and 3 :-) ?
 
 These two suggestions indeed solve problems!
 
-- [ ] Discuss with BC: add installed software to the prerequisties?
+- [ ] Discuss with BC: add installed software to the prerequistites?
 
 - Thanks!
-- I couldn't use rsync but I could use sftp and scp. filefilla I didn't have
+- I couldn't use rsync but I could use sftp and scp. FileZilla I didn't have
   time to try it but I will. Thank you very much!
 
 Yay!

@@ -104,3 +104,8 @@ CyberDuck
 Rclone
 TARing
 Björn's
+analyse
+csv
+filezilla
+rescaled
+Yay
