@@ -3,7 +3,7 @@ tags:
   - reflections
 ---
 
-# Reflecions
+# Reflections
 
 Here are the reflections of this course:
 

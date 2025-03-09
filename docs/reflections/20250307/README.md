@@ -16,7 +16,7 @@ of my abilities, I did a reasonable job.
 
 Based on the first NAISS-wide 'Intro to
 Python' course (of 2025-03-04), all we could expect is that
-25% of all registrationed participants would show up.
+25% of all registered participants would show up.
 This turned out to be true, with 24% (37 registrations, 9 learners
 that stayed the whole course).
 
