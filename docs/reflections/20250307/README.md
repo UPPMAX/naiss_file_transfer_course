@@ -93,8 +93,8 @@ I enjoyed working together with my colleague: it felt we were a team to me.
 Me and my colleague talked a lot in how to make the learners move between
 rooms. We considered using 'Gather Town' or other tools for the next time
 
-- [ ] Consider other tool, e.g. [sowork.com](sowork.com) (which is free
-  for an unlimited amount of learners)
+- [ ] Consider other tool, e.g. [https://sowork.com/](https://sowork.com/)
+  (which is free for an unlimited amount of learners)
 
 I think it would be more fun me and my colleague alternate hours,
 e.g. I lead hours 1 and 3. Maybe then, if learners are done with hour 1,

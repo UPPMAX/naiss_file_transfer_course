@@ -16,4 +16,5 @@ No |Date      |Evaluation                |Success score
 ---|----------|--------------------------|-------------
 1  |2025-03-07|[here](20250307/README.md)|66%
 
-
+- The 'Success score' is the average confidence the learners
+  have on each of the learning outcomes of the course
