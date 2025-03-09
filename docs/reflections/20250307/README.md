@@ -48,7 +48,7 @@ Time |Description
 11:52|Evaluation starts
 12:02|Last learner leaves
 
-The evaluation questions should be changed: 
+The evaluation questions should be changed:
 'I am confortable to transfer files to/from my cluster' should be
 added, as this is the main goal of the course.
 
@@ -154,11 +154,11 @@ My bad: I should be clearer here ... :-/
 
 - It would be nice to start with scp and sftp so it's more likely you'll
   succeed with at least something, then getting stuck on filezilla
-  and rsync for two hours and almost wanting to give up. 
+  and rsync for two hours and almost wanting to give up.
 
 I would agree with this! Maybe BC wants to do hours 1 and 3 :-) ?
 
-- I think as one of the prerequisites, 
+- I think as one of the prerequisites,
   all users should use same terminal type (like Ubuntu) and participants
   installed Ubuntu if they use windows prior to the course.
 - Add rsync to the requirements and steps on how to install it
