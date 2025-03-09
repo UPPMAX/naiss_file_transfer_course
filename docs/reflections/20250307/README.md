@@ -116,11 +116,11 @@ and I think we have enough ideas to smoothen this out.
 - Average confidence: 3.3 (out of 5)
 - Success score (i.e. average confidence rescaled to 100%): 66%
 
-![](../../evaluations/20250307/all_confidences.png)
+![All confidences](../../evaluations/20250307/all_confidences.png)
 
-![](../../evaluations/20250307/confidences_per_question.png)
+![Confidences per question](../../evaluations/20250307/confidences_per_question.png)
 
-![](../../evaluations/20250307/average_confidences_per_question.png)
+![Average confidence per question](../../evaluations/20250307/average_confidences_per_question.png)
 
 So, the weakest session was `rsync`. I think this can be alleviated by doing
 `scp` first. FileZilla is the one-but-worst session. Maybe
