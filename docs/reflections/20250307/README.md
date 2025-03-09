@@ -21,10 +21,10 @@ This turned out to be true, with 24% (37 registrations, 9 learners
 that stayed the whole course).
 
 How well the schedule would work was a big unknown. I talked to
-my collegue that I want him to teach, but with a student-centered approach,
+my colleague that I want him to teach, but with a student-centered approach,
 this may not have worked. We were both open and flexible about this.
 The schedule, however, turned out reasonably well, with my colleague
-indeed being able to lead his sessions in the alloted times.
+indeed being able to lead his sessions in the allotted times.
 
 The breaks were a source of confusion: the first was at 9:50, the second
 at 11:00. It turned out that the first session could use 10 more minutes.
@@ -49,19 +49,19 @@ Time |Description
 12:02|Last learner leaves
 
 The evaluation questions should be changed:
-'I am confortable to transfer files to/from my cluster' should be
+'I am comfortable to transfer files to/from my cluster' should be
 added, as this is the main goal of the course.
 
-- [ ] Add: 'I am confortable to transfer files to/from my cluster'
+- [ ] Add: 'I am comfortable to transfer files to/from my cluster'
 
 Additionally, BC's later addition about zipping files should have
 been added too.
 
-- [ ] Add: 'I am confortable to transfer files to/from my cluster'
+- [ ] Add: 'I am comfortable to transfer files to/from my cluster'
 
 The two learners that used Alvis had a heard time: both
 FileZilla and `rsync` (under Windows) are hardest to use there.
-They were deligted when `scp` worked directly.
+They were delighted when `scp` worked directly.
 Maybe we should start with `scp`, as it is already pre-installed
 on all computers?
 
@@ -165,7 +165,7 @@ I would agree with this! Maybe BC wants to do hours 1 and 3 :-) ?
 
 These two suggestions indeed solve problems!
 
-- [ ] Discuss with BC: add installed software to the prerequistites?
+- [ ] Discuss with BC: add installed software to the prerequisites?
 
 - Thanks!
 - I couldn't use rsync but I could use sftp and scp. FileZilla I didn't have
