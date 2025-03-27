@@ -189,7 +189,7 @@ In `sftp` session, upload/download files to/from the server.
     Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
-    Dardel     |The similar psftp is described [here](https://support.pdc.kth.se/doc/support/?sub=data_management/file_transfer_scp/)
+    Dardel     |The similar psftp is described [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
     LUMI       |**To do**
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
