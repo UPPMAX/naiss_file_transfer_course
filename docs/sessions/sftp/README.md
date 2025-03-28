@@ -132,7 +132,8 @@ In `sftp` session, upload/download files to/from the server.
 !!! note "Transferring many files?"
 
     - As always, it is better to transfer few large files than many small files.
-    - Therefore, make archive(s) and while doing that, compress as well, see [last section](../scp/README.md/#large-or-many-files).
+    - Therefore, make archive(s) and while doing that, compress as well,
+      see [last section](../scp/README.md/#large-or-many-files).
 
 ## Server to server
 
@@ -147,7 +148,8 @@ In `sftp` session, upload/download files to/from the server.
     - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
 - Transferring **many files will create so called overhead**
     - each file has to be addressed individually.
-- Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
+- Solution is to **gather the files in an archive**,
+  like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
     - A folder with content then behaves like ONE file.
     - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
 - While TARing you may *compress* the data as well!
