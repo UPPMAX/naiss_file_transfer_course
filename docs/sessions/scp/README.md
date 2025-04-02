@@ -215,7 +215,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
+    Alvis      |[here](https://www.c3se.chalmers.se/documentation/file_transfer/).
     Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
     COSMOS     |**FIX?** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
@@ -224,7 +224,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     LUMI       |**To do**
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/intro-alvis/slides/#transfering-files).
+    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/).
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
 
