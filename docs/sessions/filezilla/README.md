@@ -146,7 +146,7 @@ Use the documentation of your HPC cluster for help.
 
     HPC Cluster|Link to documentation
     -----------|------------
-    Alvis      |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Alvis      |None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
     Berzelius  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead

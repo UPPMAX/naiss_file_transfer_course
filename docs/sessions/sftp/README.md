@@ -285,7 +285,7 @@ In `sftp` session, upload/download files to/from the server.
     - Have a SSH session running on your favorite cluster
     - Use a terminal tool (``rsync``, ``scp``, or ``sftp``) to establish connection between your account on Tetralith or Alvis and your present server.
         - address to Tetralith: use address from [Getting started](https://www.nsc.liu.se/support/getting-started/)
-        - address to Alvis: use address from [Login using a Terminal](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_using_ssh/)
+        - address to Alvis: use address from [Login using a Terminal](https://www.c3se.chalmers.se/documentation/connecting/ssh/)
     - Transfer a file between the clusters
     - Check that it is there!
 
