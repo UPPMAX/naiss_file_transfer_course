@@ -1,5 +1,7 @@
 # Welcome email
 
+<!-- markdownlint-disable MD013 --><!-- We ignore the 80-chars max line length, so that these letters can be copy-pasted as-is -->
+
 ## Welcome 1
 
 Dear learners,
@@ -50,3 +52,5 @@ We will approve you as soon as we can, and when approved you can go to:  <https:
 We are sorry for the late notice! The first iteration of the course made it a bit hard to identify all needs.
 See you on Friday!
 /Björn
+
+<!-- markdownlint-enable MD013 -->

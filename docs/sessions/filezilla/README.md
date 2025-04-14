@@ -167,6 +167,8 @@ Use the documentation of your HPC cluster for help.
 
 !!!- tip "Graphical tools"
 
-    - [WinSCP](https://winscp.net/eng/index.php) - for Windows
-    - [CyberDuck](https://cyberduck.io/) - other popular tool, available for all platforms
+    Tool                                      |Platforms
+    ------------------------------------------|-------------------
+    [WinSCP](https://winscp.net/eng/index.php)|Windows
+    [CyberDuck](https://cyberduck.io/)        |Linux, Mac, Windows
   
