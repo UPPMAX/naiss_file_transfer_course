@@ -81,7 +81,7 @@ of days.
 
 When it doubt, register another time :-)
 
-### How can I check if I have a user account on a Swedish academic HPC cluster?"
+### How can I check if I have a NAISS account?"
 
 When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
@@ -98,12 +98,15 @@ Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/perso
 ### How can I get a user account (user name) on a Swedish academic HPC cluster?"
 
 - You need to be part of a project first.
-- Also those with cluster accounts already may benefit in getting access to other clusters, since we will practice transferring files between clusetrs.
-- Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account (if you don’t already have one) on Tetralith and Dardel
+- Also those with cluster accounts already may benefit in getting access to other clusters, 
+since we will practice transferring files between clusters.
+- Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account 
+(if you don’t already have one) on Tetralith and Dardel
 - Steps:
     - In SUPR, go to Projects in the menu, and Request Membership in Project NAISS 2025/22-717.
     - Teacher will approve you as soon as he/she can, and
-    - when approved you can go to: [https://supr.naiss.se/account/](https://supr.naiss.se/account/) and sign up for a cluster account(s) at **Tetralith** and **Dardel**.
+    - when approved you can go to: [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
+and sign up for a cluster account(s) at **Tetralith** and **Dardel**.
 
 ### How can I check if I can login to an HPC cluster using SSH?"
 
