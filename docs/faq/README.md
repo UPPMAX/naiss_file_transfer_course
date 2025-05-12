@@ -98,9 +98,9 @@ Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/perso
 ### How can I get a user account (user name) on a Swedish academic HPC cluster?"
 
 - You need to be part of a project first.
-- Also those with cluster accounts already may benefit in getting access to other clusters, 
-since we will practice transferring files between clusters.
-- Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account 
+- Also those with cluster accounts already may benefit in getting access to
+other clusters, since we will practice transferring files between clusters.
+- Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account
 (if you don’t already have one) on Tetralith and Dardel
 - Steps:
     - In SUPR, go to Projects in the menu, and Request Membership in Project NAISS 2025/22-717.
