@@ -35,16 +35,24 @@ These are the **four** prerequisites for following this course:
 
 ## Preparations of your (local) computer environment
 
-- **FileZilla** installed
+- **[FileZilla](https://filezilla-project.org/download.php?type=client)** installed
 - A **terminal**
-    - **Linux and Mac** users ar **good to go** with the built-in terminal
-        - Most terminal transfer tools are included. install rsync on MAc with ``brew rsync`` in the terminal
+    - **Linux and Mac** users are **good to go** with the built-in terminal
+        - Most terminal transfer tools are included.
+        - Install rsync on Mac (if needed, see below) with ``brew rsync`` in the terminal
     - **Windows** users are recommended to install [**MobaXterm**](https://mobaxterm.mobatek.net/)
-        - MobaXterm has all needed transfer tools included
+        - MobaXterm has all needed transfer tools included.
         - CMD and PowerShell does not natively include some of the transfer tools.
             - It may be a hard time trying to install them during class session.
-- The transfer tools may or may not be installed, see the terminal point above.
-- You need (test the command to see it is there, if an error tells you it is not there, you need to install it):
-    - scp
-    - sftp
-    - rsync
+- The transfer tools may or may not be installed,
+see the terminal point above. Check below.
+
+???- question "Test to see if you have the needed terminal transfer tools installed"
+
+     - Open the terminal you will use.
+     - Test the following commands as they are. There will be some kind of error output.
+         - If they are related to missing arguments you are OK.
+         - If they tell you the tool is not found it is not there, you need to install it):
+    - ``scp``
+    - ``sftp``
+    - ``rsync``
