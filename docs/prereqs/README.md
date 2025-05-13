@@ -52,7 +52,7 @@ see the terminal point above. Check below.
     - Open the terminal you will use.
     - Test the following commands as they are. There will be some kind of error output.
         - If they are related to missing arguments you are OK.
-        - If they tell you the tool is not found it is not there, you need to install it):
+        - If they tell you the tool is not found it is not there, you need to install it:
     - ``scp``
     - ``sftp``
     - ``rsync``
