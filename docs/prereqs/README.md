@@ -49,10 +49,10 @@ see the terminal point above. Check below.
 
 ???- question "Test to see if you have the needed terminal transfer tools installed"
 
-     - Open the terminal you will use.
-     - Test the following commands as they are. There will be some kind of error output.
-         - If they are related to missing arguments you are OK.
-         - If they tell you the tool is not found it is not there, you need to install it):
+    - Open the terminal you will use.
+    - Test the following commands as they are. There will be some kind of error output.
+        - If they are related to missing arguments you are OK.
+        - If they tell you the tool is not found it is not there, you need to install it):
     - ``scp``
     - ``sftp``
     - ``rsync``
