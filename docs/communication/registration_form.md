@@ -78,9 +78,10 @@ Give you confidence levels of the following statements below:
 
 - I am comfortable using the documentation of my HPC center
 - I can transfer data using FileZilla
-- I can transfer data using rscync
 - I can transfer data using scp
+- I can transfer data using rscync
 - I can transfer data using sftp
+- I can compress and archive files before transferring
 
 - Uppsala University Data protection policy, <https://www.uu.se/en/about-uu/data-protection-policy/>.
   I understand and agree that UPPMAX will collect the information on this registration form.
