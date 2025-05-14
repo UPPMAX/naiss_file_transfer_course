@@ -116,5 +116,7 @@ WSL
 mobaXterm
 Joakim
 Passcode
-
+CMD
+PowerShell
+natively
 
