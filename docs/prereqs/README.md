@@ -39,7 +39,7 @@ These are the **four** prerequisites for following this course:
 - A **terminal**
     - **Linux and Mac** users are **good to go** with the built-in terminal
         - Most terminal transfer tools are included.
-        - Install `rsync` on Mac (if needed, see below) 
+        - Install `rsync` on Mac (if needed, see below)
           with `brew rsync` in the terminal
     - **Windows** users are recommended to install
       [**MobaXterm**](https://mobaxterm.mobatek.net/)
