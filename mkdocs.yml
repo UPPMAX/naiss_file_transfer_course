@@ -17,6 +17,7 @@ nav:
     - File transfer using sftp: sessions/sftp/README.md
     - Summary: sessions/summary.md
   - Misc:
+    - Acknowledgements: acknowledgements.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Communication: communication/README.md
     - Contributing: CONTRIBUTING.md
