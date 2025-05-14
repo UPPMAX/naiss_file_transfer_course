@@ -67,20 +67,20 @@ What do you already know?
 Give you confidence levels of the following statements,
 using this scale:
 
-- 0: I don't know even what this is about ...?
-- 1: I have no confidence I can do this
-- 2: I have low confidence I can do this
-- 3: I have some confidence I can do this
-- 4: I have good confidence I can do this
-- 5: I absolutely can do this!
+- `0`: I don't know even what this is about ...?
+- `1`: I have no confidence I can do this
+- `2`: I have low confidence I can do this
+- `3`: I have some confidence I can do this
+- `4`: I have good confidence I can do this
+- `5`: I absolutely can do this!
 
 Give you confidence levels of the following statements below:
 
 - I am comfortable using the documentation of my HPC center
 - I can transfer data using FileZilla
-- I can transfer data using scp
-- I can transfer data using rscync
-- I can transfer data using sftp
+- I can transfer data using `scp`
+- I can transfer data using `rsync`
+- I can transfer data using `sftp`
 - I can compress and archive files before transferring
 
 - Uppsala University Data protection policy, <https://www.uu.se/en/about-uu/data-protection-policy/>.
