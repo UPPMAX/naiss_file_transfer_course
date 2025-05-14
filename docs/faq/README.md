@@ -100,8 +100,8 @@ Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/perso
 - You need to be part of a project first.
 - Also those with cluster accounts already may benefit in getting access to
 other clusters, since we will practice transferring files between clusters.
-- Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account
-(if you don’t already have one) on Tetralith and Dardel
+- Ask for membership of `NAISS 2025/22-717` and get 1-2 cluster user account
+(if you don’t already have one) on Dardel and Tetralith
 - Steps:
     - In [SUPR](https://supr.naiss.se),
       go to the 'Projects' page in the menu,
