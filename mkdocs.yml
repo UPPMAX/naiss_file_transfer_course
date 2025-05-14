@@ -1,5 +1,6 @@
 site_name: File transfer course
 repo_url: https://github.com/UPPMAX/naiss_file_transfer_course
+edit_uri: blob/main/docs/
 
 nav:
   - Start: index.md
