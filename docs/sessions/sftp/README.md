@@ -60,7 +60,7 @@ tags:
         - handle bulk file transfers
         - modify directories
         - and encrypt or decrypt specific files
-        
+
 !!! warning "When not to use"
 
     - Rsync is better for "syncing"
@@ -110,7 +110,7 @@ In `sftp` session, upload/download files to/from the server.
     - ``?``/``help`` - List of all commands or explain a command, eg ? get
 
     Remote
-    
+
     - ``put`` - Copy a file from the local computer to the remote host
     - ``cd`` - Change the active directory path on the remote host
     - ``dir``/``ls`` - List the contents of the current directory on the remote host
@@ -160,7 +160,7 @@ In `sftp` session, upload/download files to/from the server.
     - ``gunzip compressed_file.gz``
     - ``tar -xf archive.tar``
     - ``tar -xzf compressed_archive.tar.gz``
-    
+
 ???- tip "``gzip`` cheat sheet"
 
         - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
@@ -168,7 +168,7 @@ In `sftp` session, upload/download files to/from the server.
 ???- tip "``tar`` cheat sheet"
 
         - [``tar`` manual](https://devhints.io/tar)
-        
+
 ???- question "Can I use archiving and compressing in all transfer methods?"
 
     - Yes!
@@ -197,7 +197,7 @@ In `sftp` session, upload/download files to/from the server.
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
-  
+
 ???- question "Dardel documentation uses ``psftp``, what is that?"
 
     - It is just a SFTP component of the client PuTTY.
@@ -213,27 +213,27 @@ In `sftp` session, upload/download files to/from the server.
     - Go to the course folder where you have files
     - Where are you locally?
     - Go to your local folder used for the course
-    
+
     ???- tip "Answer (Tetralith example)"
 
         Locally
-      
+
         - Establish connection
-        
+
         ```shell
         $ sftp sm_bcarl@tetralith.nsc.liu.se
         (sm_bcarl@tetralith.nsc.liu.se) Password:
         (sm_bcarl@tetralith.nsc.liu.se) Verification code:
         Connected to tetralith.nsc.liu.se.
         ```
-        
+
         - Use ``pwd`` to find where you are remotely
         - Use ``cd`` to reach relevant remote folder
         - Use ``lpwd`` to find where you are locally
         - Use ``lcd`` to reach relevant local folder
 
         - [Video for Tetralith](https://youtu.be/fP7xAakCrUU)
-        
+
 ???- question "Exercise 2: Upload"
 
     Tips
@@ -241,28 +241,28 @@ In `sftp` session, upload/download files to/from the server.
     - (If you want to create a file in local terminal: ``$ touch local_file_sftp``)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
     - Check on server (in sftp session) that it is there
-    
+
     ???- tip "Answer (Tetralith example)"
 
         Locally
-        
+
         - (If you want to create a file in local terminal: ``$ touch local_file_sftp``)
         - use the put command: ``> put local_file_sftp``
 
         Check on server (in sftp session) that it is there
-        
+
         - ``> ls ~/transfer``
-        
+
         - [Video for Tetralith](https://youtu.be/m9zpf-s_VqY)
-        
+
 ???- question "Exercise 3: Download"
 
     Tips
-    
+
     - (If you want to create a file in remote terminal: ``$ touch remote_file_sftp``)
     - Send it to an existing local folder
     - Check locally (in sftp session) that it is there
-    
+
     ???- tip "Answer (Tetralith example)"
 
         On Server
@@ -270,12 +270,12 @@ In `sftp` session, upload/download files to/from the server.
         - use the get command: ``> get remote_file_sftp``
 
         Check locally (in sftp session) that it is there
-        
+
         - ``> lls ~/transfer``
 
         - (or in the File explorer)
-        
-        
+
+
         - [Video for Tetralith](https://youtu.be/kgV77ZYGouw)
 
 ???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
@@ -315,7 +315,7 @@ In `sftp` session, upload/download files to/from the server.
     Tips
 
     In an SSH session (not SFTP) with REMOTE/server
-    
+
     - Create 1000 files REMOTELY in a directory with name ``many_files``
         - ``$ mkdir many_files_sftp``
         - ``$ cd many_files_sftp``
@@ -323,13 +323,13 @@ In `sftp` session, upload/download files to/from the server.
         - Check content: ``$ ls``  for checking
         - Leave directory to be able to perform next step: ``$ cd ..``
     - Also archive and zip the ``many_files_sftp`` folder to ``many_files_sftp.tar.qz``
-    
+
     Establish the SFTP session (Exercise 1)
-    
+
     - Download (to local) the *directory* and note the time needed (not shown in numbers so **count the seconds!**)
     - Download (to local) the ``.tar.gz`` file and note the time needed
     - Was there a significant difference?
-    
+
     ???- tip "Answer (Example with Tetralith)"
 
         Archiving and compressions step REMOTELY
@@ -337,14 +337,14 @@ In `sftp` session, upload/download files to/from the server.
         - ``tar -cvzf many_files_sftp.tar.gz many_files``
 
         Establish SFTP connection
-        
+
         - ``$ sftp sm_bcarl@tetralith.nsc.liu.se``
 
         Download
 
         - ``> get -r many_files_sftp`` (we need the recursive command ``-r``)
         - ``> get many_files_sftp.tar.gz``
-        
+
         - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
 
 ## Some other tools

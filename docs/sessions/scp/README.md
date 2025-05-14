@@ -23,7 +23,7 @@ tags:
     - Learners have transferred files using `scp`
 
     Lesson plan:
-    
+
     ```mermaid
     gantt
       title File transfer using scp
@@ -66,7 +66,7 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
         - good for mirroring websites
             - downloading entire directories recursively for offline viewing or backups.
         - most popular from Unix-based systems, like Linux
-    
+
     - ``curl`` outputs the content to the terminal by default.
         - add ``-O`` to download as file.
         - supports a wide range of protocols: HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP...
@@ -189,7 +189,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     - ``gunzip compressed_file.gz``
     - ``tar -xf archive.tar``
     - ``tar -xzf compressed_archive.tar.gz``
-    
+
 ???- tip "``gzip`` cheat sheet"
 
         - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
@@ -201,7 +201,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 ???- question "Can I use archiving and compressing in all transfer methods?"
 
     - Yes!
-      
+
 ## Exercises
 
 !!! warning "You may want to prioritize next session instead!"
@@ -234,18 +234,18 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     - (You can check the file structure in an ssh session)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
     - Check on server that it is there
-    
+
     ???- tip "Answer (Tetralith example)"
 
         Locally
-        
+
         - (If you want to create a file in *local* terminal: ``$ touch local_file``)
         - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
-        
+
         - ``$ ls ~/transfer``
-        
+
         - [Video for Tetralith](https://youtu.be/rvL-s5vi13I)
 
 ???- question "Exercise 2: Download a file from your the server to you computer, using scp"
@@ -264,10 +264,10 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
-        
+
         - ``$ ls``
         - (or in the File explorer)
-        
+
         - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
 ???- question "(Optional) Exercise 3: Download a directory with many files"
@@ -280,13 +280,13 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - ``$ touch my-file-{1..1000}.txt``
     - Time the download of the directory, using ``time``, and the recursive option to include the files within the directory
         - ``time scp ...``.
-    
+
     ???- tip "Answer (Tetralith example)"
 
         - ``time scp -r sm_bcarl@tetralith.nsc.liu.se:~/test/many_files .``
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
-        
+
 ???- question "(Optional) Exercise 4: Download the Compressed directory"
 
     Tips
@@ -303,7 +303,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - ``tar -cvzf many_files.tar.gz many_files``
 
         LOCALLY
-        
+
         - ``time scp sm_bcarl@tetralith.nsc.liu.se:~/test/many_files.tar.gz .``
 
         - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)

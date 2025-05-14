@@ -172,13 +172,13 @@ then answer these questions:
 
     ```bash
     sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@rackham.uppmax.uu.se
-    sven@rackham.uppmax.uu.se's password: 
+    sven@rackham.uppmax.uu.se's password:
     Last login: Thu Aug  8 18:35:17 2024 from vpnpool189-229.anst.uu.se
      _   _ ____  ____  __  __    _    __  __
     | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham1
     | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
-    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
-     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    |
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   |
 
     ###############################################################################
 
@@ -187,7 +187,7 @@ then answer these questions:
             Write to support@uppmax.uu.se, if you have questions or comments.
 
 
-    [sven@rackham1 ~]$ 
+    [sven@rackham1 ~]$
     ```
 
     <!-- markdownlint-enable MD013 -->
