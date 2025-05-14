@@ -23,7 +23,7 @@ This is the page for evaluating the current iteration of the course.
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLScs0JbgtgGFN4p818BzH3nwgqUGdIf7hsyLLC3wYQB1IK7M5A/viewform?usp=header)
+- Evaluation questions: [TODO #37](https://github.com/UPPMAX/naiss_file_transfer_course/issues/37)
 
 ???- question "For teachers: what is in that form?"
 

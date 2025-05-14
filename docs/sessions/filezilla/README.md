@@ -155,7 +155,7 @@ Use the documentation of your HPC cluster for help.
     LUMI       |To do
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
-    Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/for_users/filesystem/#copying-files-into-and-out-of-the-system).
+    Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/filesystem/#copying-files-into-and-out-of-the-system)
 
     <!-- markdownlint-enable MD013 -->
 
