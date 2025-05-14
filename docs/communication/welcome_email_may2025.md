@@ -12,13 +12,13 @@ These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_f
 
 - [x] Prerequisite 1/4: You have registered at our registration form
 - [ ] Prerequisite 2/4: A user account on a Swedish academic HPC cluster
-    - [ ] Step 2a: _NAISS SUPR account_ (https://supr.naiss.se/)
+    - [ ] Step 2a: _NAISS SUPR account_ (<https://supr.naiss.se/>)
     - [ ] Step 2b: Be member of NAISS 2025/22-717 and get a _cluster user account_ (if you don’t already have one)
 - [ ] Prerequisite 3/4: Be able to login to an HPC cluster using SSH
   the documentation of that cluster is helpful (if not, contact your cluster's HPC center).
 - [ ] Prerequisite 4/4: Have a good Zoom setup
 
-* If you don’t already have a Swedish _cluster_ account, you may join our course project with allocation on the Tetralith cluster (and Dardel).
+- If you don’t already have a Swedish _cluster_ account, you may join our course project with allocation on the Tetralith cluster (and Dardel).
 In SUPR, go to Projects in the menu, and Request Membership in Project NAISS 2025/22-717.
 I will approve you as soon as I can, and when approved you can go to:  <https://supr.naiss.se/account/> and sign up for a cluster account at Tetralith and Dardel.
 

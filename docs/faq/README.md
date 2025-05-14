@@ -103,10 +103,14 @@ other clusters, since we will practice transferring files between clusters.
 - Ask for membership of NAISS 2025/22-717 and get 1-2 cluster user account
 (if you don’t already have one) on Tetralith and Dardel
 - Steps:
-    - In SUPR, go to Projects in the menu, and Request Membership in Project NAISS 2025/22-717.
+    - In [SUPR](https://supr.naiss.se),
+      go to the 'Projects' page in the menu,
+      and at 'Request Membership' search for project
+      `NAISS 2025/22-717.`
     - Teacher will approve you as soon as he/she can, and
-    - when approved you can go to: [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
-and sign up for a cluster account(s) at **Tetralith** and **Dardel**.
+    - when approved you can go to:
+      [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
+      and sign up for a cluster account(s) at **Dardel** and **Tetralith**.
 
 ### How can I check if I can login to an HPC cluster using SSH?"
 
