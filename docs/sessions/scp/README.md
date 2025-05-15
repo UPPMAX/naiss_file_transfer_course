@@ -80,17 +80,17 @@ tags:
     - A file with the same name in the same directory is transferred, will be overwritten.
     - Transfers that are interrupted you have to restart the entire transfer.
 
+!!! warning
+
+    - There is no warning if a file is about to be overwritten.
+        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
+    - 'rsync' may be a better tool if you want to sync existing content.
+
 ## Procedure
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
-
-!!! tip
-
-    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
-    - We use ``[content]`` to tell that this argument is not necessary
-
-- In the terminal
+- In the terminal (from **local**, not server session)
 
 ```bash
 scp <from> <to>
@@ -98,57 +98,52 @@ scp <from> <to>
 
 Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
-Copy a file **from your local computer** to the cluster:
+!!! tip
 
-```bash
-scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
-```
+    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
+    - We use ``[content]`` to tell that this argument is not necessary
+    - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 
-Copy a file **from the cluster** to your local computer, do the command above in reverse order:
+??? info "More detailed general procedure"
 
-```bash
-scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder or "." for _present_ folder>
-```
-
-???- example "Example for Tetralith"
-
-    This is how you copy a file from your local computer directly to your HOME folder (~/):
+    Copy a file **from your local computer** to the cluster:
 
     ```bash
-    scp <local_filename> <username>@tetralith.nsc.liu.se:~/
+    scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
     ```
 
-    where `<local_filename>` is the path to a local filename,
-    and `<username>` is your Tetralith username, for example:
+    - where `<remote_filename>` is the path to a remote filename,
+    - where `<username>` is your cluster username,
+    - where `<local_folder>` is your local folder, for example:
+
+
+    Copy a file **from the cluster** to your local computer, do the command above in reverse order:
 
     ```bash
-    scp my_file.txt x_nisse@tetralith.nsc.liu.se:/home/sven
-    ```
-
-    To copy a file from Tetralith to your local computer,
-    do the command above in reverse order:
-
-    ```bash
-    scp <username>@tetralith.nsc.liu.se:/home/<username>/<remote_filename> <local_folder>
-    ```
-
-    where `<remote_filename>` is the path to a remote filename,
-    `<username>` is your UPPMAX username,
-    and `<local_folder>` is your local folder, for example:
-
-    ```bash
-    scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
+    scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder or "." for _present_ folder>
     ```
 
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
 
 
-!!! warning
+???- example "Example for Tetralith"
 
-    - There is no warning if a file is about to be overwritten.
-        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
-    - 'rsync' may be a better tool if you want to sync existing content.
+    This is how you copy a file from your local computer directly to your HOME folder (~/):
+
+    ```bash
+    scp my_file.txt x_nisse@tetralith.nsc.liu.se:/home/x_nisse
+    ```
+
+    To copy a file from Tetralith to your local computer (and present folder),
+    do the command above in reverse order:
+
+    ```bash
+    scp x_nisse@tetralith.nsc.liu.se:/home/x_nisse<remote_filename> .
+    ```
+
+    If asked, give your center's password.
+    You can get rid of this prompt if you have setup SSH keys
 
 ???- tip "Cheat sheet for ``scp``"
 
@@ -170,10 +165,7 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
         
             - If the center maintaining you HPC cluster has not documented how to use
-`scp`, follow [the Rackham documentation](rackham_file_transfer_using_scp).
-
-- Copy a file from your local computer to your Rackham home folder. Verify this worked.
-- Copy a file from your Rackham home folder to your local computer. Verify this worked.
+`scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
 
 ???- question "Where is that documentation?"
 
