@@ -156,36 +156,6 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
     - 'rsync' may be a better tool if you want to sync existing content.
 
-## Large or many files
-
-- Shorten download/upload time by **reducing the size of the file**!
-    - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
-- Transferring **many files will create so called overhead**
-    - each file has to be addressed individually.
-- Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder with content then behaves like ONE file.
-    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may *compress* the data as well!
-    - ``tar -czf archive.tar.gz /path/files``
-
-???- tip "Extract/inflate"
-
-    - ``gunzip compressed_file.gz``
-    - ``tar -xf archive.tar``
-    - ``tar -xzf compressed_archive.tar.gz``
-
-???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-
-???- tip "``tar`` cheat sheet"
-
-        - [``tar`` manual](https://devhints.io/tar)
-
-???- question "Can I use archiving and compressing in all transfer methods?"
-
-    - Yes!
 
 ## Exercises
 
