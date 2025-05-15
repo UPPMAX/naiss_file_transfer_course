@@ -13,6 +13,9 @@ tags:
 
     - Can find an overview of the course
     - Have seen the file transfer tools at this course
+    - Have seen where to put anonymous feedback
+    - Have included HPC cluster name in Zoom username,
+      e.g. `[Dardel] Sven Svensson`
 
 ???- question "For teachers"
 
@@ -20,21 +23,8 @@ tags:
 
     - Learners can find an overview of the course
     - Learners have seen the file transfer tools at this course
-
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title Introduction
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Prior : prior, 0, 5s
-      Present: present, after prior, 2s
-      %% It took me 7 mins, here I do that time x2
-      Challenge: crit, challenge, after present, 14s
-      Feedback: feedback, after challenge, 7s
-    ```
+    - Learners have seen where to put anonymous feedback
+    - Learners have included thir HPC cluster name in Zoom username
 
     Prior questions:
 
@@ -52,14 +42,14 @@ flowchart TD
   account[Account for HPC cluster]
   filezilla[1.Transfer files using FileZilla]
   login_console[2.Login to console environment]
-  rsync[3.Transfer files using rsync]
-  scp[4.Transfer files using scp]
+  scp[3.Transfer files using scp]
+  rsync[4.Transfer files using rsync]
   sftp[5.Transfer files using sftp]
 
   account --> filezilla
   account --> login_console
-  login_console --> rsync
   login_console --> scp
+  login_console --> rsync
   login_console --> sftp
 ```
 
@@ -73,12 +63,12 @@ Here is an overview of the file transfer tools in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Tool       |User interface|Can transfer between clusters?|Other
------------|--------------|------------------------------|-------------------
-FileZilla  |Graphical     |No                            |intuitive, simple
-`rsync`    |Terminal      |Yes                           |powerful, flexible, feels like a regular file copy
-`scp`      |Terminal      |Yes                           |simple, feels like a regular file copy
-`sftp`     |Terminal      |Yes                           |simple, feels like a file transfer portal
+Tool       |User interface|Can transfer between clusters?|Installation needed?                  |Other
+-----------|--------------|------------------------------|--------------------------------------|-------------------------------------------
+FileZilla  |Graphical     |No                            |Needs installation                    |Intuitive, simple
+`scp`      |Terminal      |Yes                           |Commonly installed with OS or terminal|Simple, feels like a regular file copy
+`rsync`    |Terminal      |Yes                           |Needs installation                    |Powerful, flexible, feels like a regular file copy
+`sftp`     |Terminal      |Yes                           |Commonly installed with OS or terminal|Simple, feels like a file transfer portal
 
 <!-- markdownlint-enable MD013 -->
 
