@@ -156,6 +156,11 @@ Probably: yes
 Follow the instructions of your favorite HPC center
 or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
+## How to install FileZilla?
+
+Go to [the download page of FileZilla's homepage](https://filezilla-project.org/download.php?type=client).
+Download the FileZilla client (i.e. not the FileZilla server).
+
 ### How can I check if I have a good Zoom setup?"
 
 - You are in a room where you can talk
