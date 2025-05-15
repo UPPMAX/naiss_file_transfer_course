@@ -28,6 +28,9 @@ tags:
 
 ## Overview other terminal transfer tools
 
+<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
+
+
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities.
 - `rsync` is perfect for syncing and have many capabilities
@@ -87,8 +90,6 @@ tags:
     - 'rsync' may be a better tool if you want to sync existing content.
 
 ## Procedure
-
-<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
 - In the terminal (from **local**, not server session)
 
@@ -164,8 +165,7 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
         
-            - If the center maintaining you HPC cluster has not documented how to use
-`scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
+            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
 
 ???- question "Where is that documentation?"
 
