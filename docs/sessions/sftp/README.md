@@ -51,13 +51,12 @@ tags:
 
     - Rsync is better for "syncing"
 
-
 ## Procedure
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
-
-In the terminal, run `sftp` to connect to a cluster by doing:
+- Run the sftp commands on YOUR computer, since you probably do not have a server address to your computer!
+- In the terminal (from **local**, not server session)
 
 ```bash
 sftp <username>@<cluster address>
@@ -70,11 +69,11 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 - ``put <file/folder>`` - **Copy** a file/folder **from the local** computer to the remote host
 - ``get <file/folder>`` - **Copy** a file/folder **from the remote** host to the local computer
 
-!!! tip
+???- tip "Syntax for command arguments"
 
     - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
     - We use ``[content]`` to tell that this argument is not necessary
-    - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
+    - Run the sftp commands on YOUR computer, since you probably do not have a server address to your computer!
 
 ???- example "Example for Tetralith"
 
