@@ -25,7 +25,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation questions
 
-- Evaluation questions: [TODO #37](https://github.com/UPPMAX/naiss_file_transfer_course/issues/37)
+- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLSerepZRASbdMnFtNlXNWETDl1FcQaIp6snlK1ShOheoyCHEyQ/viewform?usp=header)
 
 ???- question "For teachers: what is in that form?"
 
