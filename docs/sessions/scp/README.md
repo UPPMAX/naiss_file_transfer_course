@@ -73,14 +73,13 @@ tags:
 
 !!! warning "When not to use"
 
-    - When needing several one-line commands
+    - When needing **several one-line** commands
         - requires credentials every time
-    - When looking to do more than a basic file transfer, SCP falls short.
-    - When you on the fly need to create or list directories or delete files.
-    - A file with the same name in the same directory is transferred, will be overwritten.
-    - Transfers that are interrupted you have to restart the entire transfer.
+    - When looking to do **more than a basic** file transfer, SCP falls short.
+    - Transfers that are **interrupted** you have to restart the entire transfer.
+    - A file with the **same name** in the same directory is transferred, will be overwritten.
 
-!!! warning
+!!! warning "Risk of overwriting files"
 
     - There is no warning if a file is about to be overwritten.
         - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
@@ -200,8 +199,8 @@ tags:
         Locally
 
         - (If you want to create a file in *local* terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: 
-        
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith:
+
         - ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
