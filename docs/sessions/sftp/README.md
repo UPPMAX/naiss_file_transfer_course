@@ -91,10 +91,10 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
     Upload/download files to/from Tetralith
 
-    In `sftp` session, upload/download files to/from the server.
+    In `sftp` session, upload/download files/folders to/from the server.
 
-    - ``put <filename>`` - Copy a file from the local computer to the remote host
-    - ``get <filename>`` - Copy a file from the remote host to the local computer
+    - ``put localfile.txt`` - Copy a file from the local computer to the remote host
+    - ``get serverfile.txt`` - Copy a file from the remote host to the local computer
 
 ???- tip "Cheat sheet in the SFTP session"
 
