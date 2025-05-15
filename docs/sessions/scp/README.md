@@ -88,6 +88,7 @@ tags:
 
 ## Procedure
 
+- Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 - In the terminal (from **local**, not server session)
 
 ```bash
@@ -96,11 +97,10 @@ scp <from> <to>
 
 Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
-!!! tip
+???- tip "Syntax for command arguments"
 
     - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
     - We use ``[content]`` to tell that this argument is not necessary
-    - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 
 ??? info "More detailed general procedure"
 
