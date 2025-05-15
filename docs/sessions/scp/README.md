@@ -22,20 +22,6 @@ tags:
       of their favorite HPC cluster
     - Learners have transferred files using `scp`
 
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title File transfer using scp
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Prior : prior, 0, 2s
-      Present: present, after prior, 3s
-      Challenge: crit, challenge, after present, 10s
-      Feedback: feedback, after challenge, 2s
-    ```
-
     Prior questions:
 
     - Who has heard of `scp`?

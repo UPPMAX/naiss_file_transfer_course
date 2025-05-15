@@ -37,22 +37,6 @@ tags:
 
     - Use X forwarding
 
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title Login via terminal
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Prior : prior, 0, 5s
-      Present: present, after prior, 2s
-      %% It took me 7 mins, here I do that time x2
-      Challenge: crit, challenge, after present, 14s
-      %% Here I use the same time it took me to give feedback
-      Feedback: feedback, after challenge, 7s
-    ```
-
     Prior questions:
 
     - What is a console environment?

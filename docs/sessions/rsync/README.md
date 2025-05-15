@@ -21,22 +21,6 @@ tags:
       of their favorite HPC cluster
     - Learners have transferred files using `rsync`
 
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title File transfer using rsync
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Prior : prior, 0, 5s
-      Present: present, after prior, 2s
-      %% It took me 6 mins, here I do that time x2
-      Challenge: crit, challenge, after present, 12s
-      %% Here I use the same time it took me to give feedback
-      Feedback: feedback, after challenge, 6s
-    ```
-
     Prior questions:
 
     - How can one do a file transfer from the terminal?

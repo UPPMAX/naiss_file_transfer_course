@@ -22,21 +22,6 @@ tags:
     - Learners have installed FileZilla
     - Learners have transferred files using FileZilla
 
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title File transfer using FileZilla
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Prior : prior, 0, 5s
-      Present: present, after prior, 2s
-      %% It took me 7 mins, here I do that time x2
-      Challenge: crit, challenge, after present, 14s
-      Feedback: feedback, after challenge, 7s
-    ```
-
     Prior questions:
 
     - What is a file tranfer?
