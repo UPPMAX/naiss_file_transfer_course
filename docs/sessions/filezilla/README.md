@@ -61,7 +61,7 @@ It works under Linux, Mac and Windows.
     COSMOS     |[Here](https://youtu.be/T4qqN_ljsS8)
     Dardel     |[Here](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster
-    LUMI       |To do
+    LUMI       |[Cannot: has no documentation (yet?)](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34)
     Rackham    |[Here](https://youtu.be/CyJbWHZbvJU)
     Tetralith  |[Here](https://youtu.be/qzV3oY5fZbE)
     Vera       |Cannot: is not a NAISS cluster
@@ -82,9 +82,9 @@ Bianca          |Room 2
 COSMOS          |Room 3
 Dardel          |Room 4
 Kebnekaise      |Room 5
-Rackham         |Room 6
-Tetralith       |Room 7
-.               |Room 8
+LUMI            |Room 6
+Rackham         |Room 7
+Tetralith       |Room 8
 .               |Room 9
 
 - When the main breakout room reaches 4 learners, decide upon 2 to
@@ -137,7 +137,7 @@ Use the documentation of your HPC cluster for help.
     COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
     Dardel     |None. Closest is [here](https://support.pdc.kth.se/doc/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
     Kebnekaise |[here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
-    LUMI       |To do
+    LUMI       |[Has no documentation (yet?)](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34)
     Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/filesystem/#copying-files-into-and-out-of-the-system)
