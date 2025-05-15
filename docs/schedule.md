@@ -27,13 +27,15 @@ Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
 9:00  |R      |[Intro](sessions/intro.md)
 9:05  |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
+.     |R      |[Login with terminal](sessions/login_terminal/README.md)
 9:50  |.      |Break
 10:05 |R      |[Login with terminal](sessions/login_terminal/README.md)
-10:20 |B      |[File transfer using scp](sessions/scp/README.md)
+.     |B      |[File transfer using scp](sessions/scp/README.md)
 11:00 |.      |Break
 11:15 |R      |(optional) [file transfer using rsync](sessions/rsync/README.md)
-11:35 |B      |(optional) [file transfer using sftp](sessions/sftp/README.md)
-11:50 |R      |[Evaluation](evaluation.md)
+.     |B      |(optional) [Transfer tips](sessions/transfer_tips/README.md)
+.     |B      |(optional) [file transfer using sftp](sessions/sftp/README.md)
+.     |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
 
 - Teachers are: `B`: Björn Claremar, `R`: Richèl Bilderbeek
