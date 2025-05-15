@@ -124,7 +124,8 @@ This depends on the HPC cluster you are using.
 
 ### How can I login to an HPC cluster?
 
-See the documentation of your HPC cluster.
+Follow the instructions of your favorite HPC center
+or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 Also, these videos may be useful:
 
@@ -150,11 +151,6 @@ Probably: yes
 
 - Using a website: yes
 - Using a local ThinLinc client: yes
-
-### How can I login to an HPC cluster?
-
-Follow the instructions of your favorite HPC center
-or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 ## How to install FileZilla?
 
