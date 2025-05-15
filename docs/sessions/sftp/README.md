@@ -54,16 +54,22 @@ tags:
 
 ## Procedure
 
-In the terminal, run `sftp` to connect to Rackham by doing:
+In the terminal, run `sftp` to connect to a cluster by doing:
 
 ```bash
-sftp [username]@<cluster address>
+sftp <username>@<cluster address>
 ```
 
 In `sftp` session, upload/download files to/from the server.
 
 - ``put <filename>`` - Copy a file from the local computer to the remote host
 - ``get <filename>`` - Copy a file from the remote host to the local computer
+
+!!! tip
+
+    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
+    - We use ``[content]`` to tell that this argument is not necessary
+    - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 
 ???- example "Example for Rackham"
 
@@ -72,10 +78,10 @@ In `sftp` session, upload/download files to/from the server.
     In the terminal, run `sftp` to connect to Rackham by doing:
 
     ```bash
-    sftp [username]@rackham.uppmax.uu.se
+    sftp <username>@rackham.uppmax.uu.se
     ```
 
-    where `[username]` is your UPPMAX username, for example:
+    where `<username>` is your UPPMAX username, for example:
 
     ```bash
     sftp sven@rackham.uppmax.uu.se
