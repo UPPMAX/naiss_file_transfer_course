@@ -65,10 +65,10 @@ sftp <username>@<cluster address>
 
 In `sftp` session, go to right folders and upload/download files to/from the server. You can do this as long as the connection is active!
 
-- ``pwd/cd/ls`` - browse and list files in server file system
-- ``lpwd/lcd/lls`` - browse and list files in server file system
-- ``put <filename>`` - Copy a file **from the local** computer to the remote host
-- ``get <filename>`` - Copy a file **from the remote** host to the local computer
+- ``pwd/cd/ls`` - **browse** and list files in **server file system**
+- ``lpwd/lcd/lls`` - **browse** and list files in **local file system**
+- ``put <file/folder>`` - **Copy** a file/folder **from the local** computer to the remote host
+- ``get <file/folder>`` - **Copy** a file/folder **from the remote** host to the local computer
 
 !!! tip
 
