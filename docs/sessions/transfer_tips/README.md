@@ -54,42 +54,12 @@ tags:
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - "Local" will now be the server you connect from, that is, where you run the commands.
 
-## Large or many files (copy from ``scp`` session)
-
-- Shorten download/upload time by **reducing the size of the file**!
-    - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
-- Transferring **many files will create so called overhead**
-    - each file has to be addressed individually.
-- Solution is to **gather the files in an archive**,
-  like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder with content then behaves like ONE file.
-    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may *compress* the data as well!
-    - ``tar -czf archive.tar.gz /path/files``
-
-???- tip "Extract/inflate"
-
-    - ``gunzip compressed_file.gz``
-    - ``tar -xf archive.tar``
-    - ``tar -xzf compressed_archive.tar.gz``
-
-???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-
-???- tip "``tar`` cheat sheet"
-
-        - [``tar`` manual](https://devhints.io/tar)
-
-???- question "Can I use archiving and compressing in all transfer methods?"
-
-    - Yes!
-
 
 ## Exercises
 
-???- question "(Optional) Exercise 3: Download a directory with many files"
+<!-- markdownlint-disable MD013 --><!-- Let's break the 80 characters per line -->
+
+???- question "(Optional) Exercise 1: Download a directory with many files"
 
     Tips
 
@@ -106,7 +76,7 @@ tags:
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
 
-???- question "(Optional) Exercise 4: Download the Compressed directory"
+???- question "(Optional) Exercise 2: Download the Compressed directory"
 
     Tips
 
@@ -126,6 +96,45 @@ tags:
         - ``time scp sm_bcarl@tetralith.nsc.liu.se:~/test/many_files.tar.gz .``
 
         - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
+
+
+???- question "(Optional): Exercise 3: Test the difference between transferring one or several files"
+
+    Tips
+
+    In an SSH session (not SFTP) with REMOTE/server
+
+    - Create 1000 files REMOTELY in a directory with name ``many_files``
+        - ``$ mkdir many_files_sftp``
+        - ``$ cd many_files_sftp``
+        - ``$ touch file_{1..1000}.txt``
+        - Check content: ``$ ls``  for checking
+        - Leave directory to be able to perform next step: ``$ cd ..``
+    - Also archive and zip the ``many_files_sftp`` folder to ``many_files_sftp.tar.qz``
+
+    Establish the SFTP session (Exercise 1)
+
+    - Download (to local) the *directory* and note the time needed
+(not shown in numbers so **count the seconds!**)
+    - Download (to local) the ``.tar.gz`` file and note the time needed
+    - Was there a significant difference?
+
+    ???- tip "Answer (Example with Tetralith)"
+
+        Archiving and compressions step REMOTELY
+
+        - ``tar -cvzf many_files_sftp.tar.gz many_files``
+
+        Establish SFTP connection
+
+        - ``$ sftp sm_bcarl@tetralith.nsc.liu.se``
+
+        Download
+
+        - ``> get -r many_files_sftp`` (we need the recursive command ``-r``)
+        - ``> get many_files_sftp.tar.gz``
+
+        - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
 
 
 ???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
@@ -159,40 +168,3 @@ tags:
         - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
 
         - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
-
-???- question "(Optional): Exercise 5: Test the difference between transferring one or several files"
-
-    Tips
-
-    In an SSH session (not SFTP) with REMOTE/server
-
-    - Create 1000 files REMOTELY in a directory with name ``many_files``
-        - ``$ mkdir many_files_sftp``
-        - ``$ cd many_files_sftp``
-        - ``$ touch file_{1..1000}.txt``
-        - Check content: ``$ ls``  for checking
-        - Leave directory to be able to perform next step: ``$ cd ..``
-    - Also archive and zip the ``many_files_sftp`` folder to ``many_files_sftp.tar.qz``
-
-    Establish the SFTP session (Exercise 1)
-
-    - Download (to local) the *directory* and note the time needed (not shown in numbers so **count the seconds!**)
-    - Download (to local) the ``.tar.gz`` file and note the time needed
-    - Was there a significant difference?
-
-    ???- tip "Answer (Example with Tetralith)"
-
-        Archiving and compressions step REMOTELY
-
-        - ``tar -cvzf many_files_sftp.tar.gz many_files``
-
-        Establish SFTP connection
-
-        - ``$ sftp sm_bcarl@tetralith.nsc.liu.se``
-
-        Download
-
-        - ``> get -r many_files_sftp`` (we need the recursive command ``-r``)
-        - ``> get many_files_sftp.tar.gz``
-
-        - [Video for Tetralith](https://youtu.be/h9HDegau1DI)

@@ -115,14 +115,8 @@ In `sftp` session, upload/download files to/from the server.
     - ``lmkdir`` - Create a directory on the local computer
     - ``lpwd`` - Show the present working directory on the local computer
 
-!!! note "Transferring many files?"
-
-    - As always, it is better to transfer few large files than many small files.
-    - Therefore, make archive(s) and while doing that, compress as well,
-      see [last section](../scp/README.md/#large-or-many-files).
-
-
 ## Exercises
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 ??? question "Use the documentation of your HPC cluster"
