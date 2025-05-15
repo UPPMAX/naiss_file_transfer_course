@@ -54,44 +54,12 @@ tags:
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - "Local" will now be the server you connect from, that is, where you run the commands.
 
-## Large or many files (copy from ``scp`` session)
-
-- Shorten download/upload time by **reducing the size of the file**!
-    - A common tool in Linux environments is ``gzip``.
-    - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
-- Transferring **many files will create so called overhead**
-    - each file has to be addressed individually.
-- Solution is to **gather the files in an archive**,
-  like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder with content then behaves like ONE file.
-    - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
-- While TARing you may *compress* the data as well!
-    - ``tar -czf archive.tar.gz /path/files``
-
-???- tip "Extract/inflate"
-
-    - ``gunzip compressed_file.gz``
-    - ``tar -xf archive.tar``
-    - ``tar -xzf compressed_archive.tar.gz``
-
-???- tip "``gzip`` cheat sheet"
-
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-
-???- tip "``tar`` cheat sheet"
-
-        - [``tar`` manual](https://devhints.io/tar)
-
-???- question "Can I use archiving and compressing in all transfer methods?"
-
-    - Yes!
-
 
 ## Exercises
+
 <!-- markdownlint-disable MD013 --><!-- Let's break the 80 characters per line -->
 
-
-???- question "(Optional) Exercise 3: Download a directory with many files"
+???- question "(Optional) Exercise 1: Download a directory with many files"
 
     Tips
 
@@ -108,7 +76,7 @@ tags:
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
 
-???- question "(Optional) Exercise 4: Download the Compressed directory"
+???- question "(Optional) Exercise 2: Download the Compressed directory"
 
     Tips
 
@@ -130,39 +98,7 @@ tags:
         - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
 
 
-???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
-
-    Tips
-
-    - Have a SSH session running on your favorite cluster
-    - Use a terminal tool (``rsync``, ``scp``, or ``sftp``) to establish connection between your account on Tetralith or Alvis and your present server.
-        - address to Tetralith: use address from [Getting started](https://www.nsc.liu.se/support/getting-started/)
-        - address to Alvis: use address from [Login using a Terminal](https://www.c3se.chalmers.se/documentation/connecting/ssh/)
-    - Transfer a file between the clusters
-    - Check that it is there!
-
-    ???- tip "Answer (Example with Tetralith to Rackham , using sftp)"
-
-        Same principles as we learned before!
-
-        Connection from Tetralith:
-
-        ```console
-        [sm_bcarl@tetralith3 ~]$ sftp bjornc@rackham.uppmax.uu.se
-        The authenticity of host 'rackham.uppmax.uu.se (89.44.250.84)' can't be established.
-        ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
-        This key is not known by any other names
-        Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-        Warning: Permanently added 'rackham.uppmax.uu.se' (ECDSA) to the list of known hosts.
-        bjornc@rackham.uppmax.uu.se's password:
-        Connected to rackham.uppmax.uu.se.
-        ```
-
-        - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
-
-        - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
-
-???- question "(Optional): Exercise 5: Test the difference between transferring one or several files"
+???- question "(Optional): Exercise 3: Test the difference between transferring one or several files"
 
     Tips
 
@@ -199,3 +135,36 @@ tags:
         - ``> get many_files_sftp.tar.gz``
 
         - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
+
+
+???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
+
+    Tips
+
+    - Have a SSH session running on your favorite cluster
+    - Use a terminal tool (``rsync``, ``scp``, or ``sftp``) to establish connection between your account on Tetralith or Alvis and your present server.
+        - address to Tetralith: use address from [Getting started](https://www.nsc.liu.se/support/getting-started/)
+        - address to Alvis: use address from [Login using a Terminal](https://www.c3se.chalmers.se/documentation/connecting/ssh/)
+    - Transfer a file between the clusters
+    - Check that it is there!
+
+    ???- tip "Answer (Example with Tetralith to Rackham , using sftp)"
+
+        Same principles as we learned before!
+
+        Connection from Tetralith:
+
+        ```console
+        [sm_bcarl@tetralith3 ~]$ sftp bjornc@rackham.uppmax.uu.se
+        The authenticity of host 'rackham.uppmax.uu.se (89.44.250.84)' can't be established.
+        ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
+        This key is not known by any other names
+        Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+        Warning: Permanently added 'rackham.uppmax.uu.se' (ECDSA) to the list of known hosts.
+        bjornc@rackham.uppmax.uu.se's password:
+        Connected to rackham.uppmax.uu.se.
+        ```
+
+        - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
+
+        - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
