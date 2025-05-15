@@ -164,12 +164,16 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
 
 ## Exercises
 
-!!! warning "You may want to prioritize next session instead!"
-
 ???- question "Exercise 0: Use the documentation of your HPC cluster"
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+        
+            - If the center maintaining you HPC cluster has not documented how to use
+`scp`, follow [the Rackham documentation](rackham_file_transfer_using_scp).
+
+- Copy a file from your local computer to your Rackham home folder. Verify this worked.
+- Copy a file from your Rackham home folder to your local computer. Verify this worked.
 
 ???- question "Where is that documentation?"
 
