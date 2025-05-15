@@ -16,5 +16,3 @@ tags:
 - [x] [Add LUMI videos for my sections](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34)
     - Cannot be done, see the issue
 
-
-
