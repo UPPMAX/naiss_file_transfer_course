@@ -11,7 +11,7 @@ This is the page for evaluating the current iteration of the course.
 
     At [the 'Evaluations' page](evaluations/README.md).
 
-## Evaluation forms
+## Any feedback during the day
 
 - Any feedback during the day: [here](https://docs.google.com/forms/d/e/1FAIpQLSe3bViQ0ReenZjIAA4wIZIP12zIV6OSYF_kLqVD6nwR7rjNFA/viewform?usp=header)
 
@@ -22,6 +22,8 @@ This is the page for evaluating the current iteration of the course.
     if and only if there are no personal details (email, address, etc.)
     in the feedback.
     Do mention the teachers, assistants, etc by name!
+
+## Evaluation questions
 
 - Evaluation questions: [TODO #37](https://github.com/UPPMAX/naiss_file_transfer_course/issues/37)
 
