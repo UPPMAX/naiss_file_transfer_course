@@ -27,6 +27,12 @@ This is the page for evaluating the current iteration of the course.
 
 - Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLSerepZRASbdMnFtNlXNWETDl1FcQaIp6snlK1ShOheoyCHEyQ/viewform?usp=header)
 
+???- question "Why do you evaluate under lesson hours?"
+
+    Because we value your time: your free time should be your free time.
+
+    We think the time lost teaching is worth it to improve our teaching.
+
 ???- question "For teachers: what is in that form?"
 
     These are the evaluation questions.
