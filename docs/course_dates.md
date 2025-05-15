@@ -17,10 +17,10 @@ tags:
     - [Shared document for teaching dates](https://hackmd.io/@UPPMAX/uppmax-training-events)
 
 
-Week|Date            |Times
-----|----------------|--------
-10  |Friday March 7th|9:00-12:00
-20  |Friday May 16th |9:00-12:00
-36  |Friday Sep 5th  |?9:00-12:00
-46  |Friday 14 Nov   |?9:00-12:00
+Week|Date                     |Times
+----|-------------------------|-----------
+10  |Friday March 7th 2025    |9:00-12:00
+20  |Friday May 16th 2025     |9:00-12:00
+36  |Friday September 5th 2025|?9:00-12:00
+46  |Friday November 14th 2025|?9:00-12:00
 
