@@ -36,7 +36,7 @@ tags:
 > FileZilla being able to do file transfer to/from
 > UPPMAX's Rackham HPC cluster.
 
-## Why?
+## Why use FileZilla
 
 Fairly sure you'll want to upload or download files to your HPC cluster.
 Here we do so.
@@ -45,13 +45,19 @@ We use a free and open-source graphical tool to do this,
 called FileZilla.
 It works under Linux, Mac and Windows.
 
+???- question "What are similar graphical tools?"
+
+    Tool                                      |Platforms
+    ------------------------------------------|-------------------
+    [WinSCP](https://winscp.net/eng/index.php)|Windows
+    [CyberDuck](https://cyberduck.io/)        |Linux, Mac, Windows
+
+
 ## Exercises
 
 ???- question "Need a video?"
 
-    Here are videos that do this exercises for the differt HPC clusters:
-
-    You can find a video with solutions to these exercises:
+    Here are videos that do this exercises for the different HPC clusters:
 
     HPC Cluster|Link to video
     -----------|-------------------------------------------------
@@ -152,13 +158,4 @@ Use the documentation of your HPC cluster for help.
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
 
-
-## Some other tools
-
-!!!- tip "Graphical tools"
-
-    Tool                                      |Platforms
-    ------------------------------------------|-------------------
-    [WinSCP](https://winscp.net/eng/index.php)|Windows
-    [CyberDuck](https://cyberduck.io/)        |Linux, Mac, Windows
 

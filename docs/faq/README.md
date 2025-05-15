@@ -74,14 +74,14 @@ we decided to add prerequisites instead
 
 See [prerequisites](../prereqs/README.md).
 
-### How can I check if I have registered?"
+### How can I check if I have registered?
 
 You should have gotten a welcome email within a couple
 of days.
 
 When it doubt, register another time :-)
 
-### How can I check if I have a NAISS account?"
+### How can I check if I have a NAISS account?
 
 When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
@@ -91,11 +91,11 @@ When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
     ![A user that logged into SUPR](supr_logged_in.png)
 
-### How can I get a user account in NAISS?"
+### How can I get a user account in NAISS?
 
 Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
 
-### How can I get a user account (user name) on a Swedish academic HPC cluster?"
+### How can I get a user account (user name) on a Swedish academic HPC cluster?
 
 - You need to be part of a project first.
 - Also those with cluster accounts already may benefit in getting access to
@@ -112,7 +112,7 @@ other clusters, since we will practice transferring files between clusters.
       [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
       and sign up for a cluster account(s) at **Dardel** and **Tetralith**.
 
-### How can I check if I can login to an HPC cluster using SSH?"
+### How can I check if I can login to an HPC cluster using SSH?
 
 This depends on the HPC cluster you are using.
 
@@ -144,24 +144,42 @@ Rackham    |SSH                  |[here](https://youtu.be/TSVGSKyt2bQ)
 Rackham    |Website              |[here](https://youtu.be/HQ2iuKRPabc)
 Tetralith  |SSH                  |[here](https://youtu.be/wtGIzSBiulY)
 
-### Is it OK if I can login to an HPC cluster using other methods?"
+### Is it OK if I can login to an HPC cluster using other methods?
 
 Probably: yes
 
 - Using a website: yes
 - Using a local ThinLinc client: yes
 
-### How can I login to an HPC cluster?"
+### How can I login to an HPC cluster?
 
 Follow the instructions of your favorite HPC center
 or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 ## How to install FileZilla?
 
-Go to [the download page of FileZilla's homepage](https://filezilla-project.org/download.php?type=client).
-Download the FileZilla client (i.e. not the FileZilla server).
+Under Ubuntu, you can can use the Ubuntu App Center.
 
-### How can I check if I have a good Zoom setup?"
+???- question "How does the Ubuntu App Center look like?"
+
+    Here:
+
+    ![FileZilla in the Ubuntu App Center](filezilla_in_ubuntu_app_center.png)
+
+For non-Ubuntu users, search the web, download and install.
+
+???- question "Where can I find it?"
+
+    The FileZilla website can be found at
+    [https://filezilla-project.org/](https://filezilla-project.org/).
+
+    Clicking on 'Download FileZilla client' takes you to the
+    FileZilla download page at
+    [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
+
+    Download the file, maybe unzip it and run the installer
+
+### How can I check if I have a good Zoom setup?
 
 - You are in a room where you can talk
 - You talk into a (standalone or headset) microphone
@@ -169,12 +187,12 @@ Download the FileZilla client (i.e. not the FileZilla server).
 - Others can see you
 - You can hear others clearly when they talk
 
-### How can I get a good Zoom setup?"
+### How can I get a good Zoom setup?
 
 - Find/schedule/book a room where you can talk
 - Buy a simple headset
 
-### What if I don't have a good Zoom setup? Is that OK?"
+### What if I don't have a good Zoom setup? Is that OK?
 
 No.
 

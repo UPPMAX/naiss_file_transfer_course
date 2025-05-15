@@ -19,7 +19,7 @@ These are the **five** prerequisites for following this course:
   Be able to login to your cluster's remote desktop environment
 - Prerequisite 2/5: Be able to login using an SSH client
 - Prerequisite 3/5: Be able to navigate the filesystem under Linux
-- Prerequisite 4/5: Have FileZilla installed
+- Prerequisite 4/5: [Have FileZilla installed](https://uppmax.github.io/naiss_file_transfer_course/faq/#how-to-install-filezilla)
 - Prerequisite 5/5: have a good Zoom setup
 
 ???- question "Any questions about this?"
@@ -36,7 +36,7 @@ These are the **five** prerequisites for following this course:
 
 ## Preparations of your (local) computer environment
 
-- **[FileZilla](https://filezilla-project.org/download.php?type=client)** installed
+- **[FileZilla](https://uppmax.github.io/naiss_file_transfer_course/faq/#how-to-install-filezilla)** installed
 - A **terminal**
     - **Linux and Mac** users are **good to go** with the built-in terminal
         - Most terminal transfer tools are included.
