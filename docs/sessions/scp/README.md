@@ -37,8 +37,6 @@ tags:
 
 - All are considered secure.
 
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-
 ???- question "But what is ``wget`` and ``curl``?"
 
     - These tools are used to download files from websites or ftp servers
@@ -61,7 +59,6 @@ tags:
         - interacting with APIs, handling complex web requests
         - often available by default on Windows and MacOS.
 
-<!-- markdownlint-enable MD013 -->
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
