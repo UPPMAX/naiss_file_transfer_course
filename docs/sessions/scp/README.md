@@ -12,7 +12,6 @@ tags:
 
     - Practice using the documentation of your favorite HPC cluster
     - Can transfer files using `scp`
-    - Can compress and archive files before transferring
 
 ???- question "For teachers"
 
