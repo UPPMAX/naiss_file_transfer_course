@@ -88,6 +88,8 @@ tags:
 
 
 ## Exercises
+<!-- markdownlint-disable MD013 --><!-- Let's break the 80 characters per line -->
+
 
 ???- question "(Optional) Exercise 3: Download a directory with many files"
 
@@ -176,7 +178,8 @@ tags:
 
     Establish the SFTP session (Exercise 1)
 
-    - Download (to local) the *directory* and note the time needed (not shown in numbers so **count the seconds!**)
+    - Download (to local) the *directory* and note the time needed
+(not shown in numbers so **count the seconds!**)
     - Download (to local) the ``.tar.gz`` file and note the time needed
     - Was there a significant difference?
 
