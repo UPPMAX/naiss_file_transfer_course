@@ -17,7 +17,6 @@ FileZilla  |Graphical, intuitive, simple                                |SFTP, `
 `rsync`    |Terminal, powerful, flexible, feels like a regular file copy|`rsync my_file.txt my_username@my_cluster.se:/home/my_username/` and `rsync --recursive my_folder my_username@my_cluster.se:/home/my_username/`
 `sftp`     |Terminal, simple, feels like a file transfer portal         |`sftp` and `put` and `get`
 
-<!-- markdownlint-enable MD013 -->
 
 !!! tips
 
