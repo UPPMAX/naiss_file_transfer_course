@@ -15,6 +15,7 @@ nav:
     - File transfer using scp: sessions/scp/README.md
     - File transfer using rsync: sessions/rsync/README.md
     - File transfer using sftp: sessions/sftp/README.md
+    - File transfer tips: sessions/transfer_tips/README.md
     - Summary: sessions/summary.md
   - Misc:
     - Acknowledgements: acknowledgements.md
