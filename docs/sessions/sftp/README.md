@@ -121,11 +121,11 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
 ## Exercises
 
-??? question "Use the documentation of your HPC cluster"
+??? question "Exercise 0: Use the documentation of your HPC cluster"
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
-        - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
-            - If the center maintaining you HPC cluster has not documented how to use `sftp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp).
+    - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+    - If the center maintaining you HPC cluster has not documented how to use `sftp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp).
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -144,10 +144,10 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
 
-???- question "Dardel documentation uses ``psftp``, what is that?"
+    ???- question "Dardel documentation uses ``psftp``, what is that?"
 
-    - It is just a SFTP component of the client PuTTY.
-    - Same commands as for SFTP.
+        - It is just a SFTP component of the client PuTTY.
+        - Same commands as for SFTP.
 
 ???- question "Exercise 1: Establish the sftp connection and find the relevant folders locally and remotely"
 
