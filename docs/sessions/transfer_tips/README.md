@@ -19,7 +19,7 @@ tags:
 
 ## Large or many files
 
-- Shorten download/upload time by **reducing the size of the file**!
+- Shorten download/upload time by **reducing the size of a file**!
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
 - Transferring **many files will create so called overhead**
@@ -38,11 +38,11 @@ tags:
 
 ???- tip "``gzip`` cheat sheet"
 
-        - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
 
 ???- tip "``tar`` cheat sheet"
 
-        - [``tar`` manual](https://devhints.io/tar)
+    - [``tar`` manual](https://devhints.io/tar)
 
 ???- question "Can I use archiving and compressing in all transfer methods?"
 
@@ -52,7 +52,7 @@ tags:
 
 - You can transfer files in an SSH session on one cluster to another cluster.
 - ``rsync``, ``scp``, or ``sftp`` will all work!
-- "Local" will now be the server you connect from, that is, where you run the commands.
+- "Local" will now be the server you run the command (scp/rsync/sftp) from.
 
 
 ## Exercises
