@@ -107,18 +107,17 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
     Copy a file **from your local computer** to the cluster:
 
     ```bash
-    scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
+    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
     ```
 
-    - where `<remote_filename>` is the path to a remote filename,
-    - where `<username>` is your cluster username,
+     - where `<username>` is your cluster username,
     - where `<local_folder>` is your local folder, for example:
 
 
     Copy a file **from the cluster** to your local computer, do the command above in reverse order:
 
     ```bash
-    scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder or "." for _present_ folder>
+    scp <username>@<cluster adress>:<path-to-folder/file> <local_folder or "." for _present_ folder>
     ```
 
     If asked, give your center's password.
@@ -130,14 +129,14 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
     This is how you copy a file from your local computer directly to your HOME folder (~/):
 
     ```bash
-    scp my_file.txt x_nisse@tetralith.nsc.liu.se:/home/x_nisse
+    scp my_file.txt x_nisse@tetralith.nsc.liu.se:~/
     ```
 
     To copy a file from Tetralith to your local computer (and present folder),
     do the command above in reverse order:
 
     ```bash
-    scp x_nisse@tetralith.nsc.liu.se:/home/x_nisse<remote_filename> .
+    scp x_nisse@tetralith.nsc.liu.se:/home/x_nisse/remote_file.txt .
     ```
 
     If asked, give your center's password.
