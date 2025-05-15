@@ -13,7 +13,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation forms
 
-- Any feedback during the day: [TODO #38](https://github.com/UPPMAX/naiss_file_transfer_course/issues/38)
+- Any feedback during the day: [here](https://docs.google.com/forms/d/e/1FAIpQLSe3bViQ0ReenZjIAA4wIZIP12zIV6OSYF_kLqVD6nwR7rjNFA/viewform?usp=header)
 
 ???- question "For teachers: what is in that form?"
 
