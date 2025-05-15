@@ -134,7 +134,7 @@ tags:
         - Check content: ``$ ls``  for checking
         - Leave directory to be able to perform next step: ``$ cd ..``
     - Also archive the ``many_files_sftp`` folder to ``many_files_sftp.tar``
-       - The original directory is still there! Check!
+        - The original directory is still there! Check!
 
     Establish the SFTP session (Exercise 1 in SFT session)
 
