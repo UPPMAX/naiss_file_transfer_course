@@ -54,16 +54,21 @@ tags:
 
 ## Procedure
 
+<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
+
+
 In the terminal, run `sftp` to connect to a cluster by doing:
 
 ```bash
 sftp <username>@<cluster address>
 ```
 
-In `sftp` session, upload/download files to/from the server.
+In `sftp` session, go to right folders and upload/download files to/from the server. You can do this as long as the connection is active!
 
-- ``put <filename>`` - Copy a file from the local computer to the remote host
-- ``get <filename>`` - Copy a file from the remote host to the local computer
+- ``pwd/cd/ls`` - browse and list files in server file system
+- ``lpwd/lcd/lls`` - browse and list files in server file system
+- ``put <filename>`` - Copy a file **from the local** computer to the remote host
+- ``get <filename>`` - Copy a file **from the remote** host to the local computer
 
 !!! tip
 
@@ -71,26 +76,20 @@ In `sftp` session, upload/download files to/from the server.
     - We use ``[content]`` to tell that this argument is not necessary
     - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 
-???- example "Example for Rackham"
+???- example "Example for Tetralith"
 
     Connect to SFTP session
 
-    In the terminal, run `sftp` to connect to Rackham by doing:
+    In the terminal, run `sftp` to connect to Tetralith by doing:
 
     ```bash
-    sftp <username>@rackham.uppmax.uu.se
-    ```
-
-    where `<username>` is your UPPMAX username, for example:
-
-    ```bash
-    sftp sven@rackham.uppmax.uu.se
+    sftp x_nisse@tetralith.nsc.liu.se
     ```
 
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
 
-    Upload/download files to/from Rackham
+    Upload/download files to/from Tetralith
 
     In `sftp` session, upload/download files to/from the server.
 
@@ -123,14 +122,11 @@ In `sftp` session, upload/download files to/from the server.
 
 ## Exercises
 
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-
 ??? question "Use the documentation of your HPC cluster"
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
-            - If the center maintaining you HPC cluster has not documented how to use
-`sftp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp).
+            - If the center maintaining you HPC cluster has not documented how to use `sftp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp).
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
