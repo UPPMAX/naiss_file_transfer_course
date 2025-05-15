@@ -91,11 +91,11 @@ tags:
 - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 - In the terminal (from **local**, not server session)
 
-```bash
-scp <from> <to>
-```
+    ```bash
+    scp <from> <to>
+    ```
 
-Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
+- Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
 ???- tip "Syntax for command arguments"
 
@@ -182,9 +182,17 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
     Tips
 
+    - Useful terminal commands (both locally and remotely)
+        - ``pwd`` - which folder am I in?
+        - ``cd [path]`` - change folder (go up in hierarchy with ``cd ..``)
+        - ``ls`` - list content of folder
+        - ``mkdir`` - make a new folder
+        - ``touch`` - create empty file
+        
     - (If you want to create a file in local terminal: ``$ touch local_file``)
     - (You can check the file structure in an ssh session)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
+        - use ``mkdir <folder name>`` if it is not there
     - Check on server that it is there
 
     ???- tip "Answer (Tetralith example)"
@@ -192,7 +200,9 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
         Locally
 
         - (If you want to create a file in *local* terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: 
+        
+        - ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
 
@@ -200,7 +210,7 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
         - [Video for Tetralith>(https://youtu.be/rvL-s5vi13I)
 
-???- question "Exercise 2: Download a file from your the server to you computer, using scp"
+???- question "Exercise 2: Download a file from the server to your computer, using scp"
 
     Tips
 
@@ -213,7 +223,7 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
         On Server
 
         - (If you want to create a remote file first, in an SSH session, do: ``$ touch remote_file``)
-        - Get it to an existing local folder (e.g. ``transfer``): ``$ scp <username>@tetralith.nsc.liu.se:~/transfer/remote_file .``
+        - Get it the present local folder: ``$ scp <username>@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
 
