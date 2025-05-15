@@ -52,12 +52,12 @@ The evaluation questions should be changed:
 'I am comfortable to transfer files to/from my cluster' should be
 added, as this is the main goal of the course.
 
-- [ ] Add: 'I am comfortable to transfer files to/from my cluster'
+- [x] Add: 'I am comfortable to transfer files to/from my cluster'
 
 Additionally, BC's later addition about zipping files should have
 been added too.
 
-- [ ] Add: 'I am comfortable to transfer files to/from my cluster'
+- [x] Add: 'I am comfortable to transfer files to/from my cluster'
 
 The two learners that used Alvis had a heard time: both
 FileZilla and `rsync` (under Windows) are hardest to use there.
@@ -82,11 +82,11 @@ Tetralith       |3
 I think the comparison of the different tools should have been done
 stronger:
 
-- [ ] Add 'Can do remote to remote yes/no'
-- [ ] Add 'Can do large files yes/no'
-- [ ] Add 'Asks to overwrite yes/no'
-- [ ] Add 'Suitable for sensitive data yes/no'
-- [ ] Add 'Tolerant to interrupted connection yes/no'
+- [x] Add 'Can do remote to remote yes/no'
+- [x] Add 'Can do large files yes/no'
+- [x] Add 'Asks to overwrite yes/no'
+- [x] Add 'Suitable for sensitive data yes/no'
+- [x] Add 'Tolerant to interrupted connection yes/no'
 
 I enjoyed working together with my colleague: it felt we were a team to me.
 

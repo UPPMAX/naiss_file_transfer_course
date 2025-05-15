@@ -77,21 +77,26 @@ we do this dynamically:
 
 HPC cluster name|Main breakout room
 ----------------|------------------
-Alvis           |Room 1
-Bianca          |Room 2
-COSMOS          |Room 3
-Dardel          |Room 4
-Kebnekaise      |Room 5
-LUMI            |Room 6
-Rackham         |Room 7
-Tetralith       |Room 8
-.               |Room 9
+Alvis 1         |Room 1
+Alvis 2         |Room 2
+Bianca          |Room 3
+COSMOS 1        |Room 4
+COSMOS 2        |Room 5
+Dardel 1        |Room 6
+Dardel 2        |Room 7
+Dardel 3        |Room 8
+Dardel 4        |Room 9
+Dardel 5        |Room 10
+Tetralith 1     |Room 11
+Tetralith 2     |Room 12
+Other 1         |Room 13
+Other 2         |Room 14
 
 - When the main breakout room reaches 4 learners, decide upon 2 to
   move to a free breakout room. Repeat until the group size is below 4.
 - When you are the only one in your main breakout room,
   the teachers will let you decide to either work in silence or
-  to join another group. You will be takes care of well :-)
+  to join another group. You will be taken care of well :-)
 
 ### Exercise 1: install FileZilla
 
