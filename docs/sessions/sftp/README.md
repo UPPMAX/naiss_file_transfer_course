@@ -11,7 +11,7 @@ tags:
 !!!- info "Learning outcomes"
 
     - Practice using the documentation of your favorite HPC cluster
-    - Can transfer files using `sftp`
+    - (Optional) Can transfer files using `sftp`
 
 ???- question "For teachers"
 
