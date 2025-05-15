@@ -28,12 +28,11 @@ tags:
 
 ## Overview other terminal transfer tools
 
-Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
-
-- `scp` has the similar arguments as for the linux copy function `scp`.
+- `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities.
+- `rsync` is perfect for syncing and have many capabilites
 
-- Both are considered secure.
+- All are considered secure.
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -83,53 +82,58 @@ Other than ``rsync`` we have the more simple tools ``scp`` and ``sftp``.
 
 ## Procedure
 
-- In the terminal, copy files using `scp` to connect to Rackham:
+!!! tip 
+
+    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
+    - We use ``[content]`` to tell that this argument is not necessary
+
+- In the terminal
 
 ```bash
-scp [from] [to]
+scp <from> <to>
 ```
 
-Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
+Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
-Copy a file from your local computer to the cluster:
+Copy a file **from your local computer** to the cluster:
 
 ```bash
-scp [local_filename] [username]@<cluster adress>:<path-to-folder>/
+scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
 ```
 
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
-Copy a file from the cluster to your local computer, do the command above in reverse order:
+Copy a file **from the cluster** to your local computer, do the command above in reverse order:
 
 ```bash
-scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder or "." for _present_ folder]
+scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder or "." for _present_ folder>
 ```
 
-???- example "Example for Rackham"
+???- example "Example for Tetralith"
 
-    This is how you copy a file from your local computer directly to your HOME folder at Rackham:
+    This is how you copy a file from your local computer directly to your HOME folder (~/):
 
     ```bash
-    scp [local_filename] [username]@rackham.uppmax.uu.se:~/
+    scp <local_filename> <username>@tetralith.nsc.liu.se:~/
     ```
 
-    where `[local_filename]` is the path to a local filename,
-    and `[username]` is your UPPMAX username, for example:
+    where `<local_filename>` is the path to a local filename,
+    and `<username>` is your Tetralith username, for example:
 
     ```bash
-    scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
+    scp my_file.txt x_nisse@tetralith.nsc.liu.se:/home/sven
     ```
 
-    To copy a file from Rackham to your local computer,
+    To copy a file from Tetralith to your local computer,
     do the command above in reverse order:
 
     ```bash
-    scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+    scp <username>@tetralith.nsc.liu.se:/home/<username>/<remote_filename> <local_folder>
     ```
 
-    where `[remote_filename]` is the path to a remote filename,
-    `[username]` is your UPPMAX username,
-    and `[local_folder]` is your local folder, for example:
+    where `<remote_filename>` is the path to a remote filename,
+    `<username>` is your UPPMAX username,
+    and `<local_folder>` is your local folder, for example:
 
     ```bash
     scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
@@ -137,6 +141,13 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
 
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
+
+
+!!! warning
+
+    - There is no warning if a file is about to be overwritten.
+        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
+    - 'rsync' may be a better tool if you want to sync existing content.
 
 ???- tip "Cheat sheet for ``scp``"
 
@@ -149,13 +160,6 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
     - ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
     - ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
     - ``-r`` - This option tells scp to copy directories recursively.
-
-!!! warning
-
-    - There is no warning if a file is about to be overwritten.
-        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
-    - 'rsync' may be a better tool if you want to sync existing content.
-
 
 ## Exercises
 
@@ -195,13 +199,13 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         Locally
 
         - (If you want to create a file in *local* terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file [username]@tetralith.nsc.liu.se:~/transfer/``
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
 
         - ``$ ls ~/transfer``
 
-        - [Video for Tetralith](https://youtu.be/rvL-s5vi13I)
+        - [Video for Tetralith>(https://youtu.be/rvL-s5vi13I)
 
 ???- question "Exercise 2: Download a file from your the server to you computer, using scp"
 
@@ -216,7 +220,7 @@ scp [username]@<cluster adress>:<path-to-folder>/[remote_filename] [local_folder
         On Server
 
         - (If you want to create a remote file first, in an SSH session, do: ``$ touch remote_file``)
-        - Get it to an existing local folder (e.g. ``transfer``): ``$ scp [username]@tetralith.nsc.liu.se:~/transfer/remote_file .``
+        - Get it to an existing local folder (e.g. ``transfer``): ``$ scp <username>@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
 
