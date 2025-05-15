@@ -28,25 +28,39 @@ tags:
     - A folder with content then behaves like ONE file.
     - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
 - While TARing you may *compress* the data as well!
-    - ``tar -czf archive.tar.gz /path/files``
+    - ``tar -czf archive.tar.gz [/path/files]``
 
 ???- tip "Extract/inflate"
 
     - ``gunzip compressed_file.gz``
     - ``tar -xf archive.tar``
     - ``tar -xzf compressed_archive.tar.gz``
-
-???- tip "``gzip`` cheat sheet"
-
-    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-
-???- tip "``tar`` cheat sheet"
-
-    - [``tar`` manual](https://devhints.io/tar)
+    - the extracted folders will inherit the old name and internal structure
 
 ???- question "Can I use archiving and compressing in all transfer methods?"
 
     - Yes!
+
+???- example "Workflow"
+
+     - Archive and compress a folder with many large files
+     
+         ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
+
+     - Transfer data
+     
+         - Use FileZilla/scp/rsync/sftp
+
+     - Extract at target destination
+     
+         ``tar -xzf manylargefiles_folder.tar.gz``
+
+     - You should now have ``manylargefiles_folder/`` again at the target destination!
+
+???- tip "Cheat sheets"
+
+    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+    - [``tar`` manual](https://devhints.io/tar)
 
 ## Server to server
 
