@@ -30,7 +30,7 @@ tags:
 
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities.
-- `rsync` is perfect for syncing and have many capabilites
+- `rsync` is perfect for syncing and have many capabilities
 
 - All are considered secure.
 
@@ -82,7 +82,10 @@ tags:
 
 ## Procedure
 
-!!! tip 
+<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
+
+
+!!! tip
 
     - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
     - We use ``[content]`` to tell that this argument is not necessary
@@ -100,8 +103,6 @@ Copy a file **from your local computer** to the cluster:
 ```bash
 scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
 ```
-
-<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
 Copy a file **from the cluster** to your local computer, do the command above in reverse order:
 
