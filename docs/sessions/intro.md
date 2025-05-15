@@ -63,12 +63,17 @@ Here is an overview of the file transfer tools in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Tool       |User interface|Can transfer between clusters?|Installation needed?                  |Large files? |Overwrite? |Suitable for sensitive data?|Tolerant to interruption?|Other
------------|--------------|------------------------------|--------------------------------------|-------------|-----------|----------------------------|-------------------------|---------------------------------------------------
-FileZilla  |Graphical     |No                            |Needs installation                    |Less suitable|Asks       |If using SFTP               |?No                      |Intuitive, simple
-`scp`      |Terminal      |Yes                           |Commonly installed with OS or terminal|Less suitable|By default |?No                         |?No                      |Simple, feels like a regular file copy
-`rsync`    |Terminal      |Yes                           |Needs installation                    |Suitable     |If newer   |Yes                         |Yes                      |Powerful, flexible, feels like a regular file copy
-`sftp`     |Terminal      |Yes                           |Commonly installed with OS or terminal|Less suitable|?          |?Yes                        |?No                      |Simple, feels like a file transfer portal
+Feature                                | FileZilla                | `scp`                        | `rsync`                       | `sftp`
+---------------------------------------|--------------------------|------------------------------|-------------------------------|------------------------------
+Summary                                | Inuitive                 | Like a copy                  | Powerful                      | Like a portal
+Type of user interface                 | Graphical                | Terminal                     | Terminal                      | Terminal
+Can transfer files between clusters?   | No                       | Yes                          | Yes                           | Yes
+Installation needed?                   | Yes                      | Maybe                        | Yes                           | Maybe
+Suitable for large files?              | Not really               | Not really                   | Yes                           | Not really
+Behavior upon overwriting files        | Asks                     | Overwrite                    | Overwrite if newer            | Asks
+Suitable for sensitive data?           | Yes                      | Yes                          | Yes                           | Yes
+Tolerant to interruption?              | No                       | No                           | Yes                           | No
+Flexibility                            | Some                     | Some                         | High                          | Low
 
 <!-- markdownlint-enable MD013 -->
 
