@@ -110,7 +110,7 @@ Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
     scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
     ```
 
-     - where `<username>` is your cluster username,
+    - where `<username>` is your cluster username,
     - where `<local_folder>` is your local folder, for example:
 
 
