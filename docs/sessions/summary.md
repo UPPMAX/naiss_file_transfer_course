@@ -18,3 +18,8 @@ FileZilla  |Graphical, intuitive, simple                                |SFTP, `
 `sftp`     |Terminal, simple, feels like a file transfer portal         |`sftp` and `put` and `get`
 
 <!-- markdownlint-enable MD013 -->
+
+!!! tips
+
+    - Archive folders with many files! - Less overhead and many files on the fly are included in the transfer!
+    - Compress files and folders! - Less size will be faster to transfer!
