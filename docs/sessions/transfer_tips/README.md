@@ -43,19 +43,19 @@ tags:
 
 ???- example "Workflow"
 
-     - Archive and compress a folder with many large files
-     
-         ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
+    - Archive and compress a folder with many large files
+    
+        ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
 
-     - Transfer data
-     
-         - Use FileZilla/scp/rsync/sftp
+    - Transfer data
+    
+        - Use FileZilla/scp/rsync/sftp
 
-     - Extract at target destination
-     
-         ``tar -xzf manylargefiles_folder.tar.gz``
+    - Extract at target destination
+    
+        ``tar -xzf manylargefiles_folder.tar.gz``
 
-     - You should now have ``manylargefiles_folder/`` again at the target destination!
+    - You should now have ``manylargefiles_folder/`` again at the target destination!
 
 ???- tip "Cheat sheets"
 
