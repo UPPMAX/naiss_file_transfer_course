@@ -15,7 +15,7 @@ tags:
     - Can find the [schedule](../schedule.md)
     - Have seen the file transfer tools at this course
     - Have seen where to put
-      [anonymous feedback during the day](evaluation/#any-feedback-during-the-day)
+      [anonymous feedback during the day](evaluation.md/#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
       e.g. `[Dardel] Sven Svensson`
 
@@ -27,7 +27,7 @@ tags:
     - Learners can find the [schedule](../schedule.md)
     - Learners have seen the file transfer tools at this course
     - Learners have seen where to put
-      [anonymous feedback during the day](evaluation/#any-feedback-during-the-day)
+      [anonymous feedback during the day](evaluation.md/#any-feedback-during-the-day)
     - Learners have included thir HPC cluster name in Zoom username
 
     Prior questions:
