@@ -76,7 +76,7 @@ Here is an overview of the file transfer tools in this course:
 
 Feature                                | FileZilla                | `scp`                        | `rsync`                       | `sftp`
 ---------------------------------------|--------------------------|------------------------------|-------------------------------|------------------------------
-Summary                                | Intuitive                | Preinstalled                 | Powerful                      | Like a portal
+Summary                                | Intuitive                | Preinstalled                 | Powerful                      | Two-way portal
 Type of user interface                 | Graphical                | Terminal                     | Terminal                      | Terminal
 Can transfer files between clusters?   | No                       | Yes                          | Yes                           | Yes
 Installation needed?                   | Yes                      | Maybe                        | Yes                           | Maybe
