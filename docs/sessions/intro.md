@@ -86,6 +86,25 @@ Flexibility                            | Some                     | Some        
 
 <!-- markdownlint-enable MD013 -->
 
+Here is an overview of the documentation pages for each HPC center:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+HPC Cluster|Link to documentation
+-----------|------------
+Alvis      |[here](https://www.c3se.chalmers.se)
+Berzelius  |[here](https://www.nsc.liu.se)
+Bianca     |[here](https://docs.uppmax.uu.se)
+COSMOS     |[here](https://lunarc-documentation.readthedocs.io)
+Dardel     |[here](https://support.pdc.kth.se/doc/)
+Kebnekaise |[here](https://docs.hpc2n.umu.se/)
+LUMI       |[here](https://docs.csc.fi)
+Rackham    |[here](https://docs.uppmax.uu.se)
+Tetralith  |[here](https://www.nsc.liu.se)
+Vera       |[here](https://www.c3se.chalmers.se)
+
+<!-- markdownlint-enable MD013 -->
+
 ## Exercises
 
 ### Exercise 0: rename yourself
