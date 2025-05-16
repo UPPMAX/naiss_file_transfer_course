@@ -130,8 +130,9 @@ For non-Ubuntu users, search the web, download and install.
 
 Use the documentation of your HPC cluster for help.
 
-- Search for the procedure on how to transfer a file
-  to/from your HPC cluster using FileZilla
+- **For maximally 5 minutes**, search for the procedure on how to transfer a file
+  to/from your HPC cluster using FileZilla. Take a look at the answer if you
+  cannot find it: sometimes there *is* no documentation
 
 ???- question "Where is that documentation?"
 
