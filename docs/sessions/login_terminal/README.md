@@ -79,6 +79,23 @@ Here, we log in to your HPC cluster's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+HPC Cluster|Difficulty|Reason
+-----------|----------|-------------------------------------------
+Alvis      |Hard      |Uses SSH keys, must be in SUNET
+Berzelius  |Easy      |Uses password
+Bianca     |Medium    |Uses password, must be in SUNET
+COSMOS     |Easy      |Uses password
+Dardel     |Medium    |Uses SSH keys
+Kebnekaise |Easy      |Uses password
+LUMI       |Medium    |Uses SSH keys
+Rackham    |Easy      |Uses password
+Tetralith  |Easy      |Uses password
+Vera       |Easy      |Uses password
+
+<!-- markdownlint-enable MD013 -->
+
 ### Exercise 1: a terminal
 
 Go to the documentation of your HPC center,
