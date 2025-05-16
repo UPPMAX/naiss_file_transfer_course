@@ -26,7 +26,8 @@ Time       |Monologue|Dialogue|Exercise|Percentage exercise
 -----------|---------|--------|--------|-------------------
 9:00-9:50  |18 mins  |0 mins  |32 mins |64 percent
 10:05-11:00|9 mins   |3 mins  |33 mins |60 percent
-11:15-12:00|.        |.       |.       |.
+11:15-12:00|25 mins  |0 mins  |20 mins |44 percent
+9:00-12:00 |52 mins  |3 mins  |85 mins |61 percent
 
 BC movements in`scp` session:
 
