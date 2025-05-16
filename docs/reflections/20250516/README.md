@@ -16,3 +16,26 @@ Time |Description
 10:08|Start monologue `scp`
 10:14|Start questions
 10:17|Open BO rooms
+11:00|Break
+11:15|Start monologues
+11:25|Open BO rooms
+11:45|Start monologue wrapup
+11:50|Start evaluation
+
+Time       |Monologue|Dialogue|Exercise|Percentage exercise
+-----------|---------|--------|--------|-------------------
+9:00-9:50  |18 mins  |0 mins  |32 mins |64 percent
+10:05-11:00|9 mins   |3 mins  |33 mins |60 percent
+11:15-12:00|.        |.       |.       |.
+
+BC movements in`scp` session:
+
+Time |BO room with BC
+-----|---------------
+10:17|1
+10:23|2
+10:31|1
+10:38|2
+10:44|1
+11:00|Break
+
