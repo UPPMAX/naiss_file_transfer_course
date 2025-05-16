@@ -71,7 +71,7 @@ Time |BO room with BC|Duration
 
 I am reasonably happy with how this day went:
 the atmosphere within the little group (me, BC and 4 learners)
-was very good and it seems people had fun. 
+was very good and it seems people had fun.
 
 What I am conflicted
 about is that I abandoned the teaching cycle (i.e. no Prior
@@ -122,6 +122,8 @@ of the very happy learners.
 
 ## Evaluation results
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 question                                                 |mean|commen
 ---------------------------------------------------------|----|------------------------------------------------------------------
 I am comfortable using the documentation of my HPC center|4.3 |indeed, there was some bad documentation for the HPC clusters used
@@ -132,6 +134,8 @@ I can transfer data using rscync                         |4.7 |unsure, only 2 ou
 I can transfer data using scp                            |5   |indeed, worked like a charm
 I can transfer data using sftp                           |5   |unsure, did anyone do this...?
 I can transfer files between clusters                    |4   |indeed, no practice/exercise
+
+<!-- markdownlint-enable MD013 -->
 
 ### Say something positive about Richèl
 
@@ -145,7 +149,8 @@ Great!
 
 ### Say something about Richèl he can improve
 
-- (perhaps he's got a bit too much of that energy, it gets somewhat intense at times)
+- (perhaps he's got a bit too much of that energy,
+  it gets somewhat intense at times)
 - No suggestions, I found the workshop well structured and clear
 
 Great!

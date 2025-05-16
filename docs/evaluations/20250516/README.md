@@ -12,7 +12,8 @@ tags:
 - Number of active learners: 4 (27% show-up rate)
 - Number of evaluations: 3 (75% response rate)
 - Average confidence: 4.54 (out of 5)
-- [Success score](success_score.txt) (i.e. average confidence rescaled to 100%): 91%
+- [Success score](success_score.txt)
+  (i.e. average confidence rescaled to 100%): 91%
 - [Lesson plan](../../lesson_plans/20250516/README.md)
 - [Reflection](../../reflections/20250516/README.md)
 - [average_confidences.csv](average_confidences.csv)
