@@ -35,22 +35,29 @@ tags:
 
 ## Overview
 
-Here is an overview of the sessions and their relations:
+Below an overview of the sessions and their relations.
+The optional sessions have thinner borders.
 
 ```mermaid
 flowchart TD
-  account[Account for HPC cluster]
-  filezilla[1.Transfer files using FileZilla]
-  login_console[2.Login to console environment]
-  scp[3.Transfer files using scp]
-  rsync[4.Transfer files using rsync]
-  sftp[5.Transfer files using sftp]
+
+  classDef always stroke:#000,stroke-width:4px;
+  classDef optional stroke:#000,stroke-width:1px;
+
+  account[Account for HPC cluster]:::always
+  filezilla[1.Transfer files using FileZilla]:::always
+  login_console[2.Login to console environment]:::always
+  scp[3.Transfer files using scp]:::always
+  rsync[Transfer files using rsync]:::optional
+  sftp[Transfer files using sftp]:::optional
+  transfer_tips[Transfer tips]:::optional
 
   account --> filezilla
   account --> login_console
   login_console --> scp
-  login_console --> rsync
-  login_console --> sftp
+  scp --> rsync
+  scp --> sftp
+  scp --> transfer_tips
 ```
 
 As per [prerequisites](../prereqs/README.md):
