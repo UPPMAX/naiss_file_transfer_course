@@ -80,12 +80,3 @@ The teachers did not always know the answer of the questions:
     - Tip: use Thunar on Tetralith to do exactly the same
     - Yes on Dardel or Rackham ...?
 
-
-
-
-
-
-
-
-
-

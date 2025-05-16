@@ -13,7 +13,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Any feedback during the day
 
-- Any feedback during the day: [here](https://docs.google.com/forms/d/e/1FAIpQLSe3bViQ0ReenZjIAA4wIZIP12zIV6OSYF_kLqVD6nwR7rjNFA/viewform?usp=header)
+- Any feedback during the day: [TODO #41](https://github.com/UPPMAX/naiss_file_transfer_course/issues/41)
 
 ???- question "For teachers: what is in that form?"
 
@@ -25,7 +25,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation questions
 
-- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLSerepZRASbdMnFtNlXNWETDl1FcQaIp6snlK1ShOheoyCHEyQ/viewform?usp=header)
+- Evaluation questions: [TODO #42](https://github.com/UPPMAX/naiss_file_transfer_course/issues/42)
 
 ???- question "Why do you evaluate under lesson hours?"
 
