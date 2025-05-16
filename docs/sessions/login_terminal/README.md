@@ -75,10 +75,6 @@ Some SSH clients can run from a terminal or vice versa.
     The solution of these exercises can be found in
     [the FAQ 'How can I login to an HPC cluster?'](../../faq/README.md#how-can-i-login-to-an-hpc-cluster)
 
-Here, we log in to your HPC cluster's console environment via a terminal.
-
-For Mac and Windows users it will be hardest to get it working.
-
 ???- question "How difficult will this be?"
 
     This depends mostly your operating system and HPC cluster:
@@ -105,6 +101,8 @@ For Mac and Windows users it will be hardest to get it working.
     Vera       |Easy      |Uses password
 
     <!-- markdownlint-enable MD013 -->
+
+Here, we log in to your HPC cluster's console environment via a terminal.
 
 ### Exercise 1: a terminal
 
