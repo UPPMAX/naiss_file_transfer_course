@@ -72,7 +72,7 @@ were different).
 You are a good team, as the energies balance out:
 
 - Richel can have a bit too much energy
-- Björn can come accross as a bit too calm/hesitant
+- Björn can come across as a bit too calm/hesitant
 
 ### What could be improved?
 

@@ -127,3 +127,7 @@ gzip
 Richel's
 FileZilla's
 plenarily
+wrapup
+mins
+xlsx
+Thunar
