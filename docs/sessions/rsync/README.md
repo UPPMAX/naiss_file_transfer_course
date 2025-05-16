@@ -63,6 +63,23 @@ It works under Linux, Mac and Windows.
 
     <!-- markdownlint-enable MD013 -->
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+HPC Cluster|Difficulty|Reason
+-----------|----------|-----------------------------
+Alvis      |Medium    |No specialized documentation
+Berzelius  |Easy      |Has specialized documentation
+Bianca     |Easy      |Has specialized documentation
+COSMOS     |Medium    |No specialized documentation
+Dardel     |Medium    |No specialized documentation
+Kebnekaise |Easy      |Has specialized documentation
+LUMI       |Easy      |Has specialized documentation
+Rackham    |Easy      |Has specialized documentation
+Tetralith  |Easy      |Has specialized documentation
+Vera       |Easy      |Has specialized documentation
+
+<!-- markdownlint-enable MD013 -->
+
 ### Exercise 1: transfer a file
 
 Use the documentation of your HPC cluster.
