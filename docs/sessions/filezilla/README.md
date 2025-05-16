@@ -31,6 +31,17 @@ tags:
     - Who has already used FileZilla?
     - What are features of FileZilla?
 
+    Feedback questions:
+
+    - Q: What are features of FileZilla?
+        - A: visual
+        - A: intuitive to use
+        - A: can save passwords
+        - A: can use `.ppk` files
+    - Q: What are weaknesses of FileZilla?
+        - A: cannot transfer between two remote locations
+        - A: an interrupted file transfer means a new transfer from the start
+
 ![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
 
 > FileZilla being able to do file transfer to/from
