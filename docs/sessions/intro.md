@@ -86,3 +86,38 @@ Flexibility                            | Some                     | Some        
 
 <!-- markdownlint-enable MD013 -->
 
+## Exercises
+
+### Exercise 0: rename yourself
+
+Please change your Zoom name to start with your HPC cluster,
+e.g. `[Rackham] Sven`.
+
+### Exercise 1: remember a Zoom room
+
+We will use breakout rooms, as this is best for learning.
+Ideally, each breakout room has 2 learners for the same HPC cluster.
+
+HPC cluster name|Main breakout room
+----------------|------------------
+Alvis 1         |Room 1
+Alvis 2         |Room 2
+Bianca          |Room 3
+COSMOS 1        |Room 4
+COSMOS 2        |Room 5
+Dardel 1        |Room 6
+Dardel 2        |Room 7
+Dardel 3        |Room 8
+Dardel 4        |Room 9
+Dardel 5        |Room 10
+Tetralith 1     |Room 11
+Tetralith 2     |Room 12
+Other 1         |Room 13
+Other 2         |Room 14
+
+- When your first breakout room reaches 4 learners, decide upon 2 to
+  move to the next breakout room.
+  Repeat until the group size is below 4.
+- When you are the only one in your main breakout room,
+  the teachers will let you decide to either work in silence or
+  to join another group. You will be taken care of well :-)

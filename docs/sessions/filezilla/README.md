@@ -101,39 +101,7 @@ It works under Linux, Mac and Windows.
 
     <!-- markdownlint-enable MD013 -->
 
-### Exercise 0: pick a Zoom room
-
-We will use breakout rooms, as this is best for learning.
-Ideally, each breakout room has 2 learners for the same HPC cluster.
-As it cannot be predicted how many learners show up per cluster,
-we do this dynamically:
-
-- Go to the main breakout room of your HPC cluster
-
-HPC cluster name|Main breakout room
-----------------|------------------
-Alvis 1         |Room 1
-Alvis 2         |Room 2
-Bianca          |Room 3
-COSMOS 1        |Room 4
-COSMOS 2        |Room 5
-Dardel 1        |Room 6
-Dardel 2        |Room 7
-Dardel 3        |Room 8
-Dardel 4        |Room 9
-Dardel 5        |Room 10
-Tetralith 1     |Room 11
-Tetralith 2     |Room 12
-Other 1         |Room 13
-Other 2         |Room 14
-
-- When the main breakout room reaches 4 learners, decide upon 2 to
-  move to a free breakout room. Repeat until the group size is below 4.
-- When you are the only one in your main breakout room,
-  the teachers will let you decide to either work in silence or
-  to join another group. You will be taken care of well :-)
-
-### Exercise 1: install FileZilla
+### Exercise 0: install FileZilla
 
 Install FileZilla.
 
@@ -158,7 +126,7 @@ For non-Ubuntu users, search the web, download and install.
 
     Download the file, maybe unzip it and run the installer
 
-### Exercise 2: transfer a file
+### Exercise 1: transfer a file
 
 Use the documentation of your HPC cluster for help.
 
