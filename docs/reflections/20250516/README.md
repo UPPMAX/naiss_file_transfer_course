@@ -124,13 +124,13 @@ of the very happy learners.
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-question                                                 |mean|commen
+Question                                                 |Mean|Comment
 ---------------------------------------------------------|----|------------------------------------------------------------------
 I am comfortable using the documentation of my HPC center|4.3 |indeed, there was some bad documentation for the HPC clusters used
 I can compress and archive files before transferring     |4.3 |unsure, I have not seen learners struggle with this
 I can log in to my HPC cluster using SSH                 |5   |indeed, this is a prerequisite
 I can transfer data using FileZilla                      |4   |indeed, this is the hardest and we skipped
-I can transfer data using rscync                         |4.7 |unsure, only 2 out of 4 chose to do this
+I can transfer data using rsync                          |4.7 |unsure, only 2 out of 4 chose to do this
 I can transfer data using scp                            |5   |indeed, worked like a charm
 I can transfer data using sftp                           |5   |unsure, did anyone do this...?
 I can transfer files between clusters                    |4   |indeed, no practice/exercise
