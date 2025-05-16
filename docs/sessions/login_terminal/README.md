@@ -41,11 +41,31 @@ tags:
 
     - What is a console environment?
     - What is a terminal?
+    - What is a prompt?
     - What is SSH?
     - What is an SSH client?
     - Do you know any SSH clients?
     - What is a login node?
     - How to behave on a login node?
+
+    Feedback questions:
+
+    - Q: What is a console environment?
+        - A: a text-only environment
+    - Q: What is a terminal?
+        - A: the text-only program to work with your computer
+    - Q: What is a prompt?
+        - A: the text before the place where you type
+    - Q: What is the purpose of a prompt?
+        - A: it shows, among others, in which folder you are
+    - Q: What is SSH?
+        - A: a protocol to transfer files
+    - Q: What is an SSH client?
+        - A: the program to transfer files via SSH with
+    - Q: What is a login node?
+        - A: the first computer of your HPC cluster you arrive at
+    - Q: How to behave on a login node?
+        - A: only do light calculations
 
 ## Why?
 

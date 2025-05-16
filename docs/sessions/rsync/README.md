@@ -73,7 +73,7 @@ It works under Linux, Mac and Windows.
     -----------|----------|-----------------------------
     Alvis      |Medium    |No specialized documentation
     Berzelius  |Easy      |Has specialized documentation
-    Bianca     |Easy      |Has specialized documentation
+    Bianca     |Hard      |Has specialized documentation, complex procedure
     COSMOS     |Medium    |No specialized documentation
     Dardel     |Medium    |No specialized documentation
     Kebnekaise |Easy      |Has specialized documentation
