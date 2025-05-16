@@ -103,7 +103,7 @@ Use the documentation of your HPC cluster.
     Alvis      |Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). For now, use [here](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
     Berzelius  |[Here](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[Here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/)
-    COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/)
+    COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/). Use [the `scp` documentation](../scp/README.md) and replace `scp` by `rsync`
     Dardel     |Closest is [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
     LUMI       |[here](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-rsync)
