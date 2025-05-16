@@ -82,8 +82,8 @@ tags:
 !!! warning "Risk of overwriting files"
 
     - There is no warning if a file is about to be overwritten.
-        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
-    - 'rsync' may be a better tool if you want to sync existing content.
+        - There is no `scp -i ...` as for `rm -i` that asks if you really want to remove the file.
+    - `rsync` may be a better tool if you want to sync existing content.
 
 ## Procedure
 
