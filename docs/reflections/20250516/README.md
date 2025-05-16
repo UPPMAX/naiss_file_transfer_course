@@ -120,3 +120,40 @@ wanted and sometimes I.
 In conclusion: I am still unsure how well the teaching went, regardless
 of the very happy learners.
 
+## Evaluation results
+
+question                                                 |mean|commen
+---------------------------------------------------------|----|------------------------------------------------------------------
+I am comfortable using the documentation of my HPC center|4.3 |indeed, there was some bad documentation for the HPC clusters used
+I can compress and archive files before transferring     |4.3 |unsure, I have not seen learners struggle with this
+I can log in to my HPC cluster using SSH                 |5   |indeed, this is a prerequisite
+I can transfer data using FileZilla                      |4   |indeed, this is the hardest and we skipped
+I can transfer data using rscync                         |4.7 |unsure, only 2 out of 4 chose to do this
+I can transfer data using scp                            |5   |indeed, worked like a charm
+I can transfer data using sftp                           |5   |unsure, did anyone do this...?
+I can transfer files between clusters                    |4   |indeed, no practice/exercise
+
+### Say something positive about Richèl
+
+- Very happy
+- Good positive energy!
+- Richèl explained the concepts in a clear and engaging way,
+  and I especially appreciated the short videos he used
+  to show the implementation, thank you for your time and effort
+
+Great!
+
+### Say something about Richèl he can improve
+
+- (perhaps he's got a bit too much of that energy, it gets somewhat intense at times)
+- No suggestions, I found the workshop well structured and clear
+
+Great!
+
+## Conclusion
+
+I would grade my own teaching as 8/10, because:
+
+- We were able to establish a productive, fun and relaxed learning
+  atmosphere
+- I did abandon parts of the literature
