@@ -3,7 +3,9 @@
 - Author: RB
 - Date: 2025-05-16
 
-## Timings
+## Observations during lessons
+
+During the lessons I observed the timings of me and BC:
 
 Time |Description
 -----|--------------------------------
@@ -22,6 +24,8 @@ Time |Description
 11:45|Start monologue wrapup
 11:50|Start evaluation
 
+The goal was to determine the percentage of exercises:
+
 Time       |Monologue|Dialogue|Exercise|Percentage exercise
 -----------|---------|--------|--------|-------------------
 9:00-9:50  |18 mins  |0 mins  |32 mins |64 percent
@@ -29,14 +33,18 @@ Time       |Monologue|Dialogue|Exercise|Percentage exercise
 11:15-12:00|25 mins  |0 mins  |20 mins |44 percent
 9:00-12:00 |52 mins  |3 mins  |85 mins |61 percent
 
-BC movements in`scp` session:
+So 61% of the time it was time for exercises.
 
-Time |BO room with BC
------|---------------
-10:17|1
-10:23|2
-10:31|1
-10:38|2
-10:44|1
-11:00|Break
+I also tracked BC moving through different BO rooms in the `scp`
+session (he was never in the main room), just to get a baseline
+of speed:
+
+Time |BO room with BC|Duration
+-----|---------------|--------
+10:17|1 (start)      |6 mins
+10:23|2              |7 mins
+10:31|1              |7 mins
+10:38|2              |6 mins
+10:44|1              |16 mins
+11:00|Break          |.
 
