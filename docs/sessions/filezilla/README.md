@@ -72,6 +72,25 @@ It works under Linux, Mac and Windows.
     Tetralith  |[Here](https://youtu.be/qzV3oY5fZbE)
     Vera       |Cannot: is not a NAISS cluster
 
+
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+HPC Cluster|Difficulty|Reason
+-----------|----------|-------------------------------------------
+Alvis      |Hard      |Need `.ppk` files
+Berzelius  |Easy      |Simple procedure, specialized documentation
+Bianca     |Easy      |Simple procedure, specialized documentation
+COSMOS     |Medium    |No specialized documentation yet
+Dardel     |Hard      |Need `.ppk` files
+Kebnekaise |Easy      |Simple procedure, specialized documentation
+LUMI       |Hard      |Need `.ppk` files
+Rackham    |Easy      |Simple procedure, specialized documentation
+Tetralith  |Easy      |Simple procedure, specialized documentation
+Vera       |Medium    |No specialized documentation yet
+
+<!-- markdownlint-enable MD013 -->
+
 ### Exercise 0: pick a Zoom room
 
 We will use breakout rooms, as this is best for learning.
