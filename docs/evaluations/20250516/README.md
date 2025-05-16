@@ -28,7 +28,8 @@ tags:
 
 - Very clear
 - Good calm energy!
-- Björn explained the concepts clearly and with great patience, a big thank you to him
+- Björn explained the concepts clearly and with great patience,
+  a big thank you to him
 
 ### Say something about Björn he can improve
 
@@ -39,11 +40,14 @@ tags:
 
 - Very happy
 - Good positive energy!
-- Richèl explained the concepts in a clear and engaging way, and I especially appreciated the short videos he used to show the implementation, thank you for your time and effort
+- Richèl explained the concepts in a clear and engaging way,
+  and I especially appreciated the short videos he used
+  to show the implementation, thank you for your time and effort
 
 ### Say something about Richèl he can improve
 
-- (perhaps he's got a bit too much of that energy, it gets somewhat intense at times)
+- (perhaps he's got a bit too much of that energy,
+  it gets somewhat intense at times)
 - No suggestions, I found the workshop well structured and clear
 
 
