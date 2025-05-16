@@ -12,6 +12,7 @@ tags:
 !!!- info "Learning outcomes"
 
     - Can find an overview of the course
+    - Can find the [schedule](schedule.md)
     - Have seen the file transfer tools at this course
     - Have seen where to put anonymous feedback
     - Have included HPC cluster name in Zoom username,
@@ -22,6 +23,7 @@ tags:
     Teaching goals are:
 
     - Learners can find an overview of the course
+    - Learners can find the [schedule](schedule.md)
     - Learners have seen the file transfer tools at this course
     - Learners have seen where to put anonymous feedback
     - Learners have included thir HPC cluster name in Zoom username
