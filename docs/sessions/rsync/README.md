@@ -88,10 +88,11 @@ It works under Linux, Mac and Windows.
 
 Use the documentation of your HPC cluster.
 
-- Search for how to transfer files to/from your HPC cluster
+- **For maximally 5 minutes**, search for how to transfer files
+  to/from your HPC cluster
   using `rsync`. Which URL is it described?
-  Tip: not all HPC centers have documented this,
-  so you *should* give up searching after a while.
+  Take a look at the answer if you
+  cannot find it: sometimes there *is* no documentation
 
 ???- question "Where is that documentation?"
 
