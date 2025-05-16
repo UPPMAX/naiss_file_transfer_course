@@ -16,10 +16,41 @@ tags:
 - [Lesson plan](../../lesson_plans/20250516/README.md)
 - [Reflection](../../reflections/20250516/README.md)
 - [average_confidences.csv](average_confidences.csv)
+- Survey results: [.csv](survey.csv) [.xlsx](survey.xlsx)
 
 ![All confidences](all_confidences.png)
 ![Average confidence per question](average_confidences_per_question.png)
 ![Confidences per question](confidences_per_question.png)
+
+## Feedback from [survey](survey.csv)
+
+### Say something positive about Björn
+
+- Very clear
+- Good calm energy!
+- Björn explained the concepts clearly and with great patience, a big thank you to him
+
+### Say something about Björn he can improve
+
+- A bit too much "eh", seems unsure about things he should know at times
+- No suggestions, I found the workshop well structured and clear
+
+### Say something positive about Richèl
+
+- Very happy
+- Good positive energy!
+- Richèl explained the concepts in a clear and engaging way, and I especially appreciated the short videos he used to show the implementation, thank you for your time and effort
+
+### Say something about Richèl he can improve
+
+- (perhaps he's got a bit too much of that energy, it gets somewhat intense at times)
+- No suggestions, I found the workshop well structured and clear
+
+
+### Any other feedback?
+
+[None]
+
 
 ## Feedback from informal dialogue
 
