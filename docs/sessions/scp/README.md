@@ -28,13 +28,14 @@ tags:
 
 ## Overview other terminal transfer tools
 
+<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
+
+
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities.
 - `rsync` is perfect for syncing and have many capabilities
 
 - All are considered secure.
-
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 ???- question "But what is ``wget`` and ``curl``?"
 
@@ -58,7 +59,6 @@ tags:
         - interacting with APIs, handling complex web requests
         - often available by default on Windows and MacOS.
 
-<!-- markdownlint-enable MD013 -->
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
@@ -73,82 +73,73 @@ tags:
 
 !!! warning "When not to use"
 
-    - When needing several one-line commands
+    - When needing **several one-line** commands
         - requires credentials every time
-    - When looking to do more than a basic file transfer, SCP falls short.
-    - When you on the fly need to create or list directories or delete files.
-    - A file with the same name in the same directory is transferred, will be overwritten.
-    - Transfers that are interrupted you have to restart the entire transfer.
+    - When looking to do **more than a basic** file transfer, SCP falls short.
+    - Transfers that are **interrupted** you have to restart the entire transfer.
+    - A file with the **same name** in the same directory is transferred, will be overwritten.
+
+!!! warning "Risk of overwriting files"
+
+    - There is no warning if a file is about to be overwritten.
+        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
+    - 'rsync' may be a better tool if you want to sync existing content.
 
 ## Procedure
 
-<!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
+- Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
+- In the terminal (from **local**, not server session)
 
+    ```bash
+    scp <from> <to>
+    ```
 
-!!! tip
+- Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
+
+???- tip "Syntax for command arguments"
 
     - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
     - We use ``[content]`` to tell that this argument is not necessary
 
-- In the terminal
+??? info "More detailed general procedure"
 
-```bash
-scp <from> <to>
-```
-
-Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
-
-Copy a file **from your local computer** to the cluster:
-
-```bash
-scp <local_filename> <username>@<cluster adress>:<path-to-folder/>
-```
-
-Copy a file **from the cluster** to your local computer, do the command above in reverse order:
-
-```bash
-scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder or "." for _present_ folder>
-```
-
-???- example "Example for Tetralith"
-
-    This is how you copy a file from your local computer directly to your HOME folder (~/):
+    Copy a file **from your local computer** to the cluster:
 
     ```bash
-    scp <local_filename> <username>@tetralith.nsc.liu.se:~/
+    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
     ```
 
-    where `<local_filename>` is the path to a local filename,
-    and `<username>` is your Tetralith username, for example:
+    - where `<username>` is your cluster username,
+    - where `<local_folder>` is your local folder, for example:
+
+
+    Copy a file **from the cluster** to your local computer, do the command above in reverse order:
 
     ```bash
-    scp my_file.txt x_nisse@tetralith.nsc.liu.se:/home/sven
-    ```
-
-    To copy a file from Tetralith to your local computer,
-    do the command above in reverse order:
-
-    ```bash
-    scp <username>@tetralith.nsc.liu.se:/home/<username>/<remote_filename> <local_folder>
-    ```
-
-    where `<remote_filename>` is the path to a remote filename,
-    `<username>` is your UPPMAX username,
-    and `<local_folder>` is your local folder, for example:
-
-    ```bash
-    scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
+    scp <username>@<cluster adress>:<path-to-folder/file> <local_folder or "." for _present_ folder>
     ```
 
     If asked, give your center's password.
     You can get rid of this prompt if you have setup SSH keys
 
 
-!!! warning
+???- example "Example for Tetralith"
 
-    - There is no warning if a file is about to be overwritten.
-        - There is no ``scp -i ...`` as for ``rm -i`` that asks if you really want to remove the file.
-    - 'rsync' may be a better tool if you want to sync existing content.
+    This is how you copy a file from your local computer directly to your HOME folder (~/):
+
+    ```bash
+    scp my_file.txt x_nisse@tetralith.nsc.liu.se:~/
+    ```
+
+    To copy a file from Tetralith to your local computer (and present folder),
+    do the command above in reverse order:
+
+    ```bash
+    scp x_nisse@tetralith.nsc.liu.se:/home/x_nisse/remote_file.txt .
+    ```
+
+    If asked, give your center's password.
+    You can get rid of this prompt if you have setup SSH keys
 
 ???- tip "Cheat sheet for ``scp``"
 
@@ -164,12 +155,12 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
 
 ## Exercises
 
-!!! warning "You may want to prioritize next session instead!"
-
 ???- question "Exercise 0: Use the documentation of your HPC cluster"
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
+        
+            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
 
 ???- question "Where is that documentation?"
 
@@ -190,9 +181,17 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
 
     Tips
 
+    - Useful terminal commands (both locally and remotely)
+        - ``pwd`` - which folder am I in?
+        - ``cd [path]`` - change folder (go up in hierarchy with ``cd ..``)
+        - ``ls`` - list content of folder
+        - ``mkdir`` - make a new folder
+        - ``touch`` - create empty file
+        
     - (If you want to create a file in local terminal: ``$ touch local_file``)
     - (You can check the file structure in an ssh session)
     - Send it to an existing folder (e.g. ``transfer``) on Tetralith
+        - use ``mkdir <folder name>`` if it is not there
     - Check on server that it is there
 
     ???- tip "Answer (Tetralith example)"
@@ -200,7 +199,9 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
         Locally
 
         - (If you want to create a file in *local* terminal: ``$ touch local_file``)
-        - Send it to an existing folder (e.g. ``transfer``) on Tetralith: ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
+        - Send it to an existing folder (e.g. ``transfer``) on Tetralith:
+
+        - ``$ scp local_file <username>@tetralith.nsc.liu.se:~/transfer/``
 
         Check on server that it is there
 
@@ -208,7 +209,7 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
 
         - [Video for Tetralith>(https://youtu.be/rvL-s5vi13I)
 
-???- question "Exercise 2: Download a file from your the server to you computer, using scp"
+???- question "Exercise 2: Download a file from the server to your computer, using scp"
 
     Tips
 
@@ -221,7 +222,7 @@ scp <username>@<cluster adress>:<path-to-folder>/<remote_filename> <local_folder
         On Server
 
         - (If you want to create a remote file first, in an SSH session, do: ``$ touch remote_file``)
-        - Get it to an existing local folder (e.g. ``transfer``): ``$ scp <username>@tetralith.nsc.liu.se:~/transfer/remote_file .``
+        - Get it the present local folder: ``$ scp <username>@tetralith.nsc.liu.se:~/transfer/remote_file .``
 
         Check locally that it is there
 
