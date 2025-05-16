@@ -31,7 +31,7 @@ tags:
     Prior questions:
 
     - What is a file tranfer?
-    - What does one need to do a file transfer?
+    - What does one need to do, to be able to do a file transfer?
     - How does it look like to do a file transfer?
     - Can you name some programs that can do file transfer?
 

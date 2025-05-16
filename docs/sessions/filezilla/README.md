@@ -24,9 +24,6 @@ tags:
 
     Prior questions:
 
-    - What is a file tranfer?
-    - How can one do a file transfer?
-    - Can you name some programs that can do file transfer?
     - Who has heard of FileZilla?
     - Who has already used FileZilla?
     - What are features of FileZilla?
