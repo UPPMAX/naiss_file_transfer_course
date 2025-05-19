@@ -81,6 +81,44 @@ of days.
 
 When it doubt, register another time :-)
 
+### How to find the course's Zoom room?
+
+These are the steps. In total, these steps may take 2 days at minimum,
+due to multiple waiting steps:
+
+- Step 1: Register at [SUPR](https://supr.naiss.se/person/register/).
+
+After doing so, it may take one evening before you are registered.
+You will get an email when being registered.
+
+- Step 2: After registration,
+  on [SUPR](https://supr.naiss.se/), ask for membership of
+  the course project `NAISS 2025/22-717`
+
+After doing so, it may take some days being granted membershup.
+You will get an email when being granted access.
+
+- Step 3: After having been granted membership
+  [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
+  on Dardel and Tetralith
+
+After doing so, it may take some hours before your user account is activated.
+You will get an email when being granted access.
+
+- Step 4: [Log in to your HPC cluster](#how-can-i-login-to-an-hpc-cluster)
+- Step 5: On your HPC cluster, find the URL of the Zoom room
+
+HPC cluster|Path to folder
+-----------|--------------
+Alvis      |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Bianca     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Kebnekaise |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+LUMI       |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Rackham    |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+
 ### How can I check if I have a NAISS account?
 
 When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
@@ -90,27 +128,6 @@ When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
     It should look similar to this:
 
     ![A user that logged into SUPR](supr_logged_in.png)
-
-### How can I get a user account in NAISS?
-
-Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
-
-### How can I get a user account (user name) on a Swedish academic HPC cluster?
-
-- You need to be part of a project first.
-- Also those with cluster accounts already may benefit in getting access to
-other clusters, since we will practice transferring files between clusters.
-- Ask for membership of `NAISS 2025/22-717` and get 1-2 cluster user account
-(if you don’t already have one) on Dardel and Tetralith
-- Steps:
-    - In [SUPR](https://supr.naiss.se),
-      go to the 'Projects' page in the menu,
-      and at 'Request Membership' search for project
-      `NAISS 2025/22-717.`
-    - Teacher will approve you as soon as he/she can, and
-    - when approved you can go to:
-      [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
-      and sign up for a cluster account(s) at **Dardel** and **Tetralith**.
 
 ### How can I check if I can login to an HPC cluster using SSH?
 
