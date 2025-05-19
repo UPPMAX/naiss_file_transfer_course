@@ -84,4 +84,4 @@ The teachers did not always know the answer of the questions:
 - Is FileZilla installed on which HPC clusters?
     - Tip: use Thunar on Tetralith to do exactly the same
     - Yes on Dardel or Rackham ...?
-    
+

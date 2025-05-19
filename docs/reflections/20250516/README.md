@@ -171,8 +171,8 @@ Great!
 ## Feedback from informal dialogue
 
 > What went well?
-> 
-> Most things went well. 
+>
+> Most things went well.
 
 Great!
 
@@ -189,7 +189,7 @@ Great that 'everthing worked': it shows we put effort in providing
 the right answers.
 
 > You are a good team, as the energies balance out:
-> 
+>
 > - Richel can have a bit too much energy
 > - Björn can come across as a bit too calm/hesitant
 
@@ -198,13 +198,13 @@ this during the course, by giving BC more time with the learners
 after they spent time with me.
 
 > What could be improved?
-> 
+>
 > No idea: it went very smoothly and went very well.
 
 Great!
 
 > The teachers did not always know the answer of the questions:
-> 
+>
 > - Is FileZilla installed on which HPC clusters?
 >     - Tip: use Thunar on Tetralith to do exactly the same
 >     - Yes on Dardel or Rackham ...?

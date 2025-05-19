@@ -44,15 +44,15 @@ tags:
 ???- example "Workflow"
 
     - Archive and compress a folder with many large files
-    
+
         ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
 
     - Transfer data
-    
+
         - Use FileZilla/scp/rsync/sftp
 
     - Extract at target destination
-    
+
         ``tar -xzf manylargefiles_folder.tar.gz``
 
     - You should now have ``manylargefiles_folder/`` again at the target destination!
@@ -99,7 +99,7 @@ tags:
 
     - Time the download of the original directory, using ``time scp ...``.
         - If ``time`` does not work, count the seconds!
-  
+
     - Time the download of the compressed directory, using ``time scp ...``.
         - If ``time`` does not work, count the seconds!
 
