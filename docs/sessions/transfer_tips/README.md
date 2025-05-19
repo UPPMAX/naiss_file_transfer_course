@@ -139,7 +139,7 @@ tags:
     Establish the SFTP session (Exercise 1 in SFT session)
 
     - Download (to local) the *directory* and note the time needed
-(not shown in numbers so **count the seconds!**)
+    (not shown in numbers so **count the seconds!**)
     - Download (to local) the ``.tar`` file and note the time needed
     - Was there a significant difference?
 
