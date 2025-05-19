@@ -67,6 +67,7 @@ Time |BO room with BC|Duration
 10:44|1              |16 mins
 11:00|Break          |.
 
+
 ## Reflection
 
 I am reasonably happy with how this day went:
@@ -95,8 +96,9 @@ Time  |Teacher|Topic
 10:05 |R      |File transfer using FileZilla [moved later]
 11:00 |.      |Break
 
-- [ ] Suggest to use this schedule if Alvis + Dardel people are in the
-  majority
+- [ ] [Discuss: do `scp` first if Alvis + Dardel people are in the majority](https://github.com/UPPMAX/naiss_file_transfer_course/issues/44)
+- [ ] [Discuss: encourage use of Tetralith](https://github.com/UPPMAX/naiss_file_transfer_course/issues/45)
+  to remain starting with FileZila
 
 One learner slowed us down: he had not logged in to his HPC cluster.
 
@@ -115,7 +117,7 @@ time for today.
 
 I think me and BC worked well as a teach. For sure, I enjoyed how well we,
 for example, discuss to have an earlier break. Sometimes BC got what he
-wanted and sometimes I.
+wanted and sometimes I. We were equals.
 
 In conclusion: I am still unsure how well the teaching went, regardless
 of the very happy learners.
@@ -130,12 +132,23 @@ I am comfortable using the documentation of my HPC center|4.3 |indeed, there was
 I can compress and archive files before transferring     |4.3 |unsure, I have not seen learners struggle with this
 I can log in to my HPC cluster using SSH                 |5   |indeed, this is a prerequisite
 I can transfer data using FileZilla                      |4   |indeed, this is the hardest and we skipped
-I can transfer data using rsync                          |4.7 |unsure, only 2 out of 4 chose to do this
-I can transfer data using scp                            |5   |indeed, worked like a charm
-I can transfer data using sftp                           |5   |unsure, did anyone do this...?
+I can transfer data using `rsync`                        |4.7 |unsure, only 2 out of 4 chose to do this
+I can transfer data using `scp`                          |5   |indeed, worked like a charm
+I can transfer data using `sftp`                         |5   |unsure, did anyone do this...?
 I can transfer files between clusters                    |4   |indeed, no practice/exercise
 
 <!-- markdownlint-enable MD013 -->
+
+The weakest sessions were:
+
+- FileZilla: this can be improved by
+  [encouraging the use of Tetralith](https://github.com/UPPMAX/naiss_file_transfer_course/issues/45)
+- The between-cluster file transfer.
+  I agree it did not get its proper attention.
+  Maybe BC already has ideas how to improve this?
+  I would be OK to remove this, as it requires a login on 2 HPC clusters,
+  which I feel is only OK if we give this session a full hour.
+  BC decides!
 
 ### Say something positive about Richèl
 
@@ -155,10 +168,55 @@ Great!
 
 Great!
 
+## Feedback from informal dialogue
+
+> What went well?
+> 
+> Most things went well. 
+
+Great!
+
+> The `rsync` apparently went very well,
+> as the learners were done there quite quickly.
+
+Yes indeed! Putting `rsync` after `scp` made it so much easier :-)
+
+> Learners went through exercises fast: everything worked
+> as it was supposed to (sure: when I went off-script, things
+> were different).
+
+Great that 'everthing worked': it shows we put effort in providing
+the right answers.
+
+> You are a good team, as the energies balance out:
+> 
+> - Richel can have a bit too much energy
+> - Björn can come across as a bit too calm/hesitant
+
+I agree and I think it is fun too. I've played around with
+this during the course, by giving BC more time with the learners
+after they spent time with me.
+
+> What could be improved?
+> 
+> No idea: it went very smoothly and went very well.
+
+Great!
+
+> The teachers did not always know the answer of the questions:
+> 
+> - Is FileZilla installed on which HPC clusters?
+>     - Tip: use Thunar on Tetralith to do exactly the same
+>     - Yes on Dardel or Rackham ...?
+
+I agree, as I simply never thought of this question :-) .
+Let's answer it!
+
+- [ ] [Add table: Is FileZilla installed per HPC cluster](https://github.com/UPPMAX/naiss_file_transfer_course/issues/43)
+
 ## Conclusion
 
-I would grade my own teaching as 8/10, because:
+I would grade my own teaching as 8/10, because we were able to establish a
+productive, fun and relaxed learning atmosphere, yet
+I did abandon parts of the literature consciously for unknown reasons.
 
-- We were able to establish a productive, fun and relaxed learning
-  atmosphere
-- I did abandon parts of the literature
