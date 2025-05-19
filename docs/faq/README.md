@@ -199,7 +199,7 @@ brew rsync
 
 In a terminal, type:
 
-```
+```bash
 rsync --version
 ```
 
