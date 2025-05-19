@@ -18,7 +18,6 @@ tags:
 
 Week|Date                     |Times
 ----|-------------------------|-----------
-20  |Friday May 16th 2025     |9:00-12:00
 36  |Friday September 5th 2025|?9:00-12:00
 46  |Friday November 14th 2025|?9:00-12:00
 
