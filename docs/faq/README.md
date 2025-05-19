@@ -152,6 +152,70 @@ Probably: yes
 - Using a website: yes
 - Using a local ThinLinc client: yes
 
+## How to install MobaXterm?
+
+This is for Windows users only.
+
+Install MobaXterm from [the MobaXterm website](https://mobaxterm.mobatek.net/).
+
+## How to check that I've installed MobaXterm?
+
+Run it. If it shows up, you've installed MobaXterm.
+
+## How to install rsync?
+
+This is for Linux and Mac users only.
+
+For Linux, in a terminal, run:
+
+```bash
+sudo apt install rsync
+```
+
+For Max, in a terminal, run:
+
+```bash
+brew rsync
+```
+
+## How to check that I've installed `rsync`?
+
+In a terminal, type:
+
+```
+rsync --version
+```
+
+If you see the `rsync` version displayed, you've installed `rsync`.
+
+???- question "How does that look like?"
+
+    Your output will look similar to this:
+
+    ```bash
+    richel@richel-N141CU:~$ rsync --version
+    rsync  version 3.2.7  protocol version 31
+    Copyright (C) 1996-2022 by Andrew Tridgell, Wayne Davison, and others.
+    Web site: https://rsync.samba.org/
+    Capabilities:
+        64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+        socketpairs, symlinks, symtimes, hardlinks, hardlink-specials,
+        hardlink-symlinks, IPv6, atimes, batchfiles, inplace, append, ACLs,
+        xattrs, optional secluded-args, iconv, prealloc, stop-at, no crtimes
+    Optimizations:
+        SIMD-roll, no asm-roll, openssl-crypto, no asm-MD5
+    Checksum list:
+        xxh128 xxh3 xxh64 (xxhash) md5 md4 sha1 none
+    Compress list:
+        zstd lz4 zlibx zlib none
+    Daemon auth list:
+        sha512 sha256 sha1 md5 md4
+
+    rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+    are welcome to redistribute it under certain conditions.  See the GNU
+    General Public Licence for details.
+    ```
+
 ## How to install FileZilla?
 
 Under Ubuntu, you can can use the Ubuntu App Center.
@@ -174,6 +238,10 @@ For non-Ubuntu users, search the web, download and install.
     [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
 
     Download the file, maybe unzip it and run the installer
+
+## How to check that I've installed FileZilla?
+
+Run it. If it shows up, you've installed FileZilla.
 
 ### How can I check if I have a good Zoom setup?
 
