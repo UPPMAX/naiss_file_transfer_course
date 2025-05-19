@@ -95,7 +95,7 @@ You will get an email when being registered.
   on [SUPR](https://supr.naiss.se/), ask for membership of
   the course project `NAISS 2025/22-717`
 
-After doing so, it may take some days being granted membershup.
+After doing so, it may take some days being granted membership.
 You will get an email when being granted access.
 
 - Step 3: After having been granted membership

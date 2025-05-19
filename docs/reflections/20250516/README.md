@@ -98,7 +98,7 @@ Time  |Teacher|Topic
 
 - [ ] [Discuss: do `scp` first if Alvis + Dardel people are in the majority](https://github.com/UPPMAX/naiss_file_transfer_course/issues/44)
 - [ ] [Discuss: encourage use of Tetralith](https://github.com/UPPMAX/naiss_file_transfer_course/issues/45)
-  to remain starting with FileZila
+  to remain starting with FileZilla
 
 One learner slowed us down: he had not logged in to his HPC cluster.
 
@@ -185,7 +185,7 @@ Yes indeed! Putting `rsync` after `scp` made it so much easier :-)
 > as it was supposed to (sure: when I went off-script, things
 > were different).
 
-Great that 'everthing worked': it shows we put effort in providing
+Great that 'everything worked': it shows we put effort in providing
 the right answers.
 
 > You are a good team, as the energies balance out:
