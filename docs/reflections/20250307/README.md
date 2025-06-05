@@ -1,11 +1,7 @@
----
-tags:
-  - reflection
-  - 2025-03-07
-  - 20250307
----
-
 # Reflection 2025-03-07
+
+- Author: RB
+- Date: 2025-03-07
 
 This was the first iteration of this course, which made it hard
 to make any predictions.

@@ -1,11 +1,3 @@
----
-tags:
-  - evaluation
-  - result
-  - 2025-05-16
-  - 20250516
----
-
 # Evaluation 2025-05-16
 
 - Number of registrations: 15
