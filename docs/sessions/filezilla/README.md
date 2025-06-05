@@ -67,17 +67,17 @@ It works under Linux, Mac and Windows.
 
     Here are videos that do this exercises for the different HPC clusters:
 
-    HPC Cluster|Link to video
-    -----------|-------------------------------------------------
-    Alvis      |[Here](https://youtu.be/A8zfd0o0uzI)
+    HPC Cluster|Videos
+    -----------|------
+    Alvis      |[Video](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
-    Bianca     |[Here](https://youtu.be/V-iPQLjvByc)
-    COSMOS     |[Here](https://youtu.be/T4qqN_ljsS8)
-    Dardel     |[Here](https://youtu.be/_3EmkN619Xo)
+    Bianca     |[Video](https://youtu.be/V-iPQLjvByc)
+    COSMOS     |[Video](https://youtu.be/T4qqN_ljsS8)
+    Dardel     |[Video](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster
     LUMI       |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34)
-    Rackham    |[Here](https://youtu.be/CyJbWHZbvJU)
-    Tetralith  |[Here](https://youtu.be/qzV3oY5fZbE)
+    Rackham    |[Video](https://youtu.be/CyJbWHZbvJU)
+    Tetralith  |[Video](https://youtu.be/qzV3oY5fZbE)
     Vera       |Cannot: is not a NAISS cluster
 
 ???- question "How difficult will this be?"
@@ -138,18 +138,18 @@ Use the documentation of your HPC cluster for help.
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    HPC Cluster|Link to documentation
+    HPC Cluster|Documentation
     -----------|------------
-    Alvis      |None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). Use [this documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
-    Berzelius  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
-    Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
-    COSMOS     |None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
-    Dardel     |None. Closest is [here](https://support.pdc.kth.se/doc/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
-    Kebnekaise |[here (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [here (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
-    LUMI       |None. Closest is [here](https://docs.csc.fi/data/moving/graphical_transfer/). Use [this documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/) instead
-    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
-    Tetralith  |[here](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
-    Vera       |None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/filesystem/#copying-files-into-and-out-of-the-system)
+    Alvis      |None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). Use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_filezilla/) instead
+    Berzelius  |[Documentation](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
+    COSMOS     |None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
+    Dardel     |None. [Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
+    Kebnekaise |[Documentation (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [documentation (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
+    LUMI       |None. Closest is [here](https://docs.csc.fi/data/moving/graphical_transfer/). Use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/) instead
+    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
+    Tetralith  |[Documentation](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
+    Vera       |None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/filesystem/#copying-files-into-and-out-of-the-system)
 
     <!-- markdownlint-enable MD013 -->
 

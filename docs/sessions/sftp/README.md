@@ -131,17 +131,17 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
 ???- question "Where is that documentation?"
 
-    HPC Cluster|Link to documentation
+    HPC Cluster|Documentation
     -----------|------------
     Alvis      |**FIX?** None.
-    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Bianca     |[here](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
-    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
-    Dardel     |The similar psftp is described [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
-    Kebnekaise |[Here](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
+    Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
+    Dardel     |[Documentation about the similar `psftp`](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
     LUMI       |**To do**
-    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
-    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
+    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
+    Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.
 
     ???- question "Dardel documentation uses ``psftp``, what is that?"

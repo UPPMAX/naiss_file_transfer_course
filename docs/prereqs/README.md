@@ -11,7 +11,7 @@ tags:
 
 ???- question "For teachers: how did we decide upon these?"
 
-    See [here](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
+    See [this issue](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
 
 These are the **five** prerequisites for following this course:
 

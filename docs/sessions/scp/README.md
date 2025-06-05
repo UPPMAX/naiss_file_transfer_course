@@ -164,18 +164,18 @@ tags:
 
 ???- question "Where is that documentation?"
 
-    HPC Cluster|Link to documentation
+    HPC Cluster|Documentation
     -----------|------------
-    Alvis      |[here](https://www.c3se.chalmers.se/documentation/file_transfer/).
-    Berzelius  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Bianca     |Available for download via the transit server, see [here](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
-    COSMOS     |**FIX?** None. Closest is [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
-    Dardel     |[here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
-    Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
+    Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/file_transfer/).
+    Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
+    Bianca     |Available for download via the transit server, see [documentation](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
+    COSMOS     |**FIX?** None. [Documentation that is clostest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
+    Dardel     |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |**To do**
-    Rackham    |[here](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
-    Tetralith  |[here](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None. Closest is [here](https://www.c3se.chalmers.se/documentation/file_transfer/).
+    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
+    Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
+    Vera       |**FIX?** None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/).
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
 
