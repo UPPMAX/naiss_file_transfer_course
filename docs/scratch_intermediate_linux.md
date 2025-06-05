@@ -1,1 +1,1 @@
-Moved to [https://github.com/UPPMAX/naiss_intermediate_bash_linux](https://github.com/UPPMAX/naiss_intermediate_bash_linux).
+Moved to [https://github.com/UPPMAX/linux-command-line-201](https://github.com/UPPMAX/linux-command-line-201).
