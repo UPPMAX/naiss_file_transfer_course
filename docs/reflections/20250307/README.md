@@ -1,4 +1,4 @@
-# Reflection 2025-03-07
+# Reflection
 
 - Author: RB
 - Date: 2025-03-07

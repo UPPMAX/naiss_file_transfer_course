@@ -1,4 +1,4 @@
-# Reflection 2025-05-16
+# Reflection
 
 - Author: RB
 - Date: 2025-05-16
