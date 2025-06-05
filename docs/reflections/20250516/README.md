@@ -68,7 +68,7 @@ Time |BO room with BC|Duration
 11:00|Break          |.
 
 
-## Reflection
+## My reflection
 
 I am reasonably happy with how this day went:
 the atmosphere within the little group (me, BC and 4 learners)
