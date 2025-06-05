@@ -92,18 +92,18 @@ Here is an overview of the documentation pages for each HPC center:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-HPC Cluster|Link to documentation
+HPC Cluster|Documentation
 -----------|------------
-Alvis      |[here](https://www.c3se.chalmers.se)
-Berzelius  |[here](https://www.nsc.liu.se)
-Bianca     |[here](https://docs.uppmax.uu.se)
-COSMOS     |[here](https://lunarc-documentation.readthedocs.io)
-Dardel     |[here](https://support.pdc.kth.se/doc/)
-Kebnekaise |[here](https://docs.hpc2n.umu.se/)
-LUMI       |[here](https://docs.csc.fi)
-Rackham    |[here](https://docs.uppmax.uu.se)
-Tetralith  |[here](https://www.nsc.liu.se)
-Vera       |[here](https://www.c3se.chalmers.se)
+Alvis      |[Documentation](https://www.c3se.chalmers.se)
+Berzelius  |[Documentation](https://www.nsc.liu.se)
+Bianca     |[Documentation](https://docs.uppmax.uu.se)
+COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io)
+Dardel     |[Documentation](https://support.pdc.kth.se/doc/)
+Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
+LUMI       |[Documentation](https://docs.csc.fi)
+Rackham    |[Documentation](https://docs.uppmax.uu.se)
+Tetralith  |[Documentation](https://www.nsc.liu.se)
+Vera       |[Documentation](https://www.c3se.chalmers.se)
 
 <!-- markdownlint-enable MD013 -->
 
