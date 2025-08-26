@@ -83,7 +83,12 @@ When it doubt, register another time :-)
 
 ### How to find the course's Zoom room?
 
-These are the steps. In total, these steps may take 2 days at minimum,
+If you are working on your own HPC cluster,
+we assume you can log in and you will be emailed the
+Zoom room's URL. 
+
+Here is how to find the course's Zoom room.
+In total, these steps may take 2 days at minimum,
 due to multiple waiting steps:
 
 - Step 1: Register at [SUPR](https://supr.naiss.se/person/register/).
@@ -100,23 +105,20 @@ You will get an email when being granted access.
 
 - Step 3: After having been granted membership
   [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
-  on Dardel and Tetralith
+  on Dardel and Tetralith. Tetralith is the HPC cluster that is recommended
+  for this course.
 
 After doing so, it may take some hours before your user account is activated.
 You will get an email when being granted access.
 
-- Step 4: [Log in to your HPC cluster](#how-can-i-login-to-an-hpc-cluster)
+- Step 4: [Log in to your HPC cluster](#how-can-i-login-to-an-hpc-cluster).
+  Tetralith is the HPC cluster that is recommended
+  for this course.
 - Step 5: On your HPC cluster, find the URL of the Zoom room
 
 HPC cluster|Path to folder
 -----------|--------------
-Alvis      |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-Bianca     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48) `/cfs/klemming/projects/supr/transfer_course/zoom_url.txt`
-Kebnekaise |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-LUMI       |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-Rackham    |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48) `/proj/transfer_course/zoom_url.txt`
 
 ### How can I check if I have a NAISS account?
