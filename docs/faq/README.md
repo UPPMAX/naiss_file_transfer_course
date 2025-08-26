@@ -113,11 +113,11 @@ HPC cluster|Path to folder
 Alvis      |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 Bianca     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48) `/cfs/klemming/projects/supr/transfer_course/zoom_url.txt`
 Kebnekaise |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 LUMI       |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
 Rackham    |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
-Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48)
+Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/48) `/proj/transfer_course/zoom_url.txt`
 
 ### How can I check if I have a NAISS account?
 
