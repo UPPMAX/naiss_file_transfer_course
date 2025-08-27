@@ -6,9 +6,29 @@
 
 Dear learners,
 
-Welcome to the File transfer course of 2025-05-16!
+Welcome to the File transfer course of 2025-09-05!
 
-These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_file_transfer_course/prereqs/> )
+Please follow the steps in the prerequisites page: <https://uppmax.github.io/naiss_file_transfer_course/prereqs/>
+It involves having an acount and some kind of allocation project on a cluster. It may be an existing research project of your group or a course project.
+All commands can be run on the login node, not using up your compute allocation. 
+
+- 5 Sep at 9.00 (sharp!)
+- ZOOM link and passcode is either given
+    - in the project folder of the course
+    - or emailed to those with existing research account.
+
+Help, answers and videos can be found at the course's FAQ page at <https://uppmax.github.io/naiss_file_transfer_course/faq/#prerequisites> .
+
+If you have any questions, never hesitate to contact Björn at `[bjoern_email]`.
+
+See you on Friday!
+
+Best regards,
+Björn Claremar & Richèl Bilderbeek.
+
+--------------
+
+These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_file_transfer_course/prereqs/> ). 
 
 - [x] Prerequisite 1/4: You have registered at our registration form
 - [ ] Prerequisite 2/4: A user account on a Swedish academic HPC cluster
@@ -18,7 +38,7 @@ These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_f
   the documentation of that cluster is helpful (if not, contact your cluster's HPC center).
 - [ ] Prerequisite 4/4: Have a good Zoom setup
 
-- If you don’t already have a Swedish _cluster_ account, you may join our course project with allocation on the Tetralith cluster (and Dardel).
+- If you don’t already have a Swedish _cluster_ account for your research, you may join our course project with allocation on the Tetralith cluster (and Dardel).
 In SUPR, go to Projects in the menu, and Request Membership in Project NAISS 2025/22-717.
 I will approve you as soon as I can, and when approved you can go to:  <https://supr.naiss.se/account/> and sign up for a cluster account at Tetralith and Dardel.
 
