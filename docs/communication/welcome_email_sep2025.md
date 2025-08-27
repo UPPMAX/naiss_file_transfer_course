@@ -12,10 +12,10 @@ Please follow the steps in the prerequisites page: <https://uppmax.github.io/nai
 It involves having an acount and some kind of allocation project on a cluster. It may be an existing research project of your group or a course project.
 All commands can be run on the login node, not using up your compute allocation. 
 
-- `[date_and_time]` (sharp!)
-- `[zoom_url]`
-- Meeting ID: `[zoom_meeting_id]`
-- Passcode: `[zoom_passcde]`
+- 5 Sep at 9.00 (sharp!)
+- ZOOM link and passcode is either given
+    - in the project folder of the course
+    - or emailed to those with existing research account.
 
 Help, answers and videos can be found at the course's FAQ page at <https://uppmax.github.io/naiss_file_transfer_course/faq/#prerequisites> .
 
