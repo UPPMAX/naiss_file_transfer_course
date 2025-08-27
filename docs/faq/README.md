@@ -83,6 +83,11 @@ When it doubt, register another time :-)
 
 ### How to find the course's Zoom room?
 
+???- question "Want to see this in a video?"
+
+    Watch the YouTube video
+    [NAISS File Transfer course: How to find the course's Zoom room?](https://youtu.be/-ojBPH66mqw)
+
 If you are working on your own HPC cluster,
 we assume you can log in and you will be emailed the
 Zoom room's URL.
