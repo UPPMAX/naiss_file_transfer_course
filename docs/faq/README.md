@@ -85,7 +85,7 @@ When it doubt, register another time :-)
 
 If you are working on your own HPC cluster,
 we assume you can log in and you will be emailed the
-Zoom room's URL. 
+Zoom room's URL.
 
 Here is how to find the course's Zoom room.
 In total, these steps may take 2 days at minimum,
