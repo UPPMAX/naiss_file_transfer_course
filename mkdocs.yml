@@ -62,6 +62,34 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+
+not_in_nav: |
+  invitation_short.md
+  scratch_intermediate_linux.md
+  communication/invitations.md
+  communication/registration_form.md
+  communication/welcome_email.md
+  communication/welcome_email_may2025.md
+  communication/welcome_email_sep2025.md
+  data/counts/20250307/README.md
+  evaluations/20250307/README.md
+  evaluations/20250516/README.md
+  evaluations/20250905/README.md
+  evaluations/20251114/README.md
+  lesson_plans/20250307/README.md
+  lesson_plans/20250516/README.md
+  lesson_plans/20250905/README.md
+  lesson_plans/20251114/README.md
+  meeting_notes/20241121.md
+  meeting_notes/20250310.md
+  meeting_notes/20250515.md
+  planning/notes.md
+  planning/old_README.md
+  reflections/20250307/README.md
+  reflections/20250516/README.md
+  reflections/20250905/README.md
+  reflections/20251114/README.md
+
 markdown_extensions:
   - toc:
       toc_depth: 3
