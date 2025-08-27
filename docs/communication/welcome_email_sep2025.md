@@ -10,7 +10,7 @@ Welcome to the File transfer course of 2025-09-05!
 
 Please follow the steps in the prerequisites page: <https://uppmax.github.io/naiss_file_transfer_course/prereqs/>
 It involves having an acount and some kind of allocation project on a cluster. It may be an existing research project of your group or a course project.
-All commands can be run on the login node, not using up your compute allocation. 
+All commands can be run on the login node, not using up your compute allocation.
 
 - 5 Sep at 9.00 (sharp!)
 - ZOOM link and passcode is either given
@@ -21,14 +21,14 @@ Help, answers and videos can be found at the course's FAQ page at <https://uppma
 
 If you have any questions, never hesitate to contact Björn at `[bjoern_email]`.
 
-See you on Friday!
+See you next Friday!
 
 Best regards,
 Björn Claremar & Richèl Bilderbeek.
 
 --------------
 
-These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_file_transfer_course/prereqs/> ). 
+These are the four prerequisites (as listed on <https://uppmax.github.io/naiss_file_transfer_course/prereqs/> ).
 
 - [x] Prerequisite 1/4: You have registered at our registration form
 - [ ] Prerequisite 2/4: A user account on a Swedish academic HPC cluster
