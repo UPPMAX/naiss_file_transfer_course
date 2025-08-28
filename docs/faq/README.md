@@ -102,7 +102,7 @@ Zoom room's URL about a day before the.
 <!-- markdownlint-enable MD013 -->
 
 - As an (optional) exercise there are instructions to copy files between clusters.
-- If interested, follow the steps 2-5 in Track 4 below by;
+- If interested, follow the steps 2-5 in Track 2 below by;
     - applying for membership in the course project and
     - activate a user account on the cluster of Tetralith and Dardel
       that you do not already have.
