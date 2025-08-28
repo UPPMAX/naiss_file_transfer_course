@@ -53,7 +53,7 @@ It works under Linux, Mac and Windows.
     Alvis      |[YouTube video](https://youtu.be/dzqQ-HBjIfo)
     Berzelius  |Cannot: is not a NAISS cluster
     Bianca     |[YouTube video](https://youtu.be/QlGhgPm_h7I)
-    COSMOS     |.
+    COSMOS     |[YouTube video](https://youtu.be/hpug-nhLZ6Y)
     Dardel     |[YouTube video](https://youtu.be/IustC5zai68)
     Kebnekaise |Cannot: is not a NAISS cluster
     LUMI       |.
