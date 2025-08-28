@@ -117,7 +117,10 @@ Use the documentation of your HPC cluster.
     <!-- markdownlint-enable MD013 -->
 
 If the center maintaining you HPC cluster has not documented how to use
-`rsync`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
+`rsync`,
+follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
 
-- Copy a file from your local computer to your HPC cluster's home folder. Verify this worked.
-- Copy a file from your HPC cluster's home folder to your local computer. Verify this worked.
+- Copy a file from your local computer to your HPC cluster's home folder.
+  Verify that this worked.
+- Copy a file from your HPC cluster's home folder to your local computer.
+  Verify that this worked.
