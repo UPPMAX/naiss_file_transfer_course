@@ -92,15 +92,20 @@ When it doubt, register another time :-)
 
 - If you are already working on a Swedish HPC cluster,
 we assume you can log in and you will be emailed the
-Zoom room's URL about a day before the. 
+Zoom room's URL about a day before the.
 - We will use your information in the registration in SUPR to check this!
 
+<!-- markdownlint-disable MD013 --><!-- Header cannot be split up over lines, hence will break 80 characters per line -->
+
 #### Track 1b: You have a project but ere interested in transferring files between clusters
+
+<!-- markdownlint-enable MD013 -->
 
 - As an (optional) exercise there are instructions to copy files between clusters.
 - If interested, follow the steps 2-5 in Track 4 below by;
     - applying for membership in the course project and
-    - activate a user account on the cluster of Tetralith and Dardel that you do not already have.
+    - activate a user account on the cluster of Tetralith and Dardel
+      that you do not already have.
 
 #### Track 2: You are new to a HPC resource
 
