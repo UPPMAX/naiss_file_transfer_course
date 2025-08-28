@@ -25,7 +25,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation questions
 
-- Evaluation questions: [TODO #42](https://github.com/UPPMAX/naiss_file_transfer_course/issues/42)
+- [Evaluation questions form](https://docs.google.com/forms/d/e/1FAIpQLSftcfFGyADkuOGKPl6alpb7l4-wuZRgawz-IIQgDuv_4r8Bdg/viewform?usp=dialog)
 
 ???- question "Why do you evaluate under lesson hours?"
 
