@@ -8,16 +8,14 @@ Dear learners,
 
 Welcome to the File transfer course of 2025-09-05!
 
-Please unregister in the form or let me know if you cannot show up!
+Please unregister in the form or send an email back if you cannot show up!
 
 Please follow the steps in the prerequisites page: <https://uppmax.github.io/naiss_file_transfer_course/prereqs/>
-It involves having an account and some kind of allocation project on a cluster. It may be an existing research project of your group or a course project.
+It involves having an account and some kind of allocation project on a cluster. It may be an existing research project of your group or the course project.
 All commands can be run on the login node, not using up your compute allocation!
 
 - 5 Sep at 9.00 (sharp!)
-- ZOOM link and passcode is either given
-    - in the project folder of the course
-    - or emailed to those with existing research projects.
+- ZOOM link and passcode are hidden in the instructions!
 
 Help, answers and videos can be found at the course's FAQ page at <https://uppmax.github.io/naiss_file_transfer_course/faq/#prerequisites> .
 
