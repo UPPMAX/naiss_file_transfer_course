@@ -1,6 +1,7 @@
 ---
 tags:
   - lesson
+  - session
   - file transfer
   - FileZilla
 ---
@@ -67,17 +68,18 @@ It works under Linux, Mac and Windows.
 
     Here are videos that do this exercises for the different HPC clusters:
 
-    HPC Cluster|Videos
+    HPC Cluster|YouTube video
     -----------|------
-    Alvis      |[Video](https://youtu.be/A8zfd0o0uzI)
+    Alvis      |[YouTube video](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
-    Bianca     |[Video](https://youtu.be/V-iPQLjvByc)
-    COSMOS     |[Video](https://youtu.be/T4qqN_ljsS8)
-    Dardel     |[Video](https://youtu.be/_3EmkN619Xo)
+    Bianca     |[YouTube video](https://youtu.be/V-iPQLjvByc)
+    COSMOS     |[YouTube video](https://youtu.be/T4qqN_ljsS8)
+    Dardel     |[YouTube video](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster
-    LUMI       |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34)
-    Rackham    |[Video](https://youtu.be/CyJbWHZbvJU)
-    Tetralith  |[Video](https://youtu.be/qzV3oY5fZbE)
+    LUMI       |[YouTube video](https://youtu.be/PjzMuMIyj40)
+    Pelle      |[YouTube video](https://youtu.be/NOHYNj1vW28)
+    Rackham    |[YouTube video](https://youtu.be/CyJbWHZbvJU)
+    Tetralith  |[YouTube video](https://youtu.be/qzV3oY5fZbE)
     Vera       |Cannot: is not a NAISS cluster
 
 ???- question "How difficult will this be?"
@@ -94,14 +96,15 @@ It works under Linux, Mac and Windows.
     COSMOS     |Medium    |No specialized documentation yet
     Dardel     |Hard      |Need `.ppk` files
     Kebnekaise |Easy      |Simple procedure, specialized documentation
-    LUMI       |Hard      |Need `.ppk` files
+    LUMI       |Hard      |Need `.ppk` files, [CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2882884189), however there is [specialized documentation at UPPMAX](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/)
+    Pelle      |Easy      |Simple procedure, specialized documentation
     Rackham    |Easy      |Simple procedure, specialized documentation
     Tetralith  |Easy      |Simple procedure, specialized documentation
     Vera       |Medium    |No specialized documentation yet
 
     <!-- markdownlint-enable MD013 -->
 
-### Exercise 0: install FileZilla
+## Exercise 0: install FileZilla
 
 Install FileZilla.
 
@@ -126,7 +129,7 @@ For non-Ubuntu users, search the web, download and install.
 
     Download the file, maybe unzip it and run the installer
 
-### Exercise 1: transfer a file
+## Exercise 1: transfer a file
 
 Use the documentation of your HPC cluster for help.
 
@@ -146,7 +149,8 @@ Use the documentation of your HPC cluster for help.
     COSMOS     |None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
     Dardel     |None. [Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
     Kebnekaise |[Documentation (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [documentation (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
-    LUMI       |None. Use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/) instead
+    LUMI       |None. [CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2882884189). Use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/) instead
+    Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Vera       |None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/filesystem/#copying-files-into-and-out-of-the-system)
