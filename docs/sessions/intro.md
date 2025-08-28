@@ -49,9 +49,9 @@ flowchart TD
   classDef optional stroke:#000,stroke-width:1px;
 
   account[Account for HPC cluster]:::always
-  filezilla[1.Transfer files using FileZilla]:::always
-  login_console[2.Login to console environment]:::always
-  scp[3.Transfer files using scp]:::always
+  filezilla[3.Transfer files using FileZilla]:::always
+  login_console[1.Login to console environment]:::always
+  scp[2.Transfer files using scp]:::always
   rsync[Transfer files using rsync]:::optional
   sftp[Transfer files using sftp]:::optional
   transfer_tips[Transfer tips]:::optional
@@ -131,10 +131,11 @@ Dardel 2        |Room 7
 Dardel 3        |Room 8
 Dardel 4        |Room 9
 Dardel 5        |Room 10
-Tetralith 1     |Room 11
-Tetralith 2     |Room 12
-Other 1         |Room 13
-Other 2         |Room 14
+Pelle 1         |Room 11
+Tetralith 1     |Room 12
+Tetralith 2     |Room 13
+Other 1         |Room 14
+Other 2         |Room 15
 
 - When your first breakout room reaches 4 learners, decide upon 2 to
   move to the next breakout room.
