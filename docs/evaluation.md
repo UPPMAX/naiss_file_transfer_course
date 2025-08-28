@@ -53,7 +53,7 @@ This is the page for evaluating the current iteration of the course.
 
     - I am comfortable using the documentation of my HPC center
     - I can transfer data using FileZilla
-    - I can log in to my HPC cluster using SSH
+    - I can log in to my HPC cluster using `ssh`
     - I can transfer data using `scp`
     - (optional) I can transfer data using `rscync`
     - (optional) I can transfer data using `sftp`
