@@ -56,7 +56,7 @@ It works under Linux, Mac and Windows.
     COSMOS     |[YouTube video](https://youtu.be/hpug-nhLZ6Y)
     Dardel     |[YouTube video](https://youtu.be/IustC5zai68)
     Kebnekaise |Cannot: is not a NAISS cluster
-    LUMI       |Unknown how to do this, [asked CSC support](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3232988653)
+    LUMI       |TODO
     Pelle      |[YouTube video](https://youtu.be/mEo4mfSmpp0)
     Rackham    |[YouTube video](https://youtu.be/p-27aIh2acA)
     Tetralith  |[YouTube video](https://youtu.be/3-OF8nkCdtM)
@@ -78,7 +78,7 @@ It works under Linux, Mac and Windows.
     COSMOS     |Medium    |No specialized documentation
     Dardel     |Medium    |No specialized documentation
     Kebnekaise |Easy      |Has specialized documentation
-    LUMI       |Impossible|[Has no documentation that works, asked CSC support](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3232988653)
+    LUMI       |Hard      |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |Easy      |Has specialized documentation
     Rackham    |Easy      |Has specialized documentation
     Tetralith  |Easy      |Has specialized documentation
@@ -108,7 +108,7 @@ Use the documentation of your HPC cluster.
     COSMOS     |None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/). Use [the `scp` documentation](../scp/README.md) and replace `scp` by `rsync`
     Dardel     |[Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
-    LUMI       |[Documentation (that does not work)](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-rsync)
+    LUMI       |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
