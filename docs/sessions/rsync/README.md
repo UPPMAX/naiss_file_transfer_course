@@ -48,17 +48,18 @@ It works under Linux, Mac and Windows.
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    HPC Cluster|Videos
+    HPC Cluster|YouTube video
     -----------|------
-    Alvis      |[Video](https://youtu.be/dzqQ-HBjIfo)
+    Alvis      |[YouTube video](https://youtu.be/dzqQ-HBjIfo)
     Berzelius  |.
-    Bianca     |[Video](https://youtu.be/QlGhgPm_h7I)
+    Bianca     |[YouTube video](https://youtu.be/QlGhgPm_h7I)
     COSMOS     |.
-    Dardel     |[Video](https://youtu.be/IustC5zai68)
+    Dardel     |[YouTube video](https://youtu.be/IustC5zai68)
     Kebnekaise |.
     LUMI       |.
-    Rackham    |[Video](https://youtu.be/p-27aIh2acA)
-    Tetralith  |[Video](https://youtu.be/3-OF8nkCdtM)
+    Pelle      |[YouTube video](https://youtu.be/mEo4mfSmpp0)
+    Rackham    |[YouTube video](https://youtu.be/p-27aIh2acA)
+    Tetralith  |[YouTube video](https://youtu.be/3-OF8nkCdtM)
     Vera       |.
 
     <!-- markdownlint-enable MD013 -->
@@ -78,6 +79,7 @@ It works under Linux, Mac and Windows.
     Dardel     |Medium    |No specialized documentation
     Kebnekaise |Easy      |Has specialized documentation
     LUMI       |Easy      |Has specialized documentation
+    Pelle      |Easy      |Has specialized documentation
     Rackham    |Easy      |Has specialized documentation
     Tetralith  |Easy      |Has specialized documentation
     Vera       |Easy      |Has specialized documentation
@@ -107,6 +109,7 @@ Use the documentation of your HPC cluster.
     Dardel     |[Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-rsync)
+    Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |[Documentation](https://vera-doc.psc.edu/#transferring-files)
@@ -116,5 +119,5 @@ Use the documentation of your HPC cluster.
 If the center maintaining you HPC cluster has not documented how to use
 `rsync`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
 
-- Copy a file from your local computer to your Rackham home folder. Verify this worked.
-- Copy a file from your Rackham home folder to your local computer. Verify this worked.
+- Copy a file from your local computer to your HPC cluster's home folder. Verify this worked.
+- Copy a file from your HPC cluster's home folder to your local computer. Verify this worked.
