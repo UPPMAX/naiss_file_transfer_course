@@ -213,7 +213,7 @@ For Linux, in a terminal, run:
 sudo apt install rsync
 ```
 
-For Max, in a terminal, run:
+For Mac, in a terminal, run:
 
 ```bash
 brew rsync
