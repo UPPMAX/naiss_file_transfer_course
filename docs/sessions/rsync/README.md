@@ -51,16 +51,16 @@ It works under Linux, Mac and Windows.
     HPC Cluster|YouTube video
     -----------|------
     Alvis      |[YouTube video](https://youtu.be/dzqQ-HBjIfo)
-    Berzelius  |.
+    Berzelius  |Cannot: is not a NAISS cluster
     Bianca     |[YouTube video](https://youtu.be/QlGhgPm_h7I)
     COSMOS     |.
     Dardel     |[YouTube video](https://youtu.be/IustC5zai68)
-    Kebnekaise |.
+    Kebnekaise |Cannot: is not a NAISS cluster
     LUMI       |.
     Pelle      |[YouTube video](https://youtu.be/mEo4mfSmpp0)
     Rackham    |[YouTube video](https://youtu.be/p-27aIh2acA)
     Tetralith  |[YouTube video](https://youtu.be/3-OF8nkCdtM)
-    Vera       |.
+    Vera       |Cannot: is not a NAISS cluster
 
     <!-- markdownlint-enable MD013 -->
 
