@@ -284,6 +284,22 @@ For non-Ubuntu users, search the web, download and install.
 
 Run it. If it shows up, you've installed FileZilla.
 
+## Which HPC clusters have FileZilla installed?
+
+HPC Cluster|Has FileZilla installed?
+-----------|------------------------
+Alvis      |TODO
+Berzelius  |Unknown, as this is not a NAISS cluster
+Bianca     |Yes, confirm
+COSMOS     |TODO
+Dardel     |TODO
+Kebnekaise |Unknown, as this is not a NAISS cluster
+LUMI       |TODO
+Pelle      |TODO
+Rackham    |Yes, confirm
+Tetralith  |TODO
+Vera       |Unknown, as this is not a NAISS cluster
+
 ### How can I check if I have a good Zoom setup?
 
 - You are in a room where you can talk
