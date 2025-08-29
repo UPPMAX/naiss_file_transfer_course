@@ -56,7 +56,7 @@ It works under Linux, Mac and Windows.
     COSMOS     |[YouTube video](https://youtu.be/hpug-nhLZ6Y)
     Dardel     |[YouTube video](https://youtu.be/IustC5zai68)
     Kebnekaise |Cannot: is not a NAISS cluster
-    LUMI       |TODO
+    LUMI       |[YouTube video](https://youtu.be/-UONn-4CJWs)
     Pelle      |[YouTube video](https://youtu.be/mEo4mfSmpp0)
     Rackham    |[YouTube video](https://youtu.be/p-27aIh2acA)
     Tetralith  |[YouTube video](https://youtu.be/3-OF8nkCdtM)
@@ -78,7 +78,7 @@ It works under Linux, Mac and Windows.
     COSMOS     |Medium    |No specialized documentation
     Dardel     |Medium    |No specialized documentation
     Kebnekaise |Easy      |Has specialized documentation
-    LUMI       |Hard      |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
+    LUMI       |Medium    |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |Easy      |Has specialized documentation
     Rackham    |Easy      |Has specialized documentation
     Tetralith  |Easy      |Has specialized documentation
