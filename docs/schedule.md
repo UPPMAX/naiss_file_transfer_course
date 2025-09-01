@@ -25,12 +25,12 @@ tags:
 
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
-9:00  |R->B   |[Intro](sessions/intro.md)
-9:05  |R->B   |[Login with terminal](sessions/login_terminal/README.md)
+9:00  |B      |[Intro](sessions/intro.md)
+9:05  |B      |[Login with terminal](sessions/login_terminal/README.md)
 .     |B      |[File transfer using `scp`](sessions/scp/README.md)
 9:50  |.      |Break
-10:05 |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
-.     |R      |[Login with terminal](sessions/login_terminal/README.md)
+10:05 |R      |[File transfer using `scp` cont'd](sessions/scp/README.md)
+.     |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
 11:00 |.      |Break
 11:15 |BR     |Help decide what to pick, split up according to choice
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
