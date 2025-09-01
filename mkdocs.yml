@@ -10,9 +10,9 @@ nav:
   - Schedule: schedule.md
   - Sessions:
     - Intro: sessions/intro.md
-    - File transfer using FileZilla: sessions/filezilla/README.md
     - Login with terminal: sessions/login_terminal/README.md
     - File transfer using scp: sessions/scp/README.md
+    - File transfer using FileZilla: sessions/filezilla/README.md
     - File transfer using rsync: sessions/rsync/README.md
     - File transfer using sftp: sessions/sftp/README.md
     - File transfer tips: sessions/transfer_tips/README.md
