@@ -26,14 +26,23 @@ tags:
     - Who has heard of `scp`?
     - Who has already used `scp`?
 
+!!! info
+
+    - We start with a transferring tool in the command line.
+    - Let's focus on the easiest.
+    - Next session we try a tool with a graphical interface!
+    
 ## Overview other terminal transfer tools
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
+!!! info
+
+    - Terminal transfer tools are 
 
 - `scp` has the similar arguments as for the linux copy function `cp`.
-- `sftp` is more versatile with more file management capabilities.
-- `rsync` is perfect for syncing and have many capabilities
+- `sftp` is more versatile with more file management capabilities. [Optional lesson](../sftp/README.md)
+- `rsync` is perfect for syncing and have many capabilities.  [Optional lesson](../sftp/README.md)
 
 - All are considered secure.
 
