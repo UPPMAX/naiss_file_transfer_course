@@ -38,7 +38,7 @@ tags:
 
 !!! info
 
-    - Terminal transfer tools are 
+    - Terminal transfer tools are handy when you are already working in the terminal and can sometimes be superior to Graphical tools.
 
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities. [Optional lesson](../sftp/README.md)
