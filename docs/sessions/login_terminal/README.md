@@ -116,6 +116,7 @@ Some SSH clients can run from a terminal or vice versa.
     Dardel     |Medium    |Uses SSH keys
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
+    Pelle      |Easy      |Uses password
     Rackham    |Easy      |Uses password
     Tetralith  |Easy      |Uses password
     Vera       |Easy      |Uses password
