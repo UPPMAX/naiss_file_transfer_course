@@ -32,13 +32,18 @@ tags:
     - Let's focus on the easiest.
     - Next session we try a tool with a graphical interface!
     
-## Overview other terminal transfer tools
+## Overview of terminal transfer tools
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
 !!! info
 
     - Terminal transfer tools are handy when you are already working in the terminal and can sometimes be superior to Graphical tools.
+
+        - No switching applications
+        - Your hands stay on the keyboard, you dont need to grab the mouse
+        - Tab completion can make finding files faster
+        - If you work on servers or over ssh you might not have a gui
 
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities. [Optional lesson](../sftp/README.md)
