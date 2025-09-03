@@ -58,8 +58,8 @@ It works under Linux, Mac and Windows.
 
     Tool                                      |Platforms
     ------------------------------------------|-------------------
-    [WinSCP](https://winscp.net/eng/index.php)|Windows
     [CyberDuck](https://cyberduck.io/)        |Linux, Mac, Windows
+    [WinSCP](https://winscp.net/eng/index.php)|Windows
 
 
 ## Exercises
@@ -103,31 +103,6 @@ It works under Linux, Mac and Windows.
     Vera       |Medium    |No specialized documentation yet
 
     <!-- markdownlint-enable MD013 -->
-
-## Exercise 0: install FileZilla
-
-Install FileZilla.
-
-Under Ubuntu, you can can use the Ubuntu App Center.
-
-???- question "How does the Ubuntu App Center look like?"
-
-    Here:
-
-    ![FileZilla in the Ubuntu App Center](filezilla_in_ubuntu_app_center.png)
-
-For non-Ubuntu users, search the web, download and install.
-
-???- question "Where can I find it?"
-
-    The FileZilla website can be found at
-    [https://filezilla-project.org/](https://filezilla-project.org/).
-
-    Clicking on 'Download FileZilla client' takes you to the
-    FileZilla download page at
-    [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
-
-    Download the file, maybe unzip it and run the installer
 
 ## Exercise 1: transfer a file
 

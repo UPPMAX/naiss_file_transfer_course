@@ -6,3 +6,25 @@
 
 I've updated all course material to include LUMI and Pelle.
 All issues are done.
+
+I've asked if BC could use my help, he gave me something to do, and I did it.
+
+Let's take a look at the schedule and get a status:
+
+Time  |Teacher|Topic                                                 |Status
+------|-------|------------------------------------------------------|------
+9:00  |B      |Intro                                                 |Not mine
+9:05  |B      |Login with terminal                                   |Not mine
+.     |B      |File transfer using `scp`                             |Not mine
+9:50  |.      |Break                                                 |Not mine
+10:05 |B      |File transfer using `scp` cont'd                      |Not mine
+.     |R      |File transfer using FileZilla                         |9/10
+11:00 |.      |Break                                                 |Done
+11:15 |BR     |Help decide what to pick, split up according to choice|0/10
+.     |R      |(optional) File transfer using `rsync`                |0/10
+.     |B      |(optional) Transfer tips                              |Not mine
+.     |B      |(optional) File transfer using `sftp`                 |Not mine
+11:45 |B      |Summary                                               |0/10
+11:50 |R      |Evaluation                                            |0/10
+12:00 |.      |Done!                                                 |Done :-)
+
