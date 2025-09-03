@@ -174,12 +174,12 @@ HPC cluster|Login method         |YouTube video
 -----------|---------------------|---------------------------------------------------------------
 Alvis      |SSH                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
 Alvis      |Website              |[YouTube video](https://youtu.be/KO98JvEB2oc)
-Bianca     |Website              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
 Bianca     |SSH                  |[YouTube video](https://youtu.be/7mKDxnXqi_M)
+Bianca     |Website              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
 COSMOS     |Local ThinLinc client|[YouTube video](https://youtu.be/wn7TgElj_Ng)
 COSMOS     |SSH                  |[YouTube video](https://youtu.be/sMsenzWERTg)
-Dardel     |SSH                  |[YouTube video](https://youtu.be/I8cNqiYuA-4)
 Dardel     |Local ThinLinc client|[YouTube video](https://youtu.be/qgI2SigIuCk)
+Dardel     |SSH                  |[YouTube video](https://youtu.be/I8cNqiYuA-4)
 Kebnekaise |Local ThinLinc client|[YouTube video](https://youtu.be/_jpj0GW9ASc)
 Kebnekaise |SSH                  |[YouTube video](https://youtu.be/pIiKOKBHIeY)
 Kebnekaise |Website              |[YouTube video](https://youtu.be/_O4dQn8zPaw)
@@ -188,6 +188,7 @@ Pelle      |Local ThinLinc client|[YouTube video](https://youtu.be/0rVy83X89Go)
 Rackham    |Local ThinLinc client|[YouTube video](https://youtu.be/PqEpsn74l0g)
 Rackham    |SSH                  |[YouTube video](https://youtu.be/TSVGSKyt2bQ)
 Rackham    |Website              |[YouTube video](https://youtu.be/HQ2iuKRPabc)
+Tetralith  |Local ThinLinc client|[YouTube video](https://youtu.be/JsHzQSFNGxY)
 Tetralith  |SSH                  |[YouTube video](https://youtu.be/wtGIzSBiulY)
 
 ### Is it OK if I can login to an HPC cluster using other methods?
