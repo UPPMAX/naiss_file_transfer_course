@@ -298,7 +298,7 @@ Bianca     |No
 COSMOS     |No
 Dardel     |No
 Kebnekaise |Unknown, as this is not a NAISS cluster
-LUMI       |TODO
+LUMI       |No
 Pelle      |No
 Rackham    |Yes
 Tetralith  |TODO
