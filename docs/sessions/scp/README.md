@@ -186,7 +186,7 @@ tags:
     COSMOS     |**FIX?** None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
     Dardel     |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
-    LUMI       |**To do**
+    LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-scp)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
