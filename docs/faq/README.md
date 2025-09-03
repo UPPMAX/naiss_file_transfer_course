@@ -290,15 +290,15 @@ Run it. If it shows up, you've installed FileZilla.
 
 HPC Cluster|Has FileZilla installed?
 -----------|------------------------
-Alvis      |TODO
+Alvis      |Yes
 Berzelius  |Unknown, as this is not a NAISS cluster
-Bianca     |Yes, confirm
+Bianca     |No
 COSMOS     |TODO
 Dardel     |TODO
 Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |TODO
-Pelle      |TODO
-Rackham    |Yes, confirm
+Pelle      |No
+Rackham    |Yes
 Tetralith  |TODO
 Vera       |Unknown, as this is not a NAISS cluster
 
