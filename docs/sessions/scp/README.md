@@ -190,7 +190,7 @@ tags:
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/).
+    Vera       |[Documentation](https://www.c3se.chalmers.se/documentation/file_transfer/).
 
 ???- question "Exercise 1: Upload a file from your computer, using scp"
 
