@@ -133,4 +133,6 @@ mins
 xlsx
 Thunar
 CSC
-
+Pelle
+cont'd
+unregister

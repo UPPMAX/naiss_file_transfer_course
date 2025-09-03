@@ -140,6 +140,7 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     Dardel     |[Documentation about the similar `psftp`](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
     LUMI       |**To do**
+    Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_sftp)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None.

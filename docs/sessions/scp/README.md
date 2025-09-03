@@ -187,6 +187,7 @@ tags:
     Dardel     |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |**To do**
+    Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |**FIX?** None. [Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/).
