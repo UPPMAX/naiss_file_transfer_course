@@ -183,7 +183,7 @@ tags:
     Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/file_transfer/).
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |Available for download via the transit server, see [documentation](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
-    COSMOS     |**FIX?** None. [Documentation that is clostest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
+    COSMOS     |**FIX?** None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/).
     Dardel     |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |**To do**
