@@ -296,7 +296,7 @@ Alvis      |Yes
 Berzelius  |Unknown, as this is not a NAISS cluster
 Bianca     |No
 COSMOS     |No
-Dardel     |TODO
+Dardel     |No
 Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |TODO
 Pelle      |No
