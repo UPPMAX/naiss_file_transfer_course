@@ -294,7 +294,7 @@ HPC Cluster|Has FileZilla installed?
 Alvis      |Yes
 Berzelius  |Unknown, as this is not a NAISS cluster
 Bianca     |No
-COSMOS     |TODO
+COSMOS     |No
 Dardel     |TODO
 Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |TODO
