@@ -32,7 +32,7 @@ Time  |Teacher|Topic
 10:05 |B      |[File transfer using `scp` cont'd](sessions/scp/README.md)
 .     |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
 11:00 |.      |Break
-11:15 |BR     |Help decide what to pick, split up according to choice
+11:15 |BR     |[Help decide what to pick, split up according to choice](sessions/vote.md)
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
 .     |B      |(optional) [Transfer tips](sessions/transfer_tips/README.md)
 .     |B      |(optional) [File transfer using `sftp`](sessions/sftp/README.md)
