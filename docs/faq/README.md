@@ -173,6 +173,7 @@ Also, these videos may be useful:
 HPC cluster|Login method         |YouTube video
 -----------|---------------------|---------------------------------------------------------------
 Alvis      |SSH                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
+Alvis      |Website              |[YouTube video](https://youtu.be/KO98JvEB2oc)
 Bianca     |Website              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
 Bianca     |SSH                  |[YouTube video](https://youtu.be/7mKDxnXqi_M)
 COSMOS     |Local ThinLinc client|[YouTube video](https://youtu.be/wn7TgElj_Ng)
