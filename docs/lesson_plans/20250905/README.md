@@ -41,5 +41,3 @@ For the 'voting' session at 11:15, I've prepared a Zoom poll:
 ![Zoom poll](poll.png)
 
 Done!
-
-
