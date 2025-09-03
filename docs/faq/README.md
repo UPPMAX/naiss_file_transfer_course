@@ -170,21 +170,23 @@ or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rack
 
 Also, these videos may be useful:
 
-HPC cluster|Login method         |Videos
+HPC cluster|Login method         |YouTube video
 -----------|---------------------|---------------------------------------------------------------
-Alvis      |SSH                  |[Video](https://youtu.be/PJZ3W907qCU)
-Bianca     |Website              |[Video](https://youtu.be/Ni9nyCf7me8)
-Bianca     |SSH                  |[Video](https://youtu.be/7mKDxnXqi_M)
-COSMOS     |Local ThinLinc client|[Video](https://youtu.be/wn7TgElj_Ng)
-COSMOS     |SSH                  |[Video](https://youtu.be/sMsenzWERTg)
-Dardel     |SSH                  |[Video](https://youtu.be/I8cNqiYuA-4)
-Kebnekaise |Local ThinLinc client|[Video](https://youtu.be/_jpj0GW9ASc)
-Kebnekaise |SSH                  |[Video](https://youtu.be/pIiKOKBHIeY)
-Kebnekaise |Website              |[Video](https://youtu.be/_O4dQn8zPaw)
-Rackham    |Local ThinLinc client|[Video](https://youtu.be/PqEpsn74l0g)
-Rackham    |SSH                  |[Video](https://youtu.be/TSVGSKyt2bQ)
-Rackham    |Website              |[Video](https://youtu.be/HQ2iuKRPabc)
-Tetralith  |SSH                  |[Video](https://youtu.be/wtGIzSBiulY)
+Alvis      |SSH                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
+Bianca     |Website              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
+Bianca     |SSH                  |[YouTube video](https://youtu.be/7mKDxnXqi_M)
+COSMOS     |Local ThinLinc client|[YouTube video](https://youtu.be/wn7TgElj_Ng)
+COSMOS     |SSH                  |[YouTube video](https://youtu.be/sMsenzWERTg)
+Dardel     |SSH                  |[YouTube video](https://youtu.be/I8cNqiYuA-4)
+Kebnekaise |Local ThinLinc client|[YouTube video](https://youtu.be/_jpj0GW9ASc)
+Kebnekaise |SSH                  |[YouTube video](https://youtu.be/pIiKOKBHIeY)
+Kebnekaise |Website              |[YouTube video](https://youtu.be/_O4dQn8zPaw)
+Pelle      |SSH                  |[YouTube video](https://youtu.be/zsw3QD_NinU)
+Pelle      |Local ThinLinc client|[YouTube video](https://youtu.be/0rVy83X89Go)
+Rackham    |Local ThinLinc client|[YouTube video](https://youtu.be/PqEpsn74l0g)
+Rackham    |SSH                  |[YouTube video](https://youtu.be/TSVGSKyt2bQ)
+Rackham    |Website              |[YouTube video](https://youtu.be/HQ2iuKRPabc)
+Tetralith  |SSH                  |[YouTube video](https://youtu.be/wtGIzSBiulY)
 
 ### Is it OK if I can login to an HPC cluster using other methods?
 
