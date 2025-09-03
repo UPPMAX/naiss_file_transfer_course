@@ -302,7 +302,7 @@ Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |No
 Pelle      |No
 Rackham    |Yes
-Tetralith  |TODO
+Tetralith  |No
 Vera       |Unknown, as this is not a NAISS cluster
 
 ### How can I check if I have a good Zoom setup?
