@@ -36,7 +36,7 @@ Time  |Teacher|Topic
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
 .     |B      |(optional) [Transfer tips](sessions/transfer_tips/README.md)
 .     |B      |(optional) [File transfer using `sftp`](sessions/sftp/README.md)
-11:45 |B      |[Summary](sessions/summary.md)
+11:45 |R      |[Summary](sessions/summary.md)
 11:50 |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
 

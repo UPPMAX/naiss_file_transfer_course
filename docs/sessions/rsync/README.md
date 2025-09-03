@@ -32,6 +32,10 @@ tags:
 
     - Bianca users will have the most complex procedure by far
 
+    Feedback:
+
+    - When would you recommend a colleague to use `rsync`, and when not?
+
 ## Why?
 
 Fairly sure you'll want to upload or download files to your

@@ -21,10 +21,10 @@ Time  |Teacher|Topic                                                 |Status
 .     |R      |File transfer using FileZilla                         |9/10
 11:00 |.      |Break                                                 |Done
 11:15 |BR     |Help decide what to pick, split up according to choice|0/10
-.     |R      |(optional) File transfer using `rsync`                |0/10
+.     |R      |(optional) File transfer using `rsync`                |9/10
 .     |B      |(optional) Transfer tips                              |Not mine
 .     |B      |(optional) File transfer using `sftp`                 |Not mine
-11:45 |B      |Summary                                               |0/10
-11:50 |R      |Evaluation                                            |0/10
+11:45 |B      |Summary                                               |9/10
+11:50 |R      |Evaluation                                            |9/10
 12:00 |.      |Done!                                                 |Done :-)
 
