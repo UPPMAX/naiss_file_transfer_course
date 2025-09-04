@@ -78,7 +78,7 @@ tags:
 
 ??? example "Pelle to Tetralith with scp"
 
-    - Log in to Pelle 
+    - Log in to Pelle
     - Choose or create the file "localfile"
     
     - ``scp localfile x_nisse@tetralith.nsc.liu.se:~/``
