@@ -66,8 +66,9 @@ tags:
 
     - ``scp -C ...``
     - ``rsync --compress ...`` or ``rsync -z ...``
+    - ``sftp -C user@host``
 
-    - The file is then decompressed on the destination.
+    - The file(-s) are then decompressed on the destination.
     
 ## Server to server
 
