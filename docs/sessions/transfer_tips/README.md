@@ -62,6 +62,12 @@ tags:
     - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
     - [``tar`` manual](https://devhints.io/tar)
 
+!!! tip "rsync has a option for compressing during the transfer"
+
+    ``rsync --compress ...`` or ``rsync -z ...``
+
+    - The file is then decompressed on the destination.
+    
 ## Server to server
 
 - You can transfer files in an SSH session on one cluster to another cluster.
