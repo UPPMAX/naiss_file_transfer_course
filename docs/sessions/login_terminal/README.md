@@ -189,6 +189,7 @@ then answer these questions:
 
 ???- question "I cannot find it. Where is it?"
 
+    - [Login documentation](https://uppmax.github.io/naiss_file_transfer_course/faq/#how-can-i-login-to-an-hpc-cluster)
     - [UPPMAX's Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 - Log in to your HPC cluster
