@@ -59,3 +59,33 @@ I think there should be an extra row for cluster-to-cluster transfer.
 - [ ] Suggest to add an extra row at
   [the voting session](https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/)
 
+One thing I like a lot is this table in the summary:
+
+HPC Cluster|`scp`     |FileZilla |`rsync`
+-----------|----------|----------|-------
+Alvis      |Easy      |Hard      |Medium
+Berzelius  |Easy      |Easy      |Easy
+Bianca     |Hard      |Easy      |Hard
+COSMOS     |Easy      |Medium    |Medium
+Dardel     |Easy      |Hard      |Medium
+Kebnekaise |Easy      |Easy      |Easy
+LUMI       |Easy      |Hard      |Medium
+Pelle      |Easy      |Easy      |Easy
+Rackham    |Easy      |Easy      |Easy
+Sigma      |Easy      |Medium    |Easy
+Tetralith  |Easy      |Easy      |Easy
+Vera       |Easy      |Medium    |Easy
+
+I think Bianca's `scp` documentation is below par.
+
+I miss `sftp` there. As it is his session, maybe BC can help add a column
+for that? On the other hand, I would agree that removing `sftp` would be
+fine too: already with `scp` and FileZilla, the learners are able
+to transfer files in a rather comfortable way.
+
+- [ ] Ask BC to add an `sftp` column if he thinks it is worth it
+
+
+
+
+
