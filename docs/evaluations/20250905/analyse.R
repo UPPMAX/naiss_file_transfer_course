@@ -80,3 +80,16 @@ testthat::expect_true(all(t_sessions_taught %in% t_tidy$question))
 confidences_on_taught_sessions <- t_tidy |> dplyr::filter(question %in% t_sessions_taught)
 success_score <- mean(confidences_on_taught_sessions$answer) / 5.0
 readr::write_lines(x = success_score, "success_score.txt")
+
+
+
+
+## Feedback
+
+t <- readr::read_csv("evaluation.csv", show_col_types = FALSE)
+
+readr::write_lines(t$`Say something positive about Björn:`, "bjorn_positive.txt")
+readr::write_lines(t$`Say something about Björn he can improve:`, "bjorn_improve.txt")
+readr::write_lines(t$`Say something positive about Richèl:`, "richel_positive.txt")
+readr::write_lines(t$`Say something about Richèl he can improve:`, "richel_improve.txt")
+readr::write_lines(t$`Any other feedback?`, "other_feedback.txt")
