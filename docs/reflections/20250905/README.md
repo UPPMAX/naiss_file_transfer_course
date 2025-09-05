@@ -11,9 +11,9 @@ to do.
 
 I did miss doing the introduction. I feel I know the purpose of an introduction
 (even) better, as I wrote that material.
-Maybe I should do it next time anyways? 
+Maybe I should do it next time anyways?
 We decided against this, to have less switches, yet
-I think that it would be fine: I feel me and BC are a great team. 
+I think that it would be fine: I feel me and BC are a great team.
 
 - [ ] Suggest RB doing the introduction again
 
@@ -30,7 +30,7 @@ which I fixed during the course: there was plenty of time.
 
 One thing that can be improved is -also suggested by BC- to have
 all learners get the Zoom room URL from a course project:
-2 out of 15 learners had to be given extra attention to make this work. 
+2 out of 15 learners had to be given extra attention to make this work.
 
 - [ ] All learners must find the Zoom room URL on the NAISS course project
 
@@ -56,7 +56,7 @@ B      |[File transfer using `sftp`](sftp/README.md)  |A command-line file trans
 
 I think there should be an extra row for cluster-to-cluster transfer.
 
-- [ ] Suggest to add an extra row at
+- [TODO] Suggest to add an extra row at
   [the voting session](https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/)
 
 One thing I like a lot is this table in the summary:
@@ -181,4 +181,27 @@ or Jayant would enjoy doing this?
   It encourages the students to try out of things and interact
   with other students to first figure out solutions among themselves
   before the teachers step in to solve. I like the course.
+
+
+## Notes
+
+- BC will look into adding compression as
+  extra material in the regular sessions.
+  RB will add compression in the `rsync`
+  session.
+- BC will add archiving to `scp` as
+  an extra optional exercise.
+
+- Not all users could use FileZilla, as they were not allowed to install it
+  by their IT department
+
+- Not all users could use MobaXterm, so no command-line tools at all.
+- PowerShell works sometime well
+- `pscp` is a tool that may work too
+- `rsync` does not work on Windows
+
+- [ ] BC: remind learners to do the prerequisites early
+- [ ] RB: mention to use WinSCP if FileZilla cannot in prerequisites
+- [ ] RB: mention each prerequisite that not installing it is OK;
+  one then has to skip the session :-)
 

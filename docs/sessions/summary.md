@@ -31,6 +31,7 @@ Kebnekaise |Easy      |Easy      |Easy
 LUMI       |Easy      |Hard      |Medium
 Pelle      |Easy      |Easy      |Easy
 Rackham    |Easy      |Easy      |Easy
+Sigma      |Easy      |Medium    |Easy
 Tetralith  |Easy      |Easy      |Easy
 Vera       |Easy      |Medium    |Easy
 
