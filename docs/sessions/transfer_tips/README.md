@@ -76,6 +76,12 @@ tags:
 - ``rsync``, ``scp``, or ``sftp`` will all work!
 - "Local" will now be the server you run the command (scp/rsync/sftp) from.
 
+??? example "Pelle to Tetralith with scp"
+
+    - Log in to Pelle
+    - Choose or create the file "localfile"
+    
+    - ``scp localfile x_nisse@tetralith.nsc.liu.se:~/``
 
 ## Exercises
 
