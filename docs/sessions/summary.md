@@ -24,7 +24,7 @@ HPC Cluster|`scp`     |FileZilla |`rsync`
 -----------|----------|----------|-------
 Alvis      |Easy      |Hard      |Medium
 Berzelius  |Easy      |Easy      |Easy
-Bianca     |Easy      |Easy      |Hard
+Bianca     |Impossible|Easy      |Hard
 COSMOS     |Easy      |Medium    |Medium
 Dardel     |Easy      |Hard      |Medium
 Kebnekaise |Easy      |Easy      |Easy
