@@ -126,8 +126,9 @@ Use the documentation of your HPC cluster.
     LUMI       |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
+    Sigma      |[Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). For now, use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |[Documentation](https://vera-doc.psc.edu/#transferring-files)
+    Vera       |[Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). For now, use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
 
     <!-- markdownlint-enable MD013 -->
 
