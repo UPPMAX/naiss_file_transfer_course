@@ -222,7 +222,7 @@ tags:
 
         - ``$ ls ~/transfer``
 
-        - [Video for Tetralith>(https://youtu.be/rvL-s5vi13I)
+        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
 ???- question "Exercise 2: Download a file from the server to your computer, using scp"
 

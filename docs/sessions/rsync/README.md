@@ -70,7 +70,18 @@ It works under Linux, Mac and Windows.
 
 ???- question "How difficult will this be?"
 
-    This depends mostly on your HPC cluster:
+    This depends on:
+
+    - operating system
+    - your HPC cluster
+
+    Per operating system, it differs how easy it is to install `rsync`:
+
+    Operating system|Difficulty
+    ----------------|----------
+    Linux           |Easy
+    Mac             |Unsure
+    Windows         |Unsure
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
