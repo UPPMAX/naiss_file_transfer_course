@@ -72,7 +72,7 @@ It works under Linux, Mac and Windows.
     -----------|------
     Alvis      |[YouTube video](https://youtu.be/A8zfd0o0uzI)
     Berzelius  |Cannot: is not a NAISS cluster
-    Bianca     |[YouTube video](https://youtu.be/V-iPQLjvByc)
+    Bianca     |[YouTube video](https://youtu.be/DYPWawyK5UE)
     COSMOS     |[YouTube video](https://youtu.be/T4qqN_ljsS8)
     Dardel     |[YouTube video](https://youtu.be/_3EmkN619Xo)
     Kebnekaise |Cannot: is not a NAISS cluster
