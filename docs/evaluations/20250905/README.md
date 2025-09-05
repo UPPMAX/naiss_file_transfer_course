@@ -1,6 +1,8 @@
 # Evaluation 2025-09-05
 
 - Number of registrations: 29
+- Number of learners present: 15 (52% show-up rate)
+- Number of responses: 10 (67% fill-in rate)
 - [Evaluation, by the learners](evaluation.csv)
 - [Feedback from the learners](feedback.csv)
 - [Chat](meeting_saved_new_chat.txt)
