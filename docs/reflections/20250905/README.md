@@ -85,7 +85,100 @@ to transfer files in a rather comfortable way.
 
 - [ ] Ask BC to add an `sftp` column if he thinks it is worth it
 
+## Evaluation results
+
+## RB psoitive
+
+- Good and clear instructions
+- Goes for both of you: the enthusiasm and being organized
+- The instructions are clear, the process is smooth,
+  and he is always ready to help.
+  Really appreciate how approachable and well-organized.
+- Thanks for making the course very interactive and sharing a lot of inputs
+  and encouraging to try out new things.
+- Both teachers were positive and helpful
+- Very enthusiastic, knowledgeable and patient.
+  He made me feel I want to know more.
+- He gives feedback all the time
+- He was extremely helpful throughout the course and managed meetings
+  very effectively.
+  He maintained a positive, energized attitude.
+  When I encountered issues,
+  he worked with me to find solutions and provided his support.
+
+## RB improve
+
+- Nothing
+- Would be nice to hear more in depth explanations in the breakout rooms,
+  so more experienced people can also take advantage of
+  Richèl's knowledge and experience.
+
+This is a good point! I failed to do a proper Feedback here!
+
+- [ ] Try to go deeper in the breakout rooms
+
+## Other feedback
+
+- Probably a live-stream-walk-through session will be good.
+  This combine with pre-recorded video will help the students.
+- NIce (naiss...) course with different levels,
+  and enthusiastic teachers Björn and Richèl.
+- The course website is good and looks clearly a lot of effort was put in.
+  Looking forward to any other courses on HPC offered by your team
+- Instead of just sending us to group rooms and documentation web pages,
+  it would be good to first go through the most important commands for
+  each task, for example the general rsync command for a file,
+  a folder etc. and what to think of.
+  Now it seemed as if it was different for different clusters,
+  which it is not.
+  Group rooms were still useful, but this would make the course go faster
+  so that we could learn more.
+
+I need to think about this a bit. I am unsure if giving more info at the
+start helps. I think I should **not** overwhelm learners with info.
+Also, `rsync` was an extra session that had one command: `rsync`.
+On the other hand, showing a mimumal use could be insightful.
+
+- It was very useful to get an overview of the tools available!
+  Björn and Richèl are very patient and experienced.
+  It would be nice to have more time to discuss with the teachers
+  about the pros and cons of tools and when to use them.
+- Even though FileZilla is open source,
+  I couldn't try it given the IT policies
+
+Something we cannot help. But we should take it more into account!
+
+- [ ] Take into account: not all tools can be installed!
 
 
+- The course was helpful. Good team work in the zoom rooms was key,
+  and I appreciated that the teachers were stopping by to ensure
+  we were on track.
+  I would suggest to facilitate the zoom link of the course also via mail,
+  even if it is the same moment the course starts.
+  The reason for this is that the first part of the course is
+  about connecting to the server,
+  a prerequisite that was already needed to obtain the zoom link.
+  I missed the first 15 minutes of the course as I was struggling with that.
+  Another suggestion is to include instructions for Windows users,
+  for example in the FileZilla transfer and rsync parts.
+  Thanks for the course!
 
+I think BC and I do well to reward the learners that prepare. I see this
+learner would indeed miss the boat, but the whole point is to be all
+prepared when being in the course.
+
+Adding Windows instructions would be fine with me, would I have a Windows
+computer. But maybe a BC, Linus
+or Jayant would enjoy doing this?
+
+- The course was valuable
+- The course website is clear, structured and encourages students
+  to try out of things themselves.
+  The amount of links and documentation to various clusters is amazing.
+  The course is very interactive and the teachers are very supportive
+  and lively during the zoom sessions.
+  It encourages the students to try out of things and interact
+  with other students to first figure out solutions among themselves
+  before the teachers step in to solve. I like the course.
 
