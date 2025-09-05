@@ -25,10 +25,10 @@ HPC Cluster|`scp`     |FileZilla |`rsync`
 Alvis      |Easy      |Hard      |Medium
 Berzelius  |Easy      |Easy      |Easy
 Bianca     |Easy      |Easy      |Hard
-COSMOS     |Easy      |Medium    |Medium 
-Dardel     |Easy      |Hard      |Medium 
+COSMOS     |Easy      |Medium    |Medium
+Dardel     |Easy      |Hard      |Medium
 Kebnekaise |Easy      |Easy      |Easy
-LUMI       |Easy      |Hard      |Medium 
+LUMI       |Easy      |Hard      |Medium
 Pelle      |Easy      |Easy      |Easy
 Rackham    |Easy      |Easy      |Easy
 Tetralith  |Easy      |Easy      |Easy
