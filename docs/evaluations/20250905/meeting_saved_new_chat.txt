@@ -1,0 +1,125 @@
+08:50:25 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro/#exercise-1-remember-a-zoom-room
+	
+08:58:34 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro/#exercise-1-remember-a-zoom-room
+	
+09:02:47 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Schedule is at https://uppmax.github.io/naiss_file_transfer_course/schedule/  :-)
+	
+09:03:41 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Duc[Sigma] (direct message):
+	Hi Duc, welcome to the course! You are encouraged to add your HPC cluster behind you name, e.g. `Duc [Dardel]` :-)
+	
+09:04:49 From Richèl 'Rea-shell' Bilderbeek [Teacher] To yiin0002 (direct message):
+	Hi Yiin, welcome to the course! You are encouraged to add your HPC cluster behind you name, e.g. `Your name [Dardel]` :-)
+	
+	Schedule is at https://uppmax.github.io/naiss_file_transfer_course/schedule/  :-)
+	
+09:05:51 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	We are at https://uppmax.github.io/naiss_file_transfer_course/sessions/intro/  :-)
+	
+09:06:17 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Natalia Rivera (direct message):
+	Hi Natalia, welcome to the course! You are encouraged to add your HPC cluster behind you name, e.g. `Your name [Dardel]` :-)
+	
+09:06:46 From Natalia Rivera To Richèl 'Rea-shell' Bilderbeek [Teacher] (direct message):
+	ok, thank you
+	
+09:09:39 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Exercise is at https://uppmax.github.io/naiss_file_transfer_course/sessions/intro/#exercise-0-rename-yourself
+	
+09:13:39 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro/#exercise-0-rename-yourself
+	
+09:14:29 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Remember:
+	
+	Room 14: Vera
+	Room 15: Sigma
+	
+09:15:44 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Björn is at https://uppmax.github.io/naiss_file_transfer_course/sessions/login_terminal
+	
+09:19:02 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_terminal/
+	
+09:19:14 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Alberto [Dardel] (direct message):
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_terminal/
+	
+09:39:38 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Ziwei Liu (direct message):
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/scp/
+	
+09:42:36 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Ziwei Liu (direct message):
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/filezilla/
+	
+09:44:18 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Ziwei Liu (direct message):
+	Room 6 is your room
+	
+09:50:14 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	BREAK until 10:05!
+	
+09:53:07 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/
+	
+10:06:22 From Richèl 'Rea-shell' Bilderbeek [Teacher] To [Alvis] Souad (direct message):
+	Hi Souad, we'll work 1-on-1 after this: we wanted to make sure that you are up to speed. I will suggest group room 2. Wil be fun!
+	
+10:07:29 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Björn is at https://uppmax.github.io/naiss_file_transfer_course/sessions/scp/  :-)
+	
+10:17:26 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://youtu.be/KO98JvEB2oc?si=zf3TBRa81yuT9QPi
+	
+10:24:40 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	supr.naiss.se
+	
+10:32:40 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/scp/
+	
+10:38:07 From Richèl 'Rea-shell' Bilderbeek [Teacher] To [Alvis] Souad (direct message):
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/scp/
+	
+10:45:32 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/filezilla/
+	
+10:53:54 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/
+	
+11:01:04 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Break until 11:15 :+1:
+	
+11:17:28 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/
+	
+11:22:23 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/
+	
+11:24:54 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/evaluation/
+	
+11:26:14 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/courses_workshops/courses_workshops/
+	
+11:26:25 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/courses_workshops/bianca_intro/
+	
+11:36:06 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://youtu.be/dzqQ-HBjIfo?si
+	
+11:46:04 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/summary/
+	
+11:49:09 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/evaluation/
+	
+11:49:58 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.google.com/forms/d/e/1FAIpQLSftcfFGyADkuOGKPl6alpb7l4-wuZRgawz-IIQgDuv_4r8Bdg/viewform
+	
+12:00:27 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://nbisweden.github.io/SCoRe_user_doc/courses/
+	
+12:05:27 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/courses_workshops/intro_to_python/
+	
+12:05:47 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/courses_workshops/hpc_python/
+	
