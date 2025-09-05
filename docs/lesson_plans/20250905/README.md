@@ -41,3 +41,7 @@ For the 'voting' session at 11:15, I've prepared a Zoom poll:
 ![Zoom poll](poll.png)
 
 Done!
+
+## 2025-09-05
+
+At 8:00, I was ready. Let's go!
