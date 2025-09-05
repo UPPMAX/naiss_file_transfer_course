@@ -224,6 +224,13 @@ For Mac, in a terminal, run:
 brew rsync
 ```
 
+[According to this post](https://superuser.com/a/1869930), for Windows 11,
+in a terminal, run:
+
+```bash
+pacman -S rsync
+```
+
 ## How to check that I've installed `rsync`?
 
 In a terminal, type:
