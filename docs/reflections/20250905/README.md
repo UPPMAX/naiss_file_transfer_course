@@ -181,27 +181,3 @@ or Jayant would enjoy doing this?
   It encourages the students to try out of things and interact
   with other students to first figure out solutions among themselves
   before the teachers step in to solve. I like the course.
-
-
-## Notes
-
-- BC will look into adding compression as
-  extra material in the regular sessions.
-  RB will add compression in the `rsync`
-  session.
-- BC will add archiving to `scp` as
-  an extra optional exercise.
-
-- Not all users could use FileZilla, as they were not allowed to install it
-  by their IT department
-
-- Not all users could use MobaXterm, so no command-line tools at all.
-- PowerShell works sometime well
-- `pscp` is a tool that may work too
-- `rsync` does not work on Windows
-
-- [ ] BC: remind learners to do the prerequisites early
-- [ ] RB: mention to use WinSCP if FileZilla cannot in prerequisites
-- [ ] RB: mention each prerequisite that not installing it is OK;
-  one then has to skip the session :-)
-
