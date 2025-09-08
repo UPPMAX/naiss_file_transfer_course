@@ -46,11 +46,11 @@ This could be explained by the topics at the vote (I copy-paste):
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Teacher|Topic                                         |Why to pick
--------|----------------------------------------------|-------------------------------------
-R      |[File transfer using `rsync`](rsync/README.md)|More powerful version of `scp`
-B      |[Transfer tips](transfer_tips/README.md)      |General applicable tips
-B      |[File transfer using `sftp`](sftp/README.md)  |A command-line file transfer 'portal'
+Teacher|Topic                      |Why to pick
+-------|---------------------------|-------------------------------------
+R      |File transfer using `rsync`|More powerful version of `scp`
+B      |Transfer tips              |General applicable tips
+B      |File transfer using `sftp` |A command-line file transfer 'portal'
 
 <!-- markdownlint-enable MD013 -->
 
