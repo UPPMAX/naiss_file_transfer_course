@@ -3,9 +3,23 @@
 - Number of registrations: 29
 - Number of learners present: 15 (52% show-up rate)
 - Number of responses: 10 (67% fill-in rate)
+- Success score: 70% [1]
 - [Evaluation, by the learners](evaluation.csv)
 - [Feedback from the learners](feedback.csv)
 - [Chat](meeting_saved_new_chat.txt)
+
+
+!!! info "About the success score"
+
+    The shown success score of 70% is an underestimate
+    of the actual success:
+    in the last session, learners could work on
+    1 out of 4 learning outcomes.
+    This means that a successfull lesson would entail a learner
+    having 5 out of 8 learning outcomes done.
+    Correcting that, by dividing 70% by (5/8) however,
+    results in a success score of over 100%.
+    Due to this, there is no adjustment done
 
 ## Analysis
 

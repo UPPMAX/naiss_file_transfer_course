@@ -78,6 +78,11 @@ ggplot2::ggsave(filename = "average_confidences_per_question.png", width = 6, he
 t_sessions_taught <- unique(t_tidy$question)
 testthat::expect_true(all(t_sessions_taught %in% t_tidy$question))
 confidences_on_taught_sessions <- t_tidy |> dplyr::filter(question %in% t_sessions_taught)
+
+# Of the 8 learning outcomes, 4 are optional. Assuming a learner
+# should have been able to achieve 1 optional outcome, this
+# means the adjusted max is 5/8 higher. Correcting that, however,
+# results in a success score of over 100%. Hence, no adjustment.
 success_score <- mean(confidences_on_taught_sessions$answer) / 5.0
 readr::write_lines(x = success_score, "success_score.txt")
 
