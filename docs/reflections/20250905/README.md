@@ -137,7 +137,7 @@ This is a good point! I failed to do a proper Feedback here!
 I need to think about this a bit. I am unsure if giving more info at the
 start helps. I think I should **not** overwhelm learners with info.
 Also, `rsync` was an extra session that had one command: `rsync`.
-On the other hand, showing a mimimal use could be insightful.
+On the other hand, showing a minimal use could be insightful.
 
 - It was very useful to get an overview of the tools available!
   Björn and Richèl are very patient and experienced.
