@@ -18,7 +18,7 @@ I think that it would be fine: I feel me and BC are a great team.
 - [ ] Suggest RB doing the introduction again
 
 I predicted 6 learners, where BC predicted 15. BC was right: I would
-say on average we had 15 learners. I did write down 17 unique attendent names,
+say on average we had 15 learners. I did write down 17 unique attendant names,
 of which 2 dropped out within 30 minutes.
 
 During my parts, I was happy that there was enough time to connect
@@ -87,7 +87,7 @@ to transfer files in a rather comfortable way.
 
 ## Evaluation results
 
-## RB psoitive
+## RB positive
 
 - Good and clear instructions
 - Goes for both of you: the enthusiasm and being organized
@@ -121,7 +121,7 @@ This is a good point! I failed to do a proper Feedback here!
 
 - Probably a live-stream-walk-through session will be good.
   This combine with pre-recorded video will help the students.
-- NIce (naiss...) course with different levels,
+- Nice (naiss...) course with different levels,
   and enthusiastic teachers Björn and Richèl.
 - The course website is good and looks clearly a lot of effort was put in.
   Looking forward to any other courses on HPC offered by your team
@@ -137,7 +137,7 @@ This is a good point! I failed to do a proper Feedback here!
 I need to think about this a bit. I am unsure if giving more info at the
 start helps. I think I should **not** overwhelm learners with info.
 Also, `rsync` was an extra session that had one command: `rsync`.
-On the other hand, showing a mimumal use could be insightful.
+On the other hand, showing a mimimal use could be insightful.
 
 - It was very useful to get an overview of the tools available!
   Björn and Richèl are very patient and experienced.

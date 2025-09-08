@@ -72,7 +72,7 @@
 
 - Probably a live-stream-walk-through session will be good.
   This combine with pre-recorded video will help the students.
-- NIce (naiss...) course with different levels,
+- Nice (naiss...) course with different levels,
   and enthusiastic teachers Björn and Richèl.
 - The course website is good and looks clearly a lot of effort was put in.
   Looking forward to any other courses on HPC offered by your team
