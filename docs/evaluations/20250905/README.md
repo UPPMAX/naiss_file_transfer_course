@@ -61,7 +61,7 @@
   When I encountered issues,
   he worked with me to find solutions and provided his support.
 
-## Say something about Richèl he can improve:
+## Say something about Richèl he can improve
 
 - Nothing
 - Would be nice to hear more in depth explanations in the breakout rooms,
