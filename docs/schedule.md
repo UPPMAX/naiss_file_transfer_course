@@ -25,7 +25,7 @@ tags:
 
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
-9:00  |B      |[Intro](sessions/intro.md)
+9:00  |R      |[Intro](sessions/intro.md)
 9:05  |B      |[Login with terminal](sessions/login_terminal/README.md)
 .     |B      |[File transfer using `scp`](sessions/scp/README.md)
 9:50  |.      |Break
