@@ -168,29 +168,34 @@ This depends on the HPC cluster you are using.
 Follow the instructions of your favorite HPC center
 or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
-Also, these videos may be useful:
+Below is an overview with documentation and videos.
+For beginners: use the **bold** login method.
 
-HPC cluster|Login method         |YouTube video
------------|---------------------|---------------------------------------------------------------
-Alvis      |SSH                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
-Alvis      |Website              |[YouTube video](https://youtu.be/KO98JvEB2oc)
-Bianca     |SSH                  |[YouTube video](https://youtu.be/7mKDxnXqi_M)
-Bianca     |Website              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
-COSMOS     |Local ThinLinc client|[YouTube video](https://youtu.be/wn7TgElj_Ng)
-COSMOS     |SSH                  |[YouTube video](https://youtu.be/sMsenzWERTg)
-Dardel     |Local ThinLinc client|[YouTube video](https://youtu.be/qgI2SigIuCk)
-Dardel     |SSH                  |[YouTube video](https://youtu.be/I8cNqiYuA-4)
-Kebnekaise |Local ThinLinc client|[YouTube video](https://youtu.be/_jpj0GW9ASc)
-Kebnekaise |SSH                  |[YouTube video](https://youtu.be/pIiKOKBHIeY)
-Kebnekaise |Website              |[YouTube video](https://youtu.be/_O4dQn8zPaw)
-LUMI       |SSH                  |[YouTube video](https://youtu.be/bPdvn2gajgU)
-Pelle      |SSH                  |[YouTube video](https://youtu.be/zsw3QD_NinU)
-Pelle      |Local ThinLinc client|[YouTube video](https://youtu.be/0rVy83X89Go)
-Rackham    |Local ThinLinc client|[YouTube video](https://youtu.be/PqEpsn74l0g)
-Rackham    |SSH                  |[YouTube video](https://youtu.be/TSVGSKyt2bQ)
-Rackham    |Website              |[YouTube video](https://youtu.be/HQ2iuKRPabc)
-Tetralith  |Local ThinLinc client|[YouTube video](https://youtu.be/JsHzQSFNGxY)
-Tetralith  |SSH                  |[YouTube video](https://youtu.be/wtGIzSBiulY)
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+HPC cluster|Login method             |Documentation                                                                                                |YouTube video
+-----------|-------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------
+Alvis      |SSH                      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/ssh/)                                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
+Alvis      |**Website**              |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/remote_graphics/)                      |[YouTube video](https://youtu.be/KO98JvEB2oc)
+Bianca     |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)                    |[YouTube video](https://youtu.be/7mKDxnXqi_M)
+Bianca     |Website                  |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_remote_desktop_website/)              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
+COSMOS     |**Local ThinLinc client**|[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/)    |[YouTube video](https://youtu.be/wn7TgElj_Ng)
+COSMOS     |SSH                      |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)          |[YouTube video](https://youtu.be/sMsenzWERTg)
+Dardel     |Local ThinLinc client    |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/interactive_hpc/)          |[YouTube video](https://youtu.be/qgI2SigIuCk)
+Dardel     |**SSH**                  |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/ssh_login/)                |[YouTube video](https://youtu.be/I8cNqiYuA-4)
+Kebnekaise |Local ThinLinc client    |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/_jpj0GW9ASc)
+Kebnekaise |SSH                      |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/pIiKOKBHIeY)
+Kebnekaise |**Website**              |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/_O4dQn8zPaw)
+LUMI       |SSH                      |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)                                    |[YouTube video](https://youtu.be/bPdvn2gajgU)
+Pelle      |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)                     |[YouTube video](https://youtu.be/zsw3QD_NinU)
+Pelle      |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/) |[YouTube video](https://youtu.be/0rVy83X89Go)
+Rackham    |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)                   |[YouTube video](https://youtu.be/PqEpsn74l0g)
+Rackham    |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)|[YouTube video](https://youtu.be/TSVGSKyt2bQ)
+Rackham    |**Website**              |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)             |[YouTube video](https://youtu.be/HQ2iuKRPabc)
+Tetralith  |**Local ThinLinc client**|[Documentation](https://www.nsc.liu.se/support/graphics/)                                                    |[YouTube video](https://youtu.be/JsHzQSFNGxY)
+Tetralith  |SSH                      |[Documentation](https://www.nsc.liu.se/support/getting-started/)                                             |[YouTube video](https://youtu.be/wtGIzSBiulY)
+
+<!-- markdownlint-enable MD013 -->
 
 ### Is it OK if I can login to an HPC cluster using other methods?
 
