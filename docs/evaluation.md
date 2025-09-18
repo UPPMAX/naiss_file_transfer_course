@@ -13,7 +13,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Any feedback during the day
 
-- [Form to submit any feedback during the day](https://docs.google.com/forms/d/e/1FAIpQLSfxO_qQChqX4CjEgg7BJ2RJ-5dTsBbtXuHn_5l8ZHM4XyVv3g/viewform?usp=dialog)
+- `Form to submit any feedback during the day`
 
 ???- question "For teachers: what is in that form?"
 
@@ -25,7 +25,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation questions
 
-- [Evaluation questions form](https://docs.google.com/forms/d/e/1FAIpQLSftcfFGyADkuOGKPl6alpb7l4-wuZRgawz-IIQgDuv_4r8Bdg/viewform?usp=dialog)
+- `Evaluation questions form`
 
 ???- question "Why do you evaluate under lesson hours?"
 
