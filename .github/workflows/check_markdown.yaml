@@ -4,7 +4,6 @@ name: Check Markdown
 # Check spelling on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
-on:
   push:
     paths:
       - .github/workflows/check_markdown.yaml
