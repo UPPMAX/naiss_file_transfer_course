@@ -1,0 +1,9 @@
+question,mean
+(optional) I can compress and archive files before transferring,2.3333333333333335
+(optional) I can transfer data using `rscync`,2.875
+(optional) I can transfer data using `sftp`,1.5714285714285714
+(optional) I can transfer files between clusters,1.25
+I am comfortable using the documentation of my HPC center,4.2
+I can log in to my HPC cluster using `ssh`,4.5
+I can transfer data using FileZilla,4.111111111111111
+I can transfer data using `scp`,4.875
