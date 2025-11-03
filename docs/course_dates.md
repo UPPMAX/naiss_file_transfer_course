@@ -18,12 +18,12 @@ tags:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Week|Date                     |Times      |Registration forms  |Registration closing date
-----|-------------------------|-----------|--------------------|-------------------------
-46  |Friday November 14th 2025|9:00-12:00 |None yet            |None yet
-?10 |Around March 7th 2026    |?9:00-12:00|None yet            |None yet
-?20 |Around May 16th 2026     |?9:00-12:00|None yet            |None yet
-?36 |Around September 5th 2026|?9:00-12:00|None yet            |None yet
-?46 |Around November 14th 2026|?9:00-12:00|None yet            |None yet
+Week|Date                      |Times      |Registration forms  |Registration closing date
+----|--------------------------|-----------|--------------------|-------------------------
+46  |Friday November 14th 2025 |9:00-12:00 |None yet            |None yet
+?10 |?Friday March 6th 2026    |?9:00-12:00|None yet            |None yet
+?20 |?Friday May 15th 2026     |?9:00-12:00|None yet            |None yet
+?36 |?Friday September 4th 2026|?9:00-12:00|None yet            |None yet
+?46 |?Friday November 13th 2026|?9:00-12:00|None yet            |None yet
 
 <!-- markdownlint-enable MD013 -->
