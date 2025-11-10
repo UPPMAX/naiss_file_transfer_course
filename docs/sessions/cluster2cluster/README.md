@@ -1,17 +1,16 @@
 # Cluster to cluster transfer
 
-## Server to server
-
 - You can transfer files in an SSH session on one cluster to another cluster.
 - ``rsync``, ``scp``, or ``sftp`` will all work!
-- "Local" will now be the server you run the command (scp/rsync/sftp) from.
+- "Local" will now be the server you run the command (``scp``/``rsync``/``sftp``) from.
 
-??? example "Pelle to Tetralith with scp"
+??? example "Pelle to Tetralith with ``scp``"
 
     - Log in to Pelle
     - Choose or create the file "localfile"
     
     - ``scp localfile x_nisse@tetralith.nsc.liu.se:~/``
+    - Check in another ssh session for Tetralith, it is there.
 
 ???- question "(Optional if you have multiple cluster/server accounts) Exercise 4: Transfer with favorite terminal tool between servers"
 
