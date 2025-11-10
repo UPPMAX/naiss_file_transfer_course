@@ -21,12 +21,12 @@ tags:
 Week|Date                      |Times      |Registration forms  |Registration closing date
 ----|--------------------------|-----------|--------------------|-------------------------
 46  |Friday November 14th 2025 |9:00-12:00 |None yet            |None yet
-[1] |[1]                       |?9:00-12:00|None yet            |None yet
-20  |Friday May 15th 2026 [2]  |9:00-12:00 |None yet            |None yet
+7 [1] | Monday Febrary 9th 2026[1]       |?13:00-16:00|None yet            |None yet
+20  |Tuesday May 12th 2026 [2]  |9:00-12:00 |None yet            |None yet
 ?36 |?Friday September 4th 2026|?9:00-12:00|None yet            |None yet
 ?46 |?Friday November 13th 2026|?9:00-12:00|None yet            |None yet
 
 - [1] Part of the NAISS intro week, 9-13 February
-- [2] As indicated in the NAISS course overview
+- [2] Part of the NAISS intro day, 12 May
 
 <!-- markdownlint-enable MD013 -->
