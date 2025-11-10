@@ -72,7 +72,7 @@ tags:
 
 !!! bug
 
-    add info about cpu 
+    add info about cpu
 
 ## Exercises
 
