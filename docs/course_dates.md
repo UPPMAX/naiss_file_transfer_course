@@ -21,7 +21,7 @@ tags:
 Week|Date                      |Times      |Registration forms  |Registration closing date
 ----|--------------------------|-----------|--------------------|-------------------------
 46  |Friday November 14th 2025 |9:00-12:00 |[Registration](https://docs.google.com/forms/d/e/1FAIpQLSebtx6R2FcNx8YQW_POR3qWmIotJ-qx4tCTnNHDkV-zrJjdXQ/viewform)            |November 12
-7 [1] | Monday February 9th 2026[1]       |?13:00-16:00|None yet            |None yet
+7   | Monday February 9th 2026 [1] |?13:00-16:00|None yet            |None yet
 20  |Tuesday May 12th 2026 [2]  |9:00-12:00 |None yet            |None yet
 ?36 |?Friday September 4th 2026|?9:00-12:00|None yet            |None yet
 ?46 |?Friday November 13th 2026|?9:00-12:00|None yet            |None yet
