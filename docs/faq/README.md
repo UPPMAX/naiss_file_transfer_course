@@ -318,7 +318,7 @@ Rackham    |Yes
 Tetralith  |No
 Vera       |Unknown, as this is not a NAISS cluster
 
-## How to install WinSCP on my computer?
+## How to install WinSCP?
 
 - [WinSCP](https://winscp.net/eng/index.php) is a secure file transfer tool that works under Windows.
 
