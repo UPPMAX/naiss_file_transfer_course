@@ -206,13 +206,17 @@ Probably: yes
 
 ## How to install MobaXterm?
 
-This is for Windows users only.
+This is for **Windows** users only.
 
 Install MobaXterm from [the MobaXterm website](https://mobaxterm.mobatek.net/).
 
-## How to check that I've installed MobaXterm?
+### How to check that I've installed MobaXterm?
 
 Run it. If it shows up, you've installed MobaXterm.
+
+??? attendtion "I cannot install MobaXterm on my Windows computer"
+
+    - Use the **Command prompt**. Use it by typing ``cmd`` in the _Windows Search window_.
 
 ## How to install rsync?
 
@@ -230,12 +234,20 @@ For Mac, in a terminal, run:
 brew rsync
 ```
 
-[According to this post](https://superuser.com/a/1869930), for Windows 11,
-in a terminal, run:
+### Windows
 
-```bash
-pacman -S rsync
-```
+- Try ``rsync`` from MobaXterm.
+- If you haven't got MobaXterm, type ``cmd`` in the _Windows Search window_ and start **Windows Command Prompt**.
+    - Try ``rsync`` from here.
+
+??? attention "Still doesn't work?"
+
+    [According to this post](https://superuser.com/a/1869930), for Windows 11,
+    in a terminal, run:
+
+    ```bash
+    pacman -S rsync
+    ```
 
 ## How to check that I've installed `rsync`?
 
