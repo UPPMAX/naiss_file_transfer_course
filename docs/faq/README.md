@@ -214,7 +214,7 @@ Install MobaXterm from [the MobaXterm website](https://mobaxterm.mobatek.net/).
 
 Run it. If it shows up, you've installed MobaXterm.
 
-??? attendtion "I cannot install MobaXterm on my Windows computer"
+??? attention "I cannot install MobaXterm on my Windows computer"
 
     - Use the **Command prompt**. Use it by typing ``cmd`` in the _Windows Search window_.
 
@@ -237,7 +237,8 @@ brew rsync
 ### Windows
 
 - Try ``rsync`` from MobaXterm.
-- If you haven't got MobaXterm, type ``cmd`` in the _Windows Search window_ and start **Windows Command Prompt**.
+- If you haven't got MobaXterm, type ``cmd`` in the _Windows Search window_
+  and start **Windows Command Prompt**.
     - Try ``rsync`` from here.
 
 ??? attention "Still doesn't work?"
@@ -332,7 +333,8 @@ Vera       |Unknown, as this is not a NAISS cluster
 
 ## How to install WinSCP?
 
-- [WinSCP](https://winscp.net/eng/index.php) is a secure file transfer tool that works under Windows.
+- [WinSCP](https://winscp.net/eng/index.php) is a secure file transfer tool
+  that works under Windows.
 
 ![WinSCP](winscp.png)
 
