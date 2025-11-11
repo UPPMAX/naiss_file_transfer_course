@@ -99,6 +99,11 @@ tags:
         - There is no `scp -i ...` as for `rm -i` that asks if you really want to remove the file.
     - `rsync` may be a better tool if you want to sync existing content.
 
+!!! attention
+
+    - Some Windows users may need to use ``pscp`` instead of `scp`.
+    - The syntax is however the same in general.
+
 ## Procedure
 
 - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
