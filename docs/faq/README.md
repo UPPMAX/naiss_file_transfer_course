@@ -318,7 +318,21 @@ Rackham    |Yes
 Tetralith  |No
 Vera       |Unknown, as this is not a NAISS cluster
 
-### How can I check if I have a good Zoom setup?
+## How to install WinSCP on my computer?
+
+- [WinSCP](https://winscp.net/eng/index.php) is a secure file transfer tool that works under Windows.
+
+![WinSCP](winscp.png)
+
+## How to check that I've installed WinSCP?
+
+Run it. If it shows up, you've installed WinSCP.
+
+## Which HPC clusters have WinSCP installed?
+
+None! All covered clusters are Linux machines!
+
+## How can I check if I have a good Zoom setup?
 
 - You are in a room where you can talk
 - You talk into a (standalone or headset) microphone
