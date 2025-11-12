@@ -34,8 +34,8 @@ Time  |Teacher|Topic
 11:00 |.      |Break
 11:15 |R      |[Help decide what to pick, split up according to choice](sessions/vote.md)
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
-.     |B      |(optional) [Transfer tips](sessions/transfer_tips/README.md)
-.     |B      |(optional) [File transfer using `sftp`](sessions/sftp/README.md)
+.     |B      |(optional) [Cluster to cluster 10-15m](sessions/cluster2cluster/README.md)
+.     |B      |(optional) [File transfer using `sftp` 20-25m](sessions/sftp/README.md)
 11:45 |R      |[Summary](sessions/summary.md)
 11:50 |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
