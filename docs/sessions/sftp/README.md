@@ -119,6 +119,12 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     - ``lmkdir`` - Create a directory on the local computer
     - ``lpwd`` - Show the present working directory on the local computer
 
+!!! tip "Options for compressing during the transfer"
+
+    - ``sftp -C user@host``
+
+    - The file(-s) are then decompressed on the destination.
+
 ## Exercises
 
 ??? question "Exercise 0: Use the documentation of your HPC cluster"
@@ -224,6 +230,45 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
 
         - [Video for Tetralith](https://youtu.be/kgV77ZYGouw)
+
+???- question "(Optional): Exercise 3: Test the difference between transferring one or several files (using SFTP)"
+
+    Tips
+
+    In an SSH session (not SFTP) with REMOTE/server
+
+    - To not interfer with last exercise make a new folder by creating 3000 files REMOTELY in a directory with name ``many_files``
+        - ``$ mkdir many_files``
+        - ``$ cd many_files_sftp``
+        - ``$ touch file_{1..3000}.txt``
+        - Check content: ``$ ls``  for checking
+        - Leave directory to be able to perform next step: ``$ cd ..``
+    - Also archive the ``many_files_sftp`` folder to ``many_files_sftp.tar``
+        - The original directory is still there! Check!
+
+    Establish the SFTP session (Exercise 1 in SFT session)
+
+    - Download (to local) the *directory* and note the time needed
+    (not shown in numbers so **count the seconds!**)
+    - Download (to local) the ``.tar`` file and note the time needed
+    - Was there a significant difference?
+
+    ???- tip "Answer (Example with Tetralith)"
+
+        Archiving and compressions step REMOTELY
+
+        - ``tar -cvf many_files_sftp.tar many_files``
+
+        Establish SFTP connection
+
+        - ``$ sftp sm_bcarl@tetralith.nsc.liu.se``
+
+        Download
+
+        - ``> get -r many_files_sftp`` (we need the recursive command ``-r``)
+        - ``> get many_files_sftp.tar.gz``
+
+        - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
 
 
 ## Some other tools

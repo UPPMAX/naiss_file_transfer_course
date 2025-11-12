@@ -20,20 +20,20 @@ FileZilla  |Graphical, intuitive, simple                                |SFTP, `
 Below is an overview of how complex file transfer is,
 per cluster and per tool:
 
-HPC Cluster|`scp`     |FileZilla |`rsync`
------------|----------|----------|-------
-Alvis      |Easy      |Hard      |Medium
-Berzelius  |Easy      |Easy      |Easy
-Bianca     |Hard      |Easy      |Hard
-COSMOS     |Easy      |Medium    |Medium
-Dardel     |Easy      |Hard      |Medium
-Kebnekaise |Easy      |Easy      |Easy
-LUMI       |Easy      |Hard      |Medium
-Pelle      |Easy      |Easy      |Easy
-Rackham    |Easy      |Easy      |Easy
-Sigma      |Easy      |Medium    |Easy
-Tetralith  |Easy      |Easy      |Easy
-Vera       |Easy      |Medium    |Easy
+HPC Cluster|`scp`     |FileZilla |`rsync`|`sftp`
+-----------|----------|----------|-------|------
+Alvis      |Easy      |Hard      |Medium |Medium
+Berzelius  |Easy      |Easy      |Easy   |Medium
+Bianca     |Hard      |Easy      |Hard   |Medium
+COSMOS     |Easy      |Medium    |Medium |Medium
+Dardel     |Easy      |Hard      |Medium |Medium
+Kebnekaise |Easy      |Easy      |Easy   |Medium
+LUMI       |Easy      |Hard      |Medium |Hard
+Pelle      |Easy      |Easy      |Easy   |Medium
+Rackham    |Easy      |Easy      |Easy   |Medium
+Sigma      |Easy      |Medium    |Easy   |Medium
+Tetralith  |Easy      |Easy      |Easy   |Medium
+Vera       |Easy      |Medium    |Easy   |Medium
 
 !!! tips
 

@@ -15,7 +15,6 @@ tags:
 !!!- info "Learning outcomes"
 
     - (Optional) Can compress and archive files before transferring
-    - (Optional) Can transfer between clusters
 
 ## Large or many files
 
