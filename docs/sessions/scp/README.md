@@ -87,7 +87,6 @@ tags:
 
     - Simple
     - One-line command
-    - Secure
     - Use cases
         - copy just a file
         - copy just a specific directory (with sub-directories).
@@ -164,8 +163,8 @@ tags:
     scp x_nisse@tetralith.nsc.liu.se:/home/x_nisse/remote_file.txt .
     ```
 
-    If asked, give your center's password.
-    You can get rid of this prompt if you have setup SSH keys
+    - If asked, give your center's password, and possibly, 2nd-factor 6-digit code.
+    - You can get rid of this prompt if you have setup SSH keys
 
 ???- tip "Cheat sheet for ``scp``"
 
