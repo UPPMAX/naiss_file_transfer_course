@@ -21,6 +21,7 @@ tags:
     - Learners have practiced using the documentation
       of their favorite HPC cluster
     - Learners have transferred files using `scp`
+    - (Optional) Can compress and archive files before transferring
 
     Prior questions:
 
@@ -42,20 +43,23 @@ tags:
     - Terminal transfer tools are handy when you are already working in the terminal and can sometimes be superior to Graphical tools.
 
         - No switching applications
-        - Your hands stay on the keyboard, you dont need to grab the mouse
+        - Your hands stay on the keyboard, you don't need to grab the mouse
         - Tab completion can make finding files faster
-        - If you work on servers or over ssh you might not have a gui
+        - If you work on servers or over ssh you might not be able to use a graphical user interface (GUI).
 
 - `scp` has the similar arguments as for the linux copy function `cp`.
 - `sftp` is more versatile with more file management capabilities. [Optional lesson](../sftp/README.md)
 - `rsync` is perfect for syncing and have many capabilities.  [Optional lesson](../sftp/README.md)
 
-- All are considered secure.
+- All are considered secure!
 
-???- question "But what is ``wget`` and ``curl``?"
+!!! question "But what is ``wget`` and ``curl``?"
 
     - These tools are used to download files from websites or ftp servers
-    - ``wget`` saves downloaded contents to local files, like
+
+    ??? info "``wget``"
+    
+        - ``wget`` saves downloaded contents to local files, like
         - ``wget ftp://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/pictures/space/*``
         - ``wget https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg -O grace_hopper.jpg``
         - typical usecases:
@@ -64,10 +68,12 @@ tags:
         - supports HTTP, HTTPS, and FTP
         - user-friendly for basic tasks
         - good for mirroring websites
-            - downloading entire directories recursively for offline viewing or backups.
+        - downloading entire directories recursively for offline viewing or backups.
         - most popular from Unix-based systems, like Linux
 
-    - ``curl`` outputs the content to the terminal by default.
+    ??? info "``curl``"
+
+        - ``curl`` outputs the content to the terminal by default.
         - add ``-O`` to download as file.
         - supports a wide range of protocols: HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP...
         - often preferred for scripting and automation due to its versatility
