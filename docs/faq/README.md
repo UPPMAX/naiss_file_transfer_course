@@ -168,6 +168,7 @@ Kebnekaise |**Website**              |[Documentation](https://docs.hpc2n.umu.se/
 LUMI       |SSH                      |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)                                    |[YouTube video](https://youtu.be/bPdvn2gajgU)
 Pelle      |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)                     |[YouTube video](https://youtu.be/zsw3QD_NinU)
 Pelle      |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/) |[YouTube video](https://youtu.be/0rVy83X89Go)
+Pelle      |**Website**              |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)               |[YouTube video](https://youtu.be/XjLMA0cAu1o)
 Rackham    |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)                   |[YouTube video](https://youtu.be/PqEpsn74l0g)
 Rackham    |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)|[YouTube video](https://youtu.be/TSVGSKyt2bQ)
 Rackham    |**Website**              |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)             |[YouTube video](https://youtu.be/HQ2iuKRPabc)
