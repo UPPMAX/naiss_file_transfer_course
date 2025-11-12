@@ -357,7 +357,8 @@ So:
 
 - if you want to practice
   `scp`, [go the session about `scp`](../sessions/scp/README.md)
-- if you can install `rsync`,
+- if you can install `rsync` (i.e. you can install software and you do not
+  have the Windows operating system),
   see [how to install `rsync`](#how-to-install-rsync),
   then [go the session about `rsync`](../sessions/rsync/README.md)
 - else, [go the session about `sftp`](../sessions/sftp/README.md)
