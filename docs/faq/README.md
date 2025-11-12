@@ -184,6 +184,41 @@ Probably: yes
 - Using a website: yes
 - Using a local ThinLinc client: yes
 
+## What if I cannot install FileZilla?
+
+```mermaid
+flowchart TD
+
+  can_use_filezilla[Can you use FileZilla?]
+  can_install_filezilla[Can you install FileZilla?]
+  have_windows[Do you have Windows?]
+  can_use_winscp[Can you use WinSCP?]
+  can_install_winscp[Can you install WinSCP?]
+
+  can_use_filezilla --> |No| can_install_filezilla
+  can_install_filezilla --> |No| have_windows
+  have_windows --> |No| scp
+  can_use_winscp --> |No| can_install_winscp
+  can_install_winscp --> |No| scp
+
+  can_use_filezilla --> |Yes| filezilla
+  can_install_filezilla --> |Yes| filezilla
+  have_windows --> |Yes| can_use_winscp
+  can_use_winscp --> |Yes| winscp
+  can_install_winscp --> |Yes| winscp
+
+
+  subgraph graphical_tools[Graphical tools]
+  filezilla[Use FileZilla]
+  winscp[Use WinSCP]
+  end
+
+  subgraph command_line_tools[Command-line tools]
+  scp[Use scp]
+  end
+```
+
+
 ## How to install MobaXterm?
 
 This is for **Windows** users only.

@@ -32,7 +32,7 @@ One thing that can be improved is -also suggested by BC- to have
 all learners get the Zoom room URL from a course project:
 2 out of 15 learners had to be given extra attention to make this work.
 
-- [ ] All learners must find the Zoom room URL on the NAISS course project
+- [DONE] All learners must find the Zoom room URL on the NAISS course project
 
 BC also suggested to do a NAISS login course.
 This would be easy, as we already have most materials for it.
@@ -84,7 +84,7 @@ for that? On the other hand, I would agree that removing `sftp` would be
 fine too: already with `scp` and FileZilla, the learners are able
 to transfer files in a rather comfortable way.
 
-- [ ] Ask BC to add an `sftp` column if he thinks it is worth it
+- [DONE] Ask BC to add an `sftp` column if he thinks it is worth it
 
 ## Evaluation results
 
