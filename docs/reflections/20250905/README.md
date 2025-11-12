@@ -15,7 +15,7 @@ Maybe I should do it next time anyways?
 We decided against this, to have less switches, yet
 I think that it would be fine: I feel me and BC are a great team.
 
-- [ ] Suggest RB doing the introduction again
+- [DONE] Suggest RB doing the introduction again
 
 I predicted 6 learners, where BC predicted 15. BC was right: I would
 say on average we had 15 learners. I did write down 17 unique attendant names,
@@ -38,7 +38,7 @@ BC also suggested to do a NAISS login course.
 This would be easy, as we already have most materials for it.
 I would be happy to teach this.
 
-- [ ] Consider doing a NAISS login course
+- [IN PROGRESS] [Consider doing a NAISS login course](https://github.com/UPPMAX/naiss_file_transfer_course/issues/66)
 
 I think the cluster-to-cluster file transfer did not take off:
 as far as I've seen, not a single learner did this.
@@ -56,8 +56,9 @@ B      |File transfer using `sftp` |A command-line file transfer 'portal'
 
 I think there should be an extra row for cluster-to-cluster transfer.
 
-- [TODO] Suggest to add an extra row at
+- [DONE] Suggest to add an extra row at
   [the voting session](https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/)
+  with [#60](https://github.com/UPPMAX/naiss_file_transfer_course/issues/60)
 
 One thing I like a lot is this table in the summary:
 
