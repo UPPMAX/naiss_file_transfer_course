@@ -184,41 +184,6 @@ Probably: yes
 - Using a website: yes
 - Using a local ThinLinc client: yes
 
-## What if I cannot install FileZilla?
-
-```mermaid
-flowchart TD
-
-  can_use_filezilla[Can you use FileZilla?]
-  can_install_filezilla[Can you install FileZilla?]
-  have_windows[Do you have Windows?]
-  can_use_winscp[Can you use WinSCP?]
-  can_install_winscp[Can you install WinSCP?]
-
-  can_use_filezilla --> |No| can_install_filezilla
-  can_install_filezilla --> |No| have_windows
-  have_windows --> |No| scp
-  can_use_winscp --> |No| can_install_winscp
-  can_install_winscp --> |No| scp
-
-  can_use_filezilla --> |Yes| filezilla
-  can_install_filezilla --> |Yes| filezilla
-  have_windows --> |Yes| can_use_winscp
-  can_use_winscp --> |Yes| winscp
-  can_install_winscp --> |Yes| winscp
-
-
-  subgraph graphical_tools[Graphical tools]
-  filezilla[Use FileZilla]
-  winscp[Use WinSCP]
-  end
-
-  subgraph command_line_tools[Command-line tools]
-  scp[Use scp]
-  end
-```
-
-
 ## How to install MobaXterm?
 
 This is for **Windows** users only.
@@ -329,6 +294,73 @@ For non-Ubuntu users, search the web, download and install.
 ## How to check that I've installed FileZilla?
 
 Run it. If it shows up, you've installed FileZilla.
+
+## What if I cannot install FileZilla?
+
+Here is a decision tree which program to install:
+
+```mermaid
+flowchart TD
+
+  can_use_filezilla[Can you use FileZilla?]
+  can_install_filezilla[Can you install FileZilla?]
+  have_windows[Do you have Windows?]
+  can_use_winscp[Can you use WinSCP?]
+  can_install_winscp[Can you install WinSCP?]
+
+  can_use_filezilla --> |No| can_install_filezilla
+  can_install_filezilla --> |No| have_windows
+  have_windows --> |No| cli_tool
+  can_use_winscp --> |No| can_install_winscp
+  can_install_winscp --> |No| cli_tool
+
+  can_use_filezilla --> |Yes| filezilla
+  can_install_filezilla --> |Yes| filezilla
+  have_windows --> |Yes| can_use_winscp
+  can_use_winscp --> |Yes| winscp
+  can_install_winscp --> |Yes| winscp
+
+
+  subgraph graphical_tools[Graphical tools]
+  filezilla[Use FileZilla]
+  winscp[Use WinSCP]
+  end
+
+  subgraph command_line_tools[Command-line tools]
+  cli_tool[Use a command-line tool]
+  end
+```
+
+So, if you can install WinSCP,
+see [how to install WinSCP](#how-to-install-winscp).
+Else, you will have to pick your favorite command-line tool,
+following the decision tree here:
+
+```mermaid
+flowchart TD
+
+  rehease_scp[Do you want to rehease scp?]
+  can_install_rsync[Can you install rsync?]
+
+  rehease_scp --> |Yes| scp
+  rehease_scp --> |No| can_install_rsync
+
+  can_install_rsync --> |Yes| rsync
+  can_install_rsync --> |No| sftp
+
+  scp
+  rsync
+  sftp
+```
+
+So:
+ 
+- if you want to practice 
+  `scp`, [go the session about `scp`](../sessions/scp/README.md)
+- if you can install `rsync`, 
+  see [how to install `rsync`](#how-to-install-rsync),
+  then [go the session about `rsync`](../sessions/rsync/README.md)
+- else, [go the session about `sftp`](../sessions/sftp/README.md)
 
 ## Which HPC clusters have FileZilla installed?
 
