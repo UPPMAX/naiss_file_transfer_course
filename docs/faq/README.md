@@ -339,11 +339,11 @@ following the decision tree here:
 ```mermaid
 flowchart TD
 
-  rehease_scp[Do you want to rehease scp?]
+  practice_scp[Do you want to practice scp more?]
   can_install_rsync[Can you install rsync?]
 
-  rehease_scp --> |Yes| scp
-  rehease_scp --> |No| can_install_rsync
+  practice_scp --> |Yes| scp
+  practice_scp --> |No| can_install_rsync
 
   can_install_rsync --> |Yes| rsync
   can_install_rsync --> |No| sftp
@@ -356,7 +356,7 @@ flowchart TD
 So:
 
 - if you want to practice
-  `scp`, [go the session about `scp`](../sessions/scp/README.md)
+  `scp` more, [go the session about `scp`](../sessions/scp/README.md)
 - if you can install `rsync` (i.e. you can install software and you do not
   have the Windows operating system),
   see [how to install `rsync`](#how-to-install-rsync),
