@@ -344,3 +344,4 @@ tags:
     - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
     - [``tar`` manual](https://devhints.io/tar)
 
+??? tip "[Shall I compress or not?](https://filetransferhq.com/should-i-compress-files-before-transferring/)"
