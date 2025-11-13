@@ -121,9 +121,8 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
 !!! tip "Options for compressing during the transfer"
 
-    - ``sftp -C user@host``
-
-    - The file(-s) are then decompressed on the destination.
+    - Start the sftp session with ``sftp -C user@host``
+    - The file(-s) are then also decompressed on the destination.
 
 ## Exercises
 
