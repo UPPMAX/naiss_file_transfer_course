@@ -23,11 +23,6 @@ tags:
     - Learners have transferred files using `scp`
     - (Optional) Can compress and archive files before transferring
 
-    Prior questions:
-
-    - Who has heard of `scp`?
-    - Who has already used `scp`?
-
 !!! info
 
     - We start with a transferring tool in the command line.
@@ -110,6 +105,11 @@ tags:
     - Some Windows users may need to use ``pscp`` instead of `scp`.
     - The syntax is however the same in general.
 
+??? question "Prior questions"
+
+    - Who has heard of `scp`?
+    - Who has already used `scp`?
+
 ## Procedure
 
 - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
@@ -120,32 +120,6 @@ tags:
     ```
 
 - Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
-
-???- tip "Syntax for command arguments"
-
-    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
-    - We use ``[content]`` to tell that this argument is not necessary
-
-??? info "More detailed general procedure"
-
-    Copy a file **from your local computer** to the cluster:
-
-    ```bash
-    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
-    ```
-
-    - where `<username>` is your cluster username,
-    - where `<local_folder>` is your local folder, for example:
-
-
-    Copy a file **from the cluster** to your local computer, do the command above in reverse order:
-
-    ```bash
-    scp <username>@<cluster adress>:<path-to-folder/file> <local_folder or "." for _present_ folder>
-    ```
-
-    If asked, give your center's password.
-    You can get rid of this prompt if you have setup SSH keys
 
 
 ???- example "Example for Tetralith"
@@ -166,23 +140,35 @@ tags:
     - If asked, give your center's password, and possibly, 2nd-factor 6-digit code.
     - You can get rid of this prompt if you have setup SSH keys
 
-???- tip "Cheat sheet for ``scp``"
+???- info "Set paths"
 
-    - ``scp`` followed by none or any of the following option flags and the files and servers involved
+    Copy a file **from your local computer** to the cluster:
 
-    - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
-
-    - ``-P`` - Specifies the remote host ssh port.
-    - ``-p`` - Preserves file modification and access times.
-    - ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
-    - ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
-    - ``-r`` - This option tells scp to copy directories recursively.
+    ```bash
+    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
+    ``` 
 
 ## Large or many files
+
+### Compress
 
 - Shorten download/upload time by **reducing the size of a file**!
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
+
+!!! tip "Options for compressing during the transfer"
+
+    - ``scp -C ...``
+
+    - The file(-s) are then decompressed on the destination.
+
+??? warning "compressing is processor intensive"    
+    
+    - Can delay transfer of that reason.
+    - Might need to test what is the best solution.
+
+### Archive many files
+
 - Transferring **many files will create so called overhead**
     - each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
@@ -190,10 +176,6 @@ tags:
     - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
 - While TARing you may *compress* the data as well!
     - ``tar -czf archive.tar.gz [/path/files]``
-
-???- question "Can I use archiving and compressing in all transfer methods?"
-
-    - Yes!
 
 ???- example "Workflow"
 
@@ -203,29 +185,17 @@ tags:
 
     - Transfer data
 
-        - Use FileZilla/scp/rsync/sftp
-
     - Extract at target destination
 
         ``tar -xzf manylargefiles_folder.tar.gz``
 
     - You should now have ``manylargefiles_folder/`` again at the target destination!
 
-???- tip "Cheat sheets"
+!!! tip "Archiving is often worth more than compressing"
 
-    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
-    - [``tar`` manual](https://devhints.io/tar)
+???- question "Can I use archiving and compressing in all transfer methods?"
 
-!!! tip "Options for compressing during the transfer"
-
-    - ``scp -C ...``
-
-    - The file(-s) are then decompressed on the destination.
-
-
-!!! bug
-
-    add info about cpu
+    - Yes!
 
 
 ## Exercises
@@ -354,4 +324,23 @@ tags:
         - (or in the File explorer)
 
         - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
+
+## Extra
+
+???- tip "Cheat sheet for extra ``scp``"
+
+    - ``scp`` followed by none or any of the following option flags and the files and servers involved
+
+    - scp provides a number of options that control every aspect of its behavior. The most widely used options are:
+
+    - ``-P`` - Specifies the remote host ssh port.
+    - ``-p`` - Preserves file modification and access times.
+    - ``-q`` - Use this option if you want to suppress the progress meter and non-error messages.
+    - ``-C`` - This option forces scp to compress the data as it is sent to the destination machine.
+    - ``-r`` - This option tells scp to copy directories recursively.
+
+???- tip "Cheat sheets for ``gzip`` and ``tar``"
+
+    - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
+    - [``tar`` manual](https://devhints.io/tar)
 
