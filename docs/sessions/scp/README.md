@@ -112,6 +112,12 @@ tags:
 
 ## Procedure
 
+???- tip "Syntax for command arguments"
+
+    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
+    - We use ``[content]`` to tell that this argument is not necessary
+
+
 - Run the scp commands on YOUR computer, since you probably do not have a server address to your computer!
 - In the terminal (from **local**, not server session)
 
@@ -146,7 +152,7 @@ tags:
 
     ```bash
     scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
-    ``` 
+    ```
 
 ## Large or many files
 
@@ -155,31 +161,31 @@ tags:
 - Shorten download/upload time by **reducing the size of a file**!
     - A common tool in Linux environments is ``gzip``.
     - Usage: ``gzip <filename>``. You'll get a ``gz``file ending
+    - Decompress: ``gunzip <filename>``
 
 !!! tip "Options for compressing during the transfer"
 
     - ``scp -C ...``
 
-    - The file(-s) are then decompressed on the destination.
+    - The file(-s) are then also decompressed on the destination.
 
-??? warning "compressing is processor intensive"    
+!!! warning "Compressing is processor intensive"
     
-    - Can delay transfer of that reason.
-    - Might need to test what is the best solution.
+    - See [extra section](#extra)
 
 ### Archive many files
 
 - Transferring **many files will create so called overhead**
     - each file has to be addressed individually.
 - Solution is to **gather the files in an archive**, like [**tar**](https://en.wikipedia.org/wiki/Tar_(computing)).
-    - A folder with content then behaves like ONE file.
+    - The content then behaves like ONE file.
     - Usage: ``tar -cf archive.tar /path/files`` or ``tar -cf archive.tar /path/folder``
 - While TARing you may *compress* the data as well!
     - ``tar -czf archive.tar.gz [/path/files]``
 
-???- example "Workflow"
+???+ example "Workflow"
 
-    - Archive and compress a folder with many large files
+    - Archive and compress a **folder** with many large files
 
         ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
 
@@ -196,7 +202,6 @@ tags:
 ???- question "Can I use archiving and compressing in all transfer methods?"
 
     - Yes!
-
 
 ## Exercises
 
@@ -343,5 +348,9 @@ tags:
 
     - [``gzip`` manual](https://www.gnu.org/software/gzip/manual/gzip.html#Sample)
     - [``tar`` manual](https://devhints.io/tar)
+
+!!! warning "Compressing is processor intensive"
+    
+    - Can delay transfer of that reason.
 
 ??? tip "[Shall I compress or not?](https://filetransferhq.com/should-i-compress-files-before-transferring/)"
