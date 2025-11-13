@@ -15,7 +15,7 @@ nav:
     - File transfer using FileZilla: sessions/filezilla/README.md
     - File transfer using rsync: sessions/rsync/README.md
     - File transfer using sftp: sessions/sftp/README.md
-    - File transfer tips: sessions/transfer_tips/README.md
+    - File transfer between clusters: sessions/cluster2cluster/README.md
     - Summary: sessions/summary.md
   - Misc:
     - Acknowledgements: acknowledgements.md
