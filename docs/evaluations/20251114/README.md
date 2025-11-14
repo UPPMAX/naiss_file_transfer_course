@@ -1,12 +1,11 @@
 # Evaluation 2025-11-14
 
 - Number of registrations: 22
-- Number of learners present: 6 (...% show-up rate)
-- Number of responses: 5 (..% fill-in rate)
+- Number of learners present: 6 (27% show-up rate)
+- Number of responses: 5 (83% fill-in rate)
 - Success score: 86%
 - [Evaluation, by the learners](evaluation.csv)
 - Anonymous feedback from the learners: none
-- [Chat](meeting_saved_new_chat.txt)
 
 ## Analysis
 
