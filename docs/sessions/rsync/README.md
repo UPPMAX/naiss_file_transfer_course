@@ -149,7 +149,7 @@ In this optional exercise, we'll compress the file before transferring,
 and decompress it at its destination. `rsync` can do this,
 by adding the `--compress` flag, e.g.
 
-```
+```bash
 rsync --compress my_local_file.txt sven@pelle.uppmax.uu.se:/home/sven/
 ```
 

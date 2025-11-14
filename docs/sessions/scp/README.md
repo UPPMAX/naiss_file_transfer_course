@@ -170,7 +170,7 @@ tags:
     - The file(-s) are then also decompressed on the destination.
 
 !!! warning "Compressing is processor intensive"
-    
+
     - See [extra section](#extra)
 
 ### Archive many files
@@ -350,7 +350,7 @@ tags:
     - [``tar`` manual](https://devhints.io/tar)
 
 !!! warning "Compressing is processor intensive"
-    
+
     - Can delay transfer of that reason.
 
 ??? tip "[Shall I compress or not?](https://filetransferhq.com/should-i-compress-files-before-transferring/)"
