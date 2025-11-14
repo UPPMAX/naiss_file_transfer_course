@@ -122,21 +122,17 @@ Ideally, each breakout room has 2 learners for the same HPC cluster.
 
 HPC cluster name|Main breakout room
 ----------------|------------------
-Alvis 1         |Room 1
-Alvis 2         |Room 2
-Bianca          |Room 3
-COSMOS 1        |Room 4
-COSMOS 2        |Room 5
-Dardel 1        |Room 6
-Dardel 2        |Room 7
-Dardel 3        |Room 8
-Dardel 4        |Room 9
-Dardel 5        |Room 10
-Pelle 1         |Room 11
-Tetralith 1     |Room 12
-Tetralith 2     |Room 13
-Other 1         |Room 14
-Other 2         |Room 15
+Alvis           |Room 1
+Bianca          |Room 2
+COSMOS          |Room 3
+Dardel          |Room 4
+Kebnekaise      |Room 5
+Tetralith 1     |Room 6
+Tetralith 2     |Room 7
+Tetralith 3     |Room 8
+Vera            |Room 9
+Other 1         |Room 10
+Other 2         |Room 11
 
 - When your first breakout room reaches 4 learners, decide upon 2 to
   move to the next breakout room.
