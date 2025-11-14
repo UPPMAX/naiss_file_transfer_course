@@ -13,7 +13,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Any feedback during the day
 
-- `Form to submit any feedback during the day`
+- [Form to submit any feedback during the day](https://docs.google.com/forms/d/e/1FAIpQLSd2QEJNj5e5SMuxesgqU6zP-JNzIHegRLCT2KSmOEdeMvH4YQ/viewform?usp=header)
 
 ???- question "For teachers: what is in that form?"
 
