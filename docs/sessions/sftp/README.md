@@ -47,7 +47,7 @@ tags:
         - modify directories
         - and encrypt or decrypt specific files
 
-!!! warning "When not to use"
+??? warning "When not to use"
 
     - Rsync is better for "syncing"
 
@@ -55,7 +55,7 @@ tags:
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
 
-- Run the sftp commands on YOUR computer, since you probably do not have a server address to your computer!
+- Run the ``sftp`` commands on YOUR computer, since you probably do not have a server address to your computer!
 - In the terminal (from **local**, not server session)
 
 ```bash
@@ -69,11 +69,10 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 - ``put <file/folder>`` - **Copy** a file/folder **from the local** computer to the remote host
 - ``get <file/folder>`` - **Copy** a file/folder **from the remote** host to the local computer
 
-???- tip "Syntax for command arguments"
+!!! tip "Options for compressing during the transfer"
 
-    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
-    - We use ``[content]`` to tell that this argument is not necessary
-    - Run the sftp commands on YOUR computer, since you probably do not have a server address to your computer!
+    - Start the sftp session with ``sftp -C user@host``
+    - The file(-s) are then also decompressed on the destination.
 
 ???- example "Example for Tetralith"
 
@@ -119,11 +118,15 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     - ``lmkdir`` - Create a directory on the local computer
     - ``lpwd`` - Show the present working directory on the local computer
 
-!!! tip "Options for compressing during the transfer"
+<!--
 
-    - ``sftp -C user@host``
+???- tip "Syntax for command arguments"
 
-    - The file(-s) are then decompressed on the destination.
+    - We use `<content>` to tell that this should be replaced by applicable names or paths etcetera...
+    - We use ``[content]`` to tell that this argument is not necessary
+    - Run the sftp commands on YOUR computer, since you probably do not have a server address to your computer!
+-->
+
 
 ## Exercises
 
@@ -139,7 +142,7 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
     HPC Cluster|Documentation
     -----------|------------
-    Alvis      |**FIX?** None.
+    Alvis      | None yet.
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
     COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
@@ -149,7 +152,7 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_sftp)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_sftp)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
-    Vera       |**FIX?** None.
+    Vera       | None yet.
 
     ???- question "Dardel documentation uses ``psftp``, what is that?"
 
@@ -269,10 +272,3 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
         - ``> get many_files_sftp.tar.gz``
 
         - [Video for Tetralith](https://youtu.be/h9HDegau1DI)
-
-
-## Some other tools
-
-!!!- tip "Terminal tools"
-
-    - [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.

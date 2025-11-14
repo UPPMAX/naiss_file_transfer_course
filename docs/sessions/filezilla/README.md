@@ -40,10 +40,12 @@ tags:
         - A: cannot transfer between two remote locations
         - A: an interrupted file transfer means a new transfer from the start
 
-![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
+!!! info "FileZilla in action"
 
-> FileZilla being able to do file transfer to/from
-> UPPMAX's Rackham HPC cluster.
+    ![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
+
+    > FileZilla being able to do file transfer to/from
+    > UPPMAX's Rackham HPC cluster.
 
 ## Why use FileZilla
 

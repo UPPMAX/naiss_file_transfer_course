@@ -39,3 +39,9 @@ Vera       |Easy      |Medium    |Easy   |Medium
 
     - Archive folders with many files! - Less overhead and many files on the fly are included in the transfer!
     - Compress files and folders! - Less size will be faster to transfer!
+
+## Some other tool
+
+!!!- tip "Terminal tool"
+
+    - [Rclone](https://rclone.org/): Rclone is a command-line program to manage and sync your files on cloud storage.
