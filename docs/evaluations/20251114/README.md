@@ -27,46 +27,39 @@
 
 ## Say something positive about Björn
 
-Very friendly and helpful
-NA
-Clear instructions
-Explained well the steps
-He tried to support as much as possible when we have problems
-
+- Very friendly and helpful
+- Clear instructions
+- Explained well the steps
+- He tried to support as much as possible when we have problems
 
 ## Say something about Björn he can improve
 
-NA
-NA
-I have no comments; the course objectives were nicely met
-NA
-Maybe go more often to the Zoom rooms to check
-
-
+- I have no comments; the course objectives were nicely met
+- Maybe go more often to the Zoom rooms to check
 
 ## Say something positive about Richèl
 
-Also very friendly and helpful
-really encouraging energy for teaching!
-Very enthusiastic
-Explained well the content + questions
-Very positive energy
-
+- Also very friendly and helpful
+- really encouraging energy for teaching!
+- Very enthusiastic
+- Explained well the content + questions
+- Very positive energy
 
 ## Say something about Richèl he can improve
 
-NA
-NA
-I have no comments; the course objectives were nicely met
-NA
-Explain the alternatives to the resources used
-
+- I have no comments; the course objectives were nicely met
+- Explain the alternatives to the resources used
 
 ## Any other feedback?
 
-Thanks a lot for this!
-I found the level a bit too easy for a 3hour course, but it fit what was in the learning objectives. Very nice structure with the prerequisite page and how to find the zoom url, that was a nice way to do an exercise which could be used for more aspects of the course.
-Perhaps you could provide a bit more detail before moving on to the groups, but I’m still happy with the course.
-Overview could be presented in the form of a slide just at start. But it is optional.
-NA
-
+- Thanks a lot for this!
+- I found the level a bit too easy for a 3hour course,
+  but it fit what was in the learning objectives.
+  Very nice structure with the prerequisite page
+  and how to find the zoom url,
+  that was a nice way to do an exercise which could be used
+  for more aspects of the course.
+- Perhaps you could provide a bit more detail before moving on to the groups,
+  but I’m still happy with the course.
+- Overview could be presented in the form of a slide just at start.
+  But it is optional.
