@@ -158,8 +158,12 @@ rsync --compress my_local_file.txt sven@pelle.uppmax.uu.se:/home/sven/
   for example
   [this 100 MB text file](https://www.examplefile.com/file-download/25)
 
-- Let `rsync` transfer the file with and without usingf the `--compress flag`.
+- Let `rsync` transfer the file with and without using the `--compress` flag.
   Does the compress and decompress make the operation faster as a whole?
 
+???- question "Answer"
 
+    This depends.
 
+    The slower the network/internet connection is, the likelier it is that
+    `--compress` will make the transfer faster.
