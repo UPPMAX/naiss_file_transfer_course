@@ -3,16 +3,15 @@
 - Number of registrations: 22
 - Number of learners present: 6 (...% show-up rate)
 - Number of responses: 5 (..% fill-in rate)
-- Success score:
+- Success score: 86%
 - [Evaluation, by the learners](evaluation.csv)
-- [Feedback from the learners](feedback.csv)
+- Anonymous feedback from the learners: none
 - [Chat](meeting_saved_new_chat.txt)
 
 ## Analysis
 
 - [Analysis script](analyse.R)
 - [Average confidences](average_confidences.csv)
-- [Meeting chat](meeting_saved_new_chat.txt)
 - [Success score](success_score.txt)
 - [What Björn did well](bjorn_positive.txt)
 - [What Björn can improve](bjorn_improve.txt)
@@ -28,19 +27,46 @@
 
 ## Say something positive about Björn
 
+Very friendly and helpful
+NA
+Clear instructions
+Explained well the steps
+He tried to support as much as possible when we have problems
 
 
 ## Say something about Björn he can improve
+
+NA
+NA
+I have no comments; the course objectives were nicely met
+NA
+Maybe go more often to the Zoom rooms to check
 
 
 
 ## Say something positive about Richèl
 
+Also very friendly and helpful
+really encouraging energy for teaching!
+Very enthusiastic
+Explained well the content + questions
+Very positive energy
+
 
 ## Say something about Richèl he can improve
 
+NA
+NA
+I have no comments; the course objectives were nicely met
+NA
+Explain the alternatives to the resources used
 
 
 ## Any other feedback?
 
+Thanks a lot for this!
+I found the level a bit too easy for a 3hour course, but it fit what was in the learning objectives. Very nice structure with the prerequisite page and how to find the zoom url, that was a nice way to do an exercise which could be used for more aspects of the course.
+Perhaps you could provide a bit more detail before moving on to the groups, but I’m still happy with the course.
+Overview could be presented in the form of a slide just at start. But it is optional.
+NA
 
