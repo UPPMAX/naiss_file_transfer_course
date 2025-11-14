@@ -146,6 +146,20 @@ follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_fi
 One of the biggest bottlenecks for file transfer speed is file size.
 
 In this optional exercise, we'll compress the file before transferring,
-and decompress it at its destination.
+and decompress it at its destination. `rsync` can do this,
+by adding the `--compress` flag, e.g.
 
-[TODO]
+```
+rsync --compress my_local_file.txt sven@pelle.uppmax.uu.se:/home/sven/
+```
+
+- Download an example file from [`examplefile.com`](https://www.examplefile.com/),
+  that has the size you are interested in,
+  for example
+  [this 100 MB text file](https://www.examplefile.com/file-download/25)
+
+- Let `rsync` transfer the file with and without usingf the `--compress flag`.
+  Does the compress and decompress make the operation faster as a whole?
+
+
+
