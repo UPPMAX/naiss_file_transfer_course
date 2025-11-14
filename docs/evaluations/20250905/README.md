@@ -1,4 +1,4 @@
-# Evaluation 2025-09-05
+# Evaluation 2025-11-14
 
 - Number of registrations: 29
 - Number of learners present: 15 (52% show-up rate)
