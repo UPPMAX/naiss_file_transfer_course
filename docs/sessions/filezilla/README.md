@@ -134,3 +134,63 @@ Use the documentation of your HPC cluster for help.
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
+
+## (optional) Exercise 2: transfer a compressed file
+
+One of the biggest bottlenecks for file transfer speed is file size.
+
+In this optional exercise, we'll compress the file before transferring,
+and decompress it at its destination.
+
+- Download an example file from [`examplefile.com`](https://www.examplefile.com/),
+  that has the size you are interested in,
+  for example
+  [this 100 MB text file](https://www.examplefile.com/file-download/25)
+- Compress the file in your file explorer
+
+??? question "How do I do so?"
+
+    This differs per operating system, but this approach will
+    work in a lot of settings:
+
+    In your file explorer, click the right mouse button.
+    A pop-up will appear, where you click on 'Compress file'
+    or  'Zip file'
+
+    ![Click 'Compress file'](compress_file.png)
+
+    If a dialog appears with the question how to name the compressed
+    file with/without the compression method, give it a proper name
+    and select the 'Zip' format.
+
+    ![Select the zip format](give_filename.png)
+
+
+- View the file size in your file explorer.
+  When uploading the compressed file, how much faster do you predict
+  this to be?
+
+???- question "Answer"
+
+    In this case, the file size went from 100 MB to 0.3 MB:
+
+    ![Compressed file](compressed_file.png)
+    
+    From this, one can predict that the upload will be (`100 / 0.3 =`)
+    around 300 times faster
+
+- Upload the compressed file and decompress it at the remote
+  location.
+
+???- question "Answer"
+
+    How to decompress depends on the environment where it is uploaded
+    to. 
+
+    In some cases, with a graphical user environment, one has access
+    to right-click on the compressed file and select 'Decompress' (or something
+    similar)
+
+    In some cases, with a console environment, one has to use a command
+    called `unzip` to unzip the file, e.g `unzip my_file.zip`
+

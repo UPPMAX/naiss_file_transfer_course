@@ -140,3 +140,12 @@ follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_fi
   Verify that this worked.
 - Copy a file from your HPC cluster's home folder to your local computer.
   Verify that this worked.
+
+## (optional) Exercise 2: transfer a compressed file
+
+One of the biggest bottlenecks for file transfer speed is file size.
+
+In this optional exercise, we'll compress the file before transferring,
+and decompress it at its destination.
+
+[TODO]

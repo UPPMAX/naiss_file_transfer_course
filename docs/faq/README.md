@@ -196,7 +196,8 @@ Run it. If it shows up, you've installed MobaXterm.
 
 ??? attention "I cannot install MobaXterm on my Windows computer"
 
-    - Use the **Command prompt**. Use it by typing ``cmd`` in the _Windows Search window_.
+    - Use the **Command prompt**.
+      Use it by typing `cmd` in the _Windows Search window_.
 
 ## How to install rsync?
 
