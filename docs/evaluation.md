@@ -25,7 +25,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation questions
 
-- `Evaluation questions form`
+- [Evaluation questions form](https://docs.google.com/forms/d/e/1FAIpQLSfuV-xXO0eWBwlcShFT956HvdgR6Szus99MCSHD5wL9_zbDZA/viewform?usp=publish-editor)
 
 ???- question "Why do you evaluate under lesson hours?"
 
