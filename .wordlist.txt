@@ -26,6 +26,7 @@ emphasises
 hackmd
 HackMd
 https
+url
 io
 len
 namespace

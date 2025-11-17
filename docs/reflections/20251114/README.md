@@ -14,7 +14,7 @@ I wondered if that would pose a problem.
 
 At around 8:59 I saw BC freeze: unprepared learners sent him emails
 that they needed the URL to the Zoom room. I clearly shared that
-it is OK not to accomodate for that; that we should reward the learners
+it is OK not to accommodate for that; that we should reward the learners
 that did prepare. After this we started.
 
 The lack of preparation posed no problem.
