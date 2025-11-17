@@ -177,7 +177,7 @@ and decompress it at its destination.
     In this case, the file size went from 100 MB to 0.3 MB:
 
     ![Compressed file](compressed_file.png)
-    
+
     From this, one can predict that the upload will be (`100 / 0.3 =`)
     around 300 times faster
 
@@ -187,7 +187,7 @@ and decompress it at its destination.
 ???- question "Answer"
 
     How to decompress depends on the environment where it is uploaded
-    to. 
+    to.
 
     In some cases, with a graphical user environment, one has access
     to right-click on the compressed file and select 'Decompress' (or something
