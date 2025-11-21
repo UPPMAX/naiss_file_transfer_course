@@ -1,0 +1,53 @@
+[project]
+site_name = "NAISS Intro to Python"
+site_url = "https://uppmax.github.io/naiss_intro_python/"
+repo_url = "https://github.com/UPPMAX/naiss_intro_python"
+
+nav = [
+  { "Start" = "index.md"},
+  {"Learning outcomes" = "learning_outcomes.md"},
+  {"Prerequisites" = "prereqs/README.md"},
+  {"Course dates" = "course_dates.md"},
+  {"Schedule" = "schedule.md"},
+  {"Getting it to run" = [
+     "sessions/introduction_getting_it_to_run.md",
+     "sessions/using_the_python_interpreter.md",
+     "sessions/the_way_of_the_program.md",
+     "sessions/working_with_python_scripts.md"
+  ]},
+  {"Basic Python" = [
+     "sessions/introduction_basic_python.md",
+     "sessions/variables_expressions_and_statements_1.md",
+     "sessions/variables_expressions_and_statements_2.md",
+     "sessions/variables_expressions_and_statements_3.md",
+#     "sessions/hello_little_turtles.md",
+     "sessions/files.md",
+     "sessions/command_line_arguments.md",
+     "sessions/graphics.md",
+     "sessions/functions.md",
+     "further_learning.md",
+     "summary.md"
+  ]},
+  {"Misc" = [
+     "acknowledgements.md",
+     "topics.md",
+     "CODE_OF_CONDUCT.md",
+     "CONTRIBUTING.md",
+     "communication/README.md",
+     "data/README.md",
+     "deploy_locally.md",
+     "evaluation.md",
+     "evaluations/README.md",
+     "misc/exercise_procedure.md",
+     "faq.md",
+     "lesson_plans/README.md",
+     "misc/project.md",
+     "reflections/README.md"
+  ]},
+  "contact_us.md"
+]
+
+
+[project.extra.analytics]
+provider = "google"
+property = "G-CW0S3VK5Z0"
