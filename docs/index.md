@@ -6,7 +6,7 @@ tags:
   - starting page
 ---
 
-# Welcome to the file transfer course "this is a test"
+# Welcome to the file transfer course
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
