@@ -12,7 +12,7 @@ tags:
 
 [![DOI](https://zenodo.org/badge/885247031.svg)](https://doi.org/10.5281/zenodo.14626409)
 
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-enable MD013  -->
 
 ![NAISS logo](logo/naiss_logo_inverted.png)
 
