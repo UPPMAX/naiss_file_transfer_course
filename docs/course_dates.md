@@ -18,15 +18,14 @@ tags:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Week|Date                      |Times      |Registration forms  |Registration closing date
-----|--------------------------|-----------|--------------------|-------------------------
-46  |Friday November 14th 2025 |9:00-12:00 |[Registration](https://docs.google.com/forms/d/e/1FAIpQLSebtx6R2FcNx8YQW_POR3qWmIotJ-qx4tCTnNHDkV-zrJjdXQ/viewform)            |November 12
-7   | Monday February 9th 2026 [1] |?13:00-16:00|None yet            |None yet
-20  |Tuesday May 12th 2026 [2]  |9:00-12:00 |None yet            |None yet
-?36 |?Friday September 4th 2026|?9:00-12:00|None yet            |None yet
-?46 |?Friday November 13th 2026|?9:00-12:00|None yet            |None yet
+Week|Date                      |Times      |Registration                                                                   |Registration closing date
+----|--------------------------|-----------|-------------------------------------------------------------------------------|-------------------------
+6   |Monday 2026-02-02 [1]     |13:00-16:00|[Registration](https://naiss-training.github.io/NAISS-intro-week/#registration)|2026-01-23
+?20 |?Tuesday May 12th 2026 [2]|9:00-12:00 |None yet                                                                       |None yet
+?36 |?Friday September 4th 2026|?9:00-12:00|None yet                                                                       |None yet
+?46 |?Friday November 13th 2026|?9:00-12:00|None yet                                                                       |None yet
 
-- [1] Part of the NAISS intro week, 9-13 February
+- [1] Part of [the NAISS intro week](https://naiss-training.github.io/NAISS-intro-week/), 2-6 February
 - [2] Part of the NAISS intro day, 12 May
 
 <!-- markdownlint-enable MD013 -->
