@@ -17,4 +17,5 @@ No |Date      |Lesson plans
 3  |2025-09-05|[Lesson plan](20250905/README.md)
 4  |2025-11-14|[Lesson plan](20251114/README.md)
 5  |2026-02-02|[Lesson plan](20260202/README.md)
+6  |2026-05-12|[Lesson plan](20260512/README.md)
 
