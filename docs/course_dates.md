@@ -26,6 +26,6 @@ Week|Date                      |Times      |Registration                        
 ?46 |?Friday November 13th 2026|?9:00-12:00|None yet                                                                       |None yet
 
 - [1] Part of [the NAISS intro week](https://naiss-training.github.io/NAISS-intro-week/), 2-6 February
-- [2] Part of the NAISS intro day, 12 May
+- [2] [Maybe part of the NAISS intro day?](https://github.com/UPPMAX/naiss_file_transfer_course/issues/71)
 
 <!-- markdownlint-enable MD013 -->
