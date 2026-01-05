@@ -8,9 +8,10 @@ nav:
   - Prerequisites: prereqs/README.md
   - Course dates: course_dates.md
   - Schedule: schedule.md
-  - Sessions:
+  - Connect:
     - Intro: sessions/intro.md
     - Login with terminal: sessions/login_terminal/README.md
+  - File transfer:
     - File transfer using scp: sessions/scp/README.md
     - File transfer using FileZilla: sessions/filezilla/README.md
     - File transfer using rsync: sessions/rsync/README.md
