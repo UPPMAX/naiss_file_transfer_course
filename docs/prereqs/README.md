@@ -22,7 +22,7 @@ These are the **five** prerequisites for following this course:
 - Prerequisite 3/5:
   [Have FileZilla installed](../faq/README.md#how-to-install-filezilla).
   (if you cannot install,
-  see [the FAQ 'What if I cannot install FileZilla?'](../faq/#what-if-i-cannot-install-filezilla))
+  see [the FAQ 'What if I cannot install FileZilla?'](../faq/README.md#what-if-i-cannot-install-filezilla))
 - Prerequisite 4/5: [Be able to find the course's Zoom room's URL
   on your HPC cluster](../faq/README.md#how-to-find-the-courses-zoom-room)
 - Prerequisite 5/5:
