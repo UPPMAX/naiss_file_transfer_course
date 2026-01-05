@@ -43,14 +43,23 @@ tags:
         - A: a typical graphical environment to interact with your computer
     - Q: TODO
 
-## Why login to a remote desktop environment?
+## What is a remote desktop environment?
+
+- TODO: add image of remote desktop environment using website
+- TODO: add image of remote desktop environment using local ThinLinc client
 
 You are very likely to be using a desktop environment
 of your local computer right now.
 All NAISS HPC clusters provide such a desktop environment, yet remotely.
+
+## Why login to a remote desktop environment?
+
 A remote desktop environment is more a more familiar way to work with
-computers for most people and is perfect for introducing
-your low-tech-savy colleague to the NAISS HPC clusters.
+computers (and HPC clusters) for most people.
+
+A remote desktop environment, especially via a website,
+is perfect for introducing your low-tech-savy colleague
+to the NAISS HPC clusters.
 
 ## Two ways to access a remote desktop
 
@@ -140,14 +149,13 @@ then answer these questions:
 
 - Log in to your HPC cluster's remote desktop environment using a website
 
-
-### (optional) Exercise 2: login to your HPC cluster's remote desktop environment using a local ThinLinc client
+### (optional) Exercise 2: login using a local ThinLinc client
 
 Go to the documentation of your HPC center,
 then answer these questions:
 
 - Find the page about how to login to your HPC cluster's remote desktop
-  environment using a website
+  environment using a local ThinLinc client
 
 ???- question "I cannot find it. Where is it?"
 
