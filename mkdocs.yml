@@ -1,4 +1,4 @@
-site_name: File transfer course
+site_name: Connect and File Transfer course
 repo_url: https://github.com/UPPMAX/naiss_file_transfer_course
 edit_uri: blob/main/docs/
 
@@ -36,7 +36,7 @@ nav:
 
 theme:
   name: material
-  greetings: Welcome to the file transfer course
+  greetings: Welcome to the NAISS Connect and File Transfer course
   font:
     text: Lato
     code: JetBrains Mono
