@@ -15,17 +15,15 @@ tags:
 
 These are the **five** prerequisites for following this course:
 
-- Prerequisite 1/5: (Windows users only)
+- Prerequisite 4/4: (Windows users only)
   [Have MobaXterm installed](../faq/README.md#how-to-install-mobaxterm)
-- Prerequisite 2/5: (Mac and Linux users only)
+- Prerequisite 4/4: (Mac and Linux users only)
   [Have rsync installed](../faq/README.md#how-to-install-rsync)
-- Prerequisite 3/5:
+- Prerequisite 4/4:
   [Have FileZilla installed](../faq/README.md#how-to-install-filezilla).
   (if you cannot install,
   see [the FAQ 'What if I cannot install FileZilla?'](../faq/README.md#what-if-i-cannot-install-filezilla))
-- Prerequisite 4/5: [Be able to find the course's Zoom room's URL
-  on your HPC cluster](../faq/README.md#how-to-find-the-courses-zoom-room)
-- Prerequisite 5/5:
+- Prerequisite 4/4:
   [have a good Zoom setup](../faq/README.md#how-can-i-get-a-good-zoom-setup)
 
 ???- question "Any questions about this?"

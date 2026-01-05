@@ -67,19 +67,11 @@ tags:
     - Q: How to behave on a login node?
         - A: only do light calculations
 
-## Why?
+## Why login via a terminal?
 
 Using a terminal is powerful, where a remote desktop is clumsy.
 Copy-pasting text to a terminal on the remote desktop
 will quickly make you wonder if it cannot be done in a smarter way.
-
-???- question "But, this is already in the prerequisites???"
-
-    Yes, we indeed require you to have done this
-    [in the prerequisites](../../prereqs/README.md).
-
-    The goal of this sessions (see 'Learning outcomes' above)
-    is to gain more understanding about what you've already done.
 
 ## A terminal and SSH clients
 

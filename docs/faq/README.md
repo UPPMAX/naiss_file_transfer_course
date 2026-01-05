@@ -11,7 +11,10 @@ tags:
 
 ### When should I follow this course?
 
-When you want to transfer files.
+When you want to:
+
+- connect to your favorite HPC cluster
+- transfer files to/from your favorite HPC cluster
 
 ### When should I consider to **not** follow this course?
 
