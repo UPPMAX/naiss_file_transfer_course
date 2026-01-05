@@ -84,19 +84,28 @@ not_in_nav: |
   evaluations/20250516/README.md
   evaluations/20250905/README.md
   evaluations/20251114/README.md
+  evaluations/20260202/README.md
+  evaluations/20260512/README.md
   lesson_plans/20250307/README.md
   lesson_plans/20250516/README.md
   lesson_plans/20250905/README.md
   lesson_plans/20251114/README.md
+  lesson_plans/20260202/README.md
+  lesson_plans/20260512/README.md
   meeting_notes/20241121.md
   meeting_notes/20250310.md
   meeting_notes/20250515.md
+  meeting_notes/20250905.md
   planning/notes.md
   planning/old_README.md
   reflections/20250307/README.md
   reflections/20250516/README.md
   reflections/20250905/README.md
   reflections/20251114/README.md
+  reflections/20260202/README.md
+  reflections/20260512/README.md
+  sessions/vote.md
+  sessions/transfer_tips/README.md
 
 markdown_extensions:
   - toc:
