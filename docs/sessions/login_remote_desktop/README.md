@@ -58,7 +58,7 @@ A remote desktop environment is more a more familiar way to work with
 computers (and HPC clusters) for most people.
 
 A remote desktop environment, especially via a website,
-is perfect for introducing your low-tech-savy colleague
+is perfect for introducing your low-tech-savvy colleague
 to the NAISS HPC clusters.
 
 ## Two ways to access a remote desktop
