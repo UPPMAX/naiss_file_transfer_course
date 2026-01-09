@@ -28,7 +28,7 @@ tags:
     - Learners have seen the file transfer tools at this course
     - Learners have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
-    - Learners have included thir HPC cluster name in Zoom username
+    - Learners have included their HPC cluster name in Zoom username
 
     Prior questions:
 
@@ -113,7 +113,8 @@ Vera       |[Documentation](https://www.c3se.chalmers.se)
 ### Exercise 0: rename yourself
 
 Please change your Zoom name to start with your HPC cluster,
-e.g. `[Rackham] Sven`.
+e.g. `Sven [Rackham] `. Put your name first: it is the more important
+information here :-)
 
 ### Exercise 1: remember a Zoom room
 
