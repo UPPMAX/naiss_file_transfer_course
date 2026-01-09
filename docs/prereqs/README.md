@@ -9,22 +9,18 @@ tags:
 
 # Prerequisites
 
-???- question "For teachers: how did we decide upon these?"
+These are the **four** prerequisites for following this course:
 
-    See [this issue](https://github.com/UPPMAX/naiss_file_transfer_course/issues/14)
-
-These are the **five** prerequisites for following this course:
-
-- Prerequisite 4/4: (Windows users only)
+- Prerequisite 1/4:
+  [have a good Zoom setup](../faq/README.md#how-can-i-get-a-good-zoom-setup)
+- Prerequisite 2/4: (Windows users only)
   [Have MobaXterm installed](../faq/README.md#how-to-install-mobaxterm)
-- Prerequisite 4/4: (Mac and Linux users only)
+- Prerequisite 3/4: (Mac and Linux users only)
   [Have rsync installed](../faq/README.md#how-to-install-rsync)
 - Prerequisite 4/4:
   [Have FileZilla installed](../faq/README.md#how-to-install-filezilla).
   (if you cannot install,
   see [the FAQ 'What if I cannot install FileZilla?'](../faq/README.md#what-if-i-cannot-install-filezilla))
-- Prerequisite 4/4:
-  [have a good Zoom setup](../faq/README.md#how-can-i-get-a-good-zoom-setup)
 
 ???- question "Any questions about this?"
 
