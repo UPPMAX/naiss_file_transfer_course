@@ -6,7 +6,7 @@ tags:
   - starting page
 ---
 
-# Welcome to the file transfer course
+# Welcome to the NAISS 'Connect and File Transfer' course
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -16,7 +16,10 @@ tags:
 
 ![NAISS logo](logo/naiss_logo_inverted.png)
 
-This course we teach how to transfer files between NAISS HPC clusters.
+This course teaches how to:
+
+- connect to NAISS HPC clusters
+- transfer files to/from/between NAISS HPC clusters.
 
 [Prerequisites](prereqs/README.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
