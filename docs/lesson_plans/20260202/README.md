@@ -24,6 +24,3 @@ so I cannot link to the rendered pages yet.
 
 But first, let's go through the introductory page (e.g. course outcomes, etc).
 
-
-
-

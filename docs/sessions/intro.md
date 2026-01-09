@@ -113,7 +113,7 @@ Vera       |[Documentation](https://www.c3se.chalmers.se)
 ### Exercise 0: rename yourself
 
 Please change your Zoom name to start with your HPC cluster,
-e.g. `Sven [Rackham] `. Put your name first: it is the more important
+e.g. `Sven [Rackham]`. Put your name first: it is the more important
 information here :-)
 
 ### Exercise 1: remember a Zoom room
