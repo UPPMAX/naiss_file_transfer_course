@@ -4,7 +4,7 @@
 
 - Title: Transferring files to/from HPC Clusters  - March 7 2025 (online)
 
-Workshop website: <https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/>
+Workshop website: URL removed, instead Use NAISS central or this GH page
 
 Email:
 
