@@ -9,7 +9,7 @@ Also note that Bianca users are encouraged to join our Bianca courses instead. Y
 
 -	Bianca intro: https://docs.uppmax.uu.se/courses_workshops/bianca_intro/ 
 -	Bianca Intermediate Tue 18 Nov: https://docs.uppmax.uu.se/courses_workshops/bianca_intermediate/
--	
+
 Please follow the steps in the prerequisites page: https://uppmax.github.io/naiss_file_transfer_course/prereqs/ It involves having an account and some kind of allocation project on a cluster. It may be an existing research project of your group or the course project. All commands can be run on the login node, not using up your compute allocation!
 
 - 14 Sep at 9.00 (sharp!)
