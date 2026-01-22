@@ -9,7 +9,7 @@ Please unregister in the registration form or send an email back if you cannot s
 
 Also note that Bianca users are encouraged to join our Bianca courses instead. You may follow this course but there is not much time to help you with technical issues this time.
 
-- [Bianca intro](https://docs.uppmax.uu.se/courses_workshops/bianca_intro/)
+- Bianca intro (url to NAISS instead)
 - [Bianca Intermediate Tue 18 Nov](https://docs.uppmax.uu.se/courses_workshops/bianca_intermediate/)
 
 Please follow the steps in the [prerequisites page](https://uppmax.github.io/naiss_file_transfer_course/prereqs/).
