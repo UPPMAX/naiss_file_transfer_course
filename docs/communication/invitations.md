@@ -21,6 +21,6 @@ The workshop is intended for beginner users but with some Linux experience, see 
 When: Friday, September 5th, 09:00-12:00
 Where: online via Zoom
 
-For more information and registration, please visit: <https://docs.uppmax.uu.se/courses_workshops/naiss_transfer/>.
+For more information and registration, please visit: URL removed.
 
 <!-- markdownlint-enable MD013 -->
