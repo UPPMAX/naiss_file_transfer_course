@@ -25,7 +25,7 @@ You are encouraged to follow that day instead.
 
 If you have any questions, don’t hesitate to contact Björn at [bjoern_email]
 
-See you next Friday!
+See you next Monday!
 
 Best regards, Björn Claremar & Richèl Bilderbeek
 
