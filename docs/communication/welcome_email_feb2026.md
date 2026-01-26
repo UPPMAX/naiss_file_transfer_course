@@ -1,4 +1,4 @@
-# Welcome to the File transfer course of 2026-02-02
+# Welcome to the 'Connect and File transfer' course of 2026-02-02
 
 <!-- markdownlint-disable MD013 --><!-- We ignore the 80-chars max line length, so that these letters can be copy-pasted as-is -->
 
