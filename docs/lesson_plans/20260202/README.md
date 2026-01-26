@@ -31,8 +31,12 @@ of the three hours she will observe.
 
 - For the first hour: 
     - How is the teamplay between me and the other teacher?
+    - What do you think are features of good teaching?
+      Which did I do and did I do the opposite of?
 - For the third hour: 
     - How is the teamplay between me and the other teacher?
+    - What do you think are features of good teaching?
+      Which did I do and did I do the opposite of?
 
 
 - 
