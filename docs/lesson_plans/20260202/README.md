@@ -38,6 +38,14 @@ of the three hours she will observe.
     - What do you think are features of good teaching?
       Which did I do and did I do the opposite of?
 
+I will have an observer!
 
-- 
+- Do introduce the observer
+    - Learners are not allowed to ask questions about the course content:
+      she is not a teaching assistant
+    - She is free to do whatever she wants, including asking questions
+- Tell the observer beforehand:
+    - She is free to do whatever she wants,
+      including asking questions, turning on/off camera,
+      introducing herself yes/no
 
