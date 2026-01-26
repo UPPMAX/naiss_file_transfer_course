@@ -48,6 +48,11 @@ for all exercises.
 Do fill in [the evaluation](../evaluation.md)
 when you leave early :-)
 
+### How to cancel?
+
+If you need to cancel, please unregister in the registration form
+or send an email. Thanks!
+
 ## Prerequisites
 
 ### Why are there so many prerequisites?
@@ -82,7 +87,7 @@ See [prerequisites](../prereqs/README.md).
 You should have gotten a welcome email within a couple
 of days.
 
-When it doubt, register another time :-)
+When it doubt, register again or send an email :-)
 
 ### How to find the course's Zoom room?
 
