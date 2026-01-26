@@ -24,3 +24,16 @@ so I cannot link to the rendered pages yet.
 
 But first, let's go through the introductory page (e.g. course outcomes, etc).
 
+## Peer observation
+
+I will have a collegue observing and we have not yet discussed which
+of the three hours she will observe.
+
+- For the first hour: 
+    - How is the teamplay between me and the other teacher?
+- For the third hour: 
+    - How is the teamplay between me and the other teacher?
+
+
+- 
+
