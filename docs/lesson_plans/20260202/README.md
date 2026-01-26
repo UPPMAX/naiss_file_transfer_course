@@ -48,4 +48,6 @@ I will have an observer!
     - She is free to do whatever she wants,
       including asking questions, turning on/off camera,
       introducing herself yes/no
+    - Make written notes in any 'normal' text format. Plaintext is
+      fine and preferred
 
