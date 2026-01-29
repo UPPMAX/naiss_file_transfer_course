@@ -67,17 +67,12 @@ Here is an overview of the ways to login in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Feature                                | FileZilla                | `scp`                        | `rsync`                       | `sftp`
----------------------------------------|--------------------------|------------------------------|-------------------------------|------------------------------
-Summary                                | Intuitive                | Preinstalled                 | Powerful                      | Two-way portal
-Type of user interface                 | Graphical                | Terminal                     | Terminal                      | Terminal
-Can transfer files between clusters?   | No                       | Yes                          | Yes                           | Yes
-Installation needed?                   | Yes                      | Maybe                        | Yes                           | Maybe
-Suitable for large files?              | Not really               | Not really                   | Yes                           | Not really
-Behavior upon overwriting files        | Asks                     | Overwrite                    | Overwrite if newer            | Asks
-Suitable for sensitive data?           | Yes                      | Yes                          | Yes                           | Yes
-Tolerant to interruption?              | No                       | No                           | Yes                           | No
-Flexibility                            | Some                     | Some                         | High                          | Low
+Feature                                | Desktop, webbrowser | Console          | Desktop, tool 
+---------------------------------------|---------------------|------------------|-------------------------------
+Summary                                | Intuitive           | Less intuitive   | Intuite
+Type of user interface                 | Graphical           | Terminal         | Terminal
+Installation needed?                   | Unlikely            | Likely           | Most likely
+Program used                           | Any webbrowser      | Any SSH agent    | ThinLinc
 
 <!-- markdownlint-enable MD013 -->
 
