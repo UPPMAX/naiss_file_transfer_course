@@ -12,10 +12,10 @@ tags:
 !!!- info "Learning outcomes"
 
     - Can find an overview of the course
-    - Can find the [schedule](../schedule.md)
+    - Can find the [schedule](../../schedule.md)
     - Have seen the ways to connect at this course
     - Have seen where to put
-      [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
+      [anonymous feedback during the day](../../evaluation.md#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
       e.g. `[Dardel] Sven Svensson`
 
@@ -24,10 +24,10 @@ tags:
     Teaching goals are:
 
     - Learners can find an overview of the course
-    - Learners can find the [schedule](../schedule.md)
+    - Learners can find the [schedule](../../schedule.md)
     - Learners have seen the ways to connect at this course
     - Learners have seen where to put
-      [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
+      [anonymous feedback during the day](../../evaluation.md#any-feedback-during-the-day)
     - Learners have included their HPC cluster name in Zoom username
 
     Prior questions:
@@ -59,7 +59,7 @@ flowchart TD
   login_console --> login_desktop_tool
 ```
 
-As per [prerequisites](../prereqs/README.md):
+As per [prerequisites](../../prereqs/README.md):
 
 - you already have an account at an HPC cluster
 
