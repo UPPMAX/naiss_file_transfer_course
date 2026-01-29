@@ -24,12 +24,11 @@ tags:
     - Learners can log in to a remote desktop environment
       using a local ThinLinc client
 
-## Two ways to access a remote desktop
+## What is the program we use?
 
-Method                 |Features
------------------------|-----------------------------------------------
-Website                |Requires no installation, clunkier to work with
-A local ThinLinc client|Need to install ThinLinc, works more smoothly
+![Desktop, program](desktop_program.png)
+
+We will be using ThinLinc.
 
 ## Exercises
 

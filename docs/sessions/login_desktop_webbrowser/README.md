@@ -19,7 +19,7 @@ tags:
 
     - Practice using the documentation of your HPC center
     - Understand what a remote desktop environment is
-    - Can log in to a remote desktop environment using a website
+    - Can log in to a remote desktop environment using a webbrowser
 
 ???- question "For teachers"
 
@@ -27,7 +27,7 @@ tags:
 
     - Learners have practiced using the documentation of their HPC cluster
     - Learners understand what a remote desktop environment is
-    - Learners can log in to a remote desktop environment using a website
+    - Learners can log in to a remote desktop environment using a webbrowser
 
     Teaching non-goals are:
 
@@ -44,8 +44,7 @@ tags:
 
 ## What is a remote desktop environment?
 
-- TODO: add image of remote desktop environment using website
-- TODO: add image of remote desktop environment using local ThinLinc client
+![Desktop, webbrowser](desktop_webbrowser.png)
 
 You are very likely to be using a desktop environment
 of your local computer right now.
@@ -56,13 +55,13 @@ All NAISS HPC clusters provide such a desktop environment, yet remotely.
 A remote desktop environment is more a more familiar way to work with
 computers (and HPC clusters) for most people.
 
-A remote desktop environment, especially via a website,
+A remote desktop environment, especially via a webbrowser,
 is perfect for introducing your low-tech-savvy colleague
 to the NAISS HPC clusters.
 
 ## Two ways to access a remote desktop
 
-Method                 |Features
+Program                |Features
 -----------------------|-----------------------------------------------
 Webbrowser             |Requires no installation, clunkier to work with
 A local ThinLinc client|Need to install ThinLinc, works more smoothly
@@ -114,13 +113,13 @@ A local ThinLinc client|Need to install ThinLinc, works more smoothly
 
 Here, we log in to your HPC cluster's remote desktop environment.
 
-### Exercise 1: login to your HPC cluster's remote desktop environment using a website
+### Exercise 1: login to your HPC cluster's remote desktop environment
 
 Go to the documentation of your HPC center,
 then answer these questions:
 
 - Find the page about how to login to your HPC cluster's remote desktop
-  environment using a website
+  environment using a webbrowser
 
 ???- question "I cannot find it. Where is it?"
 
@@ -138,4 +137,4 @@ then answer these questions:
 
     <!-- markdownlint-enable MD013 -->
 
-- Log in to your HPC cluster's remote desktop environment using a website
+- Log in to your HPC cluster's remote desktop environment using a webbrowser
