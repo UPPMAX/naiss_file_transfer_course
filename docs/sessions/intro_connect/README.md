@@ -74,7 +74,7 @@ Summary                                | Familiar to most                       
 Type of user interface                 | Graphical                                      | Terminal                            | Graphical
 Installation needed?                   | Unlikely                                       | Likely                              | Most likely
 Program used                           | Any webbrowser                                 | Any SSH agent                       | ThinLinc
-Course session                         |[Session](../login_desktop_webbrowser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_program/README.md)
+Course session                         |[Session](../login_desktop_webbrowser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_thinlinc/README.md)
 
 <!-- markdownlint-enable MD013 -->
 

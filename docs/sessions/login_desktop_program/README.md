@@ -8,7 +8,7 @@ tags:
   - ThinLinc
 ---
 
-# Login to a desktop environment via a program
+# Login to a desktop environment via ThinLinc
 
 !!!- info "Learning outcomes"
 
@@ -24,11 +24,26 @@ tags:
     - Learners can log in to a remote desktop environment
       using a local ThinLinc client
 
-## What is the program we use?
+## What is ThinLinc?
 
 ![Desktop, program](desktop_program.png)
 
-We will be using ThinLinc.
+> A remote desktop accessed via a local ThinLinc client
+
+ThinLinc is the program we run **locally** to access the remote desktop
+environment. We use the ThinLinc **client**, as we want to access
+something (i.e. we are not providing access to others).
+
+???- question "Why is this precise terminology important?"
+
+    This precise terminology may be important when talking to your colleagues:
+    the remote desktop environment accessed via a webbrowser
+    uses a **remote** ThinLinc **client**,
+    connecting to the **remote** ThinLinc **server**.
+
+    In other words, if a colleague states he/she use ThinLinc for login,
+    it is unclear if a local ThinLinc client is used, or that he/she used
+    a webbrowser.
 
 ## Exercises
 

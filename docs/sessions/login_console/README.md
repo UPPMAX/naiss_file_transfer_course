@@ -7,7 +7,7 @@ tags:
   - console
 ---
 
-# Login via a terminal
+# Login to a console environment
 
 !!!- info "Learning outcomes"
 
@@ -66,6 +66,12 @@ tags:
         - A: the first computer of your HPC cluster you arrive at
     - Q: How to behave on a login node?
         - A: only do light calculations
+
+## What is a console environment?
+
+![A console environment](console.png)
+
+> A console environment
 
 ## Why login via a terminal?
 
