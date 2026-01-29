@@ -9,10 +9,11 @@ nav:
   - Course dates: course_dates.md
   - Schedule: schedule.md
   - Connect:
-    - Intro: sessions/intro.md
+    - Intro: sessions/intro_connect.md
     - Login with terminal: sessions/login_terminal/README.md
     - Login to remote desktop: sessions/login_remote_desktop/README.md
   - File transfer:
+    - Intro: sessions/intro_file_transfer.md
     - File transfer using scp: sessions/scp/README.md
     - File transfer using FileZilla: sessions/filezilla/README.md
     - File transfer using rsync: sessions/rsync/README.md
