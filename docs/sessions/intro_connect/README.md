@@ -67,13 +67,13 @@ Here is an overview of the ways to login in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Feature                                | Desktop, webbrowser                          | Console               | Desktop, program 
----------------------------------------|----------------------------------------------|-----------------------|----------------------------------------
-Example screenshot                     |![Desktop, webbrowser](desktop_webbrowser.png)|![Console](console.png)|![Desktop, program](desktop_program.png)
-Summary                                | Intuitive                                    | Less intuitive        | Intuite
-Type of user interface                 | Graphical                                    | Terminal              | Terminal
-Installation needed?                   | Unlikely                                     | Likely                | Most likely
-Program used                           | Any webbrowser                               | Any SSH agent         | ThinLinc
+Feature                                | Desktop, webbrowser                          | Console                   | Desktop, program 
+---------------------------------------|----------------------------------------------|---------------------------|----------------------------------------
+Example screenshot                     |![Desktop, webbrowser](desktop_webbrowser.png)|![Console](console_big.png)|![Desktop, program](desktop_program.png)
+Summary                                | Intuitive                                    | Less intuitive            | Intuite
+Type of user interface                 | Graphical                                    | Terminal                  | Terminal
+Installation needed?                   | Unlikely                                     | Likely                    | Most likely
+Program used                           | Any webbrowser                               | Any SSH agent             | ThinLinc
 
 <!-- markdownlint-enable MD013 -->
 
