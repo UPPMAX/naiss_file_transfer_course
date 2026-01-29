@@ -7,13 +7,13 @@ tags:
   - overview
 ---
 
-# Introduction
+# Introduction 'Connect'
 
 !!!- info "Learning outcomes"
 
     - Can find an overview of the course
     - Can find the [schedule](../schedule.md)
-    - Have seen the file transfer tools at this course
+    - Have seen the ways to connect at this course
     - Have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
@@ -25,7 +25,7 @@ tags:
 
     - Learners can find an overview of the course
     - Learners can find the [schedule](../schedule.md)
-    - Learners have seen the file transfer tools at this course
+    - Learners have seen the ways to connect at this course
     - Learners have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Learners have included their HPC cluster name in Zoom username
@@ -48,29 +48,22 @@ flowchart TD
   classDef always stroke:#000,stroke-width:4px;
   classDef optional stroke:#000,stroke-width:1px;
 
-  account[Account for HPC cluster]:::always
-  filezilla[3.Transfer files using FileZilla]:::always
-  login_console[1.Login to console environment]:::always
-  scp[2.Transfer files using scp]:::always
-  rsync[Transfer files using rsync]:::optional
-  sftp[Transfer files using sftp]:::optional
-  transfer_tips[Transfer tips]:::optional
+  account[0. Account for HPC cluster]:::always
+  login_desktop_website[1. Login to desktop environment from a website]:::always
+  login_console[2. Login to console environment]:::always
+  login_desktop_tool[3. Login to desktop environment using a tool]:::optional
 
-  account --> filezilla
-  account --> login_console
-  login_console --> scp
-  scp --> rsync
-  scp --> sftp
-  scp --> transfer_tips
+
+  account --> login_desktop_website
+  login_desktop_website --> login_console
+  login_console --> login_desktop_tool
 ```
 
 As per [prerequisites](../prereqs/README.md):
 
 - you already have an account at an HPC cluster
-- you can already log in to a console environment at your HPC cluster
-  using SSH
 
-Here is an overview of the file transfer tools in this course:
+Here is an overview of the ways to login in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
