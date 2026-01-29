@@ -12,27 +12,27 @@ tags:
 !!!- info "Learning outcomes"
 
     - Have seen the file transfer tools at this course
-    <!-- 
+<!-- 
     - Can find an overview of the course
     - Can find the [schedule](../schedule.md)
     - Have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
       e.g. `[Dardel] Sven Svensson`
-    -->
+-->
 
 ???- question "For teachers"
 
     Teaching goals are:
 
     - Learners have seen the file transfer tools at this course
-    <!-- 
+<!-- 
     - Learners can find an overview of the course
     - Learners can find the [schedule](../schedule.md)
     - Learners have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Learners have included their HPC cluster name in Zoom username
-    -->
+-->
 
     Prior questions:
 
