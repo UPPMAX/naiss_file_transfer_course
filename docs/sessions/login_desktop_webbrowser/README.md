@@ -59,12 +59,9 @@ A remote desktop environment, especially via a webbrowser,
 is perfect for introducing your low-tech-savvy colleague
 to the NAISS HPC clusters.
 
-## Two ways to access a remote desktop
+## Why use a webbrowser?
 
-Program                |Features
------------------------|-----------------------------------------------
-Webbrowser             |Requires no installation, clunkier to work with
-A local ThinLinc client|Need to install ThinLinc, works more smoothly
+Because you've probably already installed one :-)
 
 ## Exercises
 
