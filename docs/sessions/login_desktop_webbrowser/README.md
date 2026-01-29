@@ -44,7 +44,9 @@ tags:
 
 ## What is a remote desktop environment?
 
-![Desktop, webbrowser](desktop_webbrowser.png)
+![A remote desktop environment, accessed via a webbrowser](desktop_webbrowser.png)
+
+> A remote desktop environment, accessed via a webbrowser
 
 You are very likely to be using a desktop environment
 of your local computer right now.

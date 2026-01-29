@@ -71,7 +71,7 @@ tags:
 
 ![A console environment](console.png)
 
-> A console environment
+> A console environment, accessed via Ubuntu's Terminal
 
 ## Why login via a terminal?
 

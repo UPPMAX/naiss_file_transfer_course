@@ -26,9 +26,9 @@ tags:
 
 ## What is ThinLinc?
 
-![Desktop, program](desktop_program.png)
+![A remote desktop environment, accessed via a local ThinLinc client](desktop_program.png)
 
-> A remote desktop accessed via a local ThinLinc client
+> A remote desktop environment, accessed via a local ThinLinc client
 
 ThinLinc is the program we run **locally** to access the remote desktop
 environment. We use the ThinLinc **client**, as we want to access
