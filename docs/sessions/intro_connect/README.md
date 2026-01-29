@@ -70,8 +70,8 @@ Here is an overview of the ways to login in this course:
 Feature                                | Desktop, webbrowser                            | Console                             | Desktop, program
 ---------------------------------------|------------------------------------------------|-------------------------------------|----------------------------------------
 Example screenshot                     |![Desktop, webbrowser](desktop_webbrowser.png)  |![Console](console_big.png)          |![Desktop, program](desktop_program.png)
-Summary                                | Intuitive                                      | Less intuitive                      | Intuite
-Type of user interface                 | Graphical                                      | Terminal                            | Terminal
+Summary                                | Familiar to most                               | Less familiar to most               | Familiar to most
+Type of user interface                 | Graphical                                      | Terminal                            | Graphical
 Installation needed?                   | Unlikely                                       | Likely                              | Most likely
 Program used                           | Any webbrowser                                 | Any SSH agent                       | ThinLinc
 Course session                         |[Session](../login_desktop_webbrowser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_program/README.md)
