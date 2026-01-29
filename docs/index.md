@@ -8,12 +8,6 @@ tags:
 
 # Welcome to the NAISS 'Connect and File Transfer' course
 
-<!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
-
-[![DOI](https://zenodo.org/badge/885247031.svg)](https://doi.org/10.5281/zenodo.14626409)
-
-<!-- markdownlint-enable MD013  -->
-
 ![NAISS logo](logo/naiss_logo_inverted.png)
 
 This course teaches how to:
@@ -25,3 +19,9 @@ This course teaches how to:
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
 [Sessions](sessions/intro.md){ .md-button .md-button--primary }
+
+<!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
+
+[![DOI](https://zenodo.org/badge/885247031.svg)](https://doi.org/10.5281/zenodo.14626409)
+
+<!-- markdownlint-enable MD013  -->
