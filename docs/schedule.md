@@ -48,7 +48,7 @@ tags:
 
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
-9:00  |R      |[Intro to 'Connect'](sessions/intro_connect.md)
+9:00  |R      |[Intro to 'Connect'](sessions/intro_connect/README.md)
 .     |R      |[Login to desktop environment via a webbrowser](sessions/login_desktop_webbrowser/README.md)
 .     |R      |[Login to console environment](sessions/login_terminal/README.md)
 .     |R      |(optional) [Login to desktop environment via a program](sessions/login_desktop_program/README.md)
