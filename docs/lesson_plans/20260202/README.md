@@ -55,3 +55,16 @@ I will have an observer!
 
 First checking all the pages ...
 
+They are solid now, with some TODOs left.
+
+From the registration form, these are the HPC clusters mentioned:
+
+HPC cluster|`n`|Percentage
+-----------|---|----------
+Alvis      |8  |17
+COSMOS     |7  |15
+Dardel     |17 |37
+Kebnekaise |5  |11
+Pelle      |2  |4
+Tetralith  |7  |15
+Total      |46 |100
