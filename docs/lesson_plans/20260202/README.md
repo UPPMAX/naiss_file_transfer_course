@@ -55,4 +55,3 @@ I will have an observer!
 
 First checking all the pages ...
 
-
