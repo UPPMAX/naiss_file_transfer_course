@@ -72,8 +72,8 @@ Total      |46 |100
 Create videos:
 
 - [Remote desktop via webbrowser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_webbrowser/)
-  - COSMOS
-  - Dardel
-  - Tetralith
-
-
+    - COSMOS
+    - Dardel
+    - Tetralith
+- [Remote desktop via ThinLinc](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_thinlinc/)
+    - Alvis
