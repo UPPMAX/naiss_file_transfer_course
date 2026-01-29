@@ -108,6 +108,8 @@ Vera       |[Documentation](https://www.c3se.chalmers.se)
 
 <!-- markdownlint-enable MD013 -->
 
+<!--
+
 ## Exercises
 
 ### Exercise 0: rename yourself
@@ -141,3 +143,5 @@ Other 2         |Room 11
 - When you are the only one in your main breakout room,
   the teachers will let you decide to either work in silence or
   to join another group. You will be taken care of well :-)
+
+-->
