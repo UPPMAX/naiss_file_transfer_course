@@ -35,7 +35,7 @@ Time  |Teacher|Topic
 .     |R      |[Choose next tool](sessions/choose_next.md)
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
 .     |B      |(optional) [Cluster to cluster](sessions/cluster2cluster/README.md)
-.     |B      |(optional) [File transfer using `sftp` 20-25m](sessions/sftp/README.md)
+.     |B      |(optional) [File transfer using `sftp`](sessions/sftp/README.md)
 11:45 |R      |[Summary](sessions/summary.md)
 11:50 |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
