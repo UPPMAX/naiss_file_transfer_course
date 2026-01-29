@@ -57,7 +57,7 @@ B      |File transfer using `sftp` |A command-line file transfer 'portal'
 I think there should be an extra row for cluster-to-cluster transfer.
 
 - [DONE] Suggest to add an extra row at
-  [the voting session](https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/)
+  the voting session
   with [#60](https://github.com/UPPMAX/naiss_file_transfer_course/issues/60)
 
 One thing I like a lot is this table in the summary:

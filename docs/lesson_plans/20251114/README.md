@@ -9,7 +9,7 @@
   thanks to [simplify prerequisites to one single track](https://github.com/UPPMAX/naiss_file_transfer_course/issues/67)
 - [REMINDER] [Consider doing a NAISS login course](https://github.com/UPPMAX/naiss_file_transfer_course/issues/66)
 - [DONE] Suggest to add an extra row at
-  [the voting session](https://uppmax.github.io/naiss_file_transfer_course/sessions/vote/)
+  the voting session
   with [#60](https://github.com/UPPMAX/naiss_file_transfer_course/issues/60)
 - [DONE] Ask BC to add an `sftp` column if he thinks it is worth it
 - [DONE] [Simplify prerequisites to one single track?](https://github.com/UPPMAX/naiss_file_transfer_course/issues/67)
