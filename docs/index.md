@@ -18,7 +18,7 @@ This course teaches how to:
 [Prerequisites](prereqs/README.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
-[Sessions](sessions/intro.md){ .md-button .md-button--primary }
+[Sessions](sessions/intro_connect.md){ .md-button .md-button--primary }
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
