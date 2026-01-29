@@ -52,6 +52,10 @@ Richel
 hardcoded
 www
 Richèl
+synching
+Plaintext
+teamplay
+nd
 Richèl's
 FileZilla
 NAISS

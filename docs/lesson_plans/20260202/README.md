@@ -26,7 +26,7 @@ But first, let's go through the introductory page (e.g. course outcomes, etc).
 
 ## 2026-01-26 Peer observation
 
-I will have a collegue observing and we have not yet discussed which
+I will have a colleague observing and we have not yet discussed which
 of the three hours she will observe.
 
 - For the first hour: 
