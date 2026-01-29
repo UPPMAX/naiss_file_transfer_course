@@ -20,7 +20,7 @@ tags:
 
 Week|Date                      |Times      |Registration                                                                   |Registration closing date
 ----|--------------------------|-----------|-------------------------------------------------------------------------------|-------------------------
-6   |Monday 2026-02-02 [1]     |13:00-16:00|[Registration](https://naiss-training.github.io/NAISS-intro-week/#registration)|2026-01-23
+6   |Monday 2026-02-02 [1]     |13:00-16:00|[Registration](https://naiss-training.github.io/NAISS-intro-week/#registration)|2026-01-**30**
 20  |Tuesday May 12th 2026     |9:00-12:00 |None yet                                                                       |None yet
 ?36 |?Friday September 4th 2026|?9:00-12:00|None yet                                                                       |None yet
 ?46 |?Friday November 13th 2026|?9:00-12:00|None yet                                                                       |None yet
