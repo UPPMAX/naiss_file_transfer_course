@@ -29,11 +29,11 @@ But first, let's go through the introductory page (e.g. course outcomes, etc).
 I will have a colleague observing and we have not yet discussed which
 of the three hours she will observe.
 
-- For the first hour: 
+- For the first hour:
     - How is the teamplay between me and the other teacher?
     - What do you think are features of good teaching?
       Which did I do and did I do the opposite of?
-- For the third hour: 
+- For the third hour:
     - How is the teamplay between me and the other teacher?
     - What do you think are features of good teaching?
       Which did I do and did I do the opposite of?
