@@ -90,8 +90,21 @@ Some SSH clients can run from a terminal or vice versa.
 
 ???- question "Need a video?"
 
-    The solution of these exercises can be found in
-    [the FAQ 'How can I login to an HPC cluster?'](../../faq/README.md#how-can-i-login-to-an-hpc-cluster)
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC cluster|YouTube video
+    -----------|--------------------------------------------------
+    Alvis      |[YouTube video](https://youtu.be/PJZ3W907qCU)
+    Bianca     |[YouTube video](https://youtu.be/7mKDxnXqi_M)
+    COSMOS     |[YouTube video](https://youtu.be/sMsenzWERTg)
+    Kebnekaise |[YouTube video](https://youtu.be/pIiKOKBHIeY)
+    LUMI       |[YouTube video](https://youtu.be/bPdvn2gajgU)
+    Pelle      |[YouTube video](https://youtu.be/zsw3QD_NinU)
+    Rackham    |[YouTube video](https://youtu.be/TSVGSKyt2bQ)
+    Tetralith  |[YouTube video](https://youtu.be/wtGIzSBiulY)
+
+    <!-- markdownlint-enable MD013 -->
+
 
 ???- question "How difficult will this be?"
 
@@ -187,8 +200,20 @@ then answer these questions:
 
 ???- question "I cannot find it. Where is it?"
 
-    - [Login documentation](https://uppmax.github.io/naiss_file_transfer_course/faq/#how-can-i-login-to-an-hpc-cluster)
-    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC cluster|Documentation
+    -----------|-------------------------------------------------------------------------------------------------------------
+    Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/ssh/)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
+    LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)
+    Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)
+    Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)
+    Tetralith  |[Documentation](https://www.nsc.liu.se/support/getting-started/)
+
+    <!-- markdownlint-enable MD013 -->
 
 - Log in to your HPC cluster
 

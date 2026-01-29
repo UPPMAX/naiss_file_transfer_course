@@ -68,3 +68,12 @@ Kebnekaise |5  |11
 Pelle      |2  |4
 Tetralith  |7  |15
 Total      |46 |100
+
+Create videos:
+
+- [Remote desktop via webbrowser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_webbrowser/)
+  - COSMOS
+  - Dardel
+  - Tetralith
+
+
