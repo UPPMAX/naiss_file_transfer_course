@@ -57,7 +57,7 @@ Time  |Teacher|Topic
 .     |B      |[File transfer using `scp`](sessions/scp/README.md)
 11:00 |.      |Break
 11:15 |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
-.     |R      |[Choose next tool](sessions/choose_next.md)
+.     |R      |(optional) [Choose next tool](sessions/choose_next.md)
 .     |R      |(optional) [File transfer using `rsync`](sessions/rsync/README.md)
 .     |B      |(optional) [Cluster to cluster](sessions/cluster2cluster/README.md) <!-- 10-15m -->
 .     |B      |(optional) [File transfer using `sftp`](sessions/sftp/README.md) <!-- 20-25m -->
