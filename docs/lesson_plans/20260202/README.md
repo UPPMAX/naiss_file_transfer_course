@@ -24,7 +24,7 @@ so I cannot link to the rendered pages yet.
 
 But first, let's go through the introductory page (e.g. course outcomes, etc).
 
-## Peer observation
+## 2026-01-26 Peer observation
 
 I will have a collegue observing and we have not yet discussed which
 of the three hours she will observe.
@@ -50,4 +50,6 @@ I will have an observer!
       introducing herself yes/no
     - Make written notes in any 'normal' text format. Plaintext is
       fine and preferred
+
+## 2026-01-29
 
