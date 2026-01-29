@@ -1,10 +1,10 @@
-# Welcome to the 'Connect and File transfer' course of 2026-02-02
+# Welcome to the 'Connect and File Transfer' course of 2026-02-02
 
 <!-- markdownlint-disable MD013 --><!-- We ignore the 80-chars max line length, so that these letters can be copy-pasted as-is -->
 
 Dear learners,
 
-Welcome to the 'Connect and File transfer' course of 2026-02-02!
+Welcome to the 'Connect and File Transfer' course of 2026-02-02!
 
 Please follow the steps in the [prerequisites page](https://uppmax.github.io/naiss_file_transfer_course/prereqs/).
 It involves having an account and some kind of allocation project on a cluster.
