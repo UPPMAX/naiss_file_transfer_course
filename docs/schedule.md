@@ -49,8 +49,9 @@ tags:
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
 9:00  |R      |[Intro to 'Connect'](sessions/intro_connect.md)
-.     |R      |[Login to remote desktop](sessions/login_remote_desktop/README.md)
-.     |R      |[Login with terminal](sessions/login_terminal/README.md)
+.     |R      |[Login to desktop environment via a webbrowser](sessions/login_desktop_webbrowser/README.md)
+.     |R      |[Login to console environment](sessions/login_terminal/README.md)
+.     |R      |(optional) [Login to desktop environment via a program](sessions/login_desktop_program/README.md)
 9:50  |.      |Break
 10:05 |B      |[Intro to 'File Transfer'](sessions/intro_file_transfer.md)
 .     |B      |[File transfer using `scp`](sessions/scp/README.md)

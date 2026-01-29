@@ -53,3 +53,6 @@ I will have an observer!
 
 ## 2026-01-29
 
+First checking all the pages ...
+
+
