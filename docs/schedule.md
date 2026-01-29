@@ -52,7 +52,8 @@ Time  |Teacher|Topic
 .     |R      |[Login to remote desktop](sessions/login_remote_desktop/README.md)
 .     |R      |[Login with terminal](sessions/login_terminal/README.md)
 9:50  |.      |Break
-10:05 |B      |[File transfer using `scp`](sessions/scp/README.md)
+10:05 |B      |[Intro to 'File Transfer'](sessions/intro_file_transfer.md)
+.     |B      |[File transfer using `scp`](sessions/scp/README.md)
 11:00 |.      |Break
 11:15 |R      |[File transfer using FileZilla](sessions/filezilla/README.md)
 .     |R      |[Choose next tool](sessions/choose_next.md)
