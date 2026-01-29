@@ -10,9 +10,9 @@ nav:
   - Schedule: schedule.md
   - Connect:
     - sessions/intro_connect/README.md
-    - Login to desktop environment via a webbrowser: sessions/login_desktop_webbrowser/README.md
-    - Login to console environment: sessions/login_console/README.md
-    - Login to desktop environment via a program: sessions/login_desktop_program/README.md
+    - sessions/login_desktop_webbrowser/README.md
+    - sessions/login_console/README.md
+    - sessions/login_desktop_thinlinc/README.md
   - File transfer:
     - sessions/intro_file_transfer.md
     - File transfer using scp: sessions/scp/README.md
