@@ -19,20 +19,17 @@ tags:
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
       e.g. `[Dardel] Sven Svensson`
--->
 
 ???- question "For teachers"
 
     Teaching goals are:
 
     - Learners have seen the file transfer tools at this course
-<!-- 
     - Learners can find an overview of the course
     - Learners can find the [schedule](../schedule.md)
     - Learners have seen where to put
       [anonymous feedback during the day](../evaluation.md#any-feedback-during-the-day)
     - Learners have included their HPC cluster name in Zoom username
--->
 
     Prior questions:
 
@@ -40,6 +37,8 @@ tags:
     - What does one need to do, to be able to do a file transfer?
     - How does it look like to do a file transfer?
     - Can you name some programs that can do file transfer?
+
+-->
 
 ## Overview
 
