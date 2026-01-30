@@ -24,7 +24,7 @@ tags:
     - Learners can log in to a remote desktop environment
       using a remote desktop client
 
-## What is A remote desktop client?
+## What is a remote desktop client?
 
 ![A remote desktop environment, accessed via a local ThinLinc client](desktop_program.png)
 
