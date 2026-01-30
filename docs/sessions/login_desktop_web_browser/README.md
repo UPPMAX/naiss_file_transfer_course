@@ -92,8 +92,6 @@ Because you've probably already installed one :-)
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    TODO: revise this table
-
     HPC Cluster|Difficulty|Reason
     -----------|----------|-------------------------------
     Alvis      |Medium    |Uses SSH keys, must be in SUNET

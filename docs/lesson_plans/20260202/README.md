@@ -55,7 +55,7 @@ I will have an observer!
 
 First checking all the pages ...
 
-They are solid now, with some TODOs left.
+All pages are updated now...
 
 From the registration form, these are the HPC clusters mentioned:
 
@@ -80,16 +80,7 @@ Tetralith  |7  |15
 Kebnekaise |5  |11
 Pelle      |2  |4
 
-
-- [ ] Create videos:
-
-```text
-Alvis not found in login_desktop_remote_desktop_client/README.md
-COSMOS not found in login_desktop_web_browser/README.md
-Tetralith not found in login_desktop_web_browser/README.md
-Kebnekaise not found in rsync/README.md
-```
-
+- [x] Create videos
 - [x] Update learning outcomes
 - [ ] Update forms
 - [ ] Update summary
