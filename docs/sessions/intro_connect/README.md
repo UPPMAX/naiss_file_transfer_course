@@ -75,14 +75,14 @@ Here is an overview of the ways to login in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Feature                                | Desktop, web browser                            | Console                             | Desktop, program
+Feature                                | Desktop, web browser                            | Console                             | Desktop, remote desktop client
 ---------------------------------------|-------------------------------------------------|-------------------------------------|----------------------------------------
 Example screenshot                     |![Desktop, web browser](desktop_web_browser.png) |![Console](console.png)              |![Desktop, program](desktop_program.png)
 Summary                                | Familiar to most                                | Less familiar to most               | Familiar to most
 Type of user interface                 | Graphical                                       | Terminal                            | Graphical
 Installation needed?                   | Unlikely                                        | Likely                              | Most likely
-Program used                           | Any web browser                                 | Any SSH agent                       | ThinLinc
-Course session                         |[Session](../login_desktop_web_browser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_thinlinc/README.md)
+Program used                           | Any web browser                                 | Any SSH agent                       | ThinLinc, Remmina, `krdp`
+Course session                         |[Session](../login_desktop_web_browser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_remote_desktop_client/README.md)
 
 <!-- markdownlint-enable MD013 -->
 

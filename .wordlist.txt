@@ -58,6 +58,7 @@ teamplay
 nd
 TODOs
 SCoRe
+Remmina
 Richèl's
 FileZilla
 NAISS

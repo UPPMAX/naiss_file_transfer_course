@@ -12,7 +12,7 @@ nav:
     - sessions/intro_connect/README.md
     - sessions/login_desktop_web_browser/README.md
     - sessions/login_console/README.md
-    - sessions/login_desktop_thinlinc/README.md
+    - sessions/login_desktop_remote_desktop_client/README.md
   - File transfer:
     - sessions/intro_file_transfer.md
     - File transfer using scp: sessions/scp/README.md

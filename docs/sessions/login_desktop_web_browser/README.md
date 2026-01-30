@@ -78,7 +78,7 @@ Because you've probably already installed one :-)
     Alvis      |[YouTube video](https://youtu.be/KO98JvEB2oc)
     Bianca     |[YouTube video](https://youtu.be/Ni9nyCf7me8)
     COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
-    Dardel     |Impossible: cannot access Dardel via a web browser
+    Dardel     |[YouTube video showing that this is impossible](https://youtu.be/z4F5eMzxK2c)
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
     LUMI       |Not needed yet
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
