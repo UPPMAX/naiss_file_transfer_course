@@ -194,7 +194,7 @@ then answer these questions:
 Go to the documentation of your HPC center,
 then answer these questions:
 
-- Find the page about how to login to the console evnvironment of your
+- Find the page about how to login to the console environment of your
   HPC cluster via SSH. Use a password when having the option to choose
   between using a password and using an SSH key
 
