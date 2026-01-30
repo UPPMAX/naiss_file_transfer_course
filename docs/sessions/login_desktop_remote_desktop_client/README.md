@@ -56,7 +56,7 @@ Tetralith  |ThinLinc
 
     HPC cluster|YouTube video
     -----------|----------------------------------------------------------------
-    Alvis      |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Alvis      |[YouTube video](https://youtu.be/6TAZnOYazJg)
     Bianca     |Impossible, hence no video
     COSMOS     |[YouTube video](https://youtu.be/wn7TgElj_Ng)
     Dardel     |[YouTube video](https://youtu.be/qgI2SigIuCk)
