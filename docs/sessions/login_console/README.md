@@ -132,32 +132,33 @@ Some SSH clients can run from a terminal or vice versa.
 
     <!-- markdownlint-enable MD013 -->
 
-Here, we log in to your HPC cluster's console environment via a terminal.
+Here, we log in to your HPC cluster's console environment via a terminal,
+starting from the documentation of your favorite HPC cluster.
 
-### (optional) Exercise 1: a terminal
+???- question "Where is the documentation of my favorite HPC cluster?"
 
-Go to the documentation of your HPC center,
-then answer these questions:
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-- Find the page on terminals, if any
+    HPC Cluster|Documentation
+    -----------|------------
+    Alvis      |[Documentation](https://www.c3se.chalmers.se)
+    Berzelius  |[Documentation](https://www.nsc.liu.se)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
+    LUMI       |[Documentation](https://docs.csc.fi)
+    Pelle      |[Documentation](https://docs.uppmax.uu.se)
+    Rackham    |[Documentation](https://docs.uppmax.uu.se)
+    Tetralith  |[Documentation](https://www.nsc.liu.se)
+    Vera       |[Documentation](https://www.c3se.chalmers.se)
 
-???- question "I cannot find it. Where is it?"
+    <!-- markdownlint-enable MD013 -->
 
-    - [UPPMAX](https://docs.uppmax.uu.se/software/terminal/)
+### (optional) Exercise 1: install an SSH client if needed
 
-    If it is absent, use your favorite search engine instead.
-
-- What is a prompt?
-
-???- question "Answer"
-
-    The prompt is the text at the start of the line you can type on.
-    It indicates that the terminal is waiting for user input.
-
-### (optional) Exercise 2: install an SSH client if needed
-
-Go to the documentation of your HPC center,
-then answer these questions:
+Go to the documentation of your favorite HPC cluster,
+then answer the questions below.
 
 - Find the page on SSH clients
 
@@ -189,10 +190,10 @@ then answer these questions:
 
 - If there is an error, install the recommended SSH client
 
-### Exercise 3: login via SSH
+### Exercise 2: login via SSH
 
-Go to the documentation of your HPC center,
-then answer these questions:
+Go to the documentation of your favorite HPC cluster.
+then answer these questions.
 
 - Find the page about how to login to the console environment of your
   HPC cluster via SSH. Use a password when having the option to choose
@@ -248,3 +249,24 @@ then answer these questions:
 
 
 Welcome on a login node!
+
+### (optional) Exercise 3: a terminal
+
+Go to the documentation of your favorite HPC cluster,
+then answer the questions below.
+
+- Find the page on terminals, if any
+
+???- question "I cannot find it. Where is it?"
+
+    - [UPPMAX](https://docs.uppmax.uu.se/software/terminal/)
+
+    If it is absent, use your favorite search engine instead.
+
+- What is a prompt?
+
+???- question "Answer"
+
+    The prompt is the text at the start of the line you can type on.
+    It indicates that the terminal is waiting for user input.
+

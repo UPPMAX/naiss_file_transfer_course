@@ -109,7 +109,29 @@ Because you've probably already installed one :-)
 
     <!-- markdownlint-enable MD013 -->
 
-Here, we log in to your HPC cluster's remote desktop environment.
+Here, we log in to your HPC cluster's remote desktop environment
+using a web browser,
+starting from the documentation of your favorite HPC cluster.
+
+???- question "Where is the documentation of my favorite HPC cluster?"
+
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Documentation
+    -----------|------------
+    Alvis      |[Documentation](https://www.c3se.chalmers.se)
+    Berzelius  |[Documentation](https://www.nsc.liu.se)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
+    LUMI       |[Documentation](https://docs.csc.fi)
+    Pelle      |[Documentation](https://docs.uppmax.uu.se)
+    Rackham    |[Documentation](https://docs.uppmax.uu.se)
+    Tetralith  |[Documentation](https://www.nsc.liu.se)
+    Vera       |[Documentation](https://www.c3se.chalmers.se)
+
+    <!-- markdownlint-enable MD013 -->
 
 ### Exercise 1: login to your HPC cluster's remote desktop environment
 
