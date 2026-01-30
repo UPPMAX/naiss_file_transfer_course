@@ -124,7 +124,7 @@ Use the documentation of your HPC cluster for help.
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/2fa/clients/windows/filezilla/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/)
     COSMOS     |None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_winscp/). Use [this documentation](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_filezilla/) instead
-    Dardel     |None. [Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
+    Dardel     |None. [Documentation that is closest](https://menzzana.github.io/NAISS-support-web/contact/contact_support/), under 'Data management -> File transfer'. Use [this documentation](https://docs.uppmax.uu.se/naiss/dardel_file_transfer_using_filezilla/) instead
     Kebnekaise |[Documentation (Linux and Mac)](https://www.hpc2n.umu.se/documentation/guides/linux-connection) and [documentation (Windows)](https://www.hpc2n.umu.se/documentation/guides/windows-connection)
     LUMI       |None. [CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2882884189). Use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_filezilla/) instead
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla)

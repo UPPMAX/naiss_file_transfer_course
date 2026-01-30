@@ -121,7 +121,7 @@ Use the documentation of your HPC cluster.
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/)
     COSMOS     |None. [Documentation that is closest](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_wget_curl/). Use [the `scp` documentation](../scp/README.md) and replace `scp` by `rsync`
-    Dardel     |[Documentation that is closest](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
+    Dardel     |[Documentation that is closest](https://menzzana.github.io/NAISS-support-web/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
     LUMI       |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/)

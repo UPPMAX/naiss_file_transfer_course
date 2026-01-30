@@ -220,7 +220,7 @@ tags:
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |Available for download via the transit server, see [documentation](https://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#transit-server)
     COSMOS     |[Documented on UPPMAX page](https://docs.uppmax.uu.se/naiss/cosmos_file_transfer_using_scp/).
-    Dardel     |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-scp)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)

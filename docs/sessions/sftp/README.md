@@ -146,7 +146,7 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
     Berzelius  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_sftp/), [through transit](https://docs.uppmax.uu.se/cluster_guides/transfer_transit/#using-sftp)
     COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/guides/data_transfer/io_sftp/)
-    Dardel     |[Documentation about the similar `psftp`](https://support.pdc.kth.se/doc/contact/contact_support/?sub=data_management/file_transfer_scp/)
+    Dardel     |[Documentation about the similar `psftp`](https://menzzana.github.io/NAISS-support-web/contact/contact_support/?sub=data_management/file_transfer_scp/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#sftp)
     LUMI       |Apparently not supported
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_sftp)
