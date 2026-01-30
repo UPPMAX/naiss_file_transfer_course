@@ -136,7 +136,7 @@ Some SSH clients can run from a terminal or vice versa.
 
 Here, we log in to your HPC cluster's console environment via a terminal.
 
-### Exercise 1: a terminal
+### (optional) Exercise 1: a terminal
 
 Go to the documentation of your HPC center,
 then answer these questions:
@@ -156,7 +156,7 @@ then answer these questions:
     The prompt is the text at the start of the line you can type on.
     It indicates that the terminal is waiting for user input.
 
-### Exercise 2: install an SSH client if needed
+### (optional) Exercise 2: install an SSH client if needed
 
 Go to the documentation of your HPC center,
 then answer these questions:
@@ -207,6 +207,7 @@ then answer these questions:
     Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/ssh/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)
     COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/dardel/login/ssh_login/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)
