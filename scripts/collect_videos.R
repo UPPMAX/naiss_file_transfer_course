@@ -88,3 +88,4 @@ for (i in seq_along(session_filenames)) {
 
 t <- dplyr::bind_rows(list_of_tables)
 
+knitr::kable(t)
