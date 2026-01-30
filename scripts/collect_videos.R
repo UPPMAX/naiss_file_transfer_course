@@ -42,14 +42,18 @@ extract_videos <- function(filename) {
   }
 
   tibble::tibble(
+    filename = filename,
     session = title,
     cluster = cluster_names,
     url = cluster_and_url[, 3]
   )
 }
 
-#' For one file
-do_all_required_clusters_have_a_video <- function(filename) {
+#' For one file.
+#' If there is a YouTube video in it, it should have a
+#' YouTube video with all HPC clusters in it.
+#' Will \link{stop} if not, with a helpful error
+check_all_required_clusters_have_a_video <- function(filename) {
   t <- extract_videos(filename)
   if (nrow(t) == 0) return()
   required_clusters <- get_required_clusters()
@@ -68,8 +72,7 @@ for (i in seq_along(session_filenames)) {
   if (i == 11) next
   if (i == 13) next
   filename <- session_filenames[i]
-  message(filename)
-  do_all_required_clusters_have_a_video(filename = filename)
+  check_all_required_clusters_have_a_video(filename = filename)
 }
 
 # Create one table
@@ -88,4 +91,10 @@ for (i in seq_along(session_filenames)) {
 
 t <- dplyr::bind_rows(list_of_tables)
 
-knitr::kable(t)
+# The path will be 'docs/videos.md'
+t$rel_path <- stringr::str_match(t$filename, ".*/docs/(.*)")[, 2]
+t$session_link <- paste0("[", t$session, "](", t$rel_path, ")")
+t$video_link <- paste0("[", "YouTube video", "](", t$url, ")")
+
+knitr::kable(t |> dplyr::select(session_link, cluster, video_link))
+
