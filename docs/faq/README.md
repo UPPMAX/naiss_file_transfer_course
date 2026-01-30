@@ -271,7 +271,7 @@ For non-Ubuntu users, search the web, download and install.
     The FileZilla website can be found at
     [`https://filezilla-project.org/`](https://filezilla-project.org/).
 
-    Clicking on 'Download FileZilla client' takes you to 
+    Clicking on 'Download FileZilla client' takes you to
     [the FileZilla download page](https://filezilla-project.org/download.php?type=client).
 
     Download the file, maybe unzip it and run the installer

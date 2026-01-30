@@ -28,7 +28,7 @@ tags:
     - We start with a transferring tool in the command line.
     - Let's focus on the easiest.
     - Next session we try a tool with a graphical interface!
-    
+
 ## Overview of terminal transfer tools
 
 <!-- markdownlint-disable MD013 --><!-- Let's break 80 characters per line -->
@@ -53,7 +53,7 @@ tags:
     - These tools are used to download files from websites or ftp servers
 
     ??? info "``wget``"
-    
+
         - ``wget`` saves downloaded contents to local files, like
         - ``wget ftp://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/pictures/space/*``
         - ``wget https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg -O grace_hopper.jpg``

@@ -9,7 +9,7 @@
 
     - Log in to Pelle
     - Choose or create the file "localfile"
-    
+
     - ``scp localfile x_nisse@tetralith.nsc.liu.se:~/``
     - Check in another ssh session for Tetralith, it is there.
 
@@ -19,7 +19,7 @@
 ???- question "(Optional) Exercise 1: Transfer with favorite terminal tool between servers"
 
     !!! attention
-    
+
         You need accounts at two cluster
 
     Tips

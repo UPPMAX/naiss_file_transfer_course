@@ -12,7 +12,7 @@ tags:
 !!!- info "Learning outcomes"
 
     - Have seen the file transfer tools at this course
-<!-- 
+<!--
     - Can find an overview of the course
     - Can find the [schedule](../schedule.md)
     - Have seen where to put

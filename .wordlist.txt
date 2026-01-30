@@ -57,6 +57,7 @@ Plaintext
 teamplay
 nd
 TODOs
+SCoRe
 Richèl's
 FileZilla
 NAISS
