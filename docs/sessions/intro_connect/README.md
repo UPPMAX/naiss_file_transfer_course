@@ -48,7 +48,7 @@ flowchart TD
   classDef always stroke:#000,stroke-width:4px;
   classDef optional stroke:#000,stroke-width:1px;
 
-  use_dardel(Use Dardel?)
+  use_dardel_or_tetralith(Use Dardel or Tetralith?)
   account[1. Account for HPC cluster]:::always
   login_desktop_website_no[2a. Login to desktop environment from a website]:::always
   login_console_no[3a. Login to console environment]:::always
@@ -58,12 +58,12 @@ flowchart TD
   login_desktop_tool_yes[2b. Login to desktop environment using ThinLinc]:::always
 
 
-  account --> use_dardel
-  use_dardel--> |No| login_desktop_website_no
+  account --> use_dardel_or_tetralith
+  use_dardel_or_tetralith--> |No| login_desktop_website_no
   login_desktop_website_no --> login_console_no
   login_console_no --> login_desktop_tool_no
 
-  use_dardel--> |Yes| login_desktop_tool_yes
+  use_dardel_or_tetralith--> |Yes| login_desktop_tool_yes
   login_desktop_tool_yes --> login_console_yes
 ```
 

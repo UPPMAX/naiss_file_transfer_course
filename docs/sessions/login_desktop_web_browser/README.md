@@ -82,7 +82,7 @@ Because you've probably already installed one :-)
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
     LUMI       |Not needed yet
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
-    Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Tetralith  |This is not possible
 
     <!-- markdownlint-enable MD013 -->
 
