@@ -78,6 +78,11 @@ tags:
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
+??? question "Prior questions"
+
+    - Who has heard of `scp`?
+    - Who has already used `scp`?
+
 !!! note "Pros"
 
     - Simple
@@ -105,10 +110,6 @@ tags:
     - Some Windows users may need to use ``pscp`` instead of `scp`.
     - The syntax is however the same in general.
 
-??? question "Prior questions"
-
-    - Who has heard of `scp`?
-    - Who has already used `scp`?
 
 ## Procedure
 
@@ -128,15 +129,23 @@ tags:
 - Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
 
+???- info "Set paths"
+
+    Example: Copy the local file ``file.txt`` in the folder ``transfer_course`` (located in the present directory) to the ``transfer_course`` folder on your cluster:
+
+    ```bash
+    scp transfer_course/file.txt <username>@<cluster adress>:~/transfer_course/
+    ```
+
 ???- example "Example for Tetralith"
 
-    This is how you copy a file from your local computer directly to your HOME folder (~/):
+    This is how you copy a file **from your local computer** directly to your HOME folder (~/):
 
     ```bash
     scp my_file.txt x_nisse@tetralith.nsc.liu.se:~/
     ```
 
-    To copy a file from Tetralith to your local computer (and present folder),
+    To copy a file **from Tetralith** to your local computer (and present folder),
     do the command above in reverse order:
 
     ```bash
@@ -145,14 +154,6 @@ tags:
 
     - If asked, give your center's password, and possibly, 2nd-factor 6-digit code.
     - You can get rid of this prompt if you have setup SSH keys
-
-???- info "Set paths"
-
-    Copy a file **from your local computer** to the cluster:
-
-    ```bash
-    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
-    ```
 
 ## Large or many files
 
@@ -187,7 +188,7 @@ tags:
 
     - Archive and compress a **folder** with many large files
 
-        ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
+        ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder``
 
     - Transfer data
 
@@ -210,7 +211,7 @@ tags:
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
-            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
+            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the UPPMAX documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp).
 
 ???- question "Where is that documentation?"
 
@@ -224,7 +225,6 @@ tags:
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-scp)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |[Documentation](https://www.c3se.chalmers.se/documentation/file_transfer/).
 

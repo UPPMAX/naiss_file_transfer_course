@@ -106,7 +106,6 @@ Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/)
 Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
 LUMI       |[Documentation](https://docs.csc.fi)
 Pelle      |[Documentation](https://docs.uppmax.uu.se)
-Rackham    |[Documentation](https://docs.uppmax.uu.se)
 Tetralith  |[Documentation](https://www.nsc.liu.se)
 Vera       |[Documentation](https://www.c3se.chalmers.se)
 
@@ -119,7 +118,7 @@ Vera       |[Documentation](https://www.c3se.chalmers.se)
 ### Exercise 0: rename yourself
 
 Please change your Zoom name to start with your HPC cluster,
-e.g. `Sven [Rackham]`. Put your name first: it is the more important
+e.g. `Sven [Tetralith]`. Put your name first: it is the more important
 information here :-)
 
 ### Exercise 1: remember a Zoom room
@@ -130,7 +129,7 @@ Ideally, each breakout room has 2 learners for the same HPC cluster.
 HPC cluster name|Main breakout room
 ----------------|------------------
 Alvis           |Room 1
-Bianca          |Room 2
+Pelle           |Room 2
 COSMOS          |Room 3
 Dardel          |Room 4
 Kebnekaise      |Room 5
