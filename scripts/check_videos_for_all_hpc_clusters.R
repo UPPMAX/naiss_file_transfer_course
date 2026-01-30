@@ -1,11 +1,8 @@
 #!/bin/env Rscript
 #
-# The goal of this script is 
-# - collect all videos
-# - to check that all Richel's sessions have videos
-#   to all the required HPC clusters
-#
-
+# The goal of this script is
+# to check that all Richel's sessions have videos
+# to all the required HPC clusters.
 
 #' Write the required clusters here
 get_required_clusters <- function() {
@@ -19,6 +16,14 @@ get_required_clusters <- function() {
   )
 }
 
+richels_sessions <- c(
+  "filezilla",
+  "login_console",
+  "login_desktop_remote_desktop_client",
+  "login_desktop_web_browser",
+  "rsync"
+)
+richels_sessions_pattern <- paste0(paste0("(", richels_sessions, ")"), collapse = "|")
 
 # Must run from root folder
 root_folder_name <- getwd()
@@ -30,6 +35,12 @@ sessions_folder_name <- paste0(root_folder_name, "/docs/sessions")
 
 session_filenames <- list.files(path = sessions_folder_name, pattern = "*.md", recursive = TRUE, full.names = TRUE)
 testthat::expect_true(length(session_filenames) > 0)
+
+session_filenames <- stringr::str_subset(session_filenames, richels_sessions_pattern)
+
+
+
+
 
 #' Extract all videos as a table
 extract_videos <- function(filename) {
@@ -66,50 +77,6 @@ check_all_required_clusters_have_a_video <- function(filename) {
 }
 
 for (i in seq_along(session_filenames)) {
-  message(i)
-  if (i == 2) next
-  if (i == 10) next
-  if (i == 11) next
-  if (i == 13) next
-  # i <- 2
   filename <- session_filenames[i]
   check_all_required_clusters_have_a_video(filename = filename)
 }
-
-# Create one table
-list_of_tables <- list()
-
-for (i in seq_along(session_filenames)) {
-  filename <- session_filenames[i]
-
-  t <- extract_videos(filename = filename)
-
-  if (stringr::str_detect(filename, "cluster2cluster")) {
-    t$cluster <- "Tetralith to Rackham"
-  }
-  if (stringr::str_detect(filename, "/scp/")) {
-    t$cluster <- "Tetralith"
-  }
-  if (stringr::str_detect(filename, "/sftp/")) {
-    t$cluster <- "Tetralith"
-  }
-  if (stringr::str_detect(filename, "/transfer_tips/")) {
-    t$cluster <- "Tetralith"
-  }
-
-  if (length(t$cluster) > 0) {
-   testthat::expect_equal(0, sum(stringr::str_count(t$cluster, "Video")))
-  }
-
-  list_of_tables[[i]] <- t
-}
-
-t <- dplyr::bind_rows(list_of_tables)
-
-# The path will be 'docs/videos.md'
-t$rel_path <- stringr::str_match(t$filename, ".*/docs/(.*)")[, 2]
-t$session_link <- paste0("[", t$session, "](", t$rel_path, ")")
-t$video_link <- paste0("[", "YouTube video", "](", t$url, ")")
-
-knitr::kable(t |> dplyr::select(session_link, cluster, video_link))
-

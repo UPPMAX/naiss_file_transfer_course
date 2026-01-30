@@ -1,23 +1,7 @@
 #!/bin/env Rscript
 #
-# The goal of this script is 
-# - collect all videos
-# - to check that all Richel's sessions have videos
-#   to all the required HPC clusters
+# The goal of this script is to collect all videos
 #
-
-
-#' Write the required clusters here
-get_required_clusters <- function() {
-  c(
-    "Alvis",
-    "COSMOS",
-    "Dardel",
-    "Kebnekaise",
-    "Pelle",
-    "Tetralith"
-  )
-}
 
 
 # Must run from root folder
@@ -47,33 +31,6 @@ extract_videos <- function(filename) {
     cluster = cluster_names,
     url = cluster_and_url[, 3]
   )
-}
-
-#' For one file.
-#' If there is a YouTube video in it, it should have a
-#' YouTube video with all HPC clusters in it.
-#' Will \link{stop} if not, with a helpful error
-check_all_required_clusters_have_a_video <- function(filename) {
-  t <- extract_videos(filename)
-  if (nrow(t) == 0) return()
-  required_clusters <- get_required_clusters()
-  for (required_cluster in required_clusters) {
-    if (! required_cluster %in% t$cluster) {
-      warning(required_cluster, " not found in ", filename)
-    }
-  }
-
-}
-
-for (i in seq_along(session_filenames)) {
-  message(i)
-  if (i == 2) next
-  if (i == 10) next
-  if (i == 11) next
-  if (i == 13) next
-  # i <- 2
-  filename <- session_filenames[i]
-  check_all_required_clusters_have_a_video(filename = filename)
 }
 
 # Create one table
