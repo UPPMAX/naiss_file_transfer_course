@@ -129,6 +129,14 @@ tags:
 - Where `<from>` is the file(s) you want to copy, and `<to>` is the destination.
 
 
+???- info "Set paths"
+
+    Example: Copy the local file ``file.txt`` in the folder ``transfer_course`` (located in the present directory) to the ``transfer_course`` folder on your cluster:
+
+    ```bash
+    scp transfer_course/file.txt <username>@<cluster adress>:~/transfer_course/
+    ```
+
 ???- example "Example for Tetralith"
 
     This is how you copy a file **from your local computer** directly to your HOME folder (~/):
@@ -146,14 +154,6 @@ tags:
 
     - If asked, give your center's password, and possibly, 2nd-factor 6-digit code.
     - You can get rid of this prompt if you have setup SSH keys
-
-???- info "Set paths"
-
-    Copy a file **from your local computer** to the cluster:
-
-    ```bash
-    scp <local_file/folder> <username>@<cluster adress>:<path-to-folder/>
-    ```
 
 ## Large or many files
 
@@ -188,7 +188,7 @@ tags:
 
     - Archive and compress a **folder** with many large files
 
-        ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder/``
+        ``tar -czf manylargefiles_folder.tar.gz manylargefiles_folder``
 
     - Transfer data
 
