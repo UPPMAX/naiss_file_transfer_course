@@ -50,7 +50,7 @@ tags:
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
 9:00  |R      |[Intro to 'Connect'](sessions/intro_connect/README.md)
-.     |R      |[Login to desktop environment via a web browser](sessions/login_desktop_web browser/README.md)
+.     |R      |[Login to desktop environment via a web browser](sessions/login_desktop_web_browser/README.md)
 .     |R      |[Login to console environment](sessions/login_console/README.md)
 .     |R      |(optional) [Login to desktop environment via ThinLinc](sessions/login_desktop_thinlinc/README.md)
 9:50  |.      |Break

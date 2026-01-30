@@ -44,7 +44,7 @@ tags:
 
 ## What is a remote desktop environment?
 
-![A remote desktop environment, accessed via a web browser](desktop_web browser.png)
+![A remote desktop environment, accessed via a web browser](desktop_web_browser.png)
 
 > A remote desktop environment, accessed via a web browser
 
