@@ -38,14 +38,14 @@
         Connection from Tetralith:
 
         ```console
-        [sm_bcarl@tetralith3 ~]$ sftp bjornc@rackham.uppmax.uu.se
-        The authenticity of host 'rackham.uppmax.uu.se (89.44.250.84)' can't be established.
-        ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
+        [sm_bcarl@tetralith3 ~]$ sftp bjornc@pelle.uppmax.uu.se
+        The authenticity of host 'pelle.uppmax.uu.se (89.44.250.166)' can't be established.
+        ECDSA key fingerprint is SHA256:1ooqfYQ4sFTxFlk4WxYWb4pUb178JOTKsaX9dpWruHU.
         This key is not known by any other names
         Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-        Warning: Permanently added 'rackham.uppmax.uu.se' (ECDSA) to the list of known hosts.
-        bjornc@rackham.uppmax.uu.se's password:
-        Connected to rackham.uppmax.uu.se.
+        Warning: Permanently added 'pelle.uppmax.uu.se' (ECDSA) to the list of known hosts.
+        bjornc@pelle.uppmax.uu.se's password:
+        Connected to pelle.uppmax.uu.se.
         ```
 
         - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
