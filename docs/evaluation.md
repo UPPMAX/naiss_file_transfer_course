@@ -60,6 +60,8 @@ This is the page for evaluating the current iteration of the course.
     - (optional) I can compress and archive files before transferring
     - (optional) I can transfer files between clusters
 
+<!--
+
     Say something positive about Björn:
 
     ```text
@@ -83,6 +85,8 @@ This is the page for evaluating the current iteration of the course.
     ```text
     [Empty paragraph]
     ```
+
+-->
 
     Any other feedback?
 
