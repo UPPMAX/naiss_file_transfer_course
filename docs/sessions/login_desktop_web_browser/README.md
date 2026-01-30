@@ -82,7 +82,7 @@ Because you've probably already installed one :-)
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
     LUMI       |Not needed yet
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
-    Tetralith  |This is not possible
+    Tetralith  |[YouTube video showing that this is impossible](https://youtu.be/orcA9zXkHWs)
 
     <!-- markdownlint-enable MD013 -->
 
