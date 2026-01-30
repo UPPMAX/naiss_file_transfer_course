@@ -171,7 +171,7 @@ Probably: yes
 - Using a local ThinLinc client: yes
 - Using Remmina: yes
 - Using `krdp`: yes
- 
+
 ## How to install MobaXterm?
 
 This is for **Windows** users only.
@@ -363,7 +363,6 @@ Dardel     |No
 Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |No
 Pelle      |No
-Rackham    |Yes
 Tetralith  |No
 Vera       |Unknown, as this is not a NAISS cluster
 

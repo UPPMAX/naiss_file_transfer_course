@@ -258,7 +258,8 @@ tags:
 
         - ``$ ls ~/transfer``
 
-        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
+
+        - [Video for Tetralith](https://youtu.be/rvL-s5vi13I)
 
 ???- question "Exercise 2: Download a file from the server to your computer, using scp"
 
@@ -277,8 +278,9 @@ tags:
 
         Check locally that it is there
 
+        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
-???- question "(Optional) Exercise 1: Download a directory with many files"
+???- question "(Optional) Exercise 3: Download a directory with many files"
 
     Tips
 
@@ -295,7 +297,7 @@ tags:
 
         - [Video for Tetralith](https://youtu.be/Q5fOpHetgcU)
 
-???- question "(Optional) Exercise 2: Test the difference between transferring one or several files (using scp)"
+???- question "(Optional) Exercise 4: Test the difference between transferring one or several files (using scp)"
 
     Tips
 
@@ -322,13 +324,11 @@ tags:
 
         - ``time scp -r sm_bcarl@tetralith.nsc.liu.se:~/transfer/many_files .`` - note the ``-r`` for recursive and including files in the folder.
         - ``time scp sm_bcarl@tetralith.nsc.liu.se:~/transfer/many_files.tar .``
+        - Check it is there locally
+            - ``$ ls``
+            - (or in the File explorer)
 
         - [Video for Tetralith](https://youtu.be/UPnbnfTYHAQ)
-
-        - ``$ ls``
-        - (or in the File explorer)
-
-        - [Video for Tetralith](https://youtu.be/iErrwxxwrX0)
 
 ## Extra
 
