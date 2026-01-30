@@ -60,34 +60,6 @@ This is the page for evaluating the current iteration of the course.
     - (optional) I can compress and archive files before transferring
     - (optional) I can transfer files between clusters
 
-<!--
-
-    Say something positive about Björn:
-
-    ```text
-    [Empty paragraph]
-    ```
-
-    Say something about Björn he can improve:
-
-    ```text
-    [Empty paragraph]
-    ```
-
-    Say something positive about Richèl:
-
-    ```text
-    [Empty paragraph]
-    ```
-
-    Say something about Richèl he can improve:
-
-    ```text
-    [Empty paragraph]
-    ```
-
--->
-
     Any other feedback?
 
     ```text
