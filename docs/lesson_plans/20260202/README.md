@@ -84,7 +84,6 @@ Pelle      |2  |4
 - [ ] Create videos:
 
 ```text
-Dardel not found in login_console/README.md
 Dardel not found in login_desktop_web_browser/README.md
 Alvis not found in login_desktop_thinlinc/README.md
 COSMOS not found in login_desktop_web_browser/README.md

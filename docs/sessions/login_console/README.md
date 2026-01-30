@@ -97,6 +97,7 @@ Some SSH clients can run from a terminal or vice versa.
     Alvis      |[YouTube video](https://youtu.be/PJZ3W907qCU)
     Bianca     |[YouTube video](https://youtu.be/7mKDxnXqi_M)
     COSMOS     |[YouTube video](https://youtu.be/sMsenzWERTg)
+    Dardel     |[YouTube video](https://youtu.be/cw9uPHnKKuk)
     Kebnekaise |[YouTube video](https://youtu.be/pIiKOKBHIeY)
     LUMI       |[YouTube video](https://youtu.be/bPdvn2gajgU)
     Pelle      |[YouTube video](https://youtu.be/zsw3QD_NinU)
@@ -104,7 +105,6 @@ Some SSH clients can run from a terminal or vice versa.
     Tetralith  |[YouTube video](https://youtu.be/wtGIzSBiulY)
 
     <!-- markdownlint-enable MD013 -->
-
 
 ???- question "How difficult will this be?"
 
