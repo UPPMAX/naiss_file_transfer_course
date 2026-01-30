@@ -91,13 +91,13 @@ Tetralith  |ThinLinc
 
 Here, we log in to your HPC cluster's remote desktop environment.
 
-### Exercise 1: login using a local ThinLinc client
+### Exercise 1: login using a remote desktop client
 
 Go to the documentation of your HPC center,
 then answer these questions:
 
 - Find the page about how to login to your HPC cluster's remote desktop
-  environment using a local ThinLinc client
+  environment using a remote desktop client
 
 ???- question "I cannot find it. Where is it?"
 
@@ -115,4 +115,4 @@ then answer these questions:
 
     <!-- markdownlint-enable MD013 -->
 
-- Log in to your HPC cluster using a local ThinLinc client
+- Log in to your HPC cluster using a remote desktop client
