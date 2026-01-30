@@ -105,7 +105,7 @@ then answer these questions:
 
     HPC cluster|Documentation
     -----------|---------------------------------------------------------------------------------------------------------
-    Alvis      |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/remote_graphics/#rdp-support)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/software/thinlinc_on_bianca/)
     COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/)
     Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/contact/contact_support/?sub=login/interactive_hpc/)
