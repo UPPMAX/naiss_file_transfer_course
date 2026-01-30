@@ -78,6 +78,11 @@ tags:
 
 **SCP is an abbreviation for ``Secure Copy Protocol``**
 
+??? question "Prior questions"
+
+    - Who has heard of `scp`?
+    - Who has already used `scp`?
+
 !!! note "Pros"
 
     - Simple
@@ -105,10 +110,6 @@ tags:
     - Some Windows users may need to use ``pscp`` instead of `scp`.
     - The syntax is however the same in general.
 
-??? question "Prior questions"
-
-    - Who has heard of `scp`?
-    - Who has already used `scp`?
 
 ## Procedure
 
@@ -130,13 +131,13 @@ tags:
 
 ???- example "Example for Tetralith"
 
-    This is how you copy a file from your local computer directly to your HOME folder (~/):
+    This is how you copy a file **from your local computer** directly to your HOME folder (~/):
 
     ```bash
     scp my_file.txt x_nisse@tetralith.nsc.liu.se:~/
     ```
 
-    To copy a file from Tetralith to your local computer (and present folder),
+    To copy a file **from Tetralith** to your local computer (and present folder),
     do the command above in reverse order:
 
     ```bash
