@@ -104,7 +104,7 @@ Because you've probably already installed one :-)
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
     Pelle      |Medium    |Uses password, uses 2FA
-    Tetralith  |Easy      |Uses password
+    Tetralith  |Impossible|Cannot access Tetralith via a web browser
     Vera       |Easy      |Uses password
 
     <!-- markdownlint-enable MD013 -->
@@ -154,7 +154,7 @@ then answer these questions:
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     LUMI       |Not needed yet
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)
-    Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Tetralith  |[Documentation that does not mention this](https://www.nsc.liu.se/support/2fa/clients/thinlinc/)
 
     <!-- markdownlint-enable MD013 -->
 
