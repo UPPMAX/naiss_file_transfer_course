@@ -31,7 +31,7 @@
     - Transfer a file between the clusters
     - Check that it is there!
 
-    ???- tip "Answer (Example with Tetralith to Rackham , using sftp)"
+    ???- tip "Answer (Example with Tetralith to Pelle , using sftp)"
 
         Same principles as we learned before!
 
@@ -50,4 +50,4 @@
 
         - Proceed with ``put`` if you want to transfer from Tetralith (now local) to Rackham (remote)
 
-        - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
+   - [Video for Tetralith to Rackham](https://youtu.be/KwpVhxnRDQc)
