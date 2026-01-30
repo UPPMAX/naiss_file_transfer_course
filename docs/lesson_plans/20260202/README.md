@@ -83,8 +83,8 @@ Pelle      |2  |4
 
 - [ ] Create videos:
     - [Remote desktop via web browser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/)
-        - COSMOS
-        - Dardel
+        - [ ] COSMOS
+        - Dardel: not needed
         - Tetralith
     - [Remote desktop via ThinLinc](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_thinlinc/)
         - Alvis

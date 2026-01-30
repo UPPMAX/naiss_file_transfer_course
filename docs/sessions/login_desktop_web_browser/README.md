@@ -128,7 +128,8 @@ then answer these questions:
     -----------|---------------------------------------------------------------------------------------------------
     Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/remote_graphics/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_remote_desktop_website/)
-    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/dardel/faq/faq/#does-dardel-have-a-desktop-environment-that-can-be-accessed-from-a-web-browser)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/#accessing-the-lunarc-hpc-desktop-from-a-web-browser)
+    Dardel     |[Documentation which states that this is impossible](https://menzzana.github.io/NAISS-support-web/dardel/faq/faq/#does-dardel-have-a-desktop-environment-that-can-be-accessed-from-a-web-browser)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
