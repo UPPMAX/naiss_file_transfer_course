@@ -363,7 +363,6 @@ Dardel     |No
 Kebnekaise |Unknown, as this is not a NAISS cluster
 LUMI       |No
 Pelle      |No
-Rackham    |Yes
 Tetralith  |No
 Vera       |Unknown, as this is not a NAISS cluster
 
