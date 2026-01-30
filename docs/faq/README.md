@@ -89,7 +89,12 @@ of days.
 
 When it doubt, register again or send an email :-)
 
+
 ### How to find the course's Zoom room?
+
+The course's Zoom room will be emailed to you.
+
+<!--
 
 ???- question "Want to see this in a video?"
 
@@ -129,6 +134,8 @@ HPC cluster|Path to folder
 -----------|--------------
 Dardel     |`/cfs/klemming/projects/supr/transfer_course/zoom_url.txt`
 Tetralith  |`/proj/transfer_course/zoom_url.txt`
+
+-->
 
 ### How can I check if I have a NAISS account?
 
