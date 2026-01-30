@@ -211,7 +211,7 @@ tags:
     - Search for how to transfer files to/from your HPC cluster using `scp`. At which URL is it described?
         - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
 
-            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp).
+            - If the center maintaining you HPC cluster has not documented how to use `scp`, follow [the UPPMAX documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp).
 
 ???- question "Where is that documentation?"
 
@@ -225,7 +225,6 @@ tags:
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#scp)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/movingdata/#copying-files-with-scp)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |[Documentation](https://www.c3se.chalmers.se/documentation/file_transfer/).
 
