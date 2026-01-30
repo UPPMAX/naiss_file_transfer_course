@@ -196,7 +196,9 @@ then answer these questions:
 Go to the documentation of your HPC center,
 then answer these questions:
 
-- Find the page about how to login to your HPC cluster via SSH and a password
+- Find the page about how to login to the console evnvironment of your
+  HPC cluster via SSH. Use a password when having the option to choose
+  between using a password and using an SSH key
 
 ???- question "I cannot find it. Where is it?"
 
