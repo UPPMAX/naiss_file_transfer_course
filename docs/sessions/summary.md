@@ -6,6 +6,17 @@ tags:
 
 # Summary
 
+Here is an over of the ways to connect to an HPC cluster,
+as discussed in this course:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Feature                                | Desktop, web browser                            | Console                             | Desktop, program
+---------------------------------------|-------------------------------------------------|-------------------------------------|----------------------------------------
+Example screenshot                     |![Desktop, web browser](desktop_web_browser.png) |![Console](console_big.png)          |![Desktop, program](desktop_program.png)
+
+<!-- markdownlint-enable MD013 -->
+
 Here is a summary of the file transfer tools discussed in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->

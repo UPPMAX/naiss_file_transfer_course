@@ -76,6 +76,6 @@ Total      |46 |100
         - Tetralith
     - [Remote desktop via ThinLinc](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_thinlinc/)
         - Alvis
-- [ ] Update learning outcomes
+- [x] Update learning outcomes
 - [ ] Update forms
 - [ ] Update summary

@@ -15,3 +15,14 @@ hence the pace is determined be the learners (i.e. not by the clock).
 - (optional) I can transfer data using `sftp`
 - (optional) I can compress and archive files before transferring
 - (optional) I can transfer files between clusters
+
+Non-goals:
+
+- Practice using a Linux file system
+- Practice using Bash
+- Practice writing scripts
+- Practice submitting jobs
+
+For these non-goals,
+you can find an overview of
+courses at [the SCoRe user documentation](https://docs.score.nbis.se/courses/).
