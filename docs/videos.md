@@ -1,5 +1,7 @@
 # Videos
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | Session                                                                                                              | HPC cluster | YouTube video                                 |
 |-:--------------------------------------------------------------------------------------------------------------------|-:-----------|-:---------------------------------------------|
 | [File transfer using FileZilla](sessions/filezilla/README.md)                                                        | Alvis       | [YouTube video](https://youtu.be/A8zfd0o0uzI) |
@@ -40,3 +42,4 @@
 | [File transfer using `rsync`](sessions/rsync/README.md)                                                              | Pelle       | [YouTube video](https://youtu.be/mEo4mfSmpp0) |
 | [File transfer using `rsync`](sessions/rsync/README.md)                                                              | Tetralith   | [YouTube video](https://youtu.be/3-OF8nkCdtM) |
 
+<!-- markdownlint-enable MD013 -->
