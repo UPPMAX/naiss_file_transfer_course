@@ -134,7 +134,7 @@ In `sftp` session, go to right folders and upload/download files to/from the ser
 
     - Search for how to transfer files to/from your HPC cluster using `scp`. Which URL is it described?
     - Tip: not all HPC centers have documented this, so you *should* give up searching after a while.
-    - If the center maintaining you HPC cluster has not documented how to use `sftp`, follow [the Pelle documentation](https://docs.uppmax.uu.se/software/Pelle_file_transfer_using_sftp).
+    - If the center maintaining you HPC cluster has not documented how to use `sftp`, follow [the Pelle documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_sftp).
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
