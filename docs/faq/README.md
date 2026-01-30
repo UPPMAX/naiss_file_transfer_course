@@ -149,54 +149,24 @@ When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
 ### How can I check if I can login to an HPC cluster using SSH?
 
-This depends on the HPC cluster you are using.
+By doing so :-)
 
-???- question "How does that look like on UPPMAX's Rackham?"
-
-    For UPPMAX's Rackham, it look similar to this:
-
-    ![Logged into Rackham](rackham_logged_in.png)
+The material to do so can be found at
+[the session 'Login to a console environment'](../sessions/login_console/README.md).
 
 ### How can I login to an HPC cluster?
 
-Follow the instructions of your favorite HPC center
-or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
+By doing so :-)
 
-Below is an overview with documentation and videos.
-For beginners: use the **bold** login method.
-
-<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-
-HPC cluster|Login method             |Documentation                                                                                                |YouTube video
------------|-------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------
-Alvis      |SSH                      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/ssh/)                                  |[YouTube video](https://youtu.be/PJZ3W907qCU)
-Alvis      |**Website**              |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/remote_graphics/)                      |[YouTube video](https://youtu.be/KO98JvEB2oc)
-Bianca     |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)                    |[YouTube video](https://youtu.be/7mKDxnXqi_M)
-Bianca     |Website                  |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_remote_desktop_website/)              |[YouTube video](https://youtu.be/Ni9nyCf7me8)
-COSMOS     |**Local ThinLinc client**|[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/)    |[YouTube video](https://youtu.be/wn7TgElj_Ng)
-COSMOS     |SSH                      |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)          |[YouTube video](https://youtu.be/sMsenzWERTg)
-Dardel     |Local ThinLinc client    |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/interactive_hpc/)          |[YouTube video](https://youtu.be/qgI2SigIuCk)
-Dardel     |**SSH**                  |[Documentation](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/ssh_login/)                |[YouTube video](https://youtu.be/I8cNqiYuA-4)
-Kebnekaise |Local ThinLinc client    |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/_jpj0GW9ASc)
-Kebnekaise |SSH                      |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/pIiKOKBHIeY)
-Kebnekaise |**Website**              |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)                                             |[YouTube video](https://youtu.be/_O4dQn8zPaw)
-LUMI       |SSH                      |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)                                    |[YouTube video](https://youtu.be/bPdvn2gajgU)
-Pelle      |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)                     |[YouTube video](https://youtu.be/zsw3QD_NinU)
-Pelle      |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/) |[YouTube video](https://youtu.be/0rVy83X89Go)
-Pelle      |**Website**              |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)               |[YouTube video](https://youtu.be/XjLMA0cAu1o)
-Rackham    |Local ThinLinc client    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)                   |[YouTube video](https://youtu.be/PqEpsn74l0g)
-Rackham    |SSH                      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)|[YouTube video](https://youtu.be/TSVGSKyt2bQ)
-Rackham    |**Website**              |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)             |[YouTube video](https://youtu.be/HQ2iuKRPabc)
-Tetralith  |**Local ThinLinc client**|[Documentation](https://www.nsc.liu.se/support/graphics/)                                                    |[YouTube video](https://youtu.be/JsHzQSFNGxY)
-Tetralith  |SSH                      |[Documentation](https://www.nsc.liu.se/support/getting-started/)                                             |[YouTube video](https://youtu.be/wtGIzSBiulY)
-
-<!-- markdownlint-enable MD013 -->
+There are multiple ways to login to an HPC cluster.
+The material to help you choose can be found at
+[the session 'Connect'](../sessions/intro_connect/README.md).
 
 ### Is it OK if I can login to an HPC cluster using other methods?
 
 Probably: yes
 
-- Using a website: yes
+- Using a web browser: yes
 - Using a local ThinLinc client: yes
 
 ## How to install MobaXterm?
@@ -232,10 +202,10 @@ brew rsync
 
 ### Windows
 
-- Try ``rsync`` from MobaXterm.
-- If you haven't got MobaXterm, type ``cmd`` in the _Windows Search window_
+- Try `rsync` from MobaXterm.
+- If you haven't got MobaXterm, type `cmd` in the _Windows Search window_
   and start **Windows Command Prompt**.
-    - Try ``rsync`` from here.
+    - Try `rsync` from here.
 
 ??? attention "Still doesn't work?"
 
