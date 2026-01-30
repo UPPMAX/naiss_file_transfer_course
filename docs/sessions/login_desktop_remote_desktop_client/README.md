@@ -8,13 +8,13 @@ tags:
   - ThinLinc
 ---
 
-# Login to a desktop environment via ThinLinc
+# Login to a desktop environment via a remote desktop client
 
 !!!- info "Learning outcomes"
 
     - Practice using the documentation of your HPC center
     - Can log in to a remote desktop environment
-      using a local ThinLinc client
+      using a remote desktop client
 
 ???- question "For teachers"
 
@@ -22,28 +22,29 @@ tags:
 
     - Learners have practiced using the documentation of their HPC cluster
     - Learners can log in to a remote desktop environment
-      using a local ThinLinc client
+      using a remote desktop client
 
-## What is ThinLinc?
+## What is A remote desktop client?
 
 ![A remote desktop environment, accessed via a local ThinLinc client](desktop_program.png)
 
 > A remote desktop environment, accessed via a local ThinLinc client
 
-ThinLinc is the program we run **locally** to access the remote desktop
-environment. We use the ThinLinc **client**, as we want to access
-something (i.e. we are not providing access to others).
+A remote desktop client is a program we run on our local computer
+to access a remote desktop environment.
 
-???- question "Why is this precise terminology important?"
+Depending on your HPC cluster, there may be a different
+remote desktop client being recommended.
 
-    This precise terminology may be important when talking to your colleagues:
-    the remote desktop environment accessed via a web browser
-    uses a **remote** ThinLinc **client**,
-    connecting to the **remote** ThinLinc **server**.
-
-    In other words, if a colleague states he/she use ThinLinc for login,
-    it is unclear if a local ThinLinc client is used, or that he/she used
-    a web browser.
+HPC cluster|Remote desktop client
+-----------|---------------------
+Alvis      |Remmina, `krdp`
+Bianca     |None
+COSMOS     |ThinLinc
+Dardel     |ThinLinc
+Kebnekaise |ThinLinc
+Pelle      |ThinLinc
+Tetralith  |ThinLinc
 
 ## Exercises
 

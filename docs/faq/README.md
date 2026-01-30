@@ -167,8 +167,11 @@ The material to help you choose can be found at
 Probably: yes
 
 - Using a web browser: yes
+- Using a remote desktop client: yes
 - Using a local ThinLinc client: yes
-
+- Using Remmina: yes
+- Using `krdp`: yes
+ 
 ## How to install MobaXterm?
 
 This is for **Windows** users only.

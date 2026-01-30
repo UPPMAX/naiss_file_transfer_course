@@ -8,7 +8,7 @@ hence the pace is determined be the learners (i.e. not by the clock).
 - I am comfortable using the documentation of my HPC center
 - I can log in to my favorite HPC cluster using a web browser
 - I can log in to my favorite HPC cluster using SSH
-- (optional) I can log in to my favorite HPC cluster using a local ThinLinc client
+- (optional) I can log in to my favorite HPC cluster using a remote desktop client
 - I can transfer data using `scp`
 - I can transfer data using FileZilla
 - (optional) I can transfer data using `rscync`

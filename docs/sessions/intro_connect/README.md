@@ -52,7 +52,7 @@ flowchart TD
   account[1. Account for HPC cluster]:::always
   login_desktop_website_no[2a. Login to desktop environment from a website]:::always
   login_console_no[3a. Login to console environment]:::always
-  login_desktop_tool_no[4. Login to desktop environment using ThinLinc]:::optional
+  login_desktop_tool_no[4. Login to desktop environment using a remote desktop client]:::optional
 
   login_console_yes[3b. Login to console environment]:::always
   login_desktop_tool_yes[2b. Login to desktop environment using ThinLinc]:::always
