@@ -69,7 +69,7 @@ Pelle      |2  |4
 Tetralith  |7  |15
 Total      |46 |100
 
-Sortage percentage wise:
+Sorting percentage wise:
 
 HPC cluster|`n`|Percentage
 -----------|---|----------
