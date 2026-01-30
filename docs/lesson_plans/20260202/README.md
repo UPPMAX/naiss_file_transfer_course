@@ -90,7 +90,6 @@ Alvis not found in login_desktop_thinlinc/README.md
 COSMOS not found in login_desktop_web_browser/README.md
 Tetralith not found in login_desktop_web_browser/README.md
 Kebnekaise not found in rsync/README.md
-Kebnekaise not found in filezilla/README.md
 ```
 
 - [x] Update learning outcomes

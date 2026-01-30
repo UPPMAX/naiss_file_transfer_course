@@ -77,7 +77,7 @@ It works under Linux, Mac and Windows.
     Bianca     |[YouTube video](https://youtu.be/DYPWawyK5UE)
     COSMOS     |[YouTube video](https://youtu.be/T4qqN_ljsS8)
     Dardel     |[YouTube video](https://youtu.be/_3EmkN619Xo)
-    Kebnekaise |TODO
+    Kebnekaise |[YouTube video](https://youtu.be/ot8TQRVaNPY)
     LUMI       |[YouTube video](https://youtu.be/PjzMuMIyj40)
     Pelle      |[YouTube video](https://youtu.be/NOHYNj1vW28)
     Rackham    |[YouTube video](https://youtu.be/CyJbWHZbvJU)
