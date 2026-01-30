@@ -171,7 +171,7 @@ Probably: yes
 - Using a local ThinLinc client: yes
 - Using Remmina: yes
 - Using `krdp`: yes
- 
+
 ## How to install MobaXterm?
 
 This is for **Windows** users only.
