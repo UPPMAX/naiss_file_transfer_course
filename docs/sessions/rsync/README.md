@@ -99,9 +99,29 @@ It works under Linux, Mac and Windows.
 
     <!-- markdownlint-enable MD013 -->
 
+???- question "Where is the documentation of my favorite HPC cluster?"
+
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Documentation
+    -----------|------------
+    Alvis      |[Documentation](https://www.c3se.chalmers.se)
+    Berzelius  |[Documentation](https://www.nsc.liu.se)
+    Bianca     |[Documentation](https://docs.uppmax.uu.se)
+    COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web)
+    Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
+    LUMI       |[Documentation](https://docs.csc.fi)
+    Pelle      |[Documentation](https://docs.uppmax.uu.se)
+    Rackham    |[Documentation](https://docs.uppmax.uu.se)
+    Tetralith  |[Documentation](https://www.nsc.liu.se)
+    Vera       |[Documentation](https://www.c3se.chalmers.se)
+
+    <!-- markdownlint-enable MD013 -->
+
 ### Exercise 1: transfer a file
 
-Use the documentation of your HPC cluster.
+Use the documentation of your favorite HPC cluster.
 
 - **For maximally 5 minutes**, search for how to transfer files
   to/from your HPC cluster
