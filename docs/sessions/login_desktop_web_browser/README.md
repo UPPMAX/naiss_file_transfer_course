@@ -80,6 +80,7 @@ Because you've probably already installed one :-)
     COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
     Dardel     |Impossible: cannot access Dardel via a web browser
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
+    LUMI       |Not needed yet
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
     Rackham    |[YouTube video](https://youtu.be/HQ2iuKRPabc)
     Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
@@ -131,6 +132,7 @@ then answer these questions:
     COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/#accessing-the-lunarc-hpc-desktop-from-a-web-browser)
     Dardel     |[Documentation which states that this is impossible](https://menzzana.github.io/NAISS-support-web/dardel/faq/faq/#does-dardel-have-a-desktop-environment-that-can-be-accessed-from-a-web-browser)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
+    LUMI       |Not needed yet
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
     Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)

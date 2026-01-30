@@ -82,12 +82,17 @@ Pelle      |2  |4
 
 
 - [ ] Create videos:
-    - [Remote desktop via web browser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/)
-        - [ ] COSMOS
-        - Dardel: not needed
-        - Tetralith
-    - [Remote desktop via ThinLinc](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_thinlinc/)
-        - Alvis
+
+```text
+Dardel not found in login_console/README.md
+Dardel not found in login_desktop_web_browser/README.md
+Alvis not found in login_desktop_thinlinc/README.md
+COSMOS not found in login_desktop_web_browser/README.md
+Tetralith not found in login_desktop_web_browser/README.md
+Kebnekaise not found in rsync/README.md
+Kebnekaise not found in filezilla/README.md
+```
+
 - [x] Update learning outcomes
 - [ ] Update forms
 - [ ] Update summary
