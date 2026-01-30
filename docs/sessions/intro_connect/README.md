@@ -48,15 +48,23 @@ flowchart TD
   classDef always stroke:#000,stroke-width:4px;
   classDef optional stroke:#000,stroke-width:1px;
 
-  account[0. Account for HPC cluster]:::always
-  login_desktop_website[1. Login to desktop environment from a website]:::always
-  login_console[2. Login to console environment]:::always
-  login_desktop_tool[3. Login to desktop environment using a tool]:::optional
+  use_dardel(Use Dardel?)
+  account[1. Account for HPC cluster]:::always
+  login_desktop_website_no[2a. Login to desktop environment from a website]:::always
+  login_console_no[3a. Login to console environment]:::always
+  login_desktop_tool_no[4. Login to desktop environment using ThinLinc]:::optional
+
+  login_console_yes[3b. Login to console environment]:::always
+  login_desktop_tool_yes[2b. Login to desktop environment using ThinLinc]:::always
 
 
-  account --> login_desktop_website
-  login_desktop_website --> login_console
-  login_console --> login_desktop_tool
+  account --> use_dardel
+  use_dardel--> |No| login_desktop_website_no
+  login_desktop_website_no --> login_console_no
+  login_console_no --> login_desktop_tool_no
+
+  use_dardel--> |Yes| login_desktop_tool_yes
+  login_desktop_tool_yes --> login_console_yes
 ```
 
 As per [prerequisites](../../prereqs/README.md):
@@ -88,7 +96,7 @@ Alvis      |[Documentation](https://www.c3se.chalmers.se)
 Berzelius  |[Documentation](https://www.nsc.liu.se)
 Bianca     |[Documentation](https://docs.uppmax.uu.se)
 COSMOS     |[Documentation](https://lunarc-documentation.readthedocs.io)
-Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/)
+Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/dardel/login/login/)
 Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/)
 LUMI       |[Documentation](https://docs.csc.fi)
 Pelle      |[Documentation](https://docs.uppmax.uu.se)

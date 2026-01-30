@@ -78,7 +78,7 @@ Because you've probably already installed one :-)
     Alvis      |[YouTube video](https://youtu.be/KO98JvEB2oc)
     Bianca     |[YouTube video](https://youtu.be/Ni9nyCf7me8)
     COSMOS     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
-    Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Dardel     |Impossible: cannot access Dardel via a web browser
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
     Rackham    |[YouTube video](https://youtu.be/HQ2iuKRPabc)
@@ -100,7 +100,7 @@ Because you've probably already installed one :-)
     Berzelius  |Easy      |Uses password
     Bianca     |Medium    |Uses password, must be in SUNET
     COSMOS     |Easy      |Uses password
-    Dardel     |Medium    |Uses SSH keys
+    Dardel     |Impossible|Cannot access Dardel via a web browser
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
     Pelle      |Medium    |Uses password, uses 2FA
@@ -128,7 +128,7 @@ then answer these questions:
     -----------|---------------------------------------------------------------------------------------------------
     Alvis      |[Documentation](https://www.c3se.chalmers.se/documentation/connecting/remote_graphics/)
     Bianca     |[Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_remote_desktop_website/)
-    Dardel     |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
+    Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/dardel/faq/faq/#does-dardel-have-a-desktop-environment-that-can-be-accessed-from-a-web-browser)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)
     Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
