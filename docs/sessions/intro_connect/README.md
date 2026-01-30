@@ -69,7 +69,7 @@ Here is an overview of the ways to login in this course:
 
 Feature                                | Desktop, web browser                            | Console                             | Desktop, program
 ---------------------------------------|-------------------------------------------------|-------------------------------------|----------------------------------------
-Example screenshot                     |![Desktop, web browser](desktop_web_browser.png) |![Console](console_big.png)          |![Desktop, program](desktop_program.png)
+Example screenshot                     |![Desktop, web browser](desktop_web_browser.png) |![Console](console.png)              |![Desktop, program](desktop_program.png)
 Summary                                | Familiar to most                                | Less familiar to most               | Familiar to most
 Type of user interface                 | Graphical                                       | Terminal                            | Graphical
 Installation needed?                   | Unlikely                                        | Likely                              | Most likely

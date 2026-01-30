@@ -69,6 +69,18 @@ Pelle      |2  |4
 Tetralith  |7  |15
 Total      |46 |100
 
+Sortage percentage wise:
+
+HPC cluster|`n`|Percentage
+-----------|---|----------
+Dardel     |17 |37
+Alvis      |8  |17
+COSMOS     |7  |15
+Tetralith  |7  |15
+Kebnekaise |5  |11
+Pelle      |2  |4
+
+
 - [ ] Create videos:
     - [Remote desktop via web browser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/)
         - COSMOS
