@@ -1,5 +1,7 @@
 # Videos
 
+These are all the videos of all this course's sessions, per HPC cluster.
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 | Session                                                                                                              | HPC cluster(s)       | YouTube video                                 |
