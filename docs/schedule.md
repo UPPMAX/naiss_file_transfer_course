@@ -45,6 +45,7 @@ tags:
     11:50 |R      |[Evaluation](evaluation.md)
     12:00 |.      |Done!
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Time  |Teacher|Topic
 ------|-------|-------------------------------------------------
@@ -64,5 +65,7 @@ Time  |Teacher|Topic
 11:45 |R      |[Summary](sessions/summary.md)
 11:50 |R      |[Evaluation](evaluation.md)
 12:00 |.      |Done!
+
+<!-- markdownlint-enable MD013 -->
 
 - Teachers are: `B`: Björn Claremar, `R`: Richèl Bilderbeek

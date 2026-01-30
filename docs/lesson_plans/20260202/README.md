@@ -70,11 +70,12 @@ Tetralith  |7  |15
 Total      |46 |100
 
 - [ ] Create videos:
-    - [Remote desktop via web browser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web browser/)
+    - [Remote desktop via web browser](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/)
         - COSMOS
         - Dardel
         - Tetralith
     - [Remote desktop via ThinLinc](https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_thinlinc/)
         - Alvis
-- [ ] Update learning outcomes, forms, summary
-
+- [ ] Update learning outcomes
+- [ ] Update forms
+- [ ] Update summary
