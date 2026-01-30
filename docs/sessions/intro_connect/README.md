@@ -67,14 +67,14 @@ Here is an overview of the ways to login in this course:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Feature                                | Desktop, webbrowser                            | Console                             | Desktop, program
+Feature                                | Desktop, web browser                            | Console                             | Desktop, program
 ---------------------------------------|------------------------------------------------|-------------------------------------|----------------------------------------
-Example screenshot                     |![Desktop, webbrowser](desktop_webbrowser.png)  |![Console](console_big.png)          |![Desktop, program](desktop_program.png)
+Example screenshot                     |![Desktop, web browser](desktop_web browser.png)  |![Console](console_big.png)          |![Desktop, program](desktop_program.png)
 Summary                                | Familiar to most                               | Less familiar to most               | Familiar to most
 Type of user interface                 | Graphical                                      | Terminal                            | Graphical
 Installation needed?                   | Unlikely                                       | Likely                              | Most likely
-Program used                           | Any webbrowser                                 | Any SSH agent                       | ThinLinc
-Course session                         |[Session](../login_desktop_webbrowser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_thinlinc/README.md)
+Program used                           | Any web browser                                 | Any SSH agent                       | ThinLinc
+Course session                         |[Session](../login_desktop_web browser/README.md)|[Session](../login_console/README.md)|[Session](../login_desktop_thinlinc/README.md)
 
 <!-- markdownlint-enable MD013 -->
 

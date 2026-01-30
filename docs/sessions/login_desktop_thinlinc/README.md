@@ -37,13 +37,13 @@ something (i.e. we are not providing access to others).
 ???- question "Why is this precise terminology important?"
 
     This precise terminology may be important when talking to your colleagues:
-    the remote desktop environment accessed via a webbrowser
+    the remote desktop environment accessed via a web browser
     uses a **remote** ThinLinc **client**,
     connecting to the **remote** ThinLinc **server**.
 
     In other words, if a colleague states he/she use ThinLinc for login,
     it is unclear if a local ThinLinc client is used, or that he/she used
-    a webbrowser.
+    a web browser.
 
 ## Exercises
 

@@ -10,7 +10,7 @@ nav:
   - Schedule: schedule.md
   - Connect:
     - sessions/intro_connect/README.md
-    - sessions/login_desktop_webbrowser/README.md
+    - sessions/login_desktop_web_browser/README.md
     - sessions/login_console/README.md
     - sessions/login_desktop_thinlinc/README.md
   - File transfer:

@@ -5,7 +5,7 @@ tags:
   - log in
   - remote desktop
   - website
-  - webbrowser
+  - web browser
   - browser
   - Firefox
   - Opera
@@ -13,13 +13,13 @@ tags:
   - Chromium
 ---
 
-# Login to a desktop environment via a webbrowser
+# Login to a desktop environment via a web browser
 
 !!!- info "Learning outcomes"
 
     - Practice using the documentation of your HPC center
     - Understand what a remote desktop environment is
-    - Can log in to a remote desktop environment using a webbrowser
+    - Can log in to a remote desktop environment using a web browser
 
 ???- question "For teachers"
 
@@ -27,7 +27,7 @@ tags:
 
     - Learners have practiced using the documentation of their HPC cluster
     - Learners understand what a remote desktop environment is
-    - Learners can log in to a remote desktop environment using a webbrowser
+    - Learners can log in to a remote desktop environment using a web browser
 
     Teaching non-goals are:
 
@@ -44,9 +44,9 @@ tags:
 
 ## What is a remote desktop environment?
 
-![A remote desktop environment, accessed via a webbrowser](desktop_webbrowser.png)
+![A remote desktop environment, accessed via a web browser](desktop_web browser.png)
 
-> A remote desktop environment, accessed via a webbrowser
+> A remote desktop environment, accessed via a web browser
 
 You are very likely to be using a desktop environment
 of your local computer right now.
@@ -57,11 +57,11 @@ All NAISS HPC clusters provide such a desktop environment, yet remotely.
 A remote desktop environment is more a more familiar way to work with
 computers (and HPC clusters) for most people.
 
-A remote desktop environment, especially via a webbrowser,
+A remote desktop environment, especially via a web browser,
 is perfect for introducing your low-tech-savvy colleague
 to the NAISS HPC clusters.
 
-## Why use a webbrowser?
+## Why use a web browser?
 
 Because you've probably already installed one :-)
 
@@ -118,7 +118,7 @@ Go to the documentation of your HPC center,
 then answer these questions:
 
 - Find the page about how to login to your HPC cluster's remote desktop
-  environment using a webbrowser
+  environment using a web browser
 
 ???- question "I cannot find it. Where is it?"
 
@@ -136,4 +136,4 @@ then answer these questions:
 
     <!-- markdownlint-enable MD013 -->
 
-- Log in to your HPC cluster's remote desktop environment using a webbrowser
+- Log in to your HPC cluster's remote desktop environment using a web browser
