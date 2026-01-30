@@ -82,7 +82,6 @@ Because you've probably already installed one :-)
     Kebnekaise |[YouTube video](https://youtu.be/_O4dQn8zPaw)
     LUMI       |Not needed yet
     Pelle      |[YouTube video](https://youtu.be/XjLMA0cAu1o)
-    Rackham    |[YouTube video](https://youtu.be/HQ2iuKRPabc)
     Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
 
     <!-- markdownlint-enable MD013 -->
@@ -105,7 +104,6 @@ Because you've probably already installed one :-)
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
     Pelle      |Medium    |Uses password, uses 2FA
-    Rackham    |Easy      |Uses password
     Tetralith  |Easy      |Uses password
     Vera       |Easy      |Uses password
 
@@ -134,7 +132,6 @@ then answer these questions:
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     LUMI       |Not needed yet
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
     Tetralith  |[TODO](https://github.com/UPPMAX/naiss_file_transfer_course/issues/75)
 
     <!-- markdownlint-enable MD013 -->

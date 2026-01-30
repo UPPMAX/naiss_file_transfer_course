@@ -101,7 +101,6 @@ Some SSH clients can run from a terminal or vice versa.
     Kebnekaise |[YouTube video](https://youtu.be/pIiKOKBHIeY)
     LUMI       |[YouTube video](https://youtu.be/bPdvn2gajgU)
     Pelle      |[YouTube video](https://youtu.be/zsw3QD_NinU)
-    Rackham    |[YouTube video](https://youtu.be/TSVGSKyt2bQ)
     Tetralith  |[YouTube video](https://youtu.be/wtGIzSBiulY)
 
     <!-- markdownlint-enable MD013 -->
@@ -128,7 +127,6 @@ Some SSH clients can run from a terminal or vice versa.
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
     Pelle      |Easy      |Uses password
-    Rackham    |Easy      |Uses password
     Tetralith  |Easy      |Uses password
     Vera       |Easy      |Uses password
 
@@ -145,7 +143,7 @@ then answer these questions:
 
 ???- question "I cannot find it. Where is it?"
 
-    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/terminal/)
+    - [UPPMAX](https://docs.uppmax.uu.se/software/terminal/)
 
     If it is absent, use your favorite search engine instead.
 
@@ -165,7 +163,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    - [UPPMAX's Rackham](https://docs.uppmax.uu.se/software/ssh_client/)
+    - [UPPMAX](https://docs.uppmax.uu.se/software/ssh_client/)
 
     If it is absent, use your favorite search engine instead.
 
@@ -213,7 +211,6 @@ then answer these questions:
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     LUMI       |[Documentation](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/getting-started/)
 
     <!-- markdownlint-enable MD013 -->

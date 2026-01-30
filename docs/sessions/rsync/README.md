@@ -62,7 +62,6 @@ It works under Linux, Mac and Windows.
     Kebnekaise |Cannot: is not a NAISS cluster
     LUMI       |[YouTube video](https://youtu.be/-UONn-4CJWs)
     Pelle      |[YouTube video](https://youtu.be/mEo4mfSmpp0)
-    Rackham    |[YouTube video](https://youtu.be/p-27aIh2acA)
     Tetralith  |[YouTube video](https://youtu.be/3-OF8nkCdtM)
     Vera       |Cannot: is not a NAISS cluster
 
@@ -95,7 +94,6 @@ It works under Linux, Mac and Windows.
     Kebnekaise |Easy      |Has specialized documentation
     LUMI       |Medium    |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |Easy      |Has specialized documentation
-    Rackham    |Easy      |Has specialized documentation
     Tetralith  |Easy      |Has specialized documentation
     Vera       |Easy      |Has specialized documentation
 
@@ -125,7 +123,6 @@ Use the documentation of your HPC cluster.
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/filesystems/#rsync)
     LUMI       |[CSC refuses to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329), but [UPPMAX has specialized documentation](https://docs.uppmax.uu.se/naiss/lumi_file_transfer_using_rsync/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/)
     Sigma      |[Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). For now, use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/copying-data/)
     Vera       |[Documentation that is closest](https://www.c3se.chalmers.se/documentation/file_transfer/bulk_data_transfer/). For now, use [the UPPMAX documentation](https://docs.uppmax.uu.se/naiss/alvis_file_transfer_using_rsync/)
@@ -134,7 +131,7 @@ Use the documentation of your HPC cluster.
 
 If the center maintaining you HPC cluster has not documented how to use
 `rsync`,
-follow [the Rackham documentation](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_rsync/).
+follow [the Pelle documentation](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_rsync/).
 
 - Copy a file from your local computer to your HPC cluster's home folder.
   Verify that this worked.

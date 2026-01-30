@@ -61,7 +61,6 @@ something (i.e. we are not providing access to others).
     Dardel     |[YouTube video](https://youtu.be/qgI2SigIuCk)
     Kebnekaise |[YouTube video](https://youtu.be/_jpj0GW9ASc)
     Pelle      |[YouTube video](https://youtu.be/0rVy83X89Go)
-    Rackham    |[YouTube video](https://youtu.be/PqEpsn74l0g)
     Tetralith  |[YouTube video](https://youtu.be/JsHzQSFNGxY)
 
     <!-- markdownlint-enable MD013 -->
@@ -84,7 +83,6 @@ something (i.e. we are not providing access to others).
     Kebnekaise |Easy      |Uses password
     LUMI       |Medium    |Uses SSH keys
     Pelle      |Easy      |Uses password
-    Rackham    |Easy      |Uses password
     Tetralith  |Easy      |Uses password
     Vera       |Easy      |Uses password
 
@@ -112,7 +110,6 @@ then answer these questions:
     Dardel     |[Documentation](https://menzzana.github.io/NAISS-support-web/contact/contact_support/?sub=login/interactive_hpc/)
     Kebnekaise |[Documentation](https://docs.hpc2n.umu.se/documentation/access/)
     Pelle      |[Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/)
-    Rackham    |[Documentation](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
     Tetralith  |[Documentation](https://www.nsc.liu.se/support/graphics/)
 
     <!-- markdownlint-enable MD013 -->

@@ -41,7 +41,6 @@ Dardel     |Easy      |Hard      |Medium |Medium
 Kebnekaise |Easy      |Easy      |Easy   |Medium
 LUMI       |Easy      |Hard      |Medium |Hard
 Pelle      |Easy      |Easy      |Easy   |Medium
-Rackham    |Easy      |Easy      |Easy   |Medium
 Sigma      |Easy      |Medium    |Easy   |Medium
 Tetralith  |Easy      |Easy      |Easy   |Medium
 Vera       |Easy      |Medium    |Easy   |Medium
