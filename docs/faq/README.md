@@ -51,7 +51,7 @@ when you leave early :-)
 ### How to cancel?
 
 If you need to cancel, please unregister in the registration form
-or send an email. Thanks!
+or [contact us](../contact_us.md). Thanks!
 
 ## Prerequisites
 
@@ -73,21 +73,21 @@ and would only teach FileZilla and `rsync`.
 
 However, then another constraint was added:
 there should be more file transfer tools
-discussed.
+discussed. And later: also connecting to an HPC must be added.
 
 Instead of lecturing (we should not `[Hattie, 2023]`),
 we decided to add prerequisites instead
 
 ### What are the prerequisites for following this course?
 
-See [prerequisites](../prereqs/README.md).
+See [the course prerequisites](../prereqs/README.md).
 
 ### How can I check if I have registered?
 
 You should have gotten a welcome email within a couple
 of days.
 
-When it doubt, register again or send an email :-)
+When it doubt, register again or [contact us](../contact_us.md) :-)
 
 
 ### How to find the course's Zoom room?
@@ -269,11 +269,10 @@ For non-Ubuntu users, search the web, download and install.
 ???- question "Where can I find it?"
 
     The FileZilla website can be found at
-    [https://filezilla-project.org/](https://filezilla-project.org/).
+    [`https://filezilla-project.org/`](https://filezilla-project.org/).
 
-    Clicking on 'Download FileZilla client' takes you to the
-    FileZilla download page at
-    [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
+    Clicking on 'Download FileZilla client' takes you to 
+    [the FileZilla download page](https://filezilla-project.org/download.php?type=client).
 
     Download the file, maybe unzip it and run the installer
 
