@@ -3,6 +3,14 @@
 - Author: RB
 - Date: 2026-02-02
 
+## Before teaching that day
+
+I expected to be preparing in the morning, yet I turned into a technical
+assistant, as it is UPPMAX that hosts the Zoom rooms. Logging into Zoom
+with my email address turns me into a host automatically. Great!
+
+It did me I would have to make all others co-host by hand. I appeared to
+be the least stressed of the three UPPMAX staff, so I sent the others away.
 
 ## First hour
 
@@ -38,8 +46,15 @@ I was unhappy, because:
 
     - [ ] Ask colleague: could it be clearer advertised to have cameras?
 
+  
 
+Thanks to the previous observer, I used my SciLifeLab account to create
+a Google Form. However, the evaluation forms were not open to all (they
+were only open to SLL people). Luckily, the third learner that was sent home
+earlier tried it out and told me. Together, we fixed it.
 
+- [ ] Remember that a Google Form on my SciLifeLab account needs to
+  open up the URL to all
 
 
 
