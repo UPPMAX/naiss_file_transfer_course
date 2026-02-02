@@ -11,11 +11,14 @@ I was unhappy, because:
 - I did not have/take the time to talk about
   HPC clusters in general. One learner
   indicated this too.
-  I did predict we would be too short on time.
-  I felt short on time. I did not want to take time away from my colleague.
+  I did predict we would be too short on time, but maybe this is more nuanced:
+  I *felt* short on time and *was afraid* to take time away from my colleague.
 
     - [ ] Ask colleague: should we take the time to properly introduce
-      HPC clusters?
+      HPC clusters with a Prior?
+
+- I feel the NAISS Intro week should start with a general talk about
+  HPC clusters, after which all learners login.
 
 - The flowchart in 'Connect Intro' seemed to
   be too complex, even though it only had one
@@ -30,8 +33,8 @@ I was unhappy, because:
   reason too: in the morning 'Command line 101',
   there was a recording of the session, with only 1 or 33 learners having on
   their camera. I asked the learner: he/she kept the camera on as he/she
-  thinks it is nicer for the teacher. I can imagine the learners expect more passive learning after
-  the break.
+  thinks it is nicer for the teacher.
+  I can imagine the learners expect more passive learning after lunch.
 
     - [ ] Ask colleague: could it be clearer advertised to have cameras?
 
