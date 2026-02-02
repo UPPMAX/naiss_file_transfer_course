@@ -50,12 +50,12 @@ flowchart TD
 
   use_dardel_or_tetralith(Use Dardel or Tetralith?)
   account[1. Account for HPC cluster]:::always
-  login_desktop_website_no[2a. Login to desktop environment from a website]:::always
-  login_console_no[3a. Login to console environment]:::always
-  login_desktop_tool_no[4. Login to desktop environment using a remote desktop client]:::optional
+  login_desktop_website_no[Login to desktop environment from a website]:::always
+  login_console_no[Login to console environment]:::always
+  login_desktop_tool_no[Login to desktop environment using a remote desktop client]:::optional
 
-  login_console_yes[3b. Login to console environment]:::always
-  login_desktop_tool_yes[2b. Login to desktop environment using remote desktop client]:::always
+  login_console_yes[Login to console environment]:::always
+  login_desktop_tool_yes[Login to desktop environment using remote desktop client]:::always
 
 
   account --> use_dardel_or_tetralith
@@ -66,6 +66,9 @@ flowchart TD
   use_dardel_or_tetralith--> |Yes| login_desktop_tool_yes
   login_desktop_tool_yes --> login_console_yes
 ```
+
+> Decision tree.
+> Links to the sessions are found in the table below.
 
 As per [prerequisites](../../prereqs/README.md):
 
