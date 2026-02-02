@@ -137,6 +137,7 @@ Tetralith silent  |Room 13
 Tetralith group   |Room 14
 Other silent      |Room 15
 Other group       |Room 16
+Any, free to use  |Any other room
 
 - When your first breakout room reaches 4 learners, decide upon 2 to
   move to the next breakout room.
