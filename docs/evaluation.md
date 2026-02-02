@@ -54,9 +54,11 @@ Evaluate the course             |[TODO: Evaluation questions form](https://githu
     Give you confidence levels of the following statements below:
 
     - I am comfortable using the documentation of my HPC center
-    - I can transfer data using FileZilla
-    - I can log in to my HPC cluster using `ssh`
+    - I can log in to my favorite HPC cluster using a web browser
+    - I can log in to my favorite HPC cluster using SSH
+    - I can log in to my favorite HPC cluster using a remote desktop client
     - I can transfer data using `scp`
+    - I can transfer data using FileZilla
     - (optional) I can transfer data using `rscync`
     - (optional) I can transfer data using `sftp`
     - (optional) I can compress and archive files before transferring
