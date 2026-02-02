@@ -116,8 +116,9 @@ information here :-)
 
 ### Exercise 1: remember a Zoom room
 
-We will use breakout rooms, as this is best for learning.
-Ideally, each breakout room has 2 learners for the same HPC cluster.
+We will use breakout rooms, as this is best for interaction and learning.
+Pick your favorite room, depending on yout HPC cluster and if you prefer
+to work in silence.
 
 HPC cluster name  |Main breakout room
 ------------------|------------------
@@ -139,9 +140,10 @@ Other silent      |Room 15
 Other group       |Room 16
 Any, free to use  |Any other room
 
-- When your first breakout room reaches 4 learners, decide upon 2 to
-  move to the next breakout room.
-  Repeat until the group size is below 4.
-- When you are the only one in your main breakout room,
-  the teachers will let you decide to either work in silence or
-  to join another group. You will be taken care of well :-)
+Feel free to move as a singleton or duo if you want to interact with
+your peers or the teachers!
+
+The teachers will come to the group rooms and split the group up in duos,
+as this is best for learning. It is most fun too!
+
+
