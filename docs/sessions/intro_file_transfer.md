@@ -53,6 +53,7 @@ flowchart TD
 
   account[Account for HPC cluster]:::always
   can_use_filezilla(Can use FileZilla?)
+  what_do_you_need(What do you need?)
   filezilla[3.Transfer files using FileZilla]:::optional
   scp[2.Transfer files using scp]:::always
   rsync[Transfer files using rsync]:::optional
@@ -60,13 +61,15 @@ flowchart TD
   cluster_to_cluster[Cluster to cluster]:::optional
 
 
-  account --> can_use_filezilla
+  account --> scp
+  scp --> can_use_filezilla
   can_use_filezilla --> |yes| filezilla
-  filezilla  --> scp
-  can_use_filezilla --> |no| scp
-  scp --> rsync
-  scp --> sftp
-  scp --> cluster_to_cluster
+  filezilla  --> what_do_you_need
+  can_use_filezilla --> |no| what_do_you_need
+  what_do_you_need --> rsync
+  what_do_you_need --> sftp
+  what_do_you_need --> cluster_to_cluster
+
 ```
 
 As per [prerequisites](../prereqs/README.md):
