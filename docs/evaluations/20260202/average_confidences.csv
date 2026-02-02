@@ -1,0 +1,11 @@
+question,mean
+I am comfortable using the documentation of my HPC center,3.6
+I can compress and archive files before transferring,3.2666666666666666
+I can log in to my favorite HPC cluster using SSH,4.2
+I can log in to my favorite HPC cluster using a remote desktop client,3.6666666666666665
+I can log in to my favorite HPC cluster using a web browser,3
+I can transfer data using FileZilla,3.533333333333333
+I can transfer data using rscync,2.642857142857143
+I can transfer data using scp,4.133333333333334
+I can transfer data using sftp,2.5
+I can transfer files between clusters,2.642857142857143
