@@ -54,8 +54,8 @@ flowchart TD
   account[Account for HPC cluster]:::always
   can_use_filezilla(Can use FileZilla?)
   what_do_you_need(What do you need?)
-  filezilla[3.Transfer files using FileZilla]:::optional
-  scp[2.Transfer files using scp]:::always
+  filezilla[Transfer files using FileZilla]:::optional
+  scp[Transfer files using scp]:::always
   rsync[Transfer files using rsync]:::optional
   sftp[Transfer files using sftp]:::optional
   cluster_to_cluster[Cluster to cluster]:::optional
