@@ -119,19 +119,24 @@ information here :-)
 We will use breakout rooms, as this is best for learning.
 Ideally, each breakout room has 2 learners for the same HPC cluster.
 
-HPC cluster name|Main breakout room
-----------------|------------------
-Alvis           |Room 1
-Bianca          |Room 2
-COSMOS          |Room 3
-Dardel          |Room 4
-Kebnekaise      |Room 5
-Tetralith 1     |Room 6
-Tetralith 2     |Room 7
-Tetralith 3     |Room 8
-Vera            |Room 9
-Other 1         |Room 10
-Other 2         |Room 11
+HPC cluster name  |Main breakout room
+------------------|------------------
+Alvis silent      |Room 1
+Alvis group       |Room 2
+Bianca silent     |Room 3
+Bianca group      |Room 4
+COSMOS silent     |Room 5
+COSMOS group      |Room 6
+Dardel silent     |Room 7
+Dardel group      |Room 8
+Kebnekaise silent |Room 9
+Kebnekaise group  |Room 10
+Pelle silent      |Room 11
+Pelle group       |Room 12
+Tetralith silent  |Room 13
+Tetralith group   |Room 14
+Other silent      |Room 15
+Other group       |Room 16
 
 - When your first breakout room reaches 4 learners, decide upon 2 to
   move to the next breakout room.
