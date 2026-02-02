@@ -16,7 +16,7 @@ This is the page for evaluating the current iteration of the course.
 Form purpose                    |Link to form
 --------------------------------|------------------------------------------------
 Give any feedback during the day|[Form to submit any feedback during the day](https://docs.google.com/forms/d/e/1FAIpQLScJg6Z2JmdjG2iWPueQEKNxtMcxFkTonh9npmcBR7HJ8s4UWg/viewform?usp=publish-editor)
-Evaluate the course             |[TODO: Evaluation questions form](https://github.com/UPPMAX/naiss_file_transfer_course/issues/69)
+Evaluate the course             |[Evaluation questions form](https://docs.google.com/forms/d/e/1FAIpQLSfRwQjrRoGvfhdfIsq_x9p3bwII-zYR-sBMPNB2_1WDpJPn2w/viewform?usp=publish-editor)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -59,10 +59,10 @@ Evaluate the course             |[TODO: Evaluation questions form](https://githu
     - I can log in to my favorite HPC cluster using a remote desktop client
     - I can transfer data using `scp`
     - I can transfer data using FileZilla
-    - (optional) I can transfer data using `rscync`
-    - (optional) I can transfer data using `sftp`
-    - (optional) I can compress and archive files before transferring
-    - (optional) I can transfer files between clusters
+    - I can transfer data using `rscync`
+    - I can transfer data using `sftp`
+    - I can compress and archive files before transferring
+    - I can transfer files between clusters
 
     Any other feedback?
 
