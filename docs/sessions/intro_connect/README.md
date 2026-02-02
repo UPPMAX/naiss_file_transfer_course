@@ -17,7 +17,7 @@ tags:
     - Have seen where to put
       [anonymous feedback during the day](../../evaluation.md#any-feedback-during-the-day)
     - Have included HPC cluster name in Zoom username,
-      e.g. `[Dardel] Sven Svensson`
+      e.g. `Sven Svensson [Dardel]`
 
 ???- question "For teachers"
 
