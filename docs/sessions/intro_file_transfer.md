@@ -52,19 +52,21 @@ flowchart TD
   classDef optional stroke:#000,stroke-width:1px;
 
   account[Account for HPC cluster]:::always
-  filezilla[3.Transfer files using FileZilla]:::always
-  login_console[1.Login to console environment]:::always
+  can_use_filezilla(Can use FileZilla?)
+  filezilla[3.Transfer files using FileZilla]:::optional
   scp[2.Transfer files using scp]:::always
   rsync[Transfer files using rsync]:::optional
   sftp[Transfer files using sftp]:::optional
-  transfer_tips[Transfer tips]:::optional
+  cluster_to_cluster[Cluster to cluster]:::optional
 
-  account --> filezilla
-  account --> login_console
-  login_console --> scp
+
+  account --> can_use_filezilla
+  can_use_filezilla --> |yes| filezilla
+  filezilla  --> scp
+  can_use_filezilla --> |no| scp
   scp --> rsync
   scp --> sftp
-  scp --> transfer_tips
+  scp --> cluster_to_cluster
 ```
 
 As per [prerequisites](../prereqs/README.md):
