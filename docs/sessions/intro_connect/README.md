@@ -55,7 +55,7 @@ flowchart TD
   login_desktop_tool_no[4. Login to desktop environment using a remote desktop client]:::optional
 
   login_console_yes[3b. Login to console environment]:::always
-  login_desktop_tool_yes[2b. Login to desktop environment using ThinLinc]:::always
+  login_desktop_tool_yes[2b. Login to desktop environment using remote desktop client]:::always
 
 
   account --> use_dardel_or_tetralith
