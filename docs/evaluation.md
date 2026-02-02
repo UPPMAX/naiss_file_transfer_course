@@ -11,11 +11,16 @@ This is the page for evaluating the current iteration of the course.
 
     At [the 'Evaluations' page](evaluations/README.md).
 
-## Any feedback during the day
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-- [TODO: Form to submit any feedback during the day](https://github.com/UPPMAX/naiss_file_transfer_course/issues/69)
+Form purpose                    |Link to form
+--------------------------------|------------------------------------------------
+Give any feedback during the day|[Form to submit any feedback during the day](https://docs.google.com/forms/d/e/1FAIpQLScJg6Z2JmdjG2iWPueQEKNxtMcxFkTonh9npmcBR7HJ8s4UWg/viewform?usp=publish-editor)
+Evaluate the course             |[TODO: Evaluation questions form](https://github.com/UPPMAX/naiss_file_transfer_course/issues/69)
 
-???- question "For teachers: what is in that form?"
+<!-- markdownlint-enable MD013 -->
+
+???- question "For teachers: what is in the 'Give any feedback' form?"
 
     Thanks for your feedback.
     This feedback will be published as-is at the end of the day,
@@ -23,17 +28,14 @@ This is the page for evaluating the current iteration of the course.
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-## Evaluation questions
-
-- [TODO: Evaluation questions form](https://github.com/UPPMAX/naiss_file_transfer_course/issues/69)
-
 ???- question "Why do you evaluate under lesson hours?"
 
     Because we value your time: your free time should be your free time.
 
     We think the time lost teaching is worth it to improve our teaching.
 
-???- question "For teachers: what is in that form?"
+???- question "For teachers: what is in the 'Evaluation questions' form?"
+
 
     These are the evaluation questions.
     The goals of these questions is to find out how successful
