@@ -1,0 +1,196 @@
+09:03:04 From Joachim Hein (Lund University) To Everyone:
+	Course material: https://hpc2n.github.io/linux-command-line-101/#
+	
+09:05:08 From Joachim Hein (Lund University) To Everyone:
+	Course material: https://hpc2n.github.io/linux-command-line-101/#
+	
+09:24:27 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+09:48:25 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+09:55:41 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+10:02:03 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+10:14:55 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+10:28:33 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+10:30:44 From Diego Garcia To Everyone:
+	Thank you
+	
+10:31:01 From Conrad Marshall To Everyone:
+	No questions. Thank you.
+	
+10:31:36 From Joachim Hein (Lund University) To Everyone:
+	Break until 10:45
+	
+10:45:33 From Diego Garcia To Everyone:
+	We hear you well
+	
+10:51:54 From Joachim Hein (Lund University) To Everyone:
+	If you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+11:02:30 From Joachim Hein (Lund University) To Everyone:
+	f you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+11:18:29 From Joachim Hein (Lund University) To Everyone:
+	f you have questions during the lectures, you can enter them into the Q&A form: https://umeauniversity.sharepoint.com/:w:/s/HPC2N630/IQCI0r5NQ-gWQJI4oBi6trbXAWlznFWAQaBab_i5erb9VME?rtime=Z4-TlzJi3kg
+	
+12:00:15 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	At 13:00 (sharp!) we will log in to your favorite HPC cluster (including a desktop/visual/graphical environment!) and will transfer files to/from it.
+	
+	All sessions are pre-recorded and can be found at https://uppmax.github.io/naiss_file_transfer_course/videos/ . There will be no recording during the session itself.
+	
+	The course homepage is at https://uppmax.github.io/naiss_file_transfer_course/ .
+	
+	If you attend, please make sure your Zoom setup is good enough. It is in the course prerequisites ( https://uppmax.github.io/naiss_file_transfer_course/prereqs/ ) :-)
+	
+	See you at 13:00 (sharp!) (to 16:00, max!) in this Zoom room. It will be useful and fun!
+	
+12:01:03 From Ali Jahangiri To Everyone:
+	Thank you for the wonderful session this morning! :)
+	
+12:01:24 From Gerrit Timpert To Everyone:
+	Thanks so much for all the insight!
+	
+12:01:45 From Hamed Talebi To Everyone:
+	Thanks
+	
+12:48:34 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/#exercise-1-remember-a-zoom-room
+	
+12:49:53 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/data/
+	
+13:00:37 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/
+	
+13:02:31 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/learning_outcomes/
+	
+13:03:26 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/prereqs/
+	
+13:04:03 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/schedule/
+	
+13:05:35 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/evaluation/
+	
+13:07:41 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/
+	
+13:11:07 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/
+	
+13:12:19 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/#exercise-0-rename-yourself
+	
+13:13:04 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/#exercise-1-remember-a-zoom-room
+	
+13:14:37 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/#exercise-1-remember-a-zoom-room
+	
+13:15:46 From Hamed Talebi[Tetralith] To Everyone:
+	Could we use Web browser option on Tetralith?
+	
+13:24:57 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/
+	
+13:27:01 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_connect/#overview
+	
+13:27:34 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_remote_desktop_client/
+	
+13:28:45 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_remote_desktop_client/
+	
+13:34:31 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/
+	
+13:39:52 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/login_desktop_web_browser/
+	
+13:47:59 From Ganeshwari To Everyone:
+	i will connect to you in a minute, fix my mike
+	
+14:06:53 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	Björn is here:
+	
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/
+	
+14:07:36 From Björn Claremar [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/
+	
+14:19:03 From Ali Jahangiri [Alvis] To Everyone:
+	So for very basic file transfer scp - given its similarity to cp - can be the first option. Correct?
+	
+14:21:28 From Hamed Talebi[Tetralith] To Everyone:
+	home
+	
+14:21:29 From Gerrit Timpert [Dardel] To Everyone:
+	Home dir
+	
+14:31:22 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/scp/#exercises
+	
+14:35:04 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/bianca_workshops/beginner/schedule/
+	
+14:36:43 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://naiss-training.github.io/NAISS-intro-week/
+	
+14:42:40 From Jasper Münnich [Dardel] To Everyone:
+	https://menzzana.github.io/NAISS-support-web/dardel/basics/quickstart/
+	
+14:44:49 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/
+	
+14:52:53 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/evaluation/
+	
+15:16:36 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/
+	
+15:18:59 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/filezilla/
+	
+15:21:18 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/filezilla/#exercises
+	
+15:32:30 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/sessions/cluster2cluster/
+	
+15:42:05 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	sudo apt-get update
+	
+15:42:23 From Rongsheng Liu [Dardel] To Richèl 'Rea-shell' Bilderbeek [Teacher] (direct message):
+	Sorry it seems that my camera is not working…
+	
+15:42:35 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	brew
+	
+15:42:41 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	brew install putty
+	
+15:43:00 From Rongsheng Liu [Dardel] To Richèl 'Rea-shell' Bilderbeek [Teacher] (direct message):
+	Yes, it works for me
+	
+15:44:46 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Rongsheng Liu [Dardel] (direct message):
+	brew install putty
+	
+15:47:33 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/naiss_file_transfer_course/evaluation/
+	
+15:53:10 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.google.com/forms/d/e/1FAIpQLSfRwQjrRoGvfhdfIsq_x9p3bwII-zYR-sBMPNB2_1WDpJPn2w/viewform
+	
