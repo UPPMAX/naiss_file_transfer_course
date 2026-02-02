@@ -56,7 +56,6 @@ synching
 Plaintext
 teamplay
 nd
-TODOs
 SCoRe
 Remmina
 Richèl's
@@ -131,7 +130,6 @@ natively
 acknowledgements
 Acknowledgements
 Shinya
-TODO
 gzip
 Richel's
 FileZilla's
