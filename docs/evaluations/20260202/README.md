@@ -86,7 +86,7 @@ The average of 3.7 means a success score of 74%.
   after consulting the instructors.
 - I think I would have needed more time to figure everything out.
   Now at least I think I have a better way of finding out
-  how to do stuff by myself. 
+  how to do stuff by myself.
 - I think it would have been better to start the day by explaining
   what an HPC cluster is, then practicing logging into the cluster,
   then having LINUX 101 and after that having the file transferring course.

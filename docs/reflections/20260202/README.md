@@ -43,7 +43,7 @@ I was unhappy, because:
       it should have been 'remote desktop client'.
     - [`FIXED`] I've added a table, better flowchart, etc.
       I am reasonably happy with it now
-      
+
 - There were too many black screens. This course mentions that a good
   camera setup is strongly recommended. I asked 3 learners I met in a breakout
   room: 3 out 3 did not have a camera installed. This may have a historical
@@ -268,7 +268,7 @@ with our learners.
 
 - I think I would have needed more time to figure everything out.
   Now at least I think I have a better way of finding out
-  how to do stuff by myself. 
+  how to do stuff by myself.
 
 I agree.
 
@@ -309,7 +309,7 @@ Well done Sahar!
 
 - There are different clusters (I think this is the name?)
   and it can be difficult to know the process on the particular
-  one we are working on. 
+  one we are working on.
 
 I agree. There should be an intro on clusters indeed.
 
@@ -318,7 +318,7 @@ I agree. There should be an intro on clusters indeed.
   that I am not the only one with this problem.
 
 I agree. I should have taken the time to properly introduce
-the website. 
+the website.
 
 - The use of the Word document to answer questions was unorthodox,
   although it did work well.
