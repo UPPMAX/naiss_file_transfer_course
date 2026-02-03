@@ -156,7 +156,184 @@ this over rushing our new users.
 
 ## Evaluation results
 
+![All confidences](../../evaluations/20260202/all_confidences.png)
 
+![Average confidence per question](../../evaluations/20260202/average_confidences_per_question.png)
+
+![Confidences per question](../../evaluations/20260202/confidences_per_question.png)
+
+These are all the questions:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Question                                                             |Mean confidence
+---------------------------------------------------------------------|---------------
+I am comfortable using the documentation of my HPC center            |3.6
+I can compress and archive files before transferring                 |3.3
+I can log in to my favorite HPC cluster using SSH                    |4.2
+I can log in to my favorite HPC cluster using a remote desktop client|3.7
+I can log in to my favorite HPC cluster using a web browser          |3
+I can transfer data using FileZilla                                  |3.5
+I can transfer data using rscync                                     |2.6
+I can transfer data using scp                                        |4.1
+I can transfer data using sftp                                       |2.5
+I can transfer files between clusters                                |2.6
+
+<!-- markdownlint-enable MD013 -->
+
+Now, only the ones we focussed on:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Question                                                             |Mean confidence
+---------------------------------------------------------------------|---------------
+I am comfortable using the documentation of my HPC center            |3.6
+I can log in to my favorite HPC cluster using SSH                    |4.2
+I can log in to my favorite HPC cluster using a remote desktop client|3.7
+I can log in to my favorite HPC cluster using a web browser          |3
+I can transfer data using FileZilla                                  |3.5
+I can transfer data using scp                                        |4.1
+Average                                                              |3.7
+
+<!-- markdownlint-enable MD013 -->
+
+The average of 3.7 means a success score of 74%.
+
+Compare to other course iterations, this is not the lowest value.
+Other values are 66%, 91%, 70%, 85%. From this, we can conclude we
+achieved more than that we sometimes do when we only do 'File Tranfer'.
+Something to be happy about!
+
+## Any other feedback?
+
+Here I copy-paste from the evaluation. I also cut up suggestions.
+
+- :-)
+
+:-)
+
+- I did all of the things before in self-study when I started with HPC
+  a couple of months ago but it was great to have some dedicated time
+  to read the documentation in more detail during this course
+  and have a platform for questions. Thanks for your time!
+
+Great!
+
+- I received no zoom link to the course, but I did some self studying instead.
+
+I wonder how this learner did not receive a Zoom link to the course.
+
+    - [ ] Share in NAISS Matrix
+
+- I could not find any documentation about how to use a web browser
+  to log in to Tetralith.
+  Please add that information in the course!
+
+The learner is right: there is no documentation on how to login to Tetralith
+via a web browser.
+
+    - [ ] Suggest to NSC to mention this in their documentation
+
+- SSH does not work for me behind a firewall.
+
+If SSH does not work behind a firewall, then the learner cannot login
+I guess ...? I wish he/she was in the course!
+
+- Awesome course, but it would be nice to have more time,
+  like 4h instead of 3h to really have time to do all the exercises
+
+I agree!
+
+- I like the course because it starts from the basics,
+  and i like that it's not too fast.
+  Thank you very much for organizing this!
+
+Thanks!
+
+- Great and informative course! There some minor questions resulting of
+  missing information in the course docs but were cleared
+  after consulting the instructors.
+
+I agree! It is a mild shame that not everything is correct,
+even though we test thoroughly. It is great that we
+**actually find this out** during a course, because we interact
+with our learners.
+
+- I think I would have needed more time to figure everything out.
+  Now at least I think I have a better way of finding out
+  how to do stuff by myself. 
+
+I agree.
+
+- I think it would have been better to start the day by explaining
+  what an HPC cluster is, then practicing logging into the cluster,
+  then having LINUX 101 and after that having the file transferring course.
+
+I agree!
+
+- I had already figured out on my own how to log in to the clusters
+  since I thought I needed it for the LINUX course.
+  So for me, too much time was placed on learning how to log in
+  and to little time on how to transfer files.
+
+I agree!
+
+- I also feel like the documentation on LUNARC is lacking.
+
+I agree.
+
+    - [ ] Share with LUNARC colleagues
+
+- Richel has a nice sense of humor that keeps things lively and active.
+
+:-)
+
+- Bjorn's explanation of the file transfer was much appreciated.
+
+Well done Björn!
+
+    - [ ] Share with Björn
+
+- I learnt some nifty tools in the command line thanks to Sahar.
+
+Well done Sahar!
+
+    - [ ] Share with Sahar
+
+- There are different clusters (I think this is the name?)
+  and it can be difficult to know the process on the particular
+  one we are working on. 
+
+I agree. There should be an intro on clusters indeed.
+
+- Documentation seems to be all over the place,
+  although at least it feels better knowing
+  that I am not the only one with this problem.
+
+I agree. I should have taken the time to properly introduce
+the website. 
+
+- The use of the Word document to answer questions was unorthodox,
+  although it did work well.
+
+This course did not use Word to interact with our learners.
+
+- Have a single NAISS Intro Week course page,
+  with timetables and links to the materials
+  (the email you sent is a good starting point)
+
+I agree. I wish there was a prettier timetable.
+
+- Explain a bit more of WHY we do things.
+  It can be obvious to a practitioner,
+  but to someone new it can be confusing.
+
+I agree. I should have taken the time to do proper teaching.
+
+- Continuously take feedback like this and the NAISS Intro Week
+  will naturally get better and better over time :)
+
+I agree. Thanks!
 
 ## Conclusion
 
@@ -164,4 +341,5 @@ this over rushing our new users.
 - Ask colleague to agree to take more time
 - Take the time to do proper teaching
 - Keep trying out things, adapt if it fails
+- We can be proud of the confidences in learning outcomes
 

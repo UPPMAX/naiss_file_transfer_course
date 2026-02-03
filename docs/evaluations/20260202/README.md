@@ -6,7 +6,7 @@
 - Number of registrations: 64
 - Number of learners present: 25 (41% show-up rate)
 - Number of responses: 15 (60% fill-in rate)
-- Success score: ?%
+- Success score: 74%
 - [Chat log](meeting_saved_new_chat.txt)
 - [Evaluation, by the learners](evaluation.csv)
 - [Anonymous feedback from the learners](any_feedback.csv)
@@ -23,6 +23,43 @@
 ![Average confidence per question](average_confidences_per_question.png)
 
 ![Confidences per question](confidences_per_question.png)
+
+These are all the questions:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Question                                                             |Mean confidence
+---------------------------------------------------------------------|---------------
+I am comfortable using the documentation of my HPC center            |3.6
+I can compress and archive files before transferring                 |3.3
+I can log in to my favorite HPC cluster using SSH                    |4.2
+I can log in to my favorite HPC cluster using a remote desktop client|3.7
+I can log in to my favorite HPC cluster using a web browser          |3
+I can transfer data using FileZilla                                  |3.5
+I can transfer data using rscync                                     |2.6
+I can transfer data using scp                                        |4.1
+I can transfer data using sftp                                       |2.5
+I can transfer files between clusters                                |2.6
+
+<!-- markdownlint-enable MD013 -->
+
+Now, only the ones we focussed on:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Question                                                             |Mean confidence
+---------------------------------------------------------------------|---------------
+I am comfortable using the documentation of my HPC center            |3.6
+I can log in to my favorite HPC cluster using SSH                    |4.2
+I can log in to my favorite HPC cluster using a remote desktop client|3.7
+I can log in to my favorite HPC cluster using a web browser          |3
+I can transfer data using FileZilla                                  |3.5
+I can transfer data using scp                                        |4.1
+Average                                                              |3.7
+
+<!-- markdownlint-enable MD013 -->
+
+The average of 3.7 means a success score of 74%.
 
 ## Any other feedback?
 
