@@ -1,5 +1,8 @@
 # Evaluation 2026-02-02
 
+- [Lesson plan](../../lesson_plans/20260202/README.md)
+- [Evaluation](../../evaluations/20260202/README.md)
+- [Reflection](../../reflections/20260202/README.md)
 - Number of registrations: 64
 - Number of learners present: 25 (41% show-up rate)
 - Number of responses: 15 (60% fill-in rate)

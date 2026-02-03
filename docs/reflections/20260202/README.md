@@ -2,6 +2,9 @@
 
 - Author: RB
 - Date: 2026-02-02
+- [Lesson plan](../../lesson_plans/20260202/README.md)
+- [Evaluation](../../evaluations/20260202/README.md)
+- [Reflection](../../reflections/20260202/README.md)
 
 ## Before teaching that day
 
@@ -30,6 +33,8 @@ I was unhappy, because:
 - I feel the NAISS Intro week should start with a general talk about
   HPC clusters, after which all learners login.
 
+    - [`DONE`] Suggest to NAISS, see below
+
 - The flowchart in 'Connect Intro' seemed to
   be too complex, even though it only had one
   question.
@@ -48,7 +53,8 @@ I was unhappy, because:
   thinks it is nicer for the teacher.
   I can imagine the learners expect more passive learning after lunch.
 
-    - [ ] Ask NAISS training coordinator: could it be clearer advertised to have cameras?
+    - [ ] Ask NAISS training coordinator:
+      could it be clearer advertised to have cameras?
     - [ ] Ask NAISS training coordinator: could we be first on the day?
 
   Additionally, there was no Prior. This gives learners a reason to turn on
@@ -84,11 +90,14 @@ Other silent      |Room 15
 Other group       |Room 16
 Any, free to use  |Any other room
 
-However:
+I am happy that I tried to dare things out! However:
 
-- It was too unclear to learners which HPC cluster they have
-- It was too unclear which learners were actually there
-- It was too unclear for learners what to do in a breakout room
+- It was too unclear to learners which HPC cluster they have:
+  suggest to NAISS to dedicate 1 hour to this, see below
+- It was too unclear which learners were actually there:
+  again, use a Prior to get more cameras on
+- It was too unclear for learners what to do in a breakout room:
+  simplify text: done!
 
 There was a better way before that I used:
 
@@ -96,11 +105,9 @@ There was a better way before that I used:
   then assign them to a room myself
 - Couple the remaining learners myself in groups of two
 
-Use this way next time. It is worth the time.
+Use this way again next time: it is worth the time!
 
-
-
-
+- [`DONE`] Add to course material
 
 Thanks to the previous observer, I used my SciLifeLab account to create
 a Google Form, as it would look more professional.
@@ -111,6 +118,13 @@ earlier tried it out and told me. Together, we fixed it.
 - [ ] Remember that a Google Form on my SciLifeLab account needs to
   open up the URL to all
 
+During the course, things did ease up: more people turned on their
+cameras and I had fun and useful interactions. My colleague was
+great here too: this was the first course where I could not go through
+all the breakout rooms in less than 5 minutes. I assume this worked
+so badly, because there was never made a proper connection to the learners.
+Again, dare to do proper teaching!
+
 I was happy to have done some polls, confirming that we did achieve the
 intended learning outcomes:
 
@@ -118,6 +132,11 @@ intended learning outcomes:
 - After the second break: all learners were able to transfer files in at least 1 way
 - At the end of the day: 9 out of 10 learners were able to transfer files
   in at least 2 ways
+
+I was happy how it worked with the observer. She was properly introduced
+and she got properly ignored by the learners. Even though this lesson
+was less of a success, I am happy to be able to discuss this with her
+and find out what she suggests.
 
 ## Recommendation to NAISS
 
@@ -127,6 +146,7 @@ our learners than fit in as much content as possible.
 
 Due to this I recommend:
 
+- 1 hour for introduction to HPC, including SUPR
 - 2 hours for the 'Connect' part
 - 3 hours for the 'File transfer' part
 
@@ -134,5 +154,14 @@ Having this course the full first day would help even the utmost beginner
 to have an easy first day on our HPC clusters. I think we should prefer
 this over rushing our new users.
 
+## Evaluation results
 
+
+
+## Conclusion
+
+- Demand more time, so that I dare to take the time for proper teaching
+- Ask colleague to agree to take more time
+- Take the time to do proper teaching
+- Keep trying out things, adapt if it fails
 

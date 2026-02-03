@@ -3,6 +3,9 @@
 - Author: Richel
 - Date: 2026-02-02
 - Part of the NAISS Intro Week
+- [Lesson plan](../../lesson_plans/20260202/README.md)
+- [Evaluation](../../evaluations/20260202/README.md)
+- [Reflection](../../reflections/20260202/README.md)
 
 ## 2026-01-09
 
