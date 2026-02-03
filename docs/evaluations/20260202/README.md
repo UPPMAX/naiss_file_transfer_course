@@ -57,6 +57,9 @@ I can transfer data using FileZilla                                  |3.5
 I can transfer data using scp                                        |4.1
 Average                                                              |3.7
 
+Note that 'I can log in to my favorite HPC cluster using a web browser' is not
+possible on all HPC clusters, hence the value will be lower.
+
 <!-- markdownlint-enable MD013 -->
 
 The average of 3.7 means a success score of 74%.

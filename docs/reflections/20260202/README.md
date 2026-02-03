@@ -197,6 +197,13 @@ Average                                                              |3.7
 
 <!-- markdownlint-enable MD013 -->
 
+The weakest session was
+'I can log in to my favorite HPC cluster using a web browser',
+which is not possible on all HPC clusters, hence the value will be lower.
+I find it weird that the easiest session is the weakest. I predict this
+is because the confusion was heighest there. I should dare to do proper
+teaching.
+
 The average of 3.7 means a success score of 74%.
 
 Compare to other course iterations, this is not the lowest value.
