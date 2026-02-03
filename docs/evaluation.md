@@ -59,7 +59,7 @@ Evaluate the course             |[Evaluation questions form](https://docs.google
     - I can log in to my favorite HPC cluster using a remote desktop client
     - I can transfer data using `scp`
     - I can transfer data using FileZilla
-    - I can transfer data using `rscync`
+    - I can transfer data using `rsync`
     - I can transfer data using `sftp`
     - I can compress and archive files before transferring
     - I can transfer files between clusters

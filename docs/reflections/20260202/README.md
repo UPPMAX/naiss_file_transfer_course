@@ -182,7 +182,7 @@ I can log in to my favorite HPC cluster using SSH                    |4.2
 I can log in to my favorite HPC cluster using a remote desktop client|3.7
 I can log in to my favorite HPC cluster using a web browser          |3
 I can transfer data using FileZilla                                  |3.5
-I can transfer data using rscync                                     |2.6
+I can transfer data using rsync                                      |2.6
 I can transfer data using scp                                        |4.1
 I can transfer data using sftp                                       |2.5
 I can transfer files between clusters                                |2.6
@@ -209,7 +209,7 @@ The weakest session was
 'I can log in to my favorite HPC cluster using a web browser',
 which is not possible on all HPC clusters, hence the value will be lower.
 I find it weird that the easiest session is the weakest. I predict this
-is because the confusion was heighest there. I should dare to do proper
+is because the confusion was highest there. I should dare to do proper
 teaching.
 
 The average of 3.7 means a success score of 74%.

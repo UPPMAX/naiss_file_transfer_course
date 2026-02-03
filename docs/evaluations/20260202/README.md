@@ -36,7 +36,7 @@ I can log in to my favorite HPC cluster using SSH                    |4.2
 I can log in to my favorite HPC cluster using a remote desktop client|3.7
 I can log in to my favorite HPC cluster using a web browser          |3
 I can transfer data using FileZilla                                  |3.5
-I can transfer data using rscync                                     |2.6
+I can transfer data using rsync                                      |2.6
 I can transfer data using scp                                        |4.1
 I can transfer data using sftp                                       |2.5
 I can transfer files between clusters                                |2.6
