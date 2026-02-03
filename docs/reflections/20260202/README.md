@@ -216,7 +216,7 @@ The average of 3.7 means a success score of 74%.
 
 Compare to other course iterations, this is not the lowest value.
 Other values are 66%, 91%, 70%, 85%. From this, we can conclude we
-achieved more than that we sometimes do when we only do 'File Tranfer'.
+achieved more than that we sometimes do when we only do 'File Transfer'.
 Something to be happy about!
 
 ## Any other feedback?
