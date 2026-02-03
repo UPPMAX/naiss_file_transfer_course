@@ -109,6 +109,13 @@ Use this way again next time: it is worth the time!
 
 - [`DONE`] Add to course material
 
+The observer mentioned that there was a question in the Q&A section
+of the Zoom room. The Q&A was enabled for the teachers that used
+the same Zoom room in the morning. I answered the question
+and turned of the Q&A.
+
+    - [ ] Remember: disable the Zoom Q&A
+
 Thanks to the previous observer, I used my SciLifeLab account to create
 a Google Form, as it would look more professional.
 However, the evaluation forms were not open to all (they
