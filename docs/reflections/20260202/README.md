@@ -129,7 +129,8 @@ I was happy to have done some polls, confirming that we did achieve the
 intended learning outcomes:
 
 - After the first break: all learners were able to login in at least 1 way
-- After the second break: all learners were able to transfer files in at least 1 way
+- After the second break: all learners were able to transfer files
+  in at least 1 way
 - At the end of the day: 9 out of 10 learners were able to transfer files
   in at least 2 ways
 

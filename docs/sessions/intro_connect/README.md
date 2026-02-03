@@ -104,6 +104,8 @@ Not all HPC clusters can do all ways to login.
 
 Below an overview of the sessions and their relations.
 
+<!-- markdownlint-disable MD013 --><!-- Mermaid diagrams cannot be split up over lines, hence will break 80 characters per line -->
+
 ```mermaid
 flowchart TD
 
@@ -128,8 +130,12 @@ flowchart TD
   login_desktop_tool_yes --> login_console_yes
 ```
 
+<!-- markdownlint-enable MD013 -->
+
 > Decision tree to find out which sessions to follow in which order.
 > The same information is shown in the table below.
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 HPC Cluster|First session                                                                           |Second session                                               |Third session
 -----------|----------------------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------
@@ -149,4 +155,6 @@ Vera       |[Login using a web browser](../login_desktop_web_browser/README.md) 
 
 Done?
 
-Then it is time to [start your first file transfer](https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/) :-) !
+Then it is time to
+[start your first file transfer](https://uppmax.github.io/naiss_file_transfer_course/sessions/intro_file_transfer/)
+:-) !
