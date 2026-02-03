@@ -25,6 +25,8 @@ I was unhappy, because:
     - [ ] Ask colleague: should we take the time to properly introduce
       HPC clusters with a Prior?
 
+    - [ ] Remember: always dare to do a proper teaching cycle
+
 - I feel the NAISS Intro week should start with a general talk about
   HPC clusters, after which all learners login.
 
@@ -34,6 +36,8 @@ I was unhappy, because:
 
     - [`FIXED`] One problem is the word 'ThinLinc' in it:
       it should have been 'remote desktop client'.
+    - [`FIXED`] I've added a table, better flowchart, etc.
+      I am reasonably happy with it now
       
 - There were too many black screens. This course mentions that a good
   camera setup is strongly recommended. I asked 3 learners I met in a breakout
@@ -46,16 +50,30 @@ I was unhappy, because:
 
     - [ ] Ask colleague: could it be clearer advertised to have cameras?
 
-  
-
 Thanks to the previous observer, I used my SciLifeLab account to create
-a Google Form. However, the evaluation forms were not open to all (they
+a Google Form, as it would look more professional.
+However, the evaluation forms were not open to all (they
 were only open to SLL people). Luckily, the third learner that was sent home
 earlier tried it out and told me. Together, we fixed it.
 
 - [ ] Remember that a Google Form on my SciLifeLab account needs to
   open up the URL to all
 
+
+## Recommendation to NAISS
+
+I think the NAISS Intro Week should be a gentle and easy first week to work
+with our HPC clusters. I would say it is more important to adapt to
+our learners than fit in as much content as possible.
+
+Due to this I recommend:
+
+- 2 hours for the 'Connect' part
+- 3 hours for the 'File transfer' part
+
+Having this course the full first day would help even the utmost beginner
+to have an easy first day on our HPC clusters. I think we should prefer
+this over rushing our new users.
 
 
 
