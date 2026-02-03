@@ -114,7 +114,7 @@ of the Zoom room. The Q&A was enabled for the teachers that used
 the same Zoom room in the morning. I answered the question
 and turned of the Q&A.
 
-    - [ ] Remember: disable the Zoom Q&A
+- [ ] Remember: disable the Zoom Q&A
 
 Thanks to the previous observer, I used my SciLifeLab account to create
 a Google Form, as it would look more professional.
@@ -238,7 +238,7 @@ Great!
 
 I wonder how this learner did not receive a Zoom link to the course.
 
-    - [ ] Share in NAISS Matrix
+- [ ] Share in NAISS Matrix
 
 - I could not find any documentation about how to use a web browser
   to log in to Tetralith.
@@ -247,7 +247,7 @@ I wonder how this learner did not receive a Zoom link to the course.
 The learner is right: there is no documentation on how to login to Tetralith
 via a web browser.
 
-    - [ ] Suggest to NSC to mention this in their documentation
+- [ ] Suggest to NSC to mention this in their documentation
 
 - SSH does not work for me behind a firewall.
 
@@ -295,9 +295,10 @@ I agree!
 
 - I also feel like the documentation on LUNARC is lacking.
 
-I agree.
+I think this learner used COSMOS-SENS. Indeed,
+there is nearly no documentation for that.
 
-    - [ ] Share with LUNARC colleagues
+- [ ] Share with LUNARC colleagues
 
 - Richel has a nice sense of humor that keeps things lively and active.
 
@@ -307,13 +308,13 @@ I agree.
 
 Well done Björn!
 
-    - [ ] Share with Björn
+- [`DONE`] Share with Björn
 
 - I learnt some nifty tools in the command line thanks to Sahar.
 
 Well done Sahar!
 
-    - [ ] Share with Sahar
+- [`DONE`] Share with Sahar
 
 - There are different clusters (I think this is the name?)
   and it can be difficult to know the process on the particular
