@@ -48,7 +48,59 @@ I was unhappy, because:
   thinks it is nicer for the teacher.
   I can imagine the learners expect more passive learning after lunch.
 
-    - [ ] Ask colleague: could it be clearer advertised to have cameras?
+    - [ ] Ask NAISS training coordinator: could it be clearer advertised to have cameras?
+    - [ ] Ask NAISS training coordinator: could we be first on the day?
+
+  Additionally, there was no Prior. This gives learners a reason to turn on
+  their cameras. During the day, however, more learners turned on their
+  cameras.
+
+Time |`n_on`|`n_off`|`n_learn`|`n_teach`|`n_total`
+-----|------|-------|---------|---------|---------
+13:15|1     |24     | 25      |2        | 27
+14:07|6     |19     | 25      |2        | 27
+15:51|10    |3      | 13      |2        | 15
+
+I was unhappy with assigning breakout rooms to the learners.
+I used the schedule below:
+
+HPC cluster name  |Main breakout room
+------------------|------------------
+Alvis silent      |Room 1
+Alvis group       |Room 2
+Bianca silent     |Room 3
+Bianca group      |Room 4
+COSMOS silent     |Room 5
+COSMOS group      |Room 6
+Dardel silent     |Room 7
+Dardel group      |Room 8
+Kebnekaise silent |Room 9
+Kebnekaise group  |Room 10
+Pelle silent      |Room 11
+Pelle group       |Room 12
+Tetralith silent  |Room 13
+Tetralith group   |Room 14
+Other silent      |Room 15
+Other group       |Room 16
+Any, free to use  |Any other room
+
+However:
+
+- It was too unclear to learners which HPC cluster they have
+- It was too unclear which learners were actually there
+- It was too unclear for learners what to do in a breakout room
+
+There was a better way before that I used:
+
+- Ask learners to raise their hand if they want to work alone,
+  then assign them to a room myself
+- Couple the remaining learners myself in groups of two
+
+Use this way next time. It is worth the time.
+
+
+
+
 
 Thanks to the previous observer, I used my SciLifeLab account to create
 a Google Form, as it would look more professional.
@@ -59,6 +111,13 @@ earlier tried it out and told me. Together, we fixed it.
 - [ ] Remember that a Google Form on my SciLifeLab account needs to
   open up the URL to all
 
+I was happy to have done some polls, confirming that we did achieve the
+intended learning outcomes:
+
+- After the first break: all learners were able to login in at least 1 way
+- After the second break: all learners were able to transfer files in at least 1 way
+- At the end of the day: 9 out of 10 learners were able to transfer files
+  in at least 2 ways
 
 ## Recommendation to NAISS
 
