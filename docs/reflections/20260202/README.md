@@ -109,6 +109,13 @@ Use this way again next time: it is worth the time!
 
 - [`DONE`] Add to course material
 
+One feature of the disconnect with the learners (i.e. the many black
+screens) is that it became awkwardly clear how many were actually there!
+After most learners found their room, there were still around eight
+black screens (around a third!).
+Some of these were learners that came back to the course later.
+Some of these learners never showed any sign of life at all.
+
 The observer mentioned that there was a question in the Q&A section
 of the Zoom room. The Q&A was enabled for the teachers that used
 the same Zoom room in the morning. I answered the question
