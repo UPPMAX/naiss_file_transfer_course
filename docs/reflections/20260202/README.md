@@ -141,6 +141,17 @@ intended learning outcomes:
 - At the end of the day: 9 out of 10 learners were able to transfer files
   in at least 2 ways
 
+I was happy how it worked out with my colleague teacher.
+We met before the teaching and discussed how to decide on
+how to follow the learners. We decided to make those decisions in
+the breaks. We did. It worked great. Besides that, we both went through
+the breakout rooms (from different directions). We seem to know what to do.
+
+I did miss his ideas on how the day went. He seemed stressed, as he had to
+teach the day after too. Instead of pressing him for time, I let him get
+back to work. I think that that is the better choice. But I do miss hearing
+his ideas :-)
+
 I was happy how it worked with the observer. She was properly introduced
 and she got properly ignored by the learners. Even though this lesson
 was less of a success, I am happy to be able to discuss this with her
