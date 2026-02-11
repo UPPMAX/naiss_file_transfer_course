@@ -62,10 +62,22 @@ names(t_tidy)
 
 average_confidences <- dplyr::group_by(t_tidy, question) |> dplyr::summarise(mean = mean(answer))
 
+# Keep these chronologically
 readr::write_csv(average_confidences, file = "average_confidences.csv")
 
+# Sort by value
+average_confidences <- average_confidences |> dplyr::arrange(mean)
+average_confidences$question <- as.factor(average_confidences$question)
+average_confidences$question <- reorder(
+  x = average_confidences$question,
+  X = order(average_confidences$mean),
+  decreasing = TRUE
+)
+
+
 ggplot2::ggplot(average_confidences, ggplot2::aes(y = question, x = mean)) +
-  ggplot2::geom_bar(stat = "identity")
+  ggplot2::geom_bar(stat = "identity") +
+  ggplot2::geom_vline(xintercept = mean(average_confidences$mean), lty = "dashed")
 
 ggplot2::ggsave(filename = "average_confidences_per_question.png", width = 6, height = 7)
 
