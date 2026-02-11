@@ -77,6 +77,7 @@ average_confidences$question <- reorder(
 
 ggplot2::ggplot(average_confidences, ggplot2::aes(y = question, x = mean)) +
   ggplot2::geom_bar(stat = "identity") +
+  ggplot2::scale_x_continuous(limits = c(0, 5)) +
   ggplot2::geom_vline(xintercept = mean(average_confidences$mean), lty = "dashed")
 
 ggplot2::ggsave(filename = "average_confidences_per_question.png", width = 6, height = 7)
