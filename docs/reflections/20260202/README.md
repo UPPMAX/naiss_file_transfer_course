@@ -256,7 +256,7 @@ Great!
 
 I wonder how this learner did not receive a Zoom link to the course.
 
-- [ ] Share in NAISS Matrix
+- [`DONE`] Share in NAISS Matrix
 
 - I could not find any documentation about how to use a web browser
   to log in to Tetralith.
