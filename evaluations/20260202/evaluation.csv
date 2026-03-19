@@ -1,0 +1,26 @@
+"Timestamp","Give you confidence levels of the following statements below: [I am comfortable using the documentation of my HPC center]","Give you confidence levels of the following statements below: [I can log in to my favorite HPC cluster using a web browser]","Give you confidence levels of the following statements below: [I can log in to my favorite HPC cluster using SSH]","Give you confidence levels of the following statements below: [I can log in to my favorite HPC cluster using a remote desktop client]","Give you confidence levels of the following statements below: [I can transfer data using scp]","Give you confidence levels of the following statements below: [I can transfer data using FileZilla]","Give you confidence levels of the following statements below: [I can transfer data using rscync]","Give you confidence levels of the following statements below: [I can transfer data using sftp]","Give you confidence levels of the following statements below: [I can compress and archive files before transferring]","Give you confidence levels of the following statements below: [I can transfer files between clusters]","Any other feedback"
+"2026/02/02 3:44:00 PM GMT+1","5","","5","5","5","5","5","5","5","5","I did all of the things before in self-study when I started with HPC a couple of months ago but it was great to have some dedicated time to read the documentation in more detail during this course and have a platform for questions. Thanks for your time!"
+"2026/02/02 3:46:39 PM GMT+1","4","0","3","0","3","0","0","0","5","3","I received no zoom link to the course, but I did some self studying instead. I could not find any documentation about how to use a web browser to log in to Tetralith. Please add that information in the course! SSH does not work for me behind a firewall."
+"2026/02/02 3:55:05 PM GMT+1","5","5","5","5","5","0","0","0","0","5","Awesome course, but it would be nice to have more time, like 4h instead of 3h to really have time to do all the exercises"
+"2026/02/02 3:55:30 PM GMT+1","4","4","5","5","4","5","","","3","",""
+"2026/02/02 3:55:40 PM GMT+1","3","0","5","5","4","5","0","5","5","0","I like the course because it starts from the basics, and i like that it's not too fast. Thank you very much for organizing this!"
+"2026/02/02 3:55:43 PM GMT+1","3","3","5","5","2","4","3","0","2","0",""
+"2026/02/02 3:55:56 PM GMT+1","5","5","5","5","5","5","5","5","5","5",""
+"2026/02/02 3:56:07 PM GMT+1","4","4","5","4","4","2","3","1","1","0",""
+"2026/02/02 3:56:25 PM GMT+1","4","0","5","5","5","5","5","5","5","5","Great and informative course! There some minor questions resulting of missing information in the course docs but were cleared after consulting the instructors."
+"2026/02/02 3:56:58 PM GMT+1","2","0","0","0","5","5","3","0","2","0",""
+"2026/02/02 3:57:31 PM GMT+1","3","5","5","3","5","3","3","3","3","3",""
+"2026/02/02 3:58:03 PM GMT+1","3","1","5","3","5","5","3","3","5","1",""
+"2026/02/02 3:59:27 PM GMT+1","3","5","2","1","3","2","1","1","1","1","I think I would have needed more time to figure everything out. Now at least I think I have a better way of finding out how to do stuff by myself. 
+I think it would have been better to start the day by explaining what an HPC cluster is, then practicing logging into the cluster, then having LINUX 101 and after that having the file transferring course. I had already figured out on my own how to log in to the clusters since I thought I needed it for the LINUX course. So for me, too much time was placed on learning how to log in and to little time on how to transfer files. I also feel like the documentation on LUNARC is lacking."
+"2026/02/02 4:00:27 PM GMT+1","2","5","3","4","3","3","1","2","2","4","Richel has a nice sense of humor that keeps things lively and active. Bjorn's explanation of the file transfer was much appreciated. I learnt some nifty tools in the command line thanks to Sahar.
+
+There are different clusters (I think this is the name?) and it can be difficult to know the process on the particular one we are working on. Documentation seems to be all over the place, although at least it feels better knowing that I am not the only one with this problem.
+
+The use of the Word document to answer questions was unorthodox, although it did work well.
+
+Areas that could be improved:
+- Have a single NAISS Intro Week course page, with timetables and links to the materials (the email you sent is a good starting point)
+- Explain a bit more of WHY we do things. It can be obvious to a practitioner, but to someone new it can be confusing.
+- Continuously take feedback like this and the NAISS Intro Week will naturally get better and better over time :)"
+"2026/02/02 4:17:59 PM GMT+1","4","5","5","5","4","4","5","5","5","5",""
