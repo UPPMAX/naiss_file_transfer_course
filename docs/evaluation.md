@@ -15,8 +15,8 @@ This is the page for evaluating the current iteration of the course.
 
 Form purpose                    |Link to form
 --------------------------------|------------------------------------------------
-Give any feedback during the day|[Form to submit any feedback during the day](https://docs.google.com/forms/d/e/1FAIpQLScJg6Z2JmdjG2iWPueQEKNxtMcxFkTonh9npmcBR7HJ8s4UWg/viewform?usp=publish-editor)
-Evaluate the course             |[Evaluation questions form](https://docs.google.com/forms/d/e/1FAIpQLSfRwQjrRoGvfhdfIsq_x9p3bwII-zYR-sBMPNB2_1WDpJPn2w/viewform?usp=publish-editor)
+Give any feedback during the day|[TODO: Form to submit any feedback during the day](https://github.com/UPPMAX/naiss_file_transfer_course/issues/84)
+Evaluate the course             |[TODO: Evaluation questions form](https://github.com/UPPMAX/naiss_file_transfer_course/issues/84)
 
 <!-- markdownlint-enable MD013 -->
 
